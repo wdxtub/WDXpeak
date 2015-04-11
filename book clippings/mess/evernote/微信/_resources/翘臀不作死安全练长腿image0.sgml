@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+<script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA5NjQwMTQxOA==";
+    var sn = "8daf2b645b46ccffee9850260ab37d95";
+    var mid = "206630609" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+	String.prototype.html= function(encode) {
+	    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+	    //console.log(replace);
+	    if(encode){
+	        replace.reverse();
+	    }
+	    for (var i=0,str=this;i< replace.length;i+= 2){
+	         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+	    }
+	    
+	    return str;
+	};
+	pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>
+
+        <title>硬派健身</title>
+        
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
+
+    </head>
+    <body id="activity-detail" class="zh_CN " ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>
+    
+    <div id="js_cmt_more" class="discuss_container access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">翘臀不作死&nbsp;安全练长腿</h2>
+
+            <div class="discuss_list_wrp">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">精选评论</span>
+                </div>
+                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>
+                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>
+                <ul class="discuss_list" id="js_cmt_morelist"></ul>
+            </div>
+
+            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">
+                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+
+            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">
+                <span class="tips">以上评论由公众帐号筛选后显示</span>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">翘臀不作死&nbsp;安全练长腿</h2>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的评论</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已评论</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        翘臀不作死&nbsp;安全练长腿 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-10</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">斌卡</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">硬派健身</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">硬派健身</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">硬派健身</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">oh-hard</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">最专业&nbsp;·&nbsp;靠谱&nbsp;·&nbsp;蠢萌的运动健身科普</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                                                            
+                                                            
+                    <div class="rich_media_content" id="js_content"><p style="text-align: center; white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTnShANfkYnH1sabwwWb0UJYwKTR8icxpEq41lLEgy8X1DDiblQV4O24apJdbnjHWsN8j1baxvlI1ug/0" data-w="455" data-ratio="0.3054945054945055" data-s="300,640"  /><br  /></p><blockquote style="border-width: 1px 1px 1px 5px; border-color: rgb(238, 238, 238) rgb(238, 238, 238) rgb(238, 238, 238) rgb(33, 33, 34); border-radius: 3px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; margin-top: 10px; margin-bottom: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; white-space: normal;"><h4 class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-top: 5px; margin-bottom: 5px;"><span style="font-size: 18px;">内容概要</span></h4><ul class=" list-paddingleft-2" style="width: 457.89px;"><li><p>翘臀分腿蹲VS传统箭步蹲，胜！</p></li><li><p>翘臀的关键：更大的髋角改变</p></li><li><p>翘臀分腿蹲对膝盖的伤害更小</p></li><li><p>翘臀不粗腿，最佳选择的关键！</p></li></ul><section class="135brush" style="border-color: rgb(33, 33, 34); color: inherit; font-size: 14px;" data-style="color:inherit;font-size:14px;"></section></blockquote><p style="white-space: normal;"><br  /></p><p>上周我们介绍了练翘臀的动作——翘臀分腿蹲之后，童鞋们的反响都很热烈，看来臀部果然是大家最关心的部位之一，尤其三月，将自己裹成一只熊的季节已然过去，出门携带大长腿和翘臀的季节即将来临。此刻正是做准备的好时机，童鞋们也要努力才行，不然一眨眼就又是一个徒伤悲的夏季……<br  /><span style="color: rgb(62, 62, 62); font-family: 宋体; font-size: 15px;"></span></p><p style="white-space: normal;"><br  /></p><p style="line-height: 24px; white-space: normal;"><span style="color: rgb(62, 62, 62); font-family: Helvetica; font-size: 15px;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprUHfpNa1c6l2sbPHCYB2HEjRv3IjGLZMgCMrxlbM9ic97bsO8tdI4t3aw/0" data-type="png" data-w="" data-ratio="1.2910891089108911" data-s="300,640"  /><br  /></span></p><p><br  /></p><p>翘臀分腿蹲不仅可以让你的臀部挺翘，而且还可以衬托地腿部更修长，身高更高！不过后台也有很多人留言说，所有的媒体介绍此类动作的时候，都是介绍的箭步蹲啊，你这个和箭步蹲比有什么差异吗？</p><p><br  /></p><p>童鞋们，所谓人比人得死，货比货得扔。翘臀分腿蹲比起箭步蹲简直好太多了！不然我会克服懒癌特意介绍给你们嘛？</p><p><br  /></p><p>翘臀分腿蹲比起箭步蹲来说，有三个最大的优点：<br  /></p><p><strong><span style="color: rgb(247, 150, 70);">1 更安全，不会对韧带和关节产生更大伤害。</span></strong></p><p><strong><span style="color: rgb(247, 150, 70);">2 更翘臀，整体动作更针对臀中肌和臀大肌。</span></strong></p><p><strong><span style="color: rgb(247, 150, 70);">3 不粗腿，相对箭步蹲来说，腿部肌肉参与更少！</span></strong></p><p class="p2" style="white-space: normal;"><br  /></p><p class="p2" style="white-space: normal;">至于原因，我们来一个一个分析咯。</p><p class="p2" style="white-space: normal;"><br  /></p><p class="p2" style="white-space: normal;"><span style="color: rgb(33, 33, 34); line-height: 32px; font-size: 18px; font-weight: bold;"></span></p><section class="135editor" data-id="8">
+										<h2 class="135brush" style="border-color: rgb(33, 33, 34); margin: 10px 0px; padding: 0px 0px 5px; text-align: center; color: rgb(33, 33, 34); font-size: 24px; font-weight: bolder; border-bottom-width: 1px; border-bottom-style: dotted;"><strong>翘臀分腿蹲VS箭步蹲</strong></h2>									</section><p><br  /></p><p class="p2" style="white-space: normal;"><span style="color: rgb(33, 33, 34); line-height: 32px; font-size: 18px; font-weight: bold;"></span></p><p class="p2" style="white-space: normal;">首先来看两个动作的对比图：<br  /></p><p class="p2" style="white-space: normal;"><span class="s1"></span></p><p class="p1" style="text-align: center; white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSAeACEowkJODd03ZD16gvK84ia6tib7c6FyqicX5ERxLYF3RnqzCbiaOIfx1yl1slcdPtIs4RefMdyZg/0" data-type="png" data-w="" data-ratio="1.3524752475247525" data-s="300,640"  /><br  /></span></p><p class="p2" style="white-space: normal;"><span class="s1"></span></p><p>通过上图的对比其实已经能够看出两个动作之间最大的区别了：</p><fieldset id="shifu_c_008" style="padding: 16px; border-radius: 10px; border: 1px dashed rgb(183, 184, 184); border-image: none; line-height: 1.4; margin-top: 10px;" label="Copyright © 2014 playhudong All Rights Reserved."><p class="p1" style="white-space: normal;"><strong><span style="color: rgb(247, 150, 70);">|</span></strong><strong><span style="color: rgb(247, 150, 70);"> 翘臀分腿蹲</span></strong></p><p class="p1" style="white-space: normal;"><strong><span style="color: rgb(247, 150, 70);"></span></strong>髋关节改变更大（胯那个部位），接近100～120°，膝关节改变较小，只有30°～45°</p><p><strong><span style="color: rgb(247, 150, 70);"><br  /></span></strong></p><p><strong><span style="color: rgb(247, 150, 70);">|</span> </strong><strong><span style="color: rgb(247, 150, 70);">传统箭步蹲</span></strong></p><p><strong><span style="color: rgb(247, 150, 70);"></span></strong>髋关节改变较小，接近90°，膝关节改变较大，接近90°<br  /></p></fieldset><p><br  /></p><p>千万不要小看这个角度的变化，要知道很多时候运动效果的好与坏，就是靠这些小小的不同来决定的。</p><p><span class="s1"></span><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">1</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">更翘臀</span></section></section></section><p><br  /></p><p>我们之前说过，练臀最关键的就是髋角的改变。因为臀部最主要的生理作用就是后伸和后旋股骨（也就是你平常朝前伸腿或朝两边伸腿），也就是说，<strong><span style="color: rgb(247, 150, 70);">对髋角的改变越大、对臀部肌肉的刺激也就更大了</span></strong>。</p><p class="p1" style="white-space: normal;"><span class="s1"><br  /></span></p><p>通过下图可以很明显地看出来，<strong><span style="color: rgb(247, 150, 70);">翘臀分腿蹲对髋角的改变比箭步蹲大很多</span></strong>。</p><p class="p1" style="white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprUjrmaUo4Fu8FujU74FepaoqVB4rAibiayvxTNqHjjAkX8Hiav3A2wUvDaA/0" data-type="jpeg" data-w="" data-ratio="0.7069306930693069" data-s="300,640" source="upload" format="jpeg" file_id="206619692" url="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprUjrmaUo4Fu8FujU74FepaoqVB4rAibiayvxTNqHjjAkX8Hiav3A2wUvDaA/0"  /><br  /></span></p><p>当你的脚抬起来的时候，翘臀分腿蹲可以让你的脊椎跟大腿之间的角度变化为0°～120°，而箭步蹲仅为0°～90°。</p><p><br  /></p><p>因此相比箭步蹲，翘臀分腿蹲对臀部肌肉的刺激更大！久而久之也就能让你的屁股更翘！</p><p><br  /></p><p>所以针对翘臀的这一点，箭步蹲实在不是翘臀分腿蹲的对手。</p><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">2</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">更安全</span></section></section></section><p><br  /></p><p>除了翘臀之外，翘臀分腿蹲也更加安全。</p><p><br  /></p><p>在做分腿蹲的时候我们的膝盖关节改变角度为20°～40°之间，然而箭步蹲却恰好是90°。膝盖同样要承受剪切力的时候，<span style="color: rgb(247, 150, 70);"><strong><span id="_baidu_bookmark_start_7" style="line-height: 0px; display: none;">‍</span>20°～40°的剪切力明显小于90°，因此</strong></span><span style="color: rgb(247, 150, 70);"><strong>翘臀分腿蹲对膝盖的伤害也就更小</strong></span>。</p><p class="p1" style="white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprULLPyppOTZXv1NHUACtjAUnLZa2oAq3iafVLNLewCpThruublH1iaNGnw/0" data-type="jpeg" data-w="" data-ratio="0.7069306930693069" data-s="300,640"  /><br  /></span></p><p>当膝关节的角度小于90°的时候，髌骨受到的剪切力要远远小于90°时所承受的。<br  /></p><p><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSAeACEowkJODd03ZD16gvKS04GrzSNS94btkd3IPnibwJ4z4B6b7s3Ebwvxo9mJC2pOjcRWlGet9g/0" data-type="png" data-w="" data-ratio="1.1287128712871286" data-s="300,640"  /><br  /></p><p class="p1" style="white-space: normal;">我们都知道膝关节比较脆弱，是大家常会受伤的地方。当你承受的力越多，带给髌骨的压力也将越大，髌骨受伤的几率也就越大。</p><p><br  /></p><p>有研究证明，当膝关节的角度在0°～50°的时候，韧带和前十字韧带的伤害更小；而当膝关节在60°～90°的时候，韧带和前十字韧带则会受到更大伤害<sup style="white-space: normal;">①②</sup>。</p><p><span class="s1"></span><br  /></p><p class="p2" style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPst9YicymNBxBoY1ETBu3hLr4Pquic67XXO7gicXL0ibj6Su818WCReHoiaAGw/0" data-type="jpeg" data-w="" data-ratio="0.801980198019802" data-s="300,640"  /><br  /></p><p><br  /></p><p>如图表所示，对膝盖伤害最大的角度为90°，是自身的6倍体重的剪切力；而60°以下和100°以上，对髌骨的伤害都相对小很多。</p><p><br  /></p><p>而在做箭步蹲的时候，膝盖的角度恰好是90°，因此相比受力更多的箭步蹲，翘臀分腿蹲能更好地保护关节，防止膝盖受伤！</p><p class="p2" style="white-space: normal;"><span class="s1"></span><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">3</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">防止腿粗</span></section></section></section><p><br  /></p><p>翘臀分腿蹲比箭步蹲更适合翘臀的第三个原因则是因为，<span style="color: rgb(247, 150, 70);"><strong>翘臀分</strong></span><strong><span style="color: rgb(247, 150, 70);"></span><span style="color: rgb(247, 150, 70);">腿蹲只练习臀部，不像箭步蹲是臀腿都练</span></strong>。</p><p><br  /></p><p>很多练臀的同学都担心翘臀的同时不小心把腿练粗了，但如果用分腿蹲的话，就不需要有这个担心了。</p><p><br  /></p><p>因为当膝关节改变角度比较小时，你的训练主要针对臀部肌肉；而当膝关节改变大的时候，训练则会对腿部更有效。</p><p class="p2" style="white-space: normal;"><span class="s1"></span><br  /></p><p class="p1" style="white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPste9DVpnLbAJLibgpxxB1g9QApd8CtSJG5jm5ic5TzAjQiaMeMLrZficx1BQ/0" data-type="png" data-w="" data-ratio="1.4277227722772276" data-s="300,640"  /><br  /></p><p class="p2" style="white-space: normal;"><strong><span style="color: rgb(247, 150, 70);">分腿蹲主要改变髋关节，箭步蹲则主要改变膝关节</span></strong>，就是这些不同，导致了翘臀分腿蹲的训练效果比箭步蹲更好。</p><p class="p2" style="white-space: normal;"><br  /></p><p class="p2" style="white-space: normal;">同样的还有保加利亚分腿蹲，膝角和髋角也是90°，在训练的时候也会练到腿部，导致腿粗。</p><p class="p2" style="white-space: normal;"><span class="s1"></span></p><p><br  /></p><p>所以<span style="color: rgb(247, 150, 70);"><strong>想要翘臀又怕粗腿的、或者想要翘臀不想伤膝盖的童鞋们可以都在家做一下翘臀分腿蹲</strong></span>，它不仅不会粗腿、安全、能更好地训练到臀部之外，毕竟还有着没有场地要求、没有器械要求和没有时间限制等等优点。</p><p><br  /></p><p>不过如果你是想要腿部也有比较粗壮肌肉和线条，想要在练臀的同时还练腿的话，那么箭步蹲或保加利亚分腿蹲对你来说就是一个一举两得的动作了，它不仅可以让你翘臀，还能拥有更为健康的腿部，改变下肢的曲线，避免头重脚轻。</p><p class="p1" style="white-space: normal;"><span class="s1"><br  /></span></p><p class="p1" style="text-align: center; white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprUWHQ8vqgsxb8Ga6yU1V4FAoU3H6nJ3QGC46SIyJWlLHyicPa8OqsKNRw/0" data-type="jpeg" data-w="300" data-ratio="1.2933333333333332" data-s="300,640"  /><br  /></span></p><p class="p1" style="white-space: normal;"><span class="s1"><br  /></span></p><p class="p1" style="white-space: normal;"><span class="s1">趁夏天还没有来临，按照我们的家庭计划，每周几个小时，在天暖的时候就能拥有翘臀、露出大长腿，展现你性感清丽的一面了。</span></p><p class="p1" style="white-space: normal;"><span class="s1"><br  /></span></p><p class="p1" style="text-align: center; white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprU9GgQ8osjzkMKOJWDfDbrUQDoxXQB5E9OkHSjBXZH4ODlyczCpiadYRg/0" data-type="jpeg" data-w="" data-ratio="1.689108910891089" data-s="300,640"  /><br  /></span></p><p class="p1" style="white-space: normal;"><br  /><span class="s1"></span></p><p class="p1" style="white-space: normal;"><span class="s1"></span></p><fieldset class="tn-Powered-by-XIUMI" style="margin: 1em; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;"><section class="tn-Powered-by-XIUMI" style="line-height: 1.4; margin-left: 1em; box-sizing: border-box;"><span class="tn-Powered-by-XIUMI" style="border-color: rgb(249, 110, 87); padding: 3px 8px; border-radius: 4px; text-align: inherit; color: rgb(255, 255, 255); font-family: inherit; font-size: 1em; font-weight: inherit; text-decoration: inherit; display: inline-block; box-sizing: border-box; background-color: rgb(42, 40, 39);"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">本专题下期预告</section></span> <span class="tn-Powered-by-XIUMI" style="border-color: rgb(249, 110, 87); padding: 3px 8px; border-radius: 1.2em; text-align: inherit; color: rgb(255, 255, 255); line-height: 1.2; font-family: inherit; font-size: 1em; font-weight: inherit; text-decoration: inherit; margin-left: 4px; display: inline-block; box-sizing: border-box; background-color: rgb(204, 204, 204);"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">oh-hard</section></span></section><section class="tn-Powered-by-XIUMI" style="padding: 22px 16px 16px; border: 1px solid rgb(192, 200, 209); border-image: none; text-align: inherit; color: rgb(51, 51, 51); font-family: inherit; font-size: 1em; font-weight: inherit; text-decoration: inherit; margin-top: -11px; box-sizing: border-box; background-color: rgb(239, 239, 239);"><p style="text-align: center;">什么？翘臀也能预防跑步膝？！</p></section></fieldset><p class="p1" style="white-space: normal;"><span class="s1"></span></p><p class="p1" style="text-align: center; white-space: normal;"><span class="s1"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTnShANfkYnH1sabwwWb0UJXny6zSqm1qHFX9xbCqYwjStkibaF2G4Ik7GTaDCHdUgwWjribjx5xycA/0" data-w="457" data-ratio="0.43326039387308534" data-s="300,640"  /><br  /></span></p><hr  /><p style="white-space: normal;"><span style="color: rgb(34, 34, 34); line-height: 16px; font-family: Arial, sans-serif; font-size: 13px;">① Escamilla R F. Knee biomechanics of the dynamic squat exercise[J]. Medicine and science in sports and exercise, 2001, 33(1): 127-141.</span></p><p style="white-space: normal;"><span style="color: rgb(34, 34, 34); line-height: 16px; font-family: Arial, sans-serif; font-size: 13px;">②<span style="color: rgb(34, 34, 34); line-height: 16.12px; font-family: Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);">张越红. 女子排球运动员训练中髌骨软骨损伤的原因及预防措施[J]. 首都体育学院学报, 2013, 25(4): 353-354.</span></span></p></div>
+
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>
+                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo23b1e9.css">
+                                                            
+                                        
+                    <div class="rich_media_tool" id="js_toobar">
+
+                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>
+                        </span>
+
+                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>
+
+                    </div>
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                    <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+
+                    
+                    <div id="js_iframetest" style="display:none;"></div>
+
+                    
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>
+    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>
+
+  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>
+  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA5NjQwMTQxOA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "硬派健身";
+      var ct = "1425974273";
+      var user_name = "gh_cdd62ee4f59c";
+      var fakeid   = "MTAwNDgyODQwMg==";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "翘臀不作死&nbsp;安全练长腿";
+      var msg_desc = "翘臀分腿蹲VS传统箭步蹲&nbsp;&nbsp;&nbsp;不仅仅是高度不同！";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTroich7QJNlnJHdr9ibxeprU81icicWWzuuzBrasAwsPTuDQYEQicU7CWUAMhtCmjNA9icX1gsSXjxtBCA/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA5NjQwMTQxOA==&amp;mid=206630609&amp;idx=1&amp;sn=8daf2b645b46ccffee9850260ab37d95#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206630609';
+      var comment_id = "0" * 1;
+      var svr_time = "1425981072" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>
+
+    </body>
+</html>
+

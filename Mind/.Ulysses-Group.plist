@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>60-tricks-procrastination.md</string>
+		</array>
+		<array>
+			<string>better-man.md</string>
+		</array>
+		<array>
+			<string>brain-boost.md</string>
+		</array>
+		<array>
+			<string>dont-forget-why-we-start.md</string>
+		</array>
+		<array>
+			<string>great-wish-book.md</string>
+		</array>
+		<array>
+			<string>human-immortal.md</string>
+		</array>
+		<array>
+			<string>intimate-relationship.md</string>
+		</array>
+		<array>
+			<string>outliner.md</string>
+		</array>
+		<array>
+			<string>slow-down.md</string>
+		</array>
+		<array>
+			<string>time-is-friend.md</string>
+		</array>
+		<array>
+			<string>zen-heart.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

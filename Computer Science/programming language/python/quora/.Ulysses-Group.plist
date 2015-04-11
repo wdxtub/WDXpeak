@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>qa-built-in.md</string>
+		</array>
+		<array>
+			<string>qa-control-flow.md</string>
+		</array>
+		<array>
+			<string>qa-datetime.md</string>
+		</array>
+		<array>
+			<string>qa-dict.md</string>
+		</array>
+		<array>
+			<string>qa-exception.md</string>
+		</array>
+		<array>
+			<string>qa-file.md</string>
+		</array>
+		<array>
+			<string>qa-func.md</string>
+		</array>
+		<array>
+			<string>qa-list.md</string>
+		</array>
+		<array>
+			<string>qa-math.md</string>
+		</array>
+		<array>
+			<string>qa-modules.md</string>
+		</array>
+		<array>
+			<string>qa-oop.md</string>
+		</array>
+		<array>
+			<string>qa-others.md</string>
+		</array>
+		<array>
+			<string>qa-pip-easy_install.md</string>
+		</array>
+		<array>
+			<string>qa-std-modules.md</string>
+		</array>
+		<array>
+			<string>qa-string.md</string>
+		</array>
+		<array>
+			<string>qa-tuple.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

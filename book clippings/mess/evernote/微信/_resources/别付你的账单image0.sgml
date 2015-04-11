@@ -1,0 +1,205 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA3NzIyNTQ3NA==";
+    var sn = "8610c5b9ca1edfbf4614b4cb46f9d4d4";
+    var mid = "206670991" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>聪明人的个人发展</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">别付你的账单</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">别付你的账单</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        别付你的账单                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-18</em>                                                <em class="rich_media_meta rich_media_meta_text">史蒂夫·帕弗利纳</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">聪明人的个人发展</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">聪明人的个人发展</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">聪明人的个人发展</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">stevepavlinachina</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">这是勇敢者的游戏。这是自强者的人生。StevePavlina.com博客网站中文翻译。&nbsp;个人成长，与你分享。：）</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyUfs3WMY8k9A2KGELDSesYzSg7xoH9NQp1hla54MIFT4CqnzjWicvZibYzyibRwmDsyCzbLOyBicHK8Og/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p>图片来源：<strong>jake_braam</strong></p><p><br  /></p><p class="p1"><span class="s1">要是你真想辞去工作获得独立，又担心自己没法付清各种账单，该怎么办？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">今天我能同时享受这两个世界的最好结果。我的所有账单都可以用各种被动收入流轻松付清，我还做着自己喜爱的工作，享受着巨大自由。但在事业刚起步时，我常会陷入两难境地。有时我无法付清信用卡账单、法律账单、水电煤气费、房租，等等。很多情况下我就是没钱。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">显然不付账单会造成各种后果。我的财务信用评级许多年里都是垃圾等级。我不得不卖掉一堆东西来换取吃饭钱。我失去了自己的办公室。我被房东从公寓赶了出来。我不得不申请破产。但我就是不愿找份工作来补救这种局面。我宁肯失去公寓，也不要住进笼子。（Steve把雇佣工作视为笼子里的生活。译者注）</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我从不失信于个人，但我确实失信于一些公司组织。他们在我身上冒了险并造成了损失。这是他们选择的风险。我怀疑有任何公司雇员，会为我无法付清的账单难以入眠。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">最终我学会了自己需要学习的东西。但在一开始，我太缺乏经验，无法不做雇佣工作就挣到足够的钱来付清各种账单。过去我选择了错误的收入策略，得到的结果也颇为凄凉，因此没法付清所有账单，但我接受这样做带来的后果。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">一份账单只是一个数字。除了你所指派的名头，它别无意义。你可以认为不付账单是种丢人的可悲行为。对我来说它仅是一次学习经历 — 一场教训。一个小小的狼狈错误。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">要是这些账单挡在我个人成长的路上，它们必输无疑。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你知道为追求自己所走的成长道路，我有多少没付的账单吗？好几十份，要是算上后来的催缴单，可能多达几百份。我至少有15万美元的账单从没付清。那是很多年前的事情，远早于我开始写博客之前，当然我不得不应对这种行为带来的后果。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">负面后果也可以是伟大的老师，你不用将其看作必须不惜一切代价去避免的惩罚。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">不付账单就像在你做错事的手腕上打了一巴掌。我的手腕已经挨了许多次巴掌。这些巴掌毫无令人害怕的必要。你会渐渐习惯它们。要是你决心走上一条不断成长的道路，就请预想自己手腕也会挨上很多次巴掌。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">没付账单时，大多数时候我手腕上挨的第一个巴掌会以逾期通知单的形式出现。哎呀妈呀！那些</span><span style="color: rgb(255, 0, 0);">大写的红色警告字体</span><span class="s1">简直让我害怕得颤栗了。或者，我可以直接将通知单揉成一团扔进垃圾筒，继续当天生活。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">有时我还会收到催收代理公司的电话… 每天最多能有10个。解决此问题的好方法就是也别付话费单了。：）</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">最初我真的感觉这些后果令人压力重重。但当自己负债到极为荒唐的程度，压力如洪水般向我涌来时，我反而觉得后果都已无关紧要，我在整个境遇的另一侧新发现了一种自由。我不再担忧，只是平静接受所有事情原有的结果。恐惧本身要比真正的现实有害得多。我意识到自己的那些逾期未付账户，都是通过一架公司机器在处理。而他们为让我付账所采用的心理策略，都是基于使人恐惧、羞耻和愧疚。催收员会因为我没能付帐而试图叫我感觉像个废柴输家。一旦我意识到他们的所作所为，便在心中停止了让其再用这种方式对待我，债务催收员的强大形象也衰弱了很多。当然他们可以搞砸我的信用评级，但他们无法不经我允许就让我感到痛苦、担忧或压力重重。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">最终整件事对我而言好像变成了一个游戏。干嘛要对数据库里的一个数字过度关心？等催收员再打电话的时候，我就会询问他们的个人生活，或对“你什么时候能付账？”这种问题想出些搞怪回答。当我被房东踢出公寓时，我就搬到了一个更便宜的地方。当我没什么家具时，我就用一个大纸箱当桌子。我意识到自己的物品也许脆弱易失，但个人态度不必这么虚弱怯懦，纵使财务状况已破败不堪。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这段时期成为令我惊叹的个人成长经历。我学会了不再过于依赖金钱和财产。我学会了在犯错同时维护自我和个人权利，不让自己在搞砸事情时被人当作废柴输家对待。这些教训从此深入我心。现在的我确实有了不少金钱，但我不再恐惧失去它。金钱对我已没有像以前那样的力量。我不怕再一次破产。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">挣钱也变得更容易了。由于我当时已经破产，就决定把全部精力集中到真正热爱的事情上，充分表达自我创造力，在不去担心要赚多少钱的前提下做出我的贡献。具有讽刺意味的是，这恰恰是能够产生丰厚收入的生活态度。从那之后每一年我都实现了财务上的富足（到现在几乎已15年）。你自己想想。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">雇佣文化常导致人们如此惧怕手腕上挨巴掌（意指轻微的惩罚。译者注）的原因之一，是因为这种文化常由恐惧驱动。人们就是这样被管束和驯化，从事自己并不愿做的工作。有时我真的很难和已被长期雇佣的人进行有趣交往，因为他们中很多人连自己的影子都怕。跟他们交往好似隔着监狱里的探监电话一样进行交谈。有些人甚至害怕因为在办公桌上摆放了错误类型的物品而受到斥责。去年我就写了一篇嘲弄这种对话情形的文章，试图指出雇佣者思维在一个拥有独立思想的人看来有多荒谬。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我那些个性独立的朋友们从不会问我，“但我该怎么支付自己的账单呢？”他们知道假如自己没法付清那些账单，就不付，他们会应对随之而来的后果，生活仍将正常继续。但那些有雇佣者思维的朋友，常被驯化成相信不付账单就是能想象到的最坏恶行 — 一个要不惜一切代价去避免的巨大失败。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我是在建议你变得放任又不负责任，像个疯子那样去花钱吗？一点儿都不是。但不要害怕在自己身上下赌注，甘愿冒些风险。你也许要失去某些赌注。这没什么。掸落跌倒时自己身上沾染的灰尘，再试一次。不去尝试你还有什么方法真正学到东西？而且你还要不止一次地去试 — 一次接一次！</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">所以对于“要是我辞掉工作没法支付自己账单该怎么办？”这种问题，我的回答直截了当。要是你付不了自己的账单，就别付。请放心，就算你有些账单没付，这个宇宙也不会爆炸。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这不是违反规则吗？是的，它确实违反规则。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">如果你不付账单，它显然意味着你是个可耻该烂掉的无赖，而且你注定要下地狱。但我会在那儿和你一起烂掉，那是地狱里格外温暖舒适的一地儿，专为违反规则的人士预留。你应该能通过一堆由逾期通知单燃起的篝火找到我，周围还有帮绕着篝火载歌载舞，为自由而庆祝的疯狂家伙。篝火上升起的浓烟，很可能烦到所有在天堂里拨弹竖琴的顺从催收员们，但不管他们发来多少<span style="color: rgb(255, 0, 0);">红色警告字体</span>的通知单，都可以被我们用来保持火势。；）</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">附注：谢谢你，WordPress（Steve的博客由WordPress网站平台搭建而成。译者注），为大家在色彩方块上提供了弹出提示，以便标明每种颜色的文字名称。对于像我这样的红绿色盲，要辨认色彩面板里的哪种颜色实际上是红色，就能一目了然。：）</span></p><p><br  /></p><p><br  /></p><p>Steve Pavlina</p><p>2013.08.16</p><p><br  /></p><p><br  /></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA3NzIyNTQ3NA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "聪明人的个人发展";
+      var ct = "1426638338";
+      var user_name = "gh_b50cc8e11c3b";
+      var fakeid   = "";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "别付你的账单";
+      var msg_desc = "要是你真想辞去工作获得独立，又担心自己没法付清各种账单，该怎么办？";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyUfs3WMY8k9A2KGELDSesYzSg7xoH9NQp1hla54MIFT4CqnzjWicvZibYzyibRwmDsyCzbLOyBicHK8Og/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3NzIyNTQ3NA==&amp;mid=206670991&amp;idx=1&amp;sn=8610c5b9ca1edfbf4614b4cb46f9d4d4#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = 'http://www.stevepavlinachina.com/20130816-dont-pay-your-bills.html#rd';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206670991';
+      var comment_id = "0" * 1;
+      var svr_time = "1426639273" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

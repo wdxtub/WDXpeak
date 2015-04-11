@@ -1,0 +1,205 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA4NzQ2OTMxOQ==";
+    var sn = "f53eff7204929601e3a16e64d2c21734";
+    var mid = "203450810" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>专业主义</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">如何拥有快速学习的能力？</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">如何拥有快速学习的能力？</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        如何拥有快速学习的能力？                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-12</em>                                                <em class="rich_media_meta rich_media_meta_text">邓璟</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">专业主义</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">专业主义</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">专业主义</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">zhuanyezhuyi1982</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">努力用专业主义视角，讲述新闻和新闻背后的故事。</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/wicYcxcR94vicaxoT9nsx4RyKX4M0aYXamo1gykk7478vjWibkAphpoclycca8YxfWTWicaMzcPAehkXrcAtbTZOOw/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p style="text-align: right;"><strong><span style="color: rgb(0, 112, 192);">文|邓璟</span></strong></p><p><br  /></p><p>在企业工作的家人，最近要写一份报告，告诉我：百度搜索了很久，也没找到多少关于这个话题的、有用的干货。</p><p><br  /></p><p>我想了下，跟她说：你可能方向错了，像这种偏小众的话题，不能用百度、Google这种大众搜索工具，而应该通过专业数据库、精准定位来搜索，必要时候还得直接致电相关机构和负责人，以学习取经的名义索取相关信息（不涉密）。</p><p><br  /></p><p>今天花了大约30分钟帮她找到了这两三年来关于此话题（这个话题诞生也就两三年）最详尽最权威的资料，数了数：10篇PDF论文，2篇图文并茂的Word文档，以及4篇TXT文档（每篇又内含同主题的多篇），文字加起来大概有10多万字。</p><p><br  /></p><p>发送这些文件前，我快速阅读了这些文章，不敢说100%记得住，但哪篇文章讲什么，哪些可以写进报告并做SWOT分析，我心里是有数的。她在QQ那边接收了这些文件，然后发了一个“流汗”的表情过来，说：“看不完……”</p><p><br  /></p><p>起初，我有点不理解，回复：“<strong><span style="color: rgb(0, 112, 192);">我看了下这些文章的作者，多数都是一线负责人或操作者。关于这个话题最精华的介绍和分析，几乎都在这里了。假如你都不知道别人做到什么水准，就去写可行性报告和相关建议对策，怎么可能写的好？</span></strong>”</p><p><br  /></p><p>不过，这些话发出去之后，我很快意识到一个问题：<span style="color: rgb(0, 112, 192);"><strong>快速学习能力</strong></span>。</p><p><br  /></p><p>家人和我不一样，她没有受过多少速读、提炼和概括的训练，甚至在“选择”时也可能存在问题。</p><p><br  /></p><p>像一边查找资料，一边速读，还能在大脑中形成相关记忆单元，这种做法或者说思维，她目前是不具备的。</p><p><br  /></p><blockquote><p><span style="color: rgb(127, 127, 127);"><strong>我把这种做法或思维，视为快速学习能力（的一种）。</strong></span></p></blockquote><p><br  /></p><p>做记者这一行就10年了，下面通过几个亲历的小故事，来探讨一下如何获得这种快速学习的能力。</p><p><br  /></p><p><strong>第一个故事是买手机和其他电子产品。</strong><span style="color: rgb(0, 112, 192);"><strong>每次买新电子设备之前，我会泡相关网络论坛一两天。</strong></span>这种做法，常常能让我找到最适合自己需求、性价比最高的手机等电子设备。这只是其中之一，更重要的是，它帮我扫盲了——当手机等电子设备入手之后，我基本不会碰到有太多使用上的困难和麻烦，因为这种设备可能存在的问题及其解决方式，在论坛上早已有人碰到并解答，而且相关使用窍门我也知道了。</p><p><br  /></p><p><strong><span style="color: rgb(0, 112, 192);">如果用一句话来形容上面这个故事，就是“磨刀不误砍柴工”。</span></strong>这种做法的好处，等养成习惯了，大家可能就知道它的威力有多么大。</p><p><br  /></p><p><strong>第二个故事有关速读。</strong>我的速度能力是Google Reader锻炼出来，不幸的是谷歌把这个功能废掉了。曾经在Google Reader里订阅了10来家中文媒体（几乎搜罗了我能找到、有原创能力、报道国际新闻的媒体），以及英美和亚洲其他国家20多家英文媒体，如果对方不提供RSS功能，我就自己给它“烧”一个RSS（现在很少人用RSS，这儿就不介绍怎么“烧”RSS了）。</p><p><br  /></p><p>我有强迫症，只要Google Reader显示有未读条数，就要把它看完才能安心入睡。这件事做了4年多，每天大概有总数2000+条新闻，要一条条精读是不可能的，只能是速读+重点阅读。这个过程非常非常痛苦，我是全年无休在做这事，因为有时差，很多外电都是北京时间每天凌晨更新，因此我凌晨1点下班回家后发现又有几百条未读，几乎天天看到凌晨4-5点才能看完，随后才能安心睡觉。</p><p><br  /></p><p>这事养成习惯之后，<strong><span style="color: rgb(0, 112, 192);">有两大好处：一个就是上面说的速读能力，</span></strong>当每天都这么有意无意训练自己时，题材会越来越熟悉，然后浏览速度会非常非常快，“一目十行”；<strong><span style="color: rgb(0, 112, 192);">第二个就是你对某个新闻事件的判断越来越精准</span></strong>，因为国际新闻领域，尤其是时政类国际新闻，几乎没有什么“新鲜事”，多数都可以追溯至几个月前、几年前、几十年前甚至数百年前的历史瓜葛——往大里吹牛皮，这就是“看问题的历史眼光”。</p><p><br  /></p><p><strong>第三个故事有关提纲挈领、抓住核心的能力。</strong>这跟第二个故事有一定延续性，<strong><span style="color: rgb(0, 112, 192);">当你看的东西非常非常多时，请注意“非常非常”这个修饰语，一定要多到普通人都追不上时，你可能会发现自己“发现好东西”的能力已经大大增强了。</span></strong>打个比方，我曾跟同事说，自己是不太看BBC、CNN这种以即时新闻见长的媒体的，或者只花很少时间去看，这不是说BBC、CNN不好，而是说等你看东西足够多之后，你会发现它们的报道还不够过瘾，想知道更多。</p><p><br  /></p><p>在有了大量阅读、基本具备识别精品能力之后，我会花很多时间在《经济学人》、《大西洋月刊》、《外交政策》、《华盛顿邮报》以及《纽约时报》（专栏和评论）等重点媒体上面。做国际新闻非常出色的安替，曾写过一篇《新新闻人自学手册》，它是我摸索国际新闻操作的一本“红宝书”，文中提到《经济学人》是极佳刊物，所以我2007年前后就花了10多元在淘宝买了两个光盘，内含十年《经济学人》过刊PDF版本，接下来我花了三四年以及单位的打印机，背诵了其中绝大多数大文章。</p><p><br  /></p><p>回想起来，这个过程非常非常痛苦，因为我当时只是应试英语6级水平（当年还是60.5分，惊险通过），最开始那一年背诵，无数次想放弃想丢掉，但最后坚持了下来。好处是极度明显的：<span style="color: rgb(0, 112, 192);"><strong>它是一份全世界都推崇的国际政经分析类杂志，让我在随后比较容易就能把握一起国际新闻事件背后的前因后果及博弈关系等。</strong></span>另一个意想不到的收获是：跨过对英文阅读的恐惧阶段之后（大概花了一年半），别人随便扔中文还是英文材料过来，我都不会恐惧了，因为中英文材料在阅读上来说对我都差不多。</p><p><br  /></p><p>《经济学人》行文从不拖泥带水，言简意赅，观点精炼。<strong><span style="color: rgb(0, 112, 192);">当你阅读这类文章越多，慢慢地，提纲契领、抓住核心的能力也会开始形成。</span></strong></p><p><br  /></p><p><strong>第四个故事是关于比稿，以及比稿给人带来的学习能力。</strong>现在网络、微信阅读均有点击量、阅读量作为一个权衡指标，但在微信诞生之前，印刷类媒体是没有这种评估体系的，多数时候是自己内部评稿，内部评估不是不好，但有缺陷性。所以我当时采用了比稿和复盘方式来给自己加压，最开始，只敢跟同城竞争对手媒体比稿，<span style="color: rgb(0, 112, 192);"><strong>每天看自己的稿子跟对方同题稿件有哪些差异，信息点是否比对方多，写作、标题以及内容呈现是否比对方好，传播效果对比，诸如此类，哪个环节落后了有漏洞了，下次绝对会补上、不再给对手任何机会。</strong></span>后来发现稿件能比同城对手好很多时，就全国范围比稿（再后来是跟英美媒体比较分析角度和深度），因为每天都在比稿、复盘、查缺补漏，带来的一个副产品是：我记得住全国省会城市、副省级城市50多家都市报电子版每天凌晨更新的时间（误差不会大于5分钟）。</p><p><br  /></p><p>上面四个故事都是个人对如何拥有快速能力的看法，总结起来是四句话：</p><p><br  /></p><blockquote><p><span style="color: rgb(127, 127, 127);"><strong>1.磨刀不误砍柴工；</strong></span></p><p><span style="color: rgb(127, 127, 127);"><strong>2.海量阅读并研究；</strong></span></p><p><span style="color: rgb(127, 127, 127);"><strong>3.站在巨人肩膀上；</strong></span></p><p><span style="color: rgb(127, 127, 127);"><strong>4.不断模仿和提高。</strong></span></p></blockquote><p><br  /></p><p>我坚持一个观点：做新闻也好，做别的事也好，像乔布斯那样“凭空”创造出苹果并风靡全球的事情，越来越少，今后还会越来越少。<span style="color: rgb(127, 127, 127);"><strong>一个更现实、可行和有效的做法可能是：不断模仿，不断在模仿基础上提高，即站在巨人的肩膀上来审视、规划自己。</strong></span></p><p><br  /></p><p>我也越来越相信：这个世界，<span style="color: rgb(127, 127, 127);"><strong>没有什么捷径，不走弯路便是捷径。</strong></span></p><p><br  /></p><p>这篇不在写作计划之内的急就章，如果你读完有些思考和建议，欢迎你给我留言，下一次推送时我会整理后跟大家分享。谢谢。</p><p><br  /></p><p style="text-align: center;"><strong style="font-size: 16.3636360168457px; text-align: center; white-space: normal;">---------------</strong></p><p><strong style="font-size: 14px; white-space: normal;"><span style="color: rgb(127, 127, 127);">想不想再看一篇《怎样快速成为某个领域专家？》，请回复关键词“<span style="color: rgb(0, 176, 240);">快速成为专家</span>”取阅。</span></strong></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><strong>----The End----</strong></p><hr style="white-space: normal; margin: 1em 0px; padding: 0px; max-width: 100%; border-top-style: solid; border-left-width: 0px; height: 1px; border-right-width: 0px; border-top-color: rgb(234, 234, 234); border-bottom-width: 0px; color: rgb(51, 51, 51); font-size: 18px; line-height: 1.42em; font-family: Avenir, sans-serif; orphans: 2; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"  /><p data-mce-style="white-space: normal;" style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(75, 172, 198); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; line-height: 22px; orphans: 2; text-align: justify; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;"></span></p><p data-mce-style="white-space: normal;" style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="color: rgb(255, 255, 255); line-height: 22.0888900756836px; background-color: rgb(146, 205, 220);"><strong>专业主义</strong></span></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(227, 108, 9);"></span><span style="color: rgb(127, 127, 127); margin: 0px; padding: 0px; max-width: 100%;">微信公众号<span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 0, 0); box-sizing: border-box !important; word-wrap: break-word !important;">zhuanyezhuyi1982 </span></span><span style="margin: 0px; padding: 0px; max-width: 100%;"><span style="color: rgb(227, 108, 9);"></span><span style="color: rgb(127, 127, 127); margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">邮件</span><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 0, 0); box-sizing: border-box !important; word-wrap: break-word !important;">5292525@qq.com</span></span><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(227, 108, 9);"></span></span></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="color: rgb(0, 112, 192); font-size: 14px;">努力用专业主义视角为您解读新闻</span></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="color: rgb(0, 112, 192); font-size: 14px;">始终关注人和人的生活、情感和命运</span></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="color: rgb(127, 127, 127); margin: 0px; padding: 0px; max-width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; orphans: 2; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;">主编|<span style="color: rgb(192, 0, 0); margin: 0px; padding: 0px; max-width: 100%;">似水流年</span>|微信 </span><span style="color: rgb(192, 0, 0); margin: 0px; padding: 0px; max-width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; orphans: 2; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;">aimforthesky</span></p><p style="white-space: normal; font-size: 16.3636360168457px; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; line-height: 31.1111125946045px; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;"></span></p><hr style="white-space: normal; margin: 1em 0px; padding: 0px; max-width: 100%; border-top-style: solid; border-left-width: 0px; height: 1px; border-right-width: 0px; border-top-color: rgb(234, 234, 234); border-bottom-width: 0px; color: rgb(51, 51, 51); font-size: 18px; line-height: 1.42em; font-family: Avenir, sans-serif; orphans: 2; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"  /><p style="white-space: normal; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; orphans: 2; text-align: justify; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;">除了动手点赞</span></p><p style="white-space: normal; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; orphans: 2; text-align: justify; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;">您也可以长按、扫描下方二维码打赏</span></p><p style="white-space: normal; text-align: center;"><span style="margin: 0px; padding: 0px; max-width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; orphans: 2; text-align: justify; widows: 2; box-sizing: border-box !important; word-wrap: break-word !important;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/wicYcxcR94v9DOScQhd5Cxmm214LZiaJgHCCqQZWg3HicgIYgRzvZNYs1IFiaIZ5KjF6gqW0ARXmmkBfvnmEibVhaKQ/0" data-ratio="1.0118577075098814" data-w=""  /></span></p><p><br  /></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA4NzQ2OTMxOQ==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "专业主义";
+      var ct = "1426166715";
+      var user_name = "gh_3444b470c7c1";
+      var fakeid   = "Njk4NzY3OTAx";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "如何拥有快速学习的能力？";
+      var msg_desc = "我越来越相信：这个世界，没有什么捷径，不走弯路便是捷径。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/wicYcxcR94vicaxoT9nsx4RyKX4M0aYXamo1gykk7478vjWibkAphpoclycca8YxfWTWicaMzcPAehkXrcAtbTZOOw/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA4NzQ2OTMxOQ==&amp;mid=203450810&amp;idx=1&amp;sn=f53eff7204929601e3a16e64d2c21734#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '203450810';
+      var comment_id = "0" * 1;
+      var svr_time = "1426167536" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

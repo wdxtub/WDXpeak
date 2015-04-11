@@ -1,0 +1,200 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MjM5NzQwNjcyMQ==";
+    var sn = "d15fa7696552271e966d0640222379e1";
+    var mid = "211421445" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>大象公会</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">世界远比我们想象的更广大</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">世界远比我们想象的更广大</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        世界远比我们想象的更广大                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-13</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">大象公会</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">大象公会</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">大象公会</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">idxgh2013</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">知识，见识，见闻。最好的饭桌谈资。知道分子的进修基地。</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                                                                <div class="rich_media_content" id="js_content"><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tmbnMJw85Va5VQdyKJUjaNrnOhg1b2smib7DAzOic0g8QicvEqp5PQv6qrriclwGfTHXia60stvX03ibiciag/0" data-ratio="0.474" data-w="500" style="text-align: center;" url="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tmbnMJw85Va5VQdyKJUjaNrnOhg1b2smib7DAzOic0g8QicvEqp5PQv6qrriclwGfTHXia60stvX03ibiciag/0" file_id="211420981" format="png" source="upload"  /></p><p>我是一个功利主义的阅读者，读书多是对某个问题好奇，如果有闲暇阅读时间，我会选择非虚构类作品，因为除了展现人与人之间复杂精妙关系和人类丰富心灵外——这恰好是我不关心的，书斋中的作家建构的世界远不如上帝的作品更伟大。<br  /></p><p><br  /></p><p>在非虚构类作品中，我最喜欢的是十九世纪到二十世纪初西方探险家们的作品，因为我觉得他们的作品最能满足我对阅读的审美体验。此前的探险家，靠的是勇气和体力，缺少知识和理性的魅力，此后的探险家，他们背后的科技力量太过耀眼，几乎不给他们任何个人英雄主义的表现机会。</p><p><br  /></p><p>只有这个时间窗口的探险家，才是最具魅力的。他们有伟大的雄心、意志、勇气以及超人的体力，还具有广博的专业知识和技能，那个时代的探险家，除了受过系统的地理、地质、气候、语言学等专业训练外，探险事业还使他们成为博物学家和人类学家。</p><p><br  /></p><p>他们不但要一路把自己经过的山川河流绘成地图，还要收集各种标本，描述记录当地民俗或宗教活动。有些偏好人类学观察的探险家，会留下表现旅途中当地人身体特征的图像资料，有些人竟然能说服当地人一丝不挂，不知道他们是如何做到这一点的。</p><p><br  /></p><p>——在没有照相机的时代，探险家们是用素描方式替代相机，来记录自然景观、当地人的外貌着装、屋宇、生活器物甚至民俗或宗教活动的。很可惜，中国出版的这类书，绝大多数基于成本考虑，他们绘制的附图绝大部分都被删除了。</p><p><br  /></p><p>他们是无往不至的，譬如中国人熟悉的斯文•赫定，在他之前，伊朗的达马万德峰无人登过，塔吉克人也没想过涉险登上喀喇昆仑山的群峰——他之所以能在无人迹处留下脚印，并非天生体力超人、意志力过人，而是理性和训练的结果。</p><p><br  /></p><p>对他们的偏爱，我甚至会觉得他们当中多数人的文字也是世界一流的。譬如阿普斯利•彻里-加勒德的《世界最糟糕的旅行》，是我这些年来读过的最了不起的文字，虽然该书的中文版充斥着骇人听闻的错漏，光数据错误就足以让人发狂，但不妨碍它能给我带来难以言传的体验。</p><p><br  /></p><p>该书讲述的是1911～1912年英国的斯科特南极探险队在争夺第一个到达南极的荣耀中败给挪威的阿蒙森团队，归途中斯科特等5人不幸罹难的全部经历。关于斯科特与阿蒙森竞争的这段历史，传播最广泛的是作家茨威格的作品。茨威格文笔流畅、华丽，非常容易打动读者。</p><p><br  /></p><p>而《世界最糟糕的旅行》的作者阿普斯利•彻里-加勒德则是探险队成员，还参与了搜寻罹难队员遗体。比起茨威格的华丽和长于抒情，在我看来，即使在渲染悲剧时，他冷静、克制、精确的文字无疑有更强的张力和感染力。</p><p><br  /></p><p>更难能的是，作为参与者，必须介绍整个团队历程的全景，而不是聚焦在一个英雄身上，要介绍从团队组建、抵达南极大陆到分头行动到最后收尾，线索极为复杂，理清千头万绪并能以清楚、准确、简洁、完整的文字呈现出来，需要卓越的文字驾驭能力。我把它当成最好的新闻写作教科书。</p><p><br  /></p><p>新华社记者唐师曾也大力推荐过这本书，但唐的中东“冒险经历”系列图书是完全不同的风格，唐的书中有非常好的镜头感，任何场景你都可以看到他没有忘记亿万中国读者正以崇拜的眼光看着他。</p><p><br  /></p><p>我很好奇，如果他是斯文•赫定在1895年5月6日的处境，他会怎样写？当时斯文•赫定在塔克拉玛干沙漠断水7天后，终于在月色中找到和田河干涸的河床中的一个水坑，但他没有急着喝水，而是先摸脉搏，当时他的血液已粘稠到近似糖浆，摸不到脉搏，他边喝水边数脉搏……几分钟后脉搏变为56，像羊皮纸一样硬化干脆的皮肤逐渐变软……</p><p><br  /></p><p>斯文赫定准确记录了这个水坑的位置，1900年9月，探险家马尔克•斯坦因根据斯文赫定的描述也找到这个水池。1931年4月，尼尔斯•安博特又找到它。这个水坑由此有了一个名字：探险家水塘。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tmbnMJw85Va5VQdyKJUjaNr8wtzj8k1h1FR5svNsg8iarEPdPg8V9w8iaSrZ6e5zR8tQHhsB3Op0y7w/0" data-ratio="0.622" data-w="500"  /><br  /></p><p><br  /></p><p>真正的历险者大约不会时刻想着远方的粉丝。上海作家杨柳在徒步穿越藏北无人群时，留下的文字非常像一百年前的西方同行。一位同样在网上追着他的文字的朋友说，杨柳文字中最触动他的，是在一个继续前进就不能做折返选择的地点，权衡继续还是放弃时，做出选择的理由：“今天的心情很中庸。”</p><p><br  /></p><p>今天，探险家需要历尽千难万险的地方，大多数都可让普通旅行者轻松抵达，古典意义上的探险已被彻底消灭，它被旅行甚至流浪替代，甚至去人烟稀少的陌生远方，已被认为是应当挖苦的恶俗举动。</p><p><br  /></p><p>我觉得这是了不起的时代进步。</p><p><br  /></p><p>当年的探险家虽然是个人英雄主义和科学理性精神的最完美结合，但驱动他们的未必全然是个人对世界的好奇心，因为当他们成功返回故乡，迎接他们的是整个世界的掌声，今天的旅行者，践行的是最纯粹的个人体验和探索追求。</p><p><br  /></p><p>而且，在今天这个地图上几乎没有空白的世界，无论是人迹罕至之地，还是陌生的繁华都市，如果你愿意，可以比当年的探险家对陌生世界有更深入的接触，毕竟后者在追逐填补空白时，粗浅的猎奇就可以满足探究的好奇。</p><p><br  /></p><p>旅行不但是大幅拓展对这个世界认识的最好方式，而且可以深刻改变人。无论多浪漫的文艺青年，都会因为旅行经历的丰富重新塑造自己，当年探险家们才有的技能、知识和习惯，多数早已在文艺青年们当中得到普及。有位日本旅行者的书，头几页就写他在阿拉斯加路上遇到一位黑人女青年时，满心各种紧张恐惧，看到这里我忍不住把书扔了出去，但翻到后面，欣喜地发现他已经完全变了一个人。</p><p><br  /></p><p>我注意到，中国的教材也悄悄发生了变化，人教版初中二年级的课本上，居然有五篇前后相连的课文是与鼓励探索、冒险、进取精神有关的主题，构成了一个独立的单元。也许该有足够理由相信，有更多探索进取精神的年轻一代，他们会有更广大的世界。</p><p><br  /></p><p>没有人能像亚历山大大帝那样去探索世界，他征服整个当时希腊文明已知世界的主要动力，就是想知道世界是否像他的老师亚里士多德描述的那样大。他在前方不断征服时，不忘给身在雅典的亚里士多德源源不断地提供动植物标本和其他资料。</p><p><br  /></p><p>当他们抵达阿富汗境内的兴都库什山时，返回的探路者告诉亚历山大，他的老师对世界的估算并不准确：“这个世界恐怕比任何人想象的都要广大。”对探索世界的好奇心而非对财富和人口的占有欲，使他成为独一无二的征服者。</p><p><br  /></p><p>他对世界的探求欲是纯粹体验型的：要征服天涯海角，要坐在他们火堆旁，听着他们的音乐，吃他们的食物，穿他们的衣服，和他们的女人在一起。</p><p><br  /></p><p>今天，任何人都可以轻易做到这一点，并不需要征服天涯海角。</p><p><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 20px;">版权声明</span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">大象公会所有文章均为原创，</span></strong></span></strong><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">版权归大象公会所有。如希望转载，</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">请事前联系我们：</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><span style="color: rgb(75, 172, 198); font-size: 18px;">bd@idaxiang.org</span></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><img data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tm7iaXeulwjbP9JVPh6mibv8RoquIwsDhpN0p8eWvgZpiaLv5jYPqI8ANgMrFYyE0icPnGNXBO5azVdww/0" data-ratio="1.2058823529411764" data-w="136"  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(38, 38, 38); font-size: 14px;"><strong style="font-size: 18px;">知识 | 见识 | 见闻</strong></strong></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MjM5NzQwNjcyMQ==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "大象公会";
+      var ct = "1426255129";
+      var user_name = "gh_58b42b81e073";
+      var fakeid   = "";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "世界远比我们想象的更广大";
+      var msg_desc = "作者：黄章晋";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/Z08UWq352tmbnMJw85Va5VQdyKJUjaNrbnEMUQ2gNEJNWZLQDjKDpnNQJDkrZfCTkp7NTMEoS8VK46j1PagiaQg/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NzQwNjcyMQ==&amp;mid=211421445&amp;idx=1&amp;sn=d15fa7696552271e966d0640222379e1#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '211421445';
+      var comment_id = "0" * 1;
+      var svr_time = "1426322863" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

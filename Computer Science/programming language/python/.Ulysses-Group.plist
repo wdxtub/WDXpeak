@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>quora</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>code_style.md</string>
+		</array>
+		<array>
+			<string>flask.md</string>
+		</array>
+		<array>
+			<string>json.md</string>
+		</array>
+		<array>
+			<string>python_study_note.md</string>
+		</array>
+		<array>
+			<string>useful_features.md</string>
+		</array>
+		<array>
+			<string>write-2x-3x-compatible-code.md</string>
+		</array>
+		<array>
+			<string>wsgi.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>_resources</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>core-service-material.md</string>
+		</array>
+		<array>
+			<string>dev-note.md</string>
+		</array>
+		<array>
+			<string>feature-design.md</string>
+		</array>
+		<array>
+			<string>flask-note.md</string>
+		</array>
+		<array>
+			<string>github-project-note.md</string>
+		</array>
+		<array>
+			<string>literature-review.md</string>
+		</array>
+		<array>
+			<string>manual.md</string>
+		</array>
+		<array>
+			<string>note-system.md</string>
+		</array>
+		<array>
+			<string>opening_report.md</string>
+		</array>
+		<array>
+			<string>python-nlp.md</string>
+		</array>
+		<array>
+			<string>thesis-proposal.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

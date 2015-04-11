@@ -1,0 +1,205 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA3NzIyNTQ3NA==";
+    var sn = "9782f68d103e4d9261dfc101bd9761d7";
+    var mid = "206353337" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>聪明人的个人发展</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">你能连续多少天不查看电子邮件或社交媒体？</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">你能连续多少天不查看电子邮件或社交媒体？</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        你能连续多少天不查看电子邮件或社交媒体？                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-11</em>                                                <em class="rich_media_meta rich_media_meta_text">史蒂夫·帕弗利纳</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">聪明人的个人发展</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">聪明人的个人发展</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">聪明人的个人发展</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">stevepavlinachina</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">个人成长，与你同行</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyUFdicpB83MWRLBVeo2XUmVu9rWsAoia8zfIfbgVfjoC53ObP50icPsdPnuTCwCZCZma7iaLib0K15R78w/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p>图片来源：<strong>Geralt</strong></p><p><br  /></p><p class="p1"><span class="s1">几周前我决定尝试一个简单试验。我选择每周只查看三次电子邮件与社交媒体账户。我想看看这种更少频次、非每天查看的行为，会对个人做事效率和社交关系产生哪些影响。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">许多年前，当网络和电邮的使用范围都很小时，这种事情还没什么大不了。上世纪90年代中期，即便是为生意事务，我也只用每周查看几次电子邮件。人们平时并不期待通过电邮得到快速回复。如果他们需要迅速答复，就会直接拨打电话。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">不过今日，尤其在小型生意世界中，每天至少查看几次电邮和/或社交媒体的行为变得极其普遍。某些情形下这样做似乎无可非议。更频繁的查看行为意味着能给客户更快回复。反应迅速就是上乘表现，在客户服务领域尤其如此。更快的响应时间可以为生意带来竞争优势。</span></p><p class="p2"><br  /><span class="s1"></span></p><p class="p1"><span class="s1">但这种频繁查看的习惯并非没有代价。假如你是有这种查看习惯的人，显而易见的一些弊端就包括：</span></p><p class="p2"><span class="s1"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p class="p1"><span class="s1">被削弱的专注力  </span></p></li><li><p class="p1">变得急不可耐，容易忽略事情的轻重缓急</p></li><li><p class="p1">常被各种分心事务干扰</p></li><li><p class="p1">不断让他人想法进入自己思绪</p></li><li><p class="p1">对过度查看网上信息变得上瘾，而且常在无意识中做出这些行为</p></li><li><p class="p1">做事效率被削弱</p></li><li><p class="p1">逐渐减少的当面社交生活</p></li><li><p class="p1">失去对信息进行优先安排处理的能力</p></li><li><p class="p1">在各类信息上耗费比合理需求多得多的时间</p></li><li><p class="p1">弱化了自己与个人奋斗目标之间的联系</p></li><li><p class="p1">浪费了本可更好用在别处的时间</p></li></ul><p class="p2"><br  /><span class="s1"></span></p><p class="p1"><span class="s1">以下是我体验到的，更少查看网上信息带来的一些关键好处：</span></p><p class="p2"><span class="s1"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p class="p1"><span class="s1">我发现更容易保持对个人目标和项目的专注力</span></p></li><li><p class="p1">我完成了更多工作，拥有数年来最为高效的几周时间</p></li><li><p class="p1">我享受到时间上更大的丰裕感，好像每天有了更多工作、生活和玩乐的富余空间</p></li><li><p class="p1">我没了仅是为发布些什么东西，而去网上发布个人状态更新的那种欲望</p></li><li><p class="p1">我感受到电邮和社交媒体对自己重要性的巨大回落；它们都退缩到我的生活背景，而非前台位置上</p></li><li><p class="p1">我每天脑子里想着电邮和社交媒体的时间更少了</p></li><li><p class="p1">我晚上会以更连续一致的时间上床睡觉（不再有深夜里的沟通交流），而且一周七天都能在清晨5点轻松起床</p></li><li><p class="p1">我发布了更少网上状态更新，也回复了更少电邮和私人信息</p></li><li><p class="p1">我接收的网上回复与评论显著减少（我给人们可回复的信息明显减少，所以自己需要阅读的内容也就更少）</p></li><li><p class="p1">通过在多天内统一查看所有信息，我发现自己在明智区分这些信息的优先度时，也显得更加容易</p></li><li><p class="p1">我每周都可节省数小时时间，用在更有益和富于成效的任务上</p></li><li><p class="p1">我锻炼得更加频繁（每周锻炼5到7天）</p></li><li><p class="p1">我感到更加放松，压力更少，同时更有动力</p></li><li><p class="p1">我做完了不少事情，但关于它们的状态更新一条也没发布（有谁关心我本月叫人安装了一台新热水器吗？）</p></li><li><p class="p1">从思想和情感上，我对随意频繁查看网上信息的痒痒心态显著减退</p></li><li><p class="p1">我变得对网上“朋友们”的所做所为更少关注，但更能意识到当前正在做的事情，更关注身边那些最亲近的人们</p></li><li><p class="p1">我更享受与自己孩子们在一起的时间，并感到跟他们有了更多参与互动</p></li></ul><p class="p2"><br  /><span class="s1"></span></p><p class="p1"><span class="s1">下面是我体验到的负面结果：</span></p><p class="p2"><span class="s1"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p class="p1"><span class="s1">我错过一次玩飞盘高尔夫的即时邮件邀请（我的玩伴们平常都在周六活动，但这次他们在周日额外组织了一场比赛）</span></p></li></ul><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">严肃地说，这是我能想到的唯一负面结果 — 绝非什么大灾难。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">当然还有些生活上需要做出的调整，但我并不认为它们是负面结果。倘若有人想跟我安排一次电话或Skype通话，或亲自见面，我只需提前告知对方将其推后，便有足够时间通过多次信息往复确认具体安排。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我也许会错过一些即时性邀请。比如 “嘿，你猜怎么着！我今晚刚好在拉斯维加斯。咱们见个面吧！” 可能直到对方离开本地，我也看不到这类信息。但与不频繁上网带来的所有好处相比，那算不上太大问题。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>最佳时间</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我发觉每天处理邮件和社交媒体的最佳时间是晚上。我发现要是当天一早查看了网上内容，就很容易几小时后对所看内容再次感到好奇。但在下午5点到晚上8点这段时间查看时，整个人便感觉很好。首先，这会让我在白天时间里自由专注于其他事务。其次，没了各种网络信息，也就没了能过度消耗时间的刺激物，少了我会用于拖延的一种途径。因而在晚上查看网络内容时，我便已完成当天该做的工作。第三，我在回复个人信息时感到更加放松。因为这时已不会耽搁我白天安排的任何活动；它可能只意味着我的晚饭时间要延后一点。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>在哪些天查看？</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我认为自己最喜欢的模式是在每周日、周四和周五查看邮件。这给了我连续四天（96小时）的整块时间，从每周一开始来完成那些真正重要的工作。因为直到周四晚上为止，我在周一、周二、周三和周四都不必查看邮件或社交媒体。（周四、周五查看也许方便得知周末有无重要安排，周日查看可以得知随后几天有无重要事项。译者个人理解，仅供参考。）</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">要是有人周一给我发了邮件，但直到周四晚上都得不到回复怎么办？我的生意本身并无太紧急的事宜，所以这种情况应该不是问题。那些需要急着联系我的人可以给我打电话或发信息。我在开始试验时便预先通知了这些人，所以他们知道该怎么做。我的安排到目前为止进行得还不错。事实上，有些人已经对其表达出好奇，也在重新考虑自己的网上行为习惯。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">起初一连四天不查看邮件似乎有点过分，但现在我真的非常喜欢这种做法。能有如此多线下时间完成个人工作，并在生活里不再担心网上社交圈发生了什么，这样的感觉好极了。而且我知道以后总会了解到那些事情。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>例外情况</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">每周查看三次电邮和社交媒体已变成我新的默认行为模式。我认为自己进行此试验已足够长（现在是第四周），可以相对轻松地保持这种习惯。我的目标是打破毫无必要的过度查看行为模式，找到更富成效和明智的做事方法，而非用不切实际的死板模式替代它。若在某些特殊情形下觉得额外查看网络完全正当，我总可以选择这样做。例如，当我发布一篇新博客时，分享一条博客状态更新，让人们知道有了新文章，就完全行之有理；有时我其实无需登录个人网站也能完成分享操作。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">假如你注册了一个新网上服务，需要在确认邮件中点击验证链接，这意味着你不得不通过个人邮箱完成这种操作。你会允许自己查看邮箱，只点击那个验证链接，而不处理其他邮件吗？还是你会点击此链接后顺便处理邮箱中其他邮件？或者你决定最好在下次统一查看邮件时，再完成此确认步骤？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这类决定最初可以具体问题具体分析，之后若你注意到其间有任何固定行为模式，便可想出更普遍和连续一致的方式去处理它们。一旦你的新行为模式得以很好建立，某次偶然查看行为对你的做事效率就不会有什么影响。不过，在试图建立新模式的最初2-3周脆弱期，一次偶然查看行为肯定会影响到最终形成结果。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>关键经验教训</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">下面是我从这次试验中总结的关键经验教训：</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">1.  更频繁地处理网上沟通事务会让它看起来比你的其他目标、项目和个人渴望更重要，这能导致你在时间使用优先性上的非平衡安排，更别提那些上瘾性网上行为。相反，更少查看网上内容会使这种沟通行为的重要性大大减少，破除之前形成的上瘾习惯。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">2.  你越频繁回复网上信息或发布状态更新，就会收到越多回复和评论，这也意味着更多查看时间和潜在的更多回复（而且循环往复，收到针对那些回复的更多回复）。你越少查看网上信息或发布状态更新，就会收到越少回复，这便意味着更少的查看行为和二次回复；这能帮你每周节省数小时时间。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">3.  倘若有效彻底的时间管理对你而言十分重要，提前理性地决定，自己实际上需要何时以及多久查看一次网上信息，就是明智做法。然后坚持你的计划安排。若你发现自己忍不住要更频繁查看，很可能就是因为旧习惯太根深蒂固。你需首先弱化这些旧有神经路径，在一定时期内显著减少查看频率（每周只查看4次或更少）。否则你将不得不运用意志力强迫自己不再如此频繁地查看，从而浪费大量精力。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">请牢记好的习惯将自行运转，无需使用过多意志力来保持。从神经层面讲，自制力是种有限资源。若你不得不每天应用自制力，阻止自己做那些满是诱惑的事情，便在毫无必要地浪费这种资源，在更需要它的领域你就无法使用。你的大脑只能承受这么多自制力（其限度通常还很低），所以请将你的自制力用在建立那些明智习惯上。这些习惯坚持最初2-3周后便能自行保持。有时这需要你在几周内远离那些旧习惯，以便给它们得以衰退的机会。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>进一步完善</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我感觉每周查看三次邮件对自己很合适，至少短期结果已证明了这点，因此我打算暂时延续此模式。每周查看两次应该也没有问题（很可能在周四和周日），我也许会在12月份尝试这种模式。我甚至可能把频率降为每周一次，但那意味着在某些事上将有更长延迟期，比如安排电话沟通时间，所以我想每周2-3次应该是不错的平衡选择。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">外出时查看手机怎么样，例如利用排队等候时的额外时间？我发现这基本上是个坏主意。虽然第一眼看来这样做似乎很有效率，但它也加重了一些糟糕思维习惯，比如不断想网上在发生什么，而且它还潜在强化了一种令人分神的上瘾行为。我发觉利用这段时间多读几页电子书，或者直接思考一些个人目标或即将做出的各种决定，都是更明智选择。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我已基于个人试验分享了适合自己的做法。你的情况当然可能与我不同。分享这些内容的目的在于激起你自己的探索兴趣，发现什么对你而言才是最佳方法，特别是当你感觉自己在过于频繁地查看网上内容。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你多久查看一次网络完全是你的个人选择。即便你当前的工作“要求”自己频繁查看，那也是你选择了这份工作。倘若所干工作会造成坏行为习惯，你还有辞掉它的自由。假如你认为别人期待自己在工作中频繁查看邮件，你可以重新与人商讨这些期待，鼓励人们在出现真正紧急的信息时采用其他沟通渠道。或者，你可以设置一个用于紧急沟通的邮件账户，允许自己经常查看，并用另一个账户接收非紧急信息，以便更少查看。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">要是你目前正处在每天多次查看邮件的行为模式，我就鼓励你尝试一下非每日查看的生活安排，看看效果如何。试试每隔一天（而且当日只查看一次，最好是在晚上进行）的效果怎样。这么做可能在一开始会感到难受，但你将逐渐习惯它。如果你能这样做，它将重塑你的思维模式，让其他一些个人目标优先浮现。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这种类型的试验也是应用30天尝试法的好时机。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你上次连续72小时（3天）没有查看任何电子邮件或社交媒体是什么时候？若你猜测可能是在一年或更早之前，或是由于诸如生病之类的极端情形才这样做，那我就要挑战你尝试一下这种做法。让电子邮件为你的目标等在一边。别让你的目标为回复邮件而无奈等待。</span></p><p><br  /></p><p><br  /></p><p>Steve Pavlina</p><p>2013.11.18</p><p><br  /></p><p><br  /></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo23b1e9.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA3NzIyNTQ3NA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "聪明人的个人发展";
+      var ct = "1426033877";
+      var user_name = "gh_b50cc8e11c3b";
+      var fakeid   = "";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "你能连续多少天不查看电子邮件或社交媒体？";
+      var msg_desc = "几周前我决定尝试一个简单试验。我选择每周只查看三次电子邮件与社交媒体账户。我想看看这种更少频次、非每天查看的行为，会对个人做事效率和社交关系产生哪些影响。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyUFdicpB83MWRLBVeo2XUmVu9rWsAoia8zfIfbgVfjoC53ObP50icPsdPnuTCwCZCZma7iaLib0K15R78w/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3NzIyNTQ3NA==&amp;mid=206353337&amp;idx=1&amp;sn=9782f68d103e4d9261dfc101bd9761d7#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = 'http://www.stevepavlinachina.com/20131118-how-many-days-can-you-go-without-checking-email-or-social-media.html#rd';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206353337';
+      var comment_id = "0" * 1;
+      var svr_time = "1426034265" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

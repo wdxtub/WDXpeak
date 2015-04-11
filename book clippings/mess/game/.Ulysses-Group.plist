@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>_resources</string>
+		<string>math-note</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>[EVA-FANS][注释文档][beta 20070907].md</string>
+		</array>
+		<array>
+			<string>History of video games.md</string>
+		</array>
+		<array>
+			<string>Interplay 发展史1 新星崛起.md</string>
+		</array>
+		<array>
+			<string>Interplay 发展史2 巨星陨落 Meteoric Crash.md</string>
+		</array>
+		<array>
+			<string>Interplay 发展史3 劫后余波 Life in the Crater.md</string>
+		</array>
+		<array>
+			<string>ucg_game_note.md</string>
+		</array>
+		<array>
+			<string>《DOOM》的笔记.md</string>
+		</array>
+		<array>
+			<string>《王国保卫战》开发团队的发展故事.md</string>
+		</array>
+		<array>
+			<string>《辐射》之避难所故事全集 | 辐射：新维加斯 - 13号避难所|辐射|异尘余生.md</string>
+		</array>
+		<array>
+			<string>为什么大多游戏支持 DirectX 开发而不是 OpenGL？.md</string>
+		</array>
+		<array>
+			<string>什么促使你走上独立开发者之路？.md</string>
+		</array>
+		<array>
+			<string>从零开始学编程做游戏：一个文科生策划的14周.md</string>
+		</array>
+		<array>
+			<string>作为独立游戏开发者别人不会告诉你的事.md</string>
+		</array>
+		<array>
+			<string>天才制作人陈星汉的游戏旅途.md</string>
+		</array>
+		<array>
+			<string>好好学习，去做游戏——美国游戏名校一览.md</string>
+		</array>
+		<array>
+			<string>如何创造更有趣的游戏体验？对游戏剧情的探讨.md</string>
+		</array>
+		<array>
+			<string>如何理解游戏.md</string>
+		</array>
+		<array>
+			<string>广义心流论：成功游戏的必然因素.md</string>
+		</array>
+		<array>
+			<string>暴雪发展史 1.md</string>
+		</array>
+		<array>
+			<string>暴雪发展史 2.md</string>
+		</array>
+		<array>
+			<string>暴雪发展史 3.md</string>
+		</array>
+		<array>
+			<string>暴雪发展史 4.md</string>
+		</array>
+		<array>
+			<string>暴雪发展史 5.md</string>
+		</array>
+		<array>
+			<string>浅析动作游戏的打击感设计.md</string>
+		</array>
+		<array>
+			<string>浅析真正的卡牌游戏的设计策略.md</string>
+		</array>
+		<array>
+			<string>游戏历史上有哪些前无古人的创新？.md</string>
+		</array>
+		<array>
+			<string>游戏发展史.md</string>
+		</array>
+		<array>
+			<string>游戏开发历程的辛酸苦辣：十问陈星汉.md</string>
+		</array>
+		<array>
+			<string>独家：葡萄君专访前暗黑3设计师——暴雪的设计原则.md</string>
+		</array>
+		<array>
+			<string>移动游戏设计中货币统一的重要性.md</string>
+		</array>
+		<array>
+			<string>虽然同为冷兵器动作游戏，但制造打击感方式各自不同.md</string>
+		</array>
+		<array>
+			<string>足球游戏简史.md</string>
+		</array>
+		<array>
+			<string>黑客与游戏私服的隐秘江湖.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

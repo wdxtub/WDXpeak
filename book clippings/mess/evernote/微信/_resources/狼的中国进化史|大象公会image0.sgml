@@ -1,0 +1,205 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MjM5NzQwNjcyMQ==";
+    var sn = "d133ff2ed4f42774d688e868b58e60ca";
+    var mid = "211363298" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>大象公会</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">狼的中国进化史&nbsp;| 大象公会</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">狼的中国进化史&nbsp;| 大象公会</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        狼的中国进化史&nbsp;| 大象公会                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-11</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">大象公会</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">大象公会</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">大象公会</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">idxgh2013</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">知识，见识，见闻。最好的饭桌谈资。知道分子的进修基地。</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0wSVDtSuRCaPJGDTcAcwUDAHTOL8diatTTqA10oLfPFl33Y3rYI2cp3w/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p><span style="color: rgb(0, 112, 192);"><strong>世界上有两种狼，一种生活在自然界，一种生活在中国作家笔下，后者拥有今天中国人推崇的一切高贵品德和精神，它是怎样进化出来的？</strong></span></p><p><br  /></p><p><strong>文/黄章晋</strong></p><p><br  /></p><p>全世界没有哪个地方像如今的中国一样喜欢狼、崇拜狼。今天，无论是战场、商场还是职场，狼都是中国人的精神导师。只要上网或者上书店看一下，就很容易知道狼已经是中国人的图腾。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0mHibicTNGgVA5hLRnIJNRPxib9zjUVCcFoiasTicepIb9jtRX1rDZV1OHxg/0" data-ratio="0.666" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>一些与狼性相关的畅销书</strong></span></p><p><br  /></p><p>不过，这几乎是一瞬间才发生的。要说清楚这个奇迹般的现象，或许要从狼的中国进化史说起。</p><p><br  /></p><p>历代先贤大哲若知道今天的中国人崇尚以狼为师，应该从坟里跳出来。</p><p><br  /></p><p>从《诗经》、《左传》、《国语》、《山海经》到《聊斋志异》，自古以来关于狼的传说和故事中，它的形象都是凶残、贪婪和不可姑息同情的。汉语中与狼相关的词汇，除狼吞虎咽这种少数中性词外，几乎全部是贬义，像狼心狗肺、狼子野心、狼狈为奸、引狼入室、鬼哭狼嚎、披着羊皮的狼之类，几乎是汉语中的顶级贬义词。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0agvDh0TsHcQcU79pME9uv1ribGdpvzZjcOBpheySFLeXt1YuBMU67bw/0" data-ratio="0.704" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>《聊斋志异》中《狼三则》插图。《狼三则》是写屠夫在不同情况下遇狼并杀狼的故事。第一则着重表现狼的贪婪本性；第二则着重表现狼的欺诈伎俩；第三则着重表现狼的爪牙锐利。但最终却都落得个被屠夫杀死的下场</strong></span></p><p><br  /></p><p>狼在中国人观念中最经典的形象是“中山狼”，它是小学生课本中《东郭先生与狼》的原型，而这个故事中救狼、狼恩将仇报、找第三方主持公道、狼上当受惩这四个重要环节，在印度等国的传说中有更古老版本，而且各版本中坏东西多是狼，应能说明世界各民族对狼的看法出奇一致——在英语、蒙古语、诸突厥语，与狼相关的谚语和词汇也总是负面的。</p><p><br  /></p><p>有趣的是，老虎、狮子远比狼要凶猛可怕，但在不同文化中，形象都要高大得多，它是描述威武、雄壮、英雄气概最常用的比喻方式，虽也会用在负面表达或评价上，但至少算得上是毁誉参半。</p><p><br  /></p><p>今天中国突然以狼为师，当然是中国人笔下的狼突然变了，它进化成了一种地球上从来没有出现过的物种。</p><p><br  /></p><p>古人笔下的狼，多是独来独往，或是两三只成群，以今天人们的知识看，它未必是狼生存方式的完整准确呈现，甚至有可能是错误的总结，但它是一种可以理解的、因观察角度所限而犯下的错误。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0hupl2Nmd0gDoLlO8WqLRfO3jr8eutb8hEFOmrmG8cW3BEib6ss4DaeA/0" data-ratio="0.624" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>BBC纪录片《冰冻星球》中，25头森林狼成群结队，穿过厚厚的冰雪去追踪北美野牛</strong></span></p><p><br  /></p><p>譬如，中国民间关于野兽凶狠程度普遍有“一猪二熊三老虎”的排序。实际上，这个排序完全是倒过来的，野猪是老虎的重要食材，而老虎捕食熊、熊捕食野猪也并不稀罕。</p><p><br  /></p><p>但从人的日常观察角度看，这个错误的排序完全可以理解：野猪经常会因为成群结队侵入农田与人发生冲突，而熊与人的冲突就少得多，老虎则更少。尤其是，野猪攻击力较弱，与人发生冲突时，会对人造成极为惨烈的伤害，攻击力强大的熊解决战斗迅速，很难造成遍体鳞伤肚破肠流的残相，如果老虎主动攻击人，人们只会发现上山的邻居失踪了。</p><p><br  /></p><p>而今天中国人笔下的狼，首先规模急剧膨胀，比如《狼图腾》中的狼群动辄几十只，这是今天中国狼群的标准规模，它已经达到或超过中国野生食草动物结群的规模，这个规模已经比较克制，冯远理先生《那些本不该消失的生命》中的狼群规模，甚至达到或超过非洲大草原上食草动物的规模，而富有想象力的金庸先生笔下的狼群，其规模只有蚂蚁、蜜蜂和蝗虫才能与之相比，《书剑恩仇录》是这么描述新疆沙漠中的超大狼群的：“远处一片黑云着地涌来”、“不知有几千几万头饿狼”。</p><p><br  /></p><p>狼的规模急剧膨胀，自然会表现出强烈的社会性。古人笔下的狼，不过是一种凶残的野兽，并无社会等级，更谈不上角色分化。而今天的狼，不但拥有今天中国人推崇的一切美德：坚韧、顽强、进取、团结、牺牲精神（此处可省略两百字）。有的狼群甚至会有一位类似成吉思汗、毛泽东式高瞻远瞩、雄才大略的狼王。</p><p><br  /></p><p>没错，狼变了。</p><p><br  /></p><p>狼在中国的进化始于1980年代中国作家突然开始写狼。狼先是小心翼翼地表现出一些闪光点，譬如对后代、伴侣也是有感情的，而且它也是智慧甚至是可爱的，比如1987年创刊的《大灰狼》中，狼已经是可爱的了；1990年代后，写狼的中国作家越来越多，在生态环境、传统文化之类话题上，狼开始理直气壮地成为值得同情的牺牲品；在新世纪的“狼文化热”中，它终于慷慨激昂地成为中国人民的精神导师。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K067IJdj9JzFAQL4fj9mySjNl34eaXFfIOzPgkxJclUsRmqkBWsueIfw/0" data-ratio="0.948" data-w="500"  /><br  /></p><p style="text-align: center;"><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>1980年代以来部分以狼为主题的代表性文学作品</strong></span><br  /></p><p><br  /></p><p>写狼的中国作家，绝大部分只在动物园见过狼，不排除他们当中有人能分得清哈士奇犬和狼，但后面将谈到他们其实还没人能正确可靠地描述家畜以外的动物。他们关于狼的各种灵感当然来自1978年后海外观念的影响。</p><p><br  /></p><p>对中国狼影响最大的，应该是欧内斯特•汤普森•西顿的《狼王洛波》和杰克•伦敦的《野性的呼唤》。这两本书其实在一百年前就被翻译到中国。但真正在中国社会造成知识和观念冲击，是在1978年改革开放后的重新翻译出版。</p><p style="text-align: center;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0H9aicjYoPpeOfu8yxxicP2Btx6c1Jn4uHibOPgltk0K1kYxZaSsWFFJRw/0" data-ratio="0.642" data-w="500"  /><br  /><span style="font-size: 12px; color: rgb(75, 172, 198);"><strong>《狼王洛波》与《野性的呼唤》</strong></span></p><p><br  /></p><p>《狼王洛波》中包括狼的社会化特征在内的大量细节，是汉语世界全新的知识，而《野性的呼唤》提供了一种全新的反人类中心的视角，带来的是强烈的观念冲击。中国作家关于狼的文学作品，无论是强调狼某些可贵的品质，还是从生态角度重新审视人与自然关系，都可从这两本书中找到源头。</p><p><br  /></p><p>虽然你可以认为，这些中国作家是西顿和伦敦下的蛋，但他们比西顿和伦敦不知道高到哪里去了。因为西顿和伦敦作品中的狼，多少也在真实基础上赋予了一定浪漫想象，而中国作家笔下的狼，则完全是写实表象下天马行空的狂想，西方人再进化一百年也达不到今天中国作家的水平。</p><p><br  /></p><p>诚然，西顿和伦敦虽然有与狼真实交道的优势，尤其是西顿，他本人是个著名的博物学家，而中国作家虽然没人说得清猫科动物和犬科动物的区别，但他们的优势恰好也在这里，这样狼才能进化成不但具备种种中国人推崇的美德，而且是人类在商场、战场上最高智慧的发明者——《狼图腾》不但认为“狼懂气象，懂地形，懂选择时机，懂知己知彼，懂战略战术，懂近战、夜战、游击战、运动战、奔袭战、偷袭战、闪击战,懂集中优势兵力打歼灭战。”，而且进一步推论“狼子兵法”是《孙子兵法》的源头之一。</p><p><br  /></p><p>《狼图腾》是引爆中国“狼文化热”的原子弹，但《狼图腾》中出现的狼，远远算不上它在中国进化史中的最顶级，虽然书中出现的狼，掌握的某些技能甚至超过了中国作家，譬如狼在跳进羊圈高高的围墙后，在牧民赶来时，它们机智地在围墙下迅速将死羊的尸体像堆沙袋一样码成一个斜坡，翻墙逃离现场。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0VpicQibt7TXMialyLnwB1Hl6TWq5cYq1fwQp6YjuZmRS2j0PiaibxnJntkw/0" data-ratio="0.564" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>电影《狼图腾》剧照</strong></span></p><p><br  /></p><p>譬如冯远理先生《那些本不该消失的生命》中的狼明显就比《狼图腾》中的狼进化得更高级，虽然该文只是简略地讲述了一个惊人的故事：1970年3月，青海贵德县附近的老虎坡，一支200人的解放军在拉练宿营时被狼群包围，狼群采用分割包围的办法让67名解放军丧生狼口。</p><p><br  /></p><p>狼在没有语言没有地图没有通讯工具的情况下，能在旷野迅速组织起分工明确、规模极大的狼群，从狼的智力进化上说，它只有两种可能：</p><p><br  /></p><p>一、狼的智力已经进化得比人更强。人类学有个著名的“邓巴数字”，即人类学家罗宾•邓巴发现，大脑的认知能力决定了人类拥有稳定社交网络的人数是148人，而这个狼群的规模已经超过“邓巴数字”好几倍。</p><p><br  /></p><p>二、该狼群不是一个狼王率领一群狼兵的扁平化组织，而是进化出了复杂的科层结构，并且狼已经进化掌握了一套可以表达复杂精密意思的身体语言（它显然需要比语言更高级的智力），只是人类目前尚不知道。</p><p><br  /></p><p>另外，在一块面积有限，猎物极为稀少地区，居然生活着数量如此庞大的狼群，我们不难推测，狼不但平时是不以捕猎为生的，而且它们必然有某种神秘的、不消耗能量的生存技术——在高原荒漠地区，单位面积能生存的食草动物也是非常有限的。</p><p><br  /></p><p>著名动物故事作家沈石溪笔下的狼，虽然在狼群数量的进化上没有跟上同行脚步，但在狼的心智和情感进化上成就斐然。</p><p><br  /></p><p>沈石溪的《狼王梦》中，那个要把后代培养成狼王的母狼紫岚，在培养三个儿子失败后，又将希望寄托在外孙身上，为了让外孙们有个安全的成长环境，最后竟与金雕同归于尽，虽然她没有看到成功的那一天，但比起今天新闻中以“狼性教育”培养子女成才的几个著名“虎爸”“虎妈”，其苦心孤诣更值得千万中国“虎爸”“虎妈”学习。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0kHjCE9uq1MOMzsZicjBsARbGZrtGTXLrS6tdkoo4LsibnkkWSZTBhkuw/0" data-ratio="0.742" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>一位小学生读《狼王梦》的读书小报</strong></span></p><p><br  /></p><p>而他的《狼妻》中，待产的母狼一眼看穿了披着公狼皮的“我”只是妄图冒充它丈夫，但英明地预见到“我”这个动物学家为了研究而扮演公狼的角色，将会每天带回小动物，所以一直假装蒙在鼓里。该母狼镇定自若处惊不变的演技，完全可以秒杀孙红雷。</p><p><br  /></p><p>杨志军先生的《藏獒》虽然写的不是狼，但它也可视为“狼文化”中的一支。杨志军确实有足够的理由藐视《狼图腾》，因为杨笔下的藏獒，在品性的高贵上，比姜戎在《狼图腾》中塑造的狼要高出几个量级。</p><p><br  /></p><p>譬如《狼图腾》中狼不顾伤亡冲进马群的情节，在小说中被形容为壮烈的自杀式攻击，严格说来，它只是有伤亡风险，与必求一死的日本神风自杀攻击不是一回事，而《藏獒》中，争斗獒王地位失败的藏獒，在对手试图以宽恕姿态让其臣服时，毅然跳崖自杀，这才是完完全全的武士道切腹风范。</p><p><br  /></p><p>当然，《狼图腾》中狼王为了不让受伤的同伴落在人的手中受辱，在其颈部狠咬一口成全其名节，阿云噶的《狼赞》中，公狼为了不让自己的情人受人羞辱咬断母狼的颈动脉，这些帮“人”自杀的行为也很让人感动。</p><p><br  /></p><p>尤其让人动容的是，藏獒若不幸得了瘟疫，在自知必死时，从容、决绝、饱含深情却又绝不留恋地离开獒群、离开主人的帐篷，孤独地走向荒野，静静等待死亡，等待狼群，因为它要用自己的死，把瘟疫传染给狼群。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0VZY5oCdvlxB8710HRGNVUOm8Z8zxjzIZ5RQhtxUm4QiakfevWsgvMcg/0" data-ratio="0.526" data-w="500"  /><br  /><span style="font-size: 12px; color: rgb(75, 172, 198);"><strong>画家笔下，藏獒与狼群搏斗的场景</strong></span></p><p><br  /></p><p>我操，人类历史上出现过这样的英雄吗？</p><p><br  /></p><p>狼在中国的进化是大跃进式的，所谓大跃进，指的并非进化速度，而是在方向上的随心所欲，譬如沈石溪和蒙古族作家郭雪波的狼，舌头进化出了猫科动物才有的倒刺，看上去没有太多必要性。</p><p><br  /></p><p>还有些作家笔下的狼，进化出来的性格对狼来说简直是一场灾难。比如把军车困在戈壁滩的狼群，会前赴后继地消耗司机的子弹，为了坚持到最后的胜利，在没有食物的情况下靠吃被打死的同伴为生……狼若真进化成不懂得趋利避害不会算计成本收益的野兽，它会迅速自我灭亡。</p><p><br  /></p><p>事实上，狼不用那么疯狂，只要像中国作家笔下那样，不吃嗟来之食，坚持祖先的骄傲和自尊，它们确实早该灭亡了。BBC近年一部关于狼的纪录片或许可以告诉我们狼是怎么适应环境进化的：</p><p><br  /></p><p>中南欧的山林中还有一小群狼，人们好奇在几乎无猎可捕的环境中它们如何生存，因为它们几乎不祸害农家的禽畜，摄制组后来发现，原来它们晚上进城，熟门熟路地找到垃圾箱，因为那里有非常丰富、现成的食物。</p><p><br  /></p><p>即使是荒野中的狼，也是很容易通过投放食物让它们迅速变得像汪星人一样，见到主人就摇着尾巴围上来蹭来蹭去。</p><p style="text-align: center;"><iframe class="video_iframe" style="   z-index:1; " height="375" width="500" frameborder="0" data-src="http://v.qq.com/iframe/player.html?vid=a0114gz4n2j&amp;width=500&amp;height=375&amp;auto=0" allowfullscreen=""></iframe><br  /></p><p style="text-align: center;"><span style="font-size: 12px; color: rgb(75, 172, 198);"><strong>一群与人亲昵的狼，看上去与汪星人无异</strong></span></p><p><br  /></p><p>——中国国境之外的狼展现的完全是另外一种进化方式，如果你热爱中国作家笔下的狼，当然可以说，高贵、骄傲、自尊的中国狼与国外的狼是两种不同的动物，因为塑造狼文化的中国作家与他们的国外同行相比，看上去也是完全不同的两种哺乳动物。</p><p><br  /></p><p>前面谈到，无论是从狼的能力、智慧和品格上看，《狼图腾》在狼的中国进化史上都算不上巅峰，但为什么只有它才会成为独一无二的经典？蒙古人存在狼图腾吗？为什么中国社会今天兴起了一股“以狼为师”的文化热？</p><p><br  /></p><p><strong>请关注续文。</strong></p><p><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 20px;">版权声明</span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">大象公会所有文章均为原创，</span></strong></span></strong><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">版权归大象公会所有。如希望转载，</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">请事前联系我们：</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><span style="color: rgb(75, 172, 198); font-size: 18px;">bd@idaxiang.org</span></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><img data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tm7iaXeulwjbP9JVPh6mibv8RoquIwsDhpN0p8eWvgZpiaLv5jYPqI8ANgMrFYyE0icPnGNXBO5azVdww/0" data-ratio="1.2058823529411764" data-w="136"  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(38, 38, 38); font-size: 14px;"><strong style="font-size: 18px;">知识 | 见识 | 见闻</strong></strong></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo23b1e9.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MjM5NzQwNjcyMQ==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "大象公会";
+      var ct = "1426084378";
+      var user_name = "gh_58b42b81e073";
+      var fakeid   = "NjAwNDMzNzQw";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "狼的中国进化史&nbsp;|&nbsp;大象公会";
+      var msg_desc = "世界上有两种狼，一种生活在自然界，一种生活在中国作家笔下，后者拥有今天中国人推崇的一切高贵品德和精神，它是怎";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/Z08UWq352tk5iazbxUnGjS74k9YNYR9K0wSVDtSuRCaPJGDTcAcwUDAHTOL8diatTTqA10oLfPFl33Y3rYI2cp3w/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NzQwNjcyMQ==&amp;mid=211363298&amp;idx=1&amp;sn=d133ff2ed4f42774d688e868b58e60ca#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '211363298';
+      var comment_id = "0" * 1;
+      var svr_time = "1426084866" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

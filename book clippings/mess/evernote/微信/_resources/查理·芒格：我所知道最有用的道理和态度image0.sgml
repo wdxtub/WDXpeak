@@ -1,0 +1,205 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MjM5NjA3OTM0MA==";
+    var sn = "d4175c3a66ab54cec91a846f3c08ec6c";
+    var mid = "206241514" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>warfalcon</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">查理·芒格：我所知道最有用的道理和态度</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">查理·芒格：我所知道最有用的道理和态度</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        查理·芒格：我所知道最有用的道理和态度                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-16</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">warfalcon</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">warfalcon</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">warfalcon</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">read01</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">想每年读完100本书吗？想在100天内培养一个好习惯吗？想搞定拖延和注意力不集中吗？关注我，让你成为一个行动者，跟几十万读者一起成长，欢迎参加100天行动</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/wNByw5VpECjtVib6dM4vqicSnB1EEjFWvtJEwafU9ULB8JNy64LJB37Sju3icHfd2jVY4C25d89iadONbPQpApmkOw/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p class="p1">再次强烈推荐查理芒格的《穷查理宝典》，这是值得你放到床边反复阅读和翻阅的经典，就像书中所说要学习100种模型，学会多元思维方式，把自己训练得更加客观，拥有更多学科的知识，保持足够的耐心和未知欲。<br  /></p><p class="p1"><br  /></p><p class="p2"><span class="s1">以前在这个微信上分享过类似的演讲：</span></p><ul class="ul1 list-paddingleft-2"><li><p><span class="s1">输入「20140131」查看 兰迪·波许教授的最后一课《实现你的童年梦想》</span></p></li><li><p><span class="s1">输入「20140630 」查看 有信心，运气就会跟着你！（ 吴秀兰在瓦萨学院到发现希格斯粒子—瓦萨学院2014年度毕业典礼演讲）</span></p></li><li><p><span class="s1">输入：【TED】查看： TED 演讲：二十岁是不是可以挥霍的光阴？</span></p></li></ul><p class="p3"><span class="s1"><strong><br  /></strong></span></p><p class="p3"><span style="font-size: 24px; color: rgb(84, 141, 212);"><strong>正文</strong></span></p><p class="p3"><span class="s1"></span></p><hr  /><p class="p3"><span class="s1"></span><br  /></p><p class="p4"><span class="s1"></span><br  /></p><p class="p2"><span class="s1">（在南加州大学毕业典礼上的演讲）</span></p><p class="p2"><span class="s1">　　下面就来介绍那些对我来说最有用的道理和态度。我并不认为它们对每个人而言都是完美的，但我认为它们之中有许多具有普遍价值，也有许多是“屡试不爽”的道理。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　是哪些重要的道理帮助了我呢？我非常幸运，很小的时候就明白了这样一个道理：要得到你想要的某样东西，最可靠的办法是让你自己配得上它。这是一个十分简单的道理，是黄金法则。你们要学会己所不欲，勿施于人。在我看来，无论是对律师还是对其他人来说，这都是他们最应该有的精神。总的来说，拥有这种精神的人在生活中能够赢得许多东西，他们赢得的不止是金钱和名誉。还赢得尊敬，理所当然地赢得与他们打交道的人的信任。能够赢得别人的信任是非常快乐的事情。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我很小就明白的第二个道理是，正确的爱应该以仰慕为基础，而且我们应该去爱那些对我们有教育意义的先贤。我懂得这个道理且一辈子都在实践它。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　另外一个道理——这个道理可能会让你们想起孔子——获得智慧是一种道德责任，它不仅仅是为了让你们的生活变得更加美好。有一个相关的道理非常重要，那就是你们必须坚持终身学习。如果不终身学习，你们将不会取得很高的成就。光靠已有的知识，你们在生活中走不了多远。离开这里以后，你们还得继续学习，这样才能在生活中走得更远。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　就以世界上最受尊敬的公司伯克希尔•哈撒韦来说，它的长期大额投资业绩可能是人类有史以来最出色的。让伯克希尔在这一个十年中赚到许多钱的方法，在下一个十年未必还能那么管用，所以沃伦•巴菲特不得不成为一部不断学习的机器。我不断地看到有些人在生活中越过越好，他们不是最聪明的，甚至不是最勤奋的，但他们是学习机器，他们每天夜里睡觉时都比那天早晨聪明一点点。孩子们，这种习惯对你们很有帮助，特别是在你们还有很长的路要走的时候。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　阿尔弗雷德•诺斯•怀特海曾经说过一句很正确的话，他说只有当人类“发明了发明的方法”之后，人类社会才能快速地发展。人类社会在几百年前才出现了大发展，在那之前，每个世纪的发展几乎等于零。人类社会只有发明了发明的方法之后才能发展，同样的道理，你们只有学习了学习的方法之后才能进步。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我非常幸运。我读法学院之前就已经学会了学习的方法。在我这漫长的一生中，没有什么比持续学习对我的帮助更大。再拿沃伦•巴菲特来说，如果你们拿着计时器观察他，会发现他醒着的时候有一半时间是在看书。他把剩下的时间大部分用来跟一些非常有才干的人进行一对一的交谈，有时候是打电话，有时候是当面，那些都是他信任且信任他的人。仔细观察的话，沃伦很像个学究，虽然他在世俗生活中非常成功。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　所以我这辈子不断地实践跨学科的方法。这种习惯帮了我很多忙，它让生活更有乐趣，让我能做更多的事情，让我变得更有建设性，让我变得非常富有，而这无法用天分来解释。我的思维习惯只要得到正确的实践，真的很有帮助。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我想进一步解释为什么人们必须拥有跨科学的心态，才能高效而成熟地生活。在这里，我想引用古代最伟大的律师马尔库斯•图鲁斯•西塞罗的一个重要思想。西塞罗有句话很着名，他说，如果一个人不知道他出生之前发生过什么事情，在生活中就会像一个无知的孩童。这个道理非常正确，西塞罗正确地嘲笑了那些愚蠢得对历史一无所知的人。但如果你们将西塞罗这句话推而广之——我认为你们应该这么做——除了历史之外，还有许多东西是人们必须了解的。所谓的许多东西就是所有学科的重要思想。但如果你对一种知识死记硬背，以便能在考试中取得好成绩，这种知识对你们不会有太大的帮助。你们必须掌握许多知识，让它们在你们的头脑中形成一个思维框架，在随后的日子里能自动地运用它们。如果你们能够做到这一点，我郑重地向你们保证，总有一天你们会在不知不觉中意识到：“我已经成为我的同龄人中最有效率的人之一”。与之相反，如果不努力去实践这种跨科学的方法，你们中的许多最聪明的人只会取得中等成就，甚至生活在阴影中。</span></p><p class="p2"><span class="s1"><br  /></span></p><p class="p2"><span class="s1">　　我发现的另外一个道理蕴含在麦卡弗雷院长刚才讲过的故事中，故事里的乡下人说：“要知道我会死在哪里就好啦，我将永远不去那个地方。”这乡下人说的话虽然听起来很荒唐，却蕴含着一个深刻的道理。对于复杂的适应系统以及人类的大脑而言，如果采用逆向思考，问题往往会变得更容易解决。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　让我现在就来使用一点逆向思考。什么会让我们在生活中失败呢？我们应该避免什么呢？有些答案很简单，例如，懒惰和言而无信会让我们在生活中失败。如果你们言而无信，就算有再多的优点，也无法避免悲惨的下场。所以你们应该养成言出必行的习惯，懒惰和言而无信是显然要避免的。另外要避免的是极端的意识形态，因为它会让人们丧失理智。你们看到电视上有许多非常糟糕的宗教布道者，他们对神学中的细枝末节持有不相同、强烈的、前后矛盾的神学观点，偏偏又非常固执，我看他们中有许多人的脑袋已经萎缩成卷心菜了(听众大笑)。政治意识形态的情况也一样。年轻人特别容易陷入强烈而愚蠢的意识形态中，而且永远走不出来。当你们宣布你们是某个类似邪教团体的忠实成员，并开始倡导该团体的正统意识形态时，你们所做的就是将这种意识形态不断地往自己的头脑里塞。这样你们的头脑就会坏掉，而且有时候是以惊人的速度坏掉。所以你们要非常小心地提防强烈的意识形态，它对你们的宝贵头脑是极大的危险。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我有一条“铁律”，它帮助我在偏向于支持某种强烈的意识形态时保持清醒。我觉得我没资格拥有一种观点，除非我能比我的对手更好地反驳我的立场。我认为我只有在达到这个境界时才有资格发表意见。这种别陷入极端意识形态的方法在生活中是非常非常重要的，如果你们想要成为明智的人，严重的意识形态很有可能会导致事与愿违。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　有一种叫做“自我服务偏好”的心理因素也经常导致人们做傻事，它往往是潜意识的，所有人都难免受其影响。你们认为“自我”有资格去做它想做的事情，例如，透支收入来满足它的需求，那有什么不好呢？嗯，从前有一个人，他是全世界最着名的作曲家，可是他大部分时间过得非常悲惨，原因之一就是他总是透支他的收入。那位作曲家叫做莫扎特。连莫扎特都无法摆脱这种愚蠢行为的毒害，我觉得你们更不应该去尝试它(听众大笑)。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　总的来说，嫉妒、怨憎、仇恨和自怜都是灾难性的思想状态。过度自怜可以让人近乎偏执，偏执是最难逆转的东西之一，你们不要陷入自怜的情绪中。我有个朋友，他随身携带一叠厚厚的卡片，每当有人说了自怜的话，他就会慢慢地、夸张地掏出那一叠卡片，将最上面那张交给说话的人。卡片上写着“你的故事让我很感动，我从来没有听过有人像你这么倒霉。”你们也许认为这是开玩笑，但我认为这是精神卫生。每当你们发现自己产生了自怜的情绪，不管是什么原因，哪怕由于自己的孩子患上癌症即将死去，你们也要想到，自怜是于事无补的。这样的时候，你们要送给自己一张我朋友的卡片。自怜总是会产生负面影响，它是一种错误的思维方式。如果你们能够避开它，你们的优势就远远大于其他人，或者几乎所有的人，因为自怜是一种标准的反应。你们可以通过训练来摆脱它。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　你们当然也要在自己的思维习惯中消除自我服务的偏好，别以为对你们有利的就是对整个社会有利的，也别根据这种自我中心的潜意识倾向来为你们愚蠢或邪恶的行为辩解，那是一种可怕的思考方式。你们要让自己摆脱这种心理，因为你们想成为智者而不是傻瓜，想做好人而不是坏蛋。你们必须在自己的认知行动中允许别人拥有自我服务的偏好，因为大多数人无法非常成功地清除这种心理，人性就是这样。如果你们不能容忍别人在行动中表现出自我服务的偏好，那么你们又是傻瓜。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　所罗门兄弟公司的法律顾问曾经做过《哈佛法学评论》的学生编辑，是个聪明而高尚的人，但我亲眼看到他毁掉了自己的前途。当时那位能干的CEO说有位下属做错了事，总顾问说：“哦，我们在法律上没有责任汇报这件事，但我认为那是我们应该做的，那是我们的道德责任。”从法律和道德上来讲，总顾问是正确的，但他的方法却是错误的。他建议日理万机的CEO去做一件令人不愉快的事情，而CEO总是把这件事一推再推，因为他很忙嘛，完全可以理解，他并不是故意要犯错。后来呢，主管部门责怪他们没有及时通报情况，所以CEO和总顾问都完蛋了。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　遇到这种情况，正确的说服技巧是本杰明•富兰克林指出的那种，他说：“如果你想要说服别人，要诉诸利益，而非诉诸理性。”人类自我服务的偏好是极其强大的，应该被用来获得正确的结果。所以总顾问应该说：“喂，如果这种情况再持续下去，会毁掉你的，会让你身败名裂，家破人亡。我的建议能够让你免于陷入万劫不复之地。”这种方法会生效的。你们应该多多诉诸利益，而不是理性，即使是当你们的动机很高尚的时候。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　另外一种应该避免的事情是受到变态的激励机制的驱动。你们不要处在一个你们表现得越愚蠢或者越糟糕，它就提供越多回报的变态激励系统之中，变态的激励机制具有控制人类行为的强大力量，人们应该避免受它影响。你们将来会发现，有些律师事务所规定的工作时间特别长，至少有几家现代律师事务所是这样的。如果每年要工作2,400个小时，我就没法活了，那会给我带来许多问题，我不会接受这种条件。我没有办法对付你们中的某些人将会面对的这种局面，你们将不得不自行摸索如何处理这些重要的问题。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　变态的工作关系也是应该避免的，你们要特别避免在你们不崇敬或者不想像他一样的人手下干活，那是很危险的。所有人在某种程度上都受到权威人物的控制，尤其是那些为我们提供回报的权威人物。要正确地应对这种危险，必须同时拥有才华和决心。在我年轻的时候，我的办法是找出我尊敬的人，然后想办法调到他手下去，但是别批评任何人，这样我通常能够在好领导手下工作。许多律师事务所是允许这么做的，只要你们足够聪明，能做得很得体。总之，在你们正确地仰慕的人手下工作，在生活中取得的成就将会更加令人满意。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　养成一些让你能保持客观公正的习惯当然对认知非常有帮助。我们都记得达尔文特别留意相反的证据，尤其是他证伪的是某种他信奉和热爱的理论时。如果你们想要在思考的时候尽量少犯错误，就需要这样的习惯。人们还需要养成核对检查清单的习惯，核对检查清单能避免很多错误，不仅仅对飞行员来说是如此。你们不应该光是掌握广泛的基础知识，而是应该把它们在头脑中列成一张清单，然后再加以使用。没有其他方法能取得相同的效果。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　另外一个我认为很重要的道理就是，将不平等最大化通常能够收到奇效。这句话是什么意思呢？加州大学洛杉矶分校（UCLA）的约翰-伍登（JohnWooden）提供了一个示范性的例子。伍登曾经是世界上最优秀的篮球教练。他对五个水平较低的球员说：“你们不会得到上场的时间——你们是陪练。”比赛几乎都是那七个水平较高的球员在打的。嗯，这七个水平高的球员学到了更多——别忘了学习机器的重要性——因为他们独享了所有的比赛时间。在他采用非平等主义的方法时，伍登比从前赢得了更多的比赛。我认为生活就像比赛也充满了竞争，我们要让那些最有能力和最愿意成为学习机器的人发挥最大的作用。如果你们想要获得非常高的成就，你们就必须成为那样的人。你们不希望在50个轮流做手术的医生中抓阄抽一个来给你们的孩子做脑外科手术。你们不希望你们的飞机是以一种太过平等主义的方式设计出来的。你们也不希望你们的伯克希尔-哈撒韦采用这样的管理方式。你们想要让最好的球员打很长时间的比赛。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我经常讲一个有关马克斯-普朗克的笑话。普朗克获得诺贝尔奖之后，到德国各地作演讲，每次讲的内容大同小异，都是关于新的量子物理理论的，时间一久，他的司机记住了讲座的内容。司机说：“普朗克教授，我们老这样也挺无聊的，不如这样吧，到慕尼黑让我来讲，你戴着我的司机帽子坐在前排，你说呢？”普朗克说：“好啊。”于是司机走上讲台，就量子物理发表了一通长篇大论。后来有个物理学教授站起来，提了一个非常难的问题。演讲者说：“哇，我真没想到，我会在慕尼黑这么先进的城市遇到这么简单的问题。我想请我的司机来回答。”（听众大笑） </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　好啦，我讲这个故事呢，并不是为了表扬主角很机敏。我认为这个世界的知识可以分为两种：一种是普朗克知识，它属于那种真正懂的人。他们付出了努力，他们拥有那种能力。另外一种是司机知识。他们掌握了鹦鹉学舌的技巧；他们可能有漂亮的头发；他们的声音通常很动听；他们给人留下深刻的印象。但其实他们拥有的是伪装成真实知识的司机知识。我想我刚才实际上描绘了美国所有的政客。（听众鼓掌）如果你们在生活中想努力成为拥有普朗克知识的人，而避免成为拥有司机知识的人，你们将遇到这个问题。到时会有许多巨大的势力与你们作对。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　另外一件我发现的事情是，如果你们真的想要在某个领域做得很出色，那么你们必须对它有强烈的兴趣。我可以强迫自己把许多事情做得相当好，但我无法将我没有强烈兴趣的事情做得非常出色。从某种程度上来讲，你们也跟我差不多。所以如果有机会的话，你们要想办法去做那些你们有强烈兴趣的事情。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　还有就是，你们一定要非常勤奋才行。我非常喜欢勤奋的人。我这辈子遇到的合伙人都极其勤奋。我想我之所以能够和他们合伙，部分原因在于我努力做到配得起他们，部分原因在于我很精明地选择了他们，还有部分原因是我运气好。我早期的生意上曾经有过两位合伙人，他们俩在大萧条期间合资成立了一家建筑设计施工公司，达成了很简单的协议。“这是个两个人的合伙公司。”他们说，“一切平分。如果我们没有完成对客户的承诺，我们俩要每天工作14个小时，每星期工作7天，直到完成为止。”不用说你们也知道啦，这家公司做得很成功。我那两位合伙人广受尊敬。他们这种简单的老派观念几乎肯定能够提供一个很好的结果。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　另外一个你们要应付的问题是，你们在生活中可能会遭到沉重的打击，不公平的打击。有些人能挺过去，有些人不能。我认为爱比克泰德（Epictetus）的态度能够引导人们作出正确的反应。他认为生活中的每一次不幸，无论多么倒霉，都是一个锻炼的机会。他认为每一次不幸都是吸取教训的良机。人们不应该在自怜中沉沦，而是应该利用每次打击来提高自我。他的观点是非常正确的，影响了最优秀的罗马帝国皇帝马库斯-奥勒留（Marcus Aurelius），以及随后许多个世纪里许许多多其他的人。你们也许记得爱比克泰德自拟的墓志铭：“此处埋着爱比克泰德，一个奴隶，身体残疾，极端穷困，蒙受诸神的恩宠。”嗯，现在爱比克泰德就是这样被铭记的：“蒙受诸神的恩宠。”说他蒙受恩宠，是因为他变成智者，变成顶天立地的男子汉，而且教育了其他人，包括他那个时代和随后许多世纪的人。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　我还有个道理简单地说说。我的爷爷芒格曾是他所在城市唯一的联邦法官，他担任这个职位长达40年之久。我很崇拜他。我的名字跟他相同。我对他非常孝顺，我刚才还在想：“芒格法官看到我在这里会很高兴的。”我爷爷去世许多年啦，我认为自己有责任接过火炬，传达他的价值观。他的价值观之一是，节俭是责任的仆人。芒格爷爷担任联邦法官的时候，联邦法官的遗孀是得不到抚恤金的。所以如果他赚了钱不存起来，我奶奶将会变成一个凄凉的寡妇。除此之外，家有余资也能让他更好地服务别人。由于他是这样的人，所以他终生量入为出，给他的遗孀留下了一个舒适的生活环境。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　但这并非是他节俭的全部功效。我爷爷尚在人世的时候——那是1930年代的事情了——我叔叔的小银行倒闭了，如果没有外力的帮助，将无法重新开业。我爷爷用他的优质资产的三分之一去交换那家银行的劣质资产，从而拯救了它。我一直记得这件事情。这件事情让我想起豪斯曼（注：A.E.Housman,1859-1936,英国古典文学学者，诗人）的一首短诗，那首诗好像是这样的： </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　别人的想法 </span></p><p class="p2"><span class="s1">　　是飘忽不定的 </span></p><p class="p2"><span class="s1">　　他们想着和恋人幽会 </span></p><p class="p2"><span class="s1">　　想走大运或出大名 </span></p><p class="p2"><span class="s1">　　我总是想着麻烦 </span></p><p class="p2"><span class="s1">　　我的想法是稳重的 </span></p><p class="p2"><span class="s1">　　所以当麻烦来临时 </span></p><p class="p2"><span class="s1">　　我早已做好准备 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　你们很可能会说：“谁会在生活中整天期待麻烦的到来啊？”其实我就是这样的。在这漫长的一生中，我一直都在期待麻烦的到来。现在我已经84岁啦。就像爱比克泰德，我也拥有一种蒙受恩宠的生活。我总是期待麻烦的到来，准备好麻烦来临时如何对付它，这并没有让我感到不快乐。这根本对我没有任何害处，实际上，这对我有很大的帮助。所以我要把豪斯曼和芒格法官的道理传授给你们。 </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　由于在你们将要从事的行业中有大量的程序和繁文缛节，最后一个我想要告诉你们的道理是，复杂的官僚程序不是文明社会的最好制度。更好的制度是一张无缝的、非官僚的信任之网。没有太多稀奇古怪的程序。只有一群可靠的人，他们彼此之间有正确的信任。那是玛约医疗中心手术室的运作方式。如果那里的医生像律师那样设立许多像法律程序那么繁琐的规矩，更多的病人会死于非命。所以当你们成为律师的时候，永远别忘记，虽然你们在工作中要遵守程序，但你不用总是被程序牵着鼻子走。你们生活在应该追求的是尽可能地培养一张无缝的信任之网。如果你们拟定的婚姻协议书长达47页，那么我建议你们这婚还是不结为妙。（听众大笑。） </span></p><p class="p2"><span class="s1">　　 </span></p><p class="p2"><span class="s1">　　好啦，在毕业典礼上讲这么多已经够啦。我希望这些老人的废话对你们来说是有用的。最后，我想用《天路历程》中那位真理剑客年老之后唯一可能说出的话来结束这次演讲：“我的剑传给能挥舞它的人。” </span></p><p class="p2"><span class="s1">　　　　</span></p><p class="p3"><span style="color: rgb(84, 141, 212); font-size: 24px;"><strong>100天行动读者反馈</strong></span></p><p class="p3"><span style="color: rgb(84, 141, 212); font-size: 24px;"></span></p><hr  /><p class="p3"><span style="color: rgb(84, 141, 212);"></span><br  /></p><p class="p4"><span class="s1"></span><br  /></p><p class="p2"><span class="s1">@不喜</span></p><p class="p2"><span class="s1"><br  /></span></p><p class="p2"><span class="s1">从去年12月8号开始背单词，到今年3月15号已经背完了四级词汇和GRE核心词汇。第一次坚持每天做一件事，竟然坚持下来了，虽然坚持每天背单词有时候会连着好几天都没背，再在接下来的一两天把没背的单词恶补回来，但不管怎样，还是坚持下来了。在没有坚持这件事之前，我是不会相信自己能在100天里背完四级和GRE单词。坚持的力量太强大！</span></p><p class="p2"><span class="s1"><br  /></span></p><p class="p2"><span class="s1">@福尔摩惠</span></p><p class="p2"><span class="s1"><br  /></span></p><p class="p2"><span class="s1">您好战老师（看大家都是这样称呼您）关注微信号不知不觉一年左右了，学到很多很有收获，在此先感谢您无私的分享！中间默默进行了百天计划 但没有强行记录，断断续续算是都没坚持下来吧，有一项应该算是完成了，但目标任务没有100天，就是用您推荐的番茄工作法看书复习2个多月，并顺利通过了注册土木工程师的考试，番茄法让我劳逸结合，主要是缓解了复习考试的枯燥，这种带有鼓励机制的办法增加了我的耐性，总想多完成几个番茄。</span></p><p><br  /></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MjM5NjA3OTM0MA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "warfalcon";
+      var ct = "1426510393";
+      var user_name = "gh_60dc3ce05445";
+      var fakeid   = "MTI3MTI4ODc1";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "查理·芒格：我所知道最有用的道理和态度";
+      var msg_desc = "​再次强烈推荐查理芒格的《穷查理宝典》，这是值得你放到床边反复阅读和翻阅的经典，就像书中所说要学习100种模型，学会多元思维方式，把自己训练得更加客观，拥有更多学科的知识，保持足够的耐心和未知欲。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/wNByw5VpECjtVib6dM4vqicSnB1EEjFWvtJEwafU9ULB8JNy64LJB37Sju3icHfd2jVY4C25d89iadONbPQpApmkOw/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&amp;mid=206241514&amp;idx=1&amp;sn=d4175c3a66ab54cec91a846f3c08ec6c#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206241514';
+      var comment_id = "0" * 1;
+      var svr_time = "1426511415" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

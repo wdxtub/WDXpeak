@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>Is Life Worth Living?.md</string>
+		</array>
+		<array>
+			<string>My Life and Work.md</string>
+		</array>
+		<array>
+			<string>和空姐同居的日子.md</string>
+		</array>
+		<array>
+			<string>基地七部曲.md</string>
+		</array>
+		<array>
+			<string>极客公园2月号:完全极客养成指南特辑.md</string>
+		</array>
+		<array>
+			<string>码农 总第17期.md</string>
+		</array>
+		<array>
+			<string>简书周刊045·朋友这些事.md</string>
+		</array>
+		<array>
+			<string>﻿基地七部曲.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

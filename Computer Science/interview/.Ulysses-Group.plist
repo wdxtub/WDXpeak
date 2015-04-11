@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>algorithm.md</string>
+		</array>
+		<array>
+			<string>job_hunter_cmu.md</string>
+		</array>
+		<array>
+			<string>road-to-sv.md</string>
+		</array>
+		<array>
+			<string>your-parachute-color.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

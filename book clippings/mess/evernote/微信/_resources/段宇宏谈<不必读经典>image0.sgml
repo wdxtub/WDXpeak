@@ -1,0 +1,200 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MjM5NzQwNjcyMQ==";
+    var sn = "4d96cae0dacaf9488cdf922029d40c35";
+    var mid = "211387104" || "";
+    var idx = "2" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>大象公会</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">段宇宏谈&lt;不必读经典&gt;</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">段宇宏谈&lt;不必读经典&gt;</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        段宇宏谈&lt;不必读经典&gt;                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-12</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">大象公会</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">大象公会</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">大象公会</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">idxgh2013</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">知识，见识，见闻。最好的饭桌谈资。知道分子的进修基地。</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                                                                <div class="rich_media_content" id="js_content"><p><strong>文/段宇宏</strong></p><p><br  /></p><p>前不久，我跟大象公会总编辑黄章晋聊天时，随便说了句：“今天我们探索与求知，应该‘去经典化’和‘去大师化’。”</p><p><br  /></p><p>我们生活中，的确到处充斥着“拜经典教”、“拜大师教”信徒，这句话无非有感而发。貌似这话却刺激了黄Sir萌动的心，诞生了这么一个系列选题，我也被委派了写稿的任务，其实我真没做好写作此稿的准备，机会来得太突然，这也是个吃力不讨好的活儿。</p><p><br  /></p><p>关于经典与大师，我想先说点题外话，这并非不尊重经典与大师，而是想讨论下如何正确地看待经典与大师。</p><p><br  /></p><p>如果你深深地认同“今不如古”，你通常会赞同“经典”与“大师”是不可超越的，他们的学说是不可撼动的，那么就不必继续往下阅读了，如果你并非持有如此强烈的立场，或承认人类总体是当代超越前代，那么尚可继续探讨。</p><p><br  /></p><p>在局部地区和某些时段，可能会出现退步甚至大倒退的情况，如中世纪中前期的欧洲与古希腊、古罗马时代比较；红色高棉时期的柬埔寨与此前时代比较……但总体而言，人类是不断进步的，最近三四百年尤其明显，过去一百年人类所取得的成就，从所有指标来看，比此前100万年的总和还多N倍。</p><p><br  /></p><p>若今天的文明水平不如古代，今天的学科知识就不如古代“经典”，今天的学人就不如以前的“大师”，那应该是地球人的祖先过上比今天更先进的生活才对。</p><p><br  /></p><p>当然，近几百年推动世界现代文明进程的驱动力在西欧和北美地区，这个应该是必须承认的事实。人类进步的历史，就是不断否定（去魅）“经典”和“大师”的过程，这一点在欧美自然科学与社会科学的发展史上，体现得再明显不过了，也是欧美学人们率先摆脱了崇古迷思。</p><p><br  /></p><p>先去除崇古心态，问题就容易讨论了，不崇古是指既不崇东方的古，也不崇西方的古。尊重前人在探索知识上的努力与贡献，但切勿将之神化，沉迷于“经典”与“大师”中难以自拔，个人与社会的进步无从谈起。</p><p><br  /></p><p>今天的欧美生物学家、医学家会承认“医学之父”希波克拉底的历史地位，但恐怕没有任何人认为希波克拉底的“四体液说”是正确的，他的学说是不许挑战的真理，也无人会赞同希波克拉底的医学知识比一个受过现代专业训练的护士更广博更靠谱。《希波克拉底文集》有文献价值但已经没有学习价值，除非研究医学史，实在没有阅读的必要。同样的道理，一个学科两三百年前的奠基大师，在该领域的水平远不如今天的博士生，这应该是常识，只有这样才对得起前人啊。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tnmbibyEoNAiaibEmF5xQjBkh81r4OZUjlO6JLmSyxHkvHp2Hqia2mTOpxhm4nKClV66GPeR93vPiaR8YA/0" data-ratio="1" data-w="250" url="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tnmbibyEoNAiaibEmF5xQjBkh81r4OZUjlO6JLmSyxHkvHp2Hqia2mTOpxhm4nKClV66GPeR93vPiaR8YA/0" file_id="211384306" format="jpeg" source="upload"  /><br  /><span style="font-size: 12px; color: rgb(75, 172, 198);"><strong>法国老银章上的希波克拉底头像。几乎所有医学生，入学的第一课都要学习《希波克拉底誓言》</strong></span></p><p><br  /></p><p>印度教保守知识分子宣称宇宙一切知识全包含在了几千年前的“吠陀经典”中，犹太教极端正统派认为，《摩西五经》和《塔木德》已经蕴含了宇宙所有真理，其它的知识没有学习的必要。他们是极保守的宗教徒，有此表现人们通常能给予理解，但可能会在心中视之为古板和荒唐。</p><p><br  /></p><p>自然科学由于它尊重实证主义和可重复检验等原则的特殊性质，不崇古、去经典化、去大师化比较早形成了普遍共识，只要遵守学术共同体认可的方法，任何大师都可以推翻，任何经典都可以否定。</p><p><br  /></p><p>可是在社会科学或人文学科中，要达成这个共识，在“文青哲青”主导的前现代的社会中有相当难度。“越古老越美好，越经典越正确，越大师越神奇”，仍是很多人追捧的观念，“你这个大傻逼，怎么竞敢（居然、胆敢）去批评大师和经典，简直人神共愤啊”！只要稍加观察不难发现，但凡这种观念盛行的地区和族群中，对近现代人类文明几无贡献。</p><p><br  /></p><p>地球上还有一种在现代才出现的特殊社会，行政级别与权力大小代表着“学问”多少，只要级别到了，就是“大师”，级别混到最高，就是人类导师，写什么都是经典，哪怕只有初小文化程度，也可指导政治、经济、文化、科学等各领域的发展，驾驭专业人士，这种社会要去经典化去大师化还得捅破两层铁板窗户，练了一阳指也未必能戳穿。</p><p><br  /></p><p>过去，每个时代都有它的经典和大师，文艺复兴前的欧洲，上帝是最大的大师，《圣经》是最牛的经典；文艺复兴后几百年产生了一系列新大师新经典，着实推动了社会的进步。若只沉迷于之前的大师与经典崇拜中，则达芬奇、霍布斯、洛克、牛顿、休谟、李嘉图直至达尔文、韦伯等人及其著作，绝无产生的必要。</p><p><br  /></p><p>一个爱求知的古人，有亿万分之一的可能生活在公元前二、三世纪的埃及亚历山大，是地球上最幸运的人，这里有远古世界最大的图书馆，据说藏书最高峰时达50万卷（也有很多历史学家认为可能不足5万册），其它地方的学人骑马乘船少则数月，多则数年才能来这里享用这些资源。</p><p><br  /></p><p>生活在中世纪欧洲大教堂附近也属万幸，通常那里至少会有千儿八百册藏书。如果你有机会突破身份与等级限制，能自由接触这些资源，在那个连贵族阶层的文盲率都高达8成以上的时代，稍加用功就能成为大师，创造出经典。不错，那个时代很多大师就是教士。</p><p><br  /></p><p>“亚瑟王”在英国历史上的地位变迁就相当具有代表性，修道士们结合图书馆零星资料和民间传说，陆续写作了系列经典史书，把一个可能根本不存在的人一路拔高，从士兵逐渐演变成骑士、贵族、君主、 神王，一度成为英格兰的民族图腾和王室象征，此后多代王族都声称自己是亚瑟王圣裔。（注：指公元800年左右，威尔士修道士南尼亚斯的拉丁文经典《不列颠编年史》；11世纪时，威尔士教士蒙矛斯的杰弗里流行了几百年的经典——《不列颠诸王史》）</p><p><br  /></p><p>文艺复兴后，近代学科体系和研究方法萌芽，自弥尔顿大力质疑这些经典开始，亚瑟王地位一路走低，从神王慢慢还原为文学人物，当代英国学人只会把那些经典当作文学作品而非史实来看待。这种对经典的推翻没有使英国人文化退步，反而树立了正确的民族观、历史观和世界观。若真存在亚瑟王，那也是抵抗英格兰人（盎格鲁—撒克逊人）入侵的英雄，而非英格兰人的神王。</p><p><br  /></p><p>谷腾堡15世纪中期发明金属活字印刷术，加快信息传播速度，为现代知识体系的建立奠定了基础。不过从15世纪中叶到19世纪数百年间，印刷技术没有进一步的飞跃式发展，一部《圣经》需要一个字母一个字排版，五年才能排完。</p><p><br  /></p><p>18世纪末工业革命完成前英国的民众识字率，男子为60%，女子为40%；当时世界最发达的西欧北欧，1800年成年男子也只有一半多点的人能够签名和简单阅读，女子绝大部分仍是文盲；西班牙和俄罗斯等地区19世纪末才达到英国18世纪末水平。</p><p><br  /></p><p>不错，这就是人类启蒙时代最先进地区的情况。</p><p><br  /></p><p>那个时代，只要你家境过得去或有些独特际遇，稍加些努力，成为大师写出经典并不难。极少数贵族和精英们当时最高雅的娱乐，无非晚上围坐在大厅火炉边传阅和讨论新近的文艺和哲学作品，绝大部分平民仍然与此无缘。那年头，基上冒出一个就大师，写出一部即经典。</p><p><br  /></p><p>工商业革命完成以后，随着城市化和公民运动推进，大众教育的普及，文盲被消灭了，图书馆和大学在发达国家像雨后春笋般冒出来，一个纽约公共图书馆如今就有馆藏资料5300多万份，不算声像材料，藏书近1700万册。不管你什么阶层何种身份，均可自由遨游知识海洋之中。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tnmbibyEoNAiaibEmF5xQjBkh8wV2KhIgFOXP18dysOMicFMfZjYkQ4MR6skjiasAPGKa7MKgYK4oypBiaQ/0" data-ratio="0.664" data-w="500"  /><br  /><span style="color: rgb(75, 172, 198); font-size: 12px;"><strong>纽约公共图书馆一景</strong></span></p><p><br  /></p><p>由于获取知识的门槛大幅度降低，知识不再是稀缺品，“大师”与“经典”也急剧减少了，因为水平超越之前大师，能写作出比经典更优秀著作的学者，在大学和研究机构里已经一抓一把，见多不怪了，成为大师和经典的门槛也大幅度提升。</p><p><br  /></p><p>即使五十年前的学者也绝对想不到，今天哪怕一个住地下室的屌丝，只要凭着一台电脑一根网线，就可以穿梭于全球各大图书馆、论文库、档案馆（若他有此兴趣的话），也可以在自己的硬盘里建立非常庞大的私人电子图书馆和数据库，若是从前，没有相当可观的财富与房产，这是不可实现的梦想。五十年前一个学者在顶级图书馆要花数月才能完成的资料检索和收集工作，今天的学者利用电子化便利，可以几天就完成。</p><p><br  /></p><p>上中学时，每逢假期就抱来一堆西方文学经典阅读（大多产生于启蒙时代至20世纪初），说实话，读得让人不想睡觉的其实是少数，但为了增加文艺修养，很多还是硬着头皮看下去了，不过最后我却对很多经典失望。像列夫•托尔斯泰的名著《复活》，原本一件并不复杂的事儿，真不需要那么字儿来表述，当代一家西方大报的万字特稿就可以把这事儿说清楚，并且因为技法更先进，水份更少，会更加生动和精彩。</p><p><br  /></p><p>我也发现，同样18至20世纪，自由市场经济发达的国家，如英美作家的书就比较有趣，因为知识更普及，生活节奏快，新闻出版市场发达，写作技法高明，知识与信密集型作品方能脱颖而出；俄罗斯这种生活节奏慢的欧洲落后国家，其作品普遍有冗长沉闷的特征。当然，这种品味自然让喜欢《尤利西斯》这类作品的读者瞧不上眼，我也承认我笨，看不懂，那种作品对我来说是催眠读物。</p><p><br  /></p><p>不过，我倒更加钦佩《指环王》、《冰与火之歌》这类作品，作者托尔金、乔治•马丁构筑起一个庞大的体系，所拥有的历史、地理、语言、宗教等知识，非前一代大师可企望。这样的作者和作品，需要文明高度发达并积淀到一定程度才能产生。</p><p><br  /></p><p>当代欧美媒体的特稿为什么没成为普遍崇拜的经典，作者没变大师呢？</p><p><br  /></p><p>上世纪九十年代初，工薪阶层还领着两三百元工资，手持一台大哥大，别人会觉得你是老板，带两台大哥大，是大老板，带七八台大哥大，还是令人羡慕，倒卖大哥大的有实力老板；今天你拿一台Iphone6，没谁关注你，带两三台Iphone6只能显得你比别人更忙，混身挂上八九台iphone6，别人会以为你是水货客。</p><p><br  /></p><p>这就是时代、知识、技术进步带来的“见多不怪”。</p><p><br  /></p><p>按中国人的熟知程度来说，我们所顶礼膜拜的西方大师多为启蒙时代至20世上半叶的，这是个有趣的现象，与社会发展水平落差导致的传播、出版、学术滞后有关。</p><p><br  /></p><p>其实现代学科体系及研究方法的萌芽与定型，是相当晚近的事儿。19世纪前还没有任何社会科学存在，此后它也只是处于不断的成型状态。</p><p><br  /></p><p>英语中泛指多个学科门类，作为复数词的“社会科学”(Social sciences)，直到19世纪晚期才出现在美国。但是此前始终存在着知识精英对政治、财富、人口、心灵等各方面的思考与论述，这种奠基作用不可否认，如1644年约翰•弥尔顿的《论出版自由》、亚当•弗格森1767年的《论公民社会的历史》，1771年约翰•米勒的《等级差别的起源》，亚当斯密1776年的《国富论》、孔多塞1890年代的《人类思想进步的历史图影概览》。</p><p><br  /></p><p>直至19世纪末，社会知识是松散的和非系统的。研究社会科学史的美国约翰•霍普金斯大学教援多萝西•罗斯认为，现代学科的形成即使在20世纪也是逐渐的，有时候是非连续性。现代学科体系和研究方法真正的定型与普及，主要还在二次世界大战以后（首先在发达国家）。</p><p><br  /></p><p>现代学科定型之前，可以说哲学家简直成为包打天下的全能者，什么都能跟哲学沾边，自然哲学、政治哲学、历史哲学、经济哲学、法律哲学……而且一位“大师”基本上是“通才”，有的大师可以把上面所有领域都涵盖了。</p><p><br  /></p><p>启蒙时代至工业化初期，哲学家影响精英，文学家（时评家）引领大众，造就了庞大的文青和哲青群体，这是前现代社会的重要特征。这种时代还有个特性，各派大师与其拥护者们，喜欢用全称判断（调研、统计、概率管它干甚），敢于下结论，都认为自己常握了真理。20世纪中前期随着市场经济进一步繁荣，城市化进一步提高，西欧国家大众媒体和大众文化强势崛起，文体明星、畅销书作家、企业家、议员逐渐抢占了他们“人民心灵导师”的市场份额，很大一部分哲学家和文学家，转而亲睐苏联、纳粹德国和法西斯意大利，跟强烈的失落感有关。</p><p><br  /></p><p>学术越发达，学人越谦逊，知识越多，人们偏见越少，大师与经典也慢慢变成了稀缺品。以前一位“大师”可以一人写作几十本大部头的著作，涵盖各个领域，天上懂一半，地上全都懂。当代的剑桥和牛津大学，若要出版一部《英国通史》，很可能不同章节，不同内容（政治、经济、军事、文化、科技）分配给不同的学者来写，体现出一种专业主义精神，因为历史学不但早就从哲学中分离出来，而且衍生出分支学科，也逐渐融合了其它学科的研究成果与方法。</p><p><br  /></p><p>学术的现代化还使人们不断克服前人的偏见与无知。17世纪末，英国粮食平均亩产量猛增，这当中虽然有耕作技术进步的因素，但明显不是主因，早期的学人曾从哲学、法律、经济、宗教、政治各种角度来论述，但都有漏洞，争执不休。最后，现代生物学引入农业史研究，终结了争吵：英国农民从圈地运动开始广泛养殖牲畜，为了提高牲口营养，大量种植豆科植物作为饲料，豆科植物具备超强的固氮功能，使土壤在百年之后变得异常肥沃。</p><p><br  /></p><p>18世纪90年代，英国农产品市场上谷物涨价，弗雷德里克•伊甸爵士撰写了著名的三卷本调查录——《穷人之国》，仅从这本经典中描述的英国各地很多工人家庭的收入与生活来看，英国真是人间地狱，而工业革命开启了通往地狱之门，很多哲学家、文学家和时评人根据他的著作发表了无数反现代性的感慨和结论。伊甸爵士实地调研，比起纯动口的哲学家和时评家，已是很大的进步，但仍有其时代局限。</p><p><br  /></p><p>现代历史学家们通过对欧洲中世纪到19世纪初庄园账册、市场物价资料、工厂薪资表、家庭购物单等等一切档案的详尽搜集（包括利用考古成果），大量的归类整理（或电子化后建成数据库便于统计与搜索），甚至对不同地区工人家庭燃料使用、食物结构、卡路里摄入量进行了统计，否定了伊甸爵士的结论：若工业革命时代英国工人与中上层社会生活比较，当然显得贫困，但是与此前几个世纪和同时代欧洲国家平民比较，他们却普遍工资最高，营养最好，是巨大的进步。比如根据1800年左右的兵役档案统计发现，英国士兵当时平均身高1米72，为欧洲最高，法国是1米65，没有收入和营养上的巨大进步，这是不可能出现的情况。</p><p><br  /></p><p>法国启蒙时代的大多数哲学家都认为：“一个政府让其统治下的公民人数繁殖和增长越多，无疑是好政府”，今天你还觉得这是正确的吗？当代尼日尔、尼日利亚、索马里、阿富汗等贫穷国家，出生率位居世界前列，人口不断暴增，而你要想在出生率排名榜上找到德国、新加坡、台湾、日本、奥地利……得从排名的倒数开始找。</p><p><br  /></p><p>马尔萨斯认为，因为人类无法节制性欲，人口不断暴增，食物日益短缺，会陷入无休止的贫穷、战乱、饥荒之中。马尔萨斯的时代，法国人口2900万左右，大部分人仍然生活贫穷，现在的法国有6300万人口，却是世界上高度富裕的国家。今天的美国，用不到3%的农业人口，不仅养肥全美人口，还是农业出口大国，全世界到处出售、援助粮食。</p><p><br  /></p><p>当代社会科学专业主义的强化，分工的精密，研究技术与方法的进步，与启蒙时代甚至与20世纪初相比，相当于世界最大军火公司美国洛克•希德马丁集团与牛家村鞭炮作坊的差别。</p><p><br  /></p><p>说到这应该明白，如果我们沉迷在一二百年甚至几千年前的大师与经典中拔不出来，你的知识体系就无法与当代接轨，还将保持着多少偏见！我们应该相信的是现代学科的研究方法，而不是膜拜大师与经典。</p><p><br  /></p><p>西方的作品传到非西方社会时，到底谁能成大师，谁会是经典，受到很多因素影响。</p><p><br  /></p><p>输出国的国际影响力——哪些国家处于世界强势地位，来自他们作品的译介和出版就比较多，人们心目中的大师和经典就多。</p><p><br  /></p><p>也与作者及作品的知名度有关，但往往知名度不与水平成正比，这涉及到作者是否填补了研究空白（这类著作有开山之功，但水平远不及后继者），是否更多介入公共事务，是否得到欧美媒体推介，在学界和媒介是否人脉广泛等诸多更复杂原因，这些原因对输入地翻译界、出版界、媒体界选择自然有影响。</p><p><br  /></p><p>比如研究中国政治与历史，欧美汉学家水平跟日本、中国学者相较，通常是小学生与大学生的差距，但前者常作为大师被热捧，后者却默默无闻。同样是西方学者，研究中亚、东亚问题，日本、德国、俄罗斯的学者很多比英美学者要靠谱，但后者可能更有名气，被译介得更多。</p><p><br  /></p><p>一位学者坐着冷板凳，埋头搞研究，其研究之精细与广博可能让人叹为观止，但可能他在大众中的知名度，不如经常介入公共事务，在媒体写时评的某同行的万分之一，若不被媒体挖掘出来推介，顶多只能在专业读者小圈子被人知晓，那么后者及其作品很可能就作为大师和经典被后发国家译介出版了。</p><p><br  /></p><p>利奥波特•冯•兰克（1795—1886），代表作有《从1494年至11535年拉丁和日耳曼民族的历史》、《罗马史》，其中《罗马史》是现代研究古罗马的奠基性作品，现代实证史学的第一部著作。兰克是提倡科学方法研究历史的创始人，西方客观主义历史学派之父，将古典哲学和法学研究中的批判主义方法扩展到近代欧洲史领域。19世纪后半期，西方学界开始对兰克的科学编史学模式进行效仿，并在英、美、德、法获得了规范性地位。兰克在学术史上地位相当重要，因为前述缘由，知名度远不如同一时期的诸多启蒙学者，但他的著作今天也没有多大的阅读价值。</p><p><br  /></p><p>所以我更常使用的是“优秀著作”，而不想用带有膜拜意味的“经典”一词，即便我现在最喜欢的优秀著作，随着研究水平的不断提升，该被超越就应被超越，该被否定就可被否定。</p><p><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 20px;">版权声明</span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">大象公会所有文章均为原创，</span></strong></span></strong><br  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">版权归大象公会所有。如希望转载，</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong style="color: rgb(75, 172, 198);"><span style="font-size: 14px; color: rgb(127, 127, 127);">请事前联系我们：</span></strong></span></strong></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><span style="color: rgb(75, 172, 198); font-size: 18px;">bd@idaxiang.org</span></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><img data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/Z08UWq352tm7iaXeulwjbP9JVPh6mibv8RoquIwsDhpN0p8eWvgZpiaLv5jYPqI8ANgMrFYyE0icPnGNXBO5azVdww/0" data-ratio="1.2058823529411764" data-w="136"  /></p><p style="white-space: normal; font-size: 15.5555562973022px; text-align: center;"><strong style="color: rgb(38, 38, 38); font-size: 14px;"><strong style="font-size: 18px;">知识 | 见识 | 见闻</strong></strong></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MjM5NzQwNjcyMQ==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "大象公会";
+      var ct = "1426163053";
+      var user_name = "gh_58b42b81e073";
+      var fakeid   = "NDQ4MjI1NDk1";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "段宇宏谈&lt;不必读经典&gt;";
+      var msg_desc = "文/段宇宏前不久，我跟大象公会总编辑黄章晋聊天时，随便说了句：“今天我们探索与求知，应该‘去经典化’和‘去大";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/Z08UWq352tnmbibyEoNAiaibEmF5xQjBkh85VehzNIGhFJf7dlx3FoZ0NQibk9SJIwwl3yMq8EQyd0YLpJRT8Jqy8g/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NzQwNjcyMQ==&amp;mid=211387104&amp;idx=2&amp;sn=4d96cae0dacaf9488cdf922029d40c35#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '211387104';
+      var comment_id = "0" * 1;
+      var svr_time = "1426163468" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

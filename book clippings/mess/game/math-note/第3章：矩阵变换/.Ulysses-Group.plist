@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>_resources</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>3.1 正交变换.md</string>
+		</array>
+		<array>
+			<string>3.2 缩放变换.md</string>
+		</array>
+		<array>
+			<string>3.3 旋转变换.md</string>
+		</array>
+		<array>
+			<string>3.4 齐次座标与平移变换.md</string>
+		</array>
+		<array>
+			<string>3.5 法向量变换.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

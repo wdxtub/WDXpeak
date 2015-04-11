@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+<script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA3NzIyNTQ3NA==";
+    var sn = "1fef4ec0e5a47707b4f7c1aacba047fa";
+    var mid = "206311773" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+	String.prototype.html= function(encode) {
+	    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+	    //console.log(replace);
+	    if(encode){
+	        replace.reverse();
+	    }
+	    for (var i=0,str=this;i< replace.length;i+= 2){
+	         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+	    }
+	    
+	    return str;
+	};
+	pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>
+
+        <title>聪明人的个人发展</title>
+        
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
+
+    </head>
+    <body id="activity-detail" class="zh_CN " ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>
+    
+    <div id="js_cmt_more" class="discuss_container access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">克服信任问题</h2>
+
+            <div class="discuss_list_wrp">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">精选评论</span>
+                </div>
+                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>
+                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>
+                <ul class="discuss_list" id="js_cmt_morelist"></ul>
+            </div>
+
+            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">
+                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+
+            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">
+                <span class="tips">以上评论由公众帐号筛选后显示</span>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">克服信任问题</h2>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的评论</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已评论</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        克服信任问题 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-10</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">史蒂夫·帕弗利纳</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">聪明人的个人发展</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">聪明人的个人发展</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">聪明人的个人发展</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">stevepavlinachina</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">个人成长，与你同行</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                                                            
+                                        <div class="rich_media_thumb_wrp" id="media">
+                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyWsEssGsiadrqiaTPzPzKdwTibK8QibOQW3ibox0UDpAc0x5GUST02icjEAByGSyqUgsnv1KFDLibRicSxf7Q/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>
+                    </div>
+                                        
+                    <div class="rich_media_content" id="js_content"><p>图片来源：<strong>geralt</strong></p><p><br  /></p><p class="p1"><span class="s1">信任他人对你来说有多容易？你会轻易相信别人吗？或者你常对他人动机持怀疑态度？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你是否对生活足够信任，一旦认识到个人工作毫无激情，就能马上辞掉它，而且知道生活会给你带来更好结果？或者你需要放慢脚步，控制事情的发展过程，比如先试着攒上些钱，甚至去做更多你不喜欢的工作？你是否正因对生活的不信任感，付着满心沮丧的代价?</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">倘若离开毫无激情的感情关系，你是否信任生活将给你带来更好，更心满意足的感情体验？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">如果你跃身投入一条追随内心的道路，你是否信任生活将是自己的坚强后盾？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>艰难的信任教训</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">在20多岁头几年开创电脑游戏事业时，我还是个很容易信任别人的家伙。对于能跟一家主流出版商达成交易，出版发行自己公司开发的一款游戏，我当时感觉非常幸运。我的开发团队在那个项目上奋战了数月时间，随后出版商却单方面取消交易，还试图用毫无道理的原因起诉我们。这其实是个恐吓策略。我得以说服出版商放弃诉讼，但他们仍扼杀了公司的游戏项目，最终令我摊上一大堆债务并颗粒无收。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我之后才发现他们显然没有出版我们游戏的意图。他们只想避免我与其他出版商合作，因为他们也有一款与我们公司形成竞争的游戏准备同时发布，于是想出用这种方法来制约我们。这个糟糕交易确实让我在财务上大受挫折。它就是导致我在1999年宣布个人破产的主要问题。在自己20多岁的年纪，我对一些人有多么欺诈还抱着太过天真的观念。最终我被坑得一败涂地。那也是我人生中压力最大的时期之一。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这家公司CEO（首席执行官）后来由于财务欺诈不得不向SEC（美国证券交易委员会）支付数千万美元的个人罚款。公司其他一些官员也被处以罚款。显然，他们通过虚增销售数字抬高了股票价格，从而欺骗了众多投资者。虽然旧CEO被开除，这家公司今天依然制作和销售着数以百万计的游戏，大都充斥着暴力内容。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">之后我与一家不同的出版商进行了另一次满是问题的交易。他们的CEO其实是位看起来挺诚实的友好人士，但这家公司却经营得不怎么顺利。在共同合作大概一年后，他们因为资金短缺不得不取消了我们公司的游戏项目。很快他们就被竞争对手以极其低廉的价格收购。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">此后我对在生意中信任他人产生了很大问题 — 既难以信任他们的做事意图，也难以信任他们坚持到底的成事能力。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">另一方面，我可以说这种经历也算好事，因为它引导我走向直销模式。与跟出版商合作相反，我开始通过互联网直接销售自己开发的游戏，而且进行得非常顺利。不到一年时间，我便得以扭转局面，还继续帮其他开发者发行游戏。最后，在转行到个人发展领域前，我总共发布了大概20多款游戏。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>你信任生活吗？</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">现在我已重建了面对他人的信任感，而且能吸引极值得信赖的人们进入我的生活（这种感觉棒极了）。我不再有以前那种面对他人的疲惫感。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">给这种转变帮助最大的地方，就是用不同于往的方式来思考信任。我开始询问自己能否信任生活本身。我是否信任整个宇宙？我是否感到这是个可以安全生活的现实世界？还是个我不得不处处保卫自己的地方？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">最终我意识到，自己与生活的相互关系只存在于个人脑中。所以我可以将其改变。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">同样的道理也适用于我和其他人的相互关系。它们都存在于我的思维感受里。它们本就是思想与情感上的概念。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">随后我意识到自己有两个选择。我可以信任生活。或者不再信任。我从思想上探索了这两种可能性，并琢磨每种可能性会带来什么样的生活。倘若我信任生活，将会活得怎样？要是不信任它，又会过得如何？我鼓励你也仔细琢磨一下这两种选择，比如通过写日记的方式，看看你的想法将把自己带向何处。我觉得你会发现这是个大开眼界的练习。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">最终，我得出信任生活是更佳选择的结论。我可能会在短期内偶然被人欺骗，但如果我真正信任生活，就会总给予它最大善意。这使我能对任何看起来好像是消极负面的体验，重新进行解构，把它们当作生活提供的教训。我会怀着谅解态度，吸取教训，继续前行。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我也可以预想，这种心态将最终吸引到，和真正值得信赖的人们一同分享的伟大感情关系。假如我是可信愿信之人，并遇到另一位可信愿信之人，我们就能以真正愉悦的感情深度去交往。因为双方关系将在很大程度上免除猜疑与设防的麻烦。能有机会享受深厚亲密、心无防备的感情关系，看起来似乎有些浓烈，但也引人入胜。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">另一方面，假如我选择不信任生活，心中便总会充满猜疑。我将在生活中时刻竖起防卫，感觉不得不始终保护自己。即使有人陪伴，我也很可能经常感到孤独。我将不得不拒绝展露个人最亲密的状态，因为这会令自己显得极为脆弱。而谁又愿跟一个总是满心疑虑，处处设防的家伙发展关系呢？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我偶尔会和缺乏信任的女人进行交往，但我没法说自己喜欢那种交往。那种感觉就像有人试图强迫我符合她们的期待，认为我最终会出现背叛行为一样。当我避开她们的诱导模式，试图将其从错位的猜疑中带回清醒自知的状态时，她们最后便感到困惑和尴尬，常常退入自己的防卫外壳。只要她们仍对生活怀有根深蒂固的不信任感，我就无法帮助她们。持有这种怀疑心态时，她们在感情关系方面的大概所有体验，就是更多的背叛。或在推离某个想真心交往的人士时，感受到更多困惑与尴尬。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这是我想体验的那种生活吗？如果由于不知准确与否的那些猜疑和推测，我就把身边的人们推离开来，自己又怎能享受真正的亲密体验？时不时受些伤害真有那么糟糕吗？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">总体而言，我觉得信任是更佳选择，因为它几乎必然导向一种更为有趣、互动和令人满足的生活。也许在信任中，我不得不偶尔面对一些拒绝和背叛，但若能保持信任生活的态度，自己终将遇到那些美妙优雅、志同道合的人们，并与之共享深入和令人满足的交往关系。另一条缺乏信任的道路则显得黑暗、沉闷和孤立。我做出了自己的选择。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>重新解构痛苦</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">一旦决定了信任生活是更佳选择，我便会事先臣服于生活带给我的任何体验。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我主要是在精神层面上保持这份信任。我此生所有肉身体验都只是暂时的。最终我将失去物质王国中所得的一切。因此，我对生活的信任，无法基于相信自己会获得物质财富、伟大朋友或出色生意伙伴，并能让这些永远存在。事实上，我可以信任的，就是这一切终将消逝。所以我臣服于失去的必然性。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">在精神层面上信任生活，意味着信任自己的存在有着更伟大目的，即使我还不明白这目的到底为何。我信任生活正在帮我学习、成长和经历饱含意义的体验。我信任生活绝然、积极地站在自己一侧。我信任生活从来没有，也永远不会背叛我。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">这种层面的信任能转化其余一切事物。我可能在生意中再次被骗。我可能失去钱财。我可能在身体上受伤或生病。我不认为自己能掌控所有这些因素。但有了现在拥有的这层信任，我便无需控制它们。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我信任即使生活中出现看似艰难的挑战，它们的显现也有其原因。生活正教授我更多课程。它在教我如何沉浸于自然流畅的生活状态，如何学习、成长和爱。它教我更少看重结果，更多体味当下。它帮我坚持走在追随内心的道路上。我热爱它正为我做的这些事情。而且我信任它将继续如此。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我感觉自己与生活的能量流动极其和谐一致。我感觉整个宇宙都是我的坚强后盾。我感觉生活在一个充满爱与支持的世界上。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">但我也感到生活将不断挑战我。它会挑动我的神经。它将暴露我内心最深处的脆弱之地。它不会让我长时间安于现状或自我陶醉。它将继续推动刺激我，帮我不断成长。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我越是臣服于这种能量流动，生活似乎越愿意给我更多奖赏。它用友爱关系、美丽体验和珍贵回忆沐浴着我。但它也会给我带来众多强有力的经验教训。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你看... 我早期生活中的生意失败，其实跟信任了错误的人没多大关系。这些失败与我没能全然信任生活密切相关。我当时追逐着金钱和成功，而非追随一条忠于内心的道路。我依赖他人的创意想法，而非信任自身的创造力。我可以说，自己当时吸引了错误的生意伙伴。但其实我吸引的是最佳伙伴，来教授自己需要学习的人生课程（非常艰难的一课）。这些课程带来的痛苦，很大程度上源于我对它们的顽固抵制。从一开始我就存在那些信任问题。生活只是直接将其反馈给我。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>你其实只有一种感情关系</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我在2009年终止自己婚姻，就是信任生活的一个好例子。我当时感到被推动着在感情关系上步入更广阔的方向，但起初我却在抵制这种感觉 — 一直长达数年！</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我之前并不想离开自己的婚姻舒适区。处在那种婚姻关系中十分舒服安全和温暖。我和妻子当时都是彼此最好的朋友。但停留在婚姻里并非自己忠于内心的道路。它曾是我内心追随的道路，但那条路径最后转变了方向。我的婚姻已实现了它的意义。生活中还有其他课程需要我学习。我可以与这些课程保持一致。或是顽固抵制它们。我起初尝试了顽固抵制。但这种做法并不解决问题。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你现在是否正试图顽固抵制生活中某一部分感受？这种做法的效果如何？很可能与我当初体验到的一样。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">回头看去，我很感激生活没有让我安于现状。当时要信任它令人感觉很难，但我最终选择信任：信任生活知道我内心深处的最大利益，倘若自己追随忠于内心的道路，生活就将给我全力支持。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">事情果然如此，生活似乎奖赏我走出了后来的一步 — 让我拥有了一份几乎已4年的美妙感情关系。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">虽然我热爱身处开放感情关系，并在与其他女人的4维交往探索中享受着无穷乐趣，尤其在今年，但我仍然坚信自己只拥有一种感情关系。那就是我与生活本身的感情关系。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我不想假装自己拥有的任何人间交往关系会恒久不断。我知道它们终将结束，或是由于分离，或是因为死亡。我此刻珍视着它们。我臣服于它们的暂时本质。我信任生活将其设计为这种方式必有更伟大的目的。我感到自己与这个目的始终和谐一致，即便有时接受这个事实会极为艰难和痛苦。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我不仅原谅过去让自己感到受伤的那些人，我还深深感激他们。他们教给了我极具价值的人生课程。我学到了将自己跟生活的感情关系置于金钱和成功之前。我学到了如何听从个人直觉。我学到了基于灵感和启迪勇敢行动。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我知道前方还有很多课程要学。我已瞧见其中的一些，它们看起来并不容易。我的一部分自我更愿留在当前的舒适区，不再前进，但我信任生活不会让我这样。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">生活本身就是我最好的朋友和教练。即使我所要求的没那么振奋人心，生活也知道我真正需要的是什么。生活不会让我安于现状。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我在开放感情关系探索中没有感觉嫉妒的原因之一，就是因为我知道自己只有一种感情关系。那就是我与生活的感情关系。我拥有这份感情关系，而且对其许下了承诺，比人类婚姻关系更大的承诺。我无法背叛生活，而且我不相信生活会背叛我。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">我和人们的各种感情关系，代表着自己与生活这份感情关系的各个方面。每个人都在表达生活本身的不同方面。因此我拥有的种种人类关系，其实反映的是它们所代表的生活各个方面，与我存在的感情关系。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span style="font-size: 18px;"><strong>选择信任</strong></span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">要克服自己对他人的信任问题，请探究你与生活本身的感情关系。</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">你是否信任生活？你是否感觉这是个安全的地方？你是否相信自己存在于此必有原因？你是否感到生活正通过一系列挑战指引自己，帮你不断成长？你是否感觉生活会因你对它的信任，而给你奖赏？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">或者你并不信任生活？你是否仍固守在个人舒适区，竖起各种防卫，回绝摆在自己面前的种种挑战？</span></p><p class="p2"><span class="s1"></span><br  /></p><p class="p1"><span class="s1">信任生活是种选择，而且是个创造性的选择。你的选择将创造你的现实世界。若你选择用可能达到的最深方式信任生活，你终将重新解构生活里的每种体验，从而不断强化这种信任。你最痛苦的失败将变为成长课程。找出追随内心的人生道路会变得强制必要，而非可选项目。你信任生活的决定将创造对应的现实世界。从个人经历而言，我可以告诉你，它是一个充满喜悦体验的现实世界。</span></p><p><br  /></p><p><br  /></p><p>Steve Pavlina</p><p>2013.12.14</p><p><br  /></p><p><br  /></p></div>
+
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>
+                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo23b1e9.css">
+                                                            
+                                        
+                    <div class="rich_media_tool" id="js_toobar">
+
+                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>
+                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>
+                        </span>
+
+                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>
+
+                    </div>
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                    <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+
+                    
+                    <div id="js_iframetest" style="display:none;"></div>
+
+                    
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>
+    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>
+
+  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>
+  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA3NzIyNTQ3NA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "聪明人的个人发展";
+      var ct = "1425945364";
+      var user_name = "gh_b50cc8e11c3b";
+      var fakeid   = "";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "克服信任问题";
+      var msg_desc = "要克服自己对他人的信任问题，请探究你与生活本身的感情关系。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/HoD8MoRVlyWsEssGsiadrqiaTPzPzKdwTibK8QibOQW3ibox0UDpAc0x5GUST02icjEAByGSyqUgsnv1KFDLibRicSxf7Q/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3NzIyNTQ3NA==&amp;mid=206311773&amp;idx=1&amp;sn=1fef4ec0e5a47707b4f7c1aacba047fa#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = 'http://www.stevepavlinachina.com/20131214-overcoming-trust-issues.html#rd';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206311773';
+      var comment_id = "0" * 1;
+      var svr_time = "1425980983" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>
+
+    </body>
+</html>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>_resources</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2.1 矩阵.md</string>
+		</array>
+		<array>
+			<string>2.2 矩阵的加法和标量乘法.md</string>
+		</array>
+		<array>
+			<string>2.3 方阵.md</string>
+		</array>
+		<array>
+			<string>2.4 矩阵乘法.md</string>
+		</array>
+		<array>
+			<string>2.5 行列式.md</string>
+		</array>
+		<array>
+			<string>2.6 逆矩阵.md</string>
+		</array>
+		<array>
+			<string>2.7 矩阵的几何意义.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

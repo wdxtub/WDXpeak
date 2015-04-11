@@ -1,0 +1,209 @@
+<!DOCTYPE html><html>    <head>         <script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MzA5NjQwMTQxOA==";
+    var sn = "2045deb2f5c98a3da55bd20e72e9debb";
+    var mid = "206584594" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="dns-prefetch" href="//res.wx.qq.com"><link rel="dns-prefetch" href="//mmbiz.qpic.cn"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" /><link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+String.prototype.html= function(encode) {
+    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+    //console.log(replace);
+    if(encode){
+        replace.reverse();
+    }
+    for (var i=0,str=this;i< replace.length;i+= 2){
+         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+    }
+    
+    return str;
+};
+pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>        <title>硬派健身</title>        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css"><style>         </style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css"><![endif]--><script type="text/javascript">
+    document.domain = "qq.com";
+</script>    </head>    <body id="activity-detail" class="zh_CN " ontouchstart="">            <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>        <div id="js_cmt_more" class="discuss_container access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">几点健身最有效？！</h2>            <div class="discuss_list_wrp">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">精选评论</span>                </div>                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>                <ul class="discuss_list" id="js_cmt_morelist"></ul>            </div>            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">                <span class="tips">加载中</span>            </div>            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">                <span class="tips">以上评论由公众帐号筛选后显示</span>            </div>        </div>    </div>        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">        <div class="discuss_container_inner">            <h2 class="rich_media_title" id="activity-name">几点健身最有效？！</h2>            <div class="frm_textarea_box_wrp">                <span class="frm_textarea_box">                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>                </span>            </div>            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>            <div class="discuss_list_wrp" style="display:none">                <div class="rich_tips with_line title_tips discuss_title_line">                    <span class="tips">我的评论</span>                </div>                <ul class="discuss_list" id="js_cmt_mylist"></ul>            </div>            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">                <p class="toast_content">已评论</p>            </div>        </div>    </div>    <div id="js_article" class="rich_media">                <div id="js_top_ad_area" class="top_banner">         </div>                        <div class="rich_media_inner">            <div id="page-content">                <div id="img-content" class="rich_media_area_primary">                    <h2 class="rich_media_title" id="activity-name">                        几点健身最有效？！                     </h2>                    <div class="rich_media_meta_list">                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-09</em>                                                <em class="rich_media_meta rich_media_meta_text">斌卡</em>                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">硬派健身</a>                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">硬派健身</span>                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">                            <div class="profile_inner">                                <strong class="profile_nickname">硬派健身</strong>                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">                                <p class="profile_meta">                                <label class="profile_meta_label">微信号</label>                                <span class="profile_meta_value">oh-hard</span>                                </p>                                <p class="profile_meta">                                <label class="profile_meta_label">功能介绍</label>                                <span class="profile_meta_value">最专业&nbsp;·&nbsp;靠谱&nbsp;·&nbsp;蠢萌的运动健身科普</span>                                </p>                                                            </div>                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">                                <i class="profile_arrow arrow_out"></i>                                <i class="profile_arrow arrow_in"></i>                            </span>                        </div>                    </div>                                                                                                                        <div class="rich_media_thumb_wrp" id="media">                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstYiabSLoNfRGEZWSZV6LKHh19bicbDEDKLHvcZUnBsRwzhVwWKXibqic4Rw/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>                    </div>                                                            <div class="rich_media_content" id="js_content"><p class="p1"><br  /></p><p style="text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTnShANfkYnH1sabwwWb0UJYwKTR8icxpEq41lLEgy8X1DDiblQV4O24apJdbnjHWsN8j1baxvlI1ug/0" data-w="455" data-ratio="0.3054945054945055" data-s="300,640"  /><br  /></p><p><br  /></p><p>犹记得去年双11，京东淘宝猫狗大战，京东有这样一句很损的广告语：“买都买了，买一真的”，我当时就喷了……后来想想，抛去猫狗间的各种而言，这句话确实没错。而且，其实健身也是一样啊……<strong><span style="color: rgb(247, 150, 70);">同样是费心费力去健身，不如用最有效的方法练。</span></strong></p><p><br  /></p><p>所以，一个好的运动计划对健身而言很重要。一个好的运动计划，可以让你花费更少时间、走更少弯路，当然训练效果也更好。尤其是对都市中工作的我们而言，高效有时候几乎意味着一切。</p><p><br  /></p><p>我们之前说过写过很多期，一个好的健身计划包括了什么，比如如何根据自己的身材和目标订制高效的健身计划、每周如何安排次数、组数、训练次序等等。</p><p><br  /></p><p>这一次我们就来聊聊，一天之内什么时候健身训练效果最好。</p><p><br  /></p><p><strong><span style="font-family: 宋体; font-size: 16px;"></span></strong></p><fieldset class="tn-Powered-by-XIUMI" style="margin: 0.8em 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: 1.4; font-size: 1em; white-space: normal; box-sizing: border-box;"><section class="tn-Powered-by-XIUMI" style="padding: 10px; border: 2px dashed rgb(182, 182, 182); border-image: none; text-align: inherit; font-family: inherit; font-size: 1em; text-decoration: inherit; box-sizing: border-box; background-color: rgb(244, 244, 244);"><p style="color: rgb(51, 51, 51); font-weight: inherit; box-sizing: border-box;"><strong>训练计划相关文章：</strong></p><p style="color: rgb(51, 51, 51); box-sizing: border-box;"><span style="font-size: 16px;">最全训练相关</span></p><p style="color: rgb(51, 51, 51); box-sizing: border-box;"><span style="font-size: 16px;">回复<span style="color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(247, 150, 70);">训练计划</span></span><span style="text-align: inherit; line-height: 1.4; font-family: inherit; font-size: 1em; text-decoration: inherit;">查看健身训练计划汇总</span></p><section class="tn-Powered-by-XIUMI" style="color: rgb(51, 51, 51); font-weight: inherit; box-sizing: border-box;"><span style="font-size: 16px;">哪些部位才是新手最该练的？</span></section><section><span style="font-size: 16px;">回复<span style="color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(247, 150, 70);">该练哪</span>了解更多<br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  />新手该选择什么样的训练动作？</span></section><section class="tn-Powered-by-XIUMI" style="font-weight: inherit; box-sizing: border-box;"><span style="font-size: 16px;"><span style="color: rgb(51, 51, 51); font-size: 16px;">回复</span><span style="color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(247, 150, 70);">动作类型</span><span style="color: rgb(51, 51, 51); font-size: 16px;">了解更多</span></span></section><section class="tn-Powered-by-XIUMI" style="color: rgb(51, 51, 51); font-weight: inherit; box-sizing: border-box;"><span style="font-size: 16px;">如何因目标设计计划？</span></section><section class="tn-Powered-by-XIUMI" style="font-weight: inherit; box-sizing: border-box;"><span style="font-size: 16px;"><span style="color: rgb(51, 51, 51); font-size: 16px;">回复</span><span style="color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(247, 150, 70);">训练负荷</span><span style="color: rgb(51, 51, 51); font-size: 16px;">了解更多</span></span></section></section></fieldset><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">1</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">什么时候健身最有效？</span></section></section></section><p><span style="font-family: 宋体; font-size: 16px;"><br  /></span></p><p><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstCnrDuOIHw7ibSVlItHIs1qic3MG1fPl6wZX6HcIgiauH6r7QL6Jibufm2Q/0" source="lib" data-type="png" data-w="" data-ratio="1" data-s="300,640" format="png" file_id="206582289" url="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstCnrDuOIHw7ibSVlItHIs1qic3MG1fPl6wZX6HcIgiauH6r7QL6Jibufm2Q/0"  /><br  /></p><p><br  /></p><p>我们知道，人体的各项指标并非是稳定不变的，不同的时间段内人体的各项数值也不太一样。</p><p><br  /></p><p>通过上面这张图可以看出，人的体温、血压、睾酮等在一天之内都在不停变化，这就决定了肌肉力量和激素水平，在一天之内也会有很明显的差异。</p><p><br  /></p><p>综合多项因素考虑，我们认为<span style="color: rgb(247, 150, 70);"><strong>下午4点到6点左右进行健身最为合适。</strong></span>原因有三：一是因为这个时间段<span style="color: rgb(247, 150, 70);"><strong>运动受伤的可能最小</strong></span>；二是因为下午四点开始到六点之间，肌肉的力量最大，<strong><span style="color: rgb(247, 150, 70);">训练强度可以更高</span></strong>。第三则是这个时间段<strong><span style="color: rgb(247, 150, 70);">肌肉的增长更好</span></strong>，训练后取得收益更多～</p><p><span style="color: rgb(247, 150, 70);"><br  /></span></p><p style="text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstiajuqvUe6hXY4xzd0fIqSCue5MQ4vibldrMtzricz3TiavtLic8jvtPtOPg/0" data-type="jpeg" data-w="236" data-ratio="1.5" data-s="300,640"  /><br  /></p><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">2</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">更好的肌肉增长</span></section></section></section><p><br  /></p><p>首先，下午4-6点这个时间段内肌肉的增长效果最好。为什么呢？这是因为这个时间段内睾酮和皮质醇的比值最大，最有利于人体的肌肉合成，也就是增肌啦！</p><p><br  /></p><p style="white-space: normal;">据科学家研究，6-23时皮质醇会降低92%<sup>①</sup>。研究还表明，人体在一天中的18-24时，皮质醇处于最低<sup>②</sup>。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">而睾酮的峰值虽然表现在上午8点，但有研究发现，抗阻训练引起的睾酮上升在傍晚时也能够被观测到<sup>③</sup>。</p><p><br  /></p><p>我们曾说过，睾酮水平代表着肌肉增长水平，而皮质醇则相反，会影响肌肉的合成，甚至会让肌肉分解。也就是说，下午运动时，你的皮质醇水平处于最低点，使得<strong><span style="color: rgb(247, 150, 70);">睾酮与皮质醇的比值升高。这就代表了你的肌肉合成速率加快，肌肉增长处于最高状态！</span></strong></p><p><br  /></p><p style="text-align: center;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstTsFzbohUu9M0H3IOom9WpJxkKPdU6HcGCAL5yHqHib3orUcZG9jRBzw/0" data-type="jpeg" data-w="500" data-ratio="1.012" data-s="300,640"  /><br  /></p><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">3</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">更小受伤几率</span><br  /></section></section></section><p><br  /></p><p>说完了肌肉增长，再来说说受伤几率。</p><p><br  /></p><p>我们之前说过，肌肉的弹性组织像一小捆束在一起的橡皮筋。而且肌肉本身具有粘滞性。粘滞的肌肉不仅无法从容工作，而且还很容易受伤。</p><p><br  /></p><p style="white-space: normal;">温度越低，肌肉的粘滞性越大，越容易发生肌肉拉伤。而温度越高，粘滞度越小，同时弹性组织的断裂长度更长，就相对的不容易肌肉拉伤。换句话说就是，<strong><span style="color: rgb(247, 150, 70);">体温越高，肌肉纤维与肌肉弹性组织更加不容易断裂<sup>④</sup>，以及更耐拉伸</span></strong>——这个原理跟热身是一样的。（回复 <span style="color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);">肌肉拉伤</span> 了解更多）。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">科学家发现，人在一天之中，体温最高的时间段是在下午4点-6点之间，所以选择这个时间段运动，也更不容易受伤<sup>⑤</sup>。</p><p style="text-align: center;"><span style="color: rgb(62, 62, 62); font-size: 15px;"><span style="font-family: 宋体;"><br  /></span></span><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPst22pU9Y9tHia3BGW9GicJ3Qn8smeKjG8oPYC0qezezicS8Iib1RJcv9bcCQ/0" data-type="png" data-w="" data-ratio="1" data-s="300,640"  /><br  /></p><p><br  /></p><p>通过上述图表我们可以看出，人体的体温在16：02的时候到达了最高点。这就相当于人在这个时间段内被动热身，使肌肉的弹性组织增加了弹性，更加不容易断裂。所以这个时间段训练，受伤的几率会比其他时候小很多。</p><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">4</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">更大力量，更强训练</span></section></section></section><p><br  /></p><p>除了比较不容易受伤之外，下午四点开始肌肉的最大力量也会达到高峰。</p><p><br  /></p><p>科学家们对比了不同时间内受试人员的运动功率，发现下午的时候肌肉的力量和爆发力都比上午更好一些。</p><p><br  /></p><p style="background: white; text-align: center; line-height: 24px;"><span style="color: rgb(62, 62, 62); font-family: Helvetica; font-size: 15px;"> <img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstfAyVQwOB4YLboiaWxLib2uqMZLDApicIyewQmDtaRTVdLxL56keVHQaXw/0" data-type="png" data-w="" data-ratio="1" data-s="300,640"  /><br  /></span></p><p><br  /></p><p style="white-space: normal;">对比图表中上午和下午两个时间段内的运动功率，不难看出，<strong><span style="color: rgb(247, 150, 70);">下午运动的肌电水平更高，力量也更大</span></strong><sup>⑥</sup>！<br  /><br  /></p><p style="white-space: normal;">这一部分是因为我们上面所说的，下午四点左右人体的温度最高，相当于进行了被动热身，肌肉粘滞度变小，阻力变小，自然发挥力量更方便。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">另一部分原因，是此时肌长度和肌张力都跟着加大了，因此力量也增大了。比如肌肉的最大自主收缩，与最低点相比将在下午升高6-18%<sup>⑦</sup>；再比如离心收缩和向心收缩也和人体的体温变化相似，在下午四点表现较高<sup>⑧</sup>。此外肘关节的屈力量和背部力量在下午的时候也达到高峰<sup>⑨⑩</sup>。<br  /><br  /></p><p style="text-align: center; white-space: normal;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPst2b5YgnJuxWialZcCibVIkibKGiarRyUwGTU0M8dZfIGrIqDg3Y22iarSrPA/0" data-type="jpeg" data-w="350" data-ratio="1.5" data-s="300,640"  /><br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">所以下午的时候去运动，你可以试着挑战更大的重量，让自己发挥出比以往更好的效果。</p><p><br  /></p><p>综上，一天之中最适合训练的时间就是下午4-6点啦！</p><p><br  /></p><section class="135editor" data-id="45">
+										<section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold;"><section style="border-color: rgb(33, 33, 34); border-radius: 32px; width: 32px; height: 32px; text-align: center; color: rgb(255, 255, 255); vertical-align: top; float: left; display: inline-block; background-color: rgb(33, 33, 34);"><section style="border-color: rgb(33, 33, 34); width: 100%; color: inherit; display: table;"><section title="" class="autonum" style="border-color: rgb(33, 33, 34); color: inherit; vertical-align: middle; display: table-cell;" data-original-title="" placeholder="1"><span style="color: rgb(247, 150, 70);">5</span></section></section></section><section class="135brush" style="border-color: rgb(33, 33, 34); color: rgb(33, 33, 34); margin-left: 36px;" data-brushtype="text"><span style="font-size: 18px;">上班族该咋整</span></section></section>									</section><p><br  /></p><p>对于绝大多数人来说，毕竟四点的时候大家都还在办公室，对此我的建议：提高点工作效率，在下班之前把手头的工作处理的七七八八，一下班就冲去去健身房。</p><p><br  /></p><p>如果真的工作比较忙，下班晚，也没什么。其实稍微有个1小时左右的偏差，对总体效果的影响不是太大。肌肉合成的效率在18-24点都是比较高的。而想要使得最大力量增长，并且避免运动时的肌肉拉伤等，通过良好的热身也可以很大程度上弥补。<strong><span style="color: rgb(247, 150, 70);">练，总是比不练强太多。</span></strong></p><p><br  /></p><p>有童鞋可能会问：那要是不吃晚饭直接练，肚子太饿扛不住怎么办呀？</p><p><br  /></p><p>这个，就像我们之前所说的，如果担心饿或者体力不支的话，运动前吃一些GI值低的食物（回复 <span style="color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);">训前吃什么</span> 了解更多）其实就OK了。我们曾经特意推荐过一些方便又可以随时补充营养的食物，即便是上班时间吃其实也没什么问题的。</p><p><br  /></p><p>（当然，还是那句话，因为吃东西引起的开除扣工资等，硬派健身概不负责……）</p><p><br  /></p><p>而训练完后的18-24时，正好是训练完成后的最佳肌肉增长时间，这个时候的肌肉蛋白合成速率提高了三倍之多，正在积极地增长和修复。此时再去吃顿好的，主食和瘦肉各来一点，不仅保证了你需要的营养，还能让肌肉增长效果更好喔～</p><p style="text-align: center;"><span style="font-family: 宋体;"><img data-src="http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaTnShANfkYnH1sabwwWb0UJXny6zSqm1qHFX9xbCqYwjStkibaF2G4Ik7GTaDCHdUgwWjribjx5xycA/0" data-w="457" data-ratio="0.43326039387308534" data-s="300,640"  /><br  /></span></p><p><span style="color: rgb(62, 62, 62); line-height: 24px; font-family: Helvetica; font-size: 15px; background-color: white;"> </span></p><hr  /><p><span style="font-size: 14px;">①KRIEGER D T, ALLEN W, RIZZO F, et al. Characterization of the normal temporal pattern of plasma corticosteroid levels[J]. The Journal of Clinical Endocrinology &amp; Metabolism, 1971, 32(2): 266-284.</span></p><p><span style="font-size: 14px;">②Zhao Z Y, Xie Y, Fu Y R, et al. Circadian rhythm characteristics of serum cortisol and dehydroepiandrosterone sulfate in healthy Chinese men aged 30 to 60 years. A cross-sectional study[J]. Steroids, 2003, 68(2): 133-138.</span></p><p><span style="font-size: 14px;">③Kraemer W J. Endocrine responses to resistance exercise[J]. Medicine and Science in Sports and Exercise, 1988, 20(5 Suppl): S152-7.</span></p><p><span style="font-size: 14px;">④Taylor D C, Dalton J D, Seaber A V, et al. Viscoelastic properties of muscle-tendon units The biomechanical effects of stretching[J]. The American Journal of Sports Medicine, 1990, 18(3): 300-309.</span></p><p><span style="font-size: 14px;">⑤⑥Racinais S. Different effects of heat exposure upon exercise performance in the morning and afternoon[J]. Scandinavian journal of medicine &amp; science in sports, 2010, 20(s3): 80-89.</span></p><p><span style="font-size: 14px;">⑦Drust B, Waterhouse J,Atkinson G, et al. Circadian rhythms in sports performance-an update[J].Chronobiology international, 2005, 22(1): 21-44.</span></p><p><span style="font-size: 14px;">⑧Jasper I, Häußler A,Baur B, et al. Circadian variations in the kinematics of handwriting and gripstrength[J]. Chronobiology international, 2009, 26(3): 576-594.</span></p><p><span style="font-size: 14px;">⑨Guette M, Gondin J,Martin A. Time-of-day effect on the torque and neuromuscular properties ofdominant and non-dominant quadriceps femoris[J]. Chronobiology international,2005, 22(3): 541-558.</span></p><p><span style="font-size: 14px;">⑩Coldwells A, Atkinson G, Reilly T. Sources of variationin back and leg dynamometry[J]. Ergonomics, 1994, 37(1): 79-86.</span></p></div>                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo23b1e9.css">                                                                                                                        <div class="rich_media_tool" id="js_toobar">                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>                        </span>                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>                    </div>                </div>                <div class="rich_media_area_extra">                                        <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>                                        <div id="js_iframetest" style="display:none;"></div>                                                        </div>                           </div>            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">                <div class="qr_code_pc_inner">                    <div class="qr_code_pc">                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">                        <p>微信扫一扫<br>关注该公众号</p>                    </div>                </div>            </div>        </div>    </div>                <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index23cca7.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MzA5NjQwMTQxOA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "硬派健身";
+      var ct = "1425888442";
+      var user_name = "gh_cdd62ee4f59c";
+      var fakeid   = "MjcyODU5OTIwMw==";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "几点健身最有效？！";
+      var msg_desc = "选对时间&nbsp;更少受伤！更多力量！更好效果！";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/0IicUItRgaiaSfdZriaJX3NzJUpf2V5WPstYiabSLoNfRGEZWSZV6LKHh19bicbDEDKLHvcZUnBsRwzhVwWKXibqic4Rw/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA5NjQwMTQxOA==&amp;mid=206584594&amp;idx=1&amp;sn=2045deb2f5c98a3da55bd20e72e9debb#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = '';
+      var networkType;
+      var appmsgid = '' || '206584594';
+      var comment_id = "0" * 1;
+      var svr_time = "1425889366" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>    </body></html>

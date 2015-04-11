@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+<script type="text/javascript">
+    var sampling = Math.random() < 0.001;
+    var page_begintime = (+new Date());
+    (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&15=1000&r=" + Math.random());
+
+    var biz = "MjM5NjA3OTM0MA==";
+    var sn = "509facfec895eedad7f666e04a5de1de";
+    var mid = "206156542" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+</script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+    var uin = "";
+    var key = "";
+    var pass_ticket = "";
+
+	String.prototype.html= function(encode) {
+	    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+	    //console.log(replace);
+	    if(encode){
+	        replace.reverse();
+	    }
+	    for (var i=0,str=this;i< replace.length;i+= 2){
+	         str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+	    }
+	    
+	    return str;
+	};
+	pass_ticket = encodeURIComponent(pass_ticket.html(false).html(false).replace(/\s/g,"+"));
+</script>
+
+        <title>warfalcon</title>
+        
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve23b1e9.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc23b0e8.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
+
+    </head>
+    <body id="activity-detail" class="zh_CN " ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+        (sampling) && ((new Image()).src = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7839&flag2=7&flag3=8&16=1000&r=" + Math.random());
+    </script>
+    
+    <div id="js_cmt_more" class="discuss_container access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">Quora 问答：&nbsp;如何高效地上网？</h2>
+
+            <div class="discuss_list_wrp">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">精选评论</span>
+                </div>
+                <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans3" style="display:none;">关注该公众号可参与评论</p>
+                <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn3" style="display:none"><a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit23b1e9.png" alt=""></a></p>
+                <ul class="discuss_list" id="js_cmt_morelist"></ul>
+            </div>
+
+            <div class="rich_tips tips_global loading_tips" id="js_cmt_more_loading">
+                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+
+            <div class="rich_tips with_line tips_global" id="js_cmt_more_end" style="display:none">
+                <span class="tips">以上评论由公众帐号筛选后显示</span>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title" id="activity-name">Quora 问答：&nbsp;如何高效地上网？</h2>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的评论</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已评论</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        Quora 问答：&nbsp;如何高效地上网？ 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-03-13</em>
+
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">warfalcon</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">warfalcon</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">warfalcon</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">read01</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">想每年读完100本书吗？想在100天内培养一个好习惯吗？想搞定拖延和注意力不集中吗？关注我，让你成为一个行动者，跟几十万读者一起成长，欢迎参加100天行动</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                                                            
+                                        <div class="rich_media_thumb_wrp" id="media">
+                        <script>
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/wNByw5VpECgaTX72aWBrHaOpXPE2J4hsJxialdEev3LloMZYUlF985QgERS1THBMVvB7h0AVF98ZehqFibpRCTaQ/0";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-src="' + cover + '" />');
+                            })();
+                        </script>
+                    </div>
+                                        
+                    <div class="rich_media_content" id="js_content"><h1 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.3em; margin: 0px 0px 4px; padding: 16px 0px 0px; outline: 0px; line-height: 1.3em; color: rgb(51, 51, 51); white-space: normal;"><span style="font-size: 18px;">这个问题以前讨论过，觉得我的应对方法比这篇文章更实用一些，输入：网络 ，查看 学会在网络上控制你的注意力 1 和2 里面给出一些实用性非常强的应对方法。</span><br  /></h1><h2 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; color: rgb(51, 51, 51); white-space: normal;">正文</h2><hr style="font-family: Avenir, sans-serif; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-top-color: rgb(234, 234, 234); height: 1px; margin: 1em 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 18px; white-space: normal;"  /><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">译者：我是行之</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">原文作者：Evan DeFilippis </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">出处：http://select.yeeyan.org/view/262736/439920</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">我觉得大部分答案并没有抓住这个问题的重点。 真正的问题并不在于网络上缺少有益的网站，而是难以从这些网站上受益。 为什么说，现实上人们可以轻易的得到常春藤大学的免费在线教育，却又很少人做得到？ Coursera，Udacity和可汗学院的退学率是如此惊人以至于课程的完成率就像是舍入误差那么低。我们生活在一个缺乏专注的文化里，这个问题的解决方式并不是访问更好的网站，而是需要把自己修炼得更好。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">为了让你的时间花得更高效，我有以下几点建议：</p><h3 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; font-weight: normal; color: rgb(234, 76, 137); white-space: normal;">完完全全地把Facebook, Reddit, Twitter 以及其它社交网站从你的生活中移开。</h3><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">如果你做不到这一点，那就严格规定每天只能上30分钟到一个小时这些网站，你可以下载Chrome的插件 如 StayFocusd 去帮你做到这一点。 但是，我再怎么强调这些社交网站会毁掉你的生活都不为过。人们总是会给自己找到一些接口，如：“我用Facebook是为了和我在海外的高中同学以及亲人保持联系”，或者，“我用Twitter是用来了解最新发生的事情“， 又或者是 ”你可以从专门的subreddits频道学到很多有意思的事情。&quot;等等。但当你仔细观察这些人上网时间的分布时，几乎都没有花在那些要紧事上，那些他们用来辩解自己行为的事情。通常做的是随意地滚动页面，看动物的动态图，看猫的视频，或者是只看一个好讲演的前20秒钟等等。没有人按原设定的计划来上这些网站，而比这更加糟糕的会是什么？（auxiliary to the more important reality ） 对Facebook的研究不断的表明，Facebook使得人们更加沮丧以及均对生活感到不满足。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">注：中文版应该是微博、微信、QQ</p><h3 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; font-weight: normal; color: rgb(234, 76, 137); white-space: normal;">练习有效的拖延。</h3><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">在做困难的事情之间，如果你需要做点别的来给自己补充一下精力，那就做那些同时又能发展你自己的事情。 对我而言，那就是下国际象棋。 我在做不同项目之间，会闪电战地下几盘棋，更重要的是，我没有去看那些小猫的视频。对于其他人而言，可能是练习一种乐器，或者是读书画画。</p><h3 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; font-weight: normal; color: rgb(234, 76, 137); white-space: normal;">待办清单。</h3><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">可能没有比列出待办清单更高效的办法了。 写下你需要做什么事情，再按难度排一下优先级，尽可能详细具体地写下你的目标。不要脱离实际，也不要用Evernote，Chrome插件，或是其它App， 就只用白纸和笔来写。别写”完成伦理学的研究报告”，而是写“完成一页Peter Singer的&#39;实践伦理学&#39;的第三章节的报告&quot;。任务颗粒度越小，独立度越高，就越容易被完成。同时，计划一下在这些任务之间你会如何去有效率地拖延。在大任务之间，写下“下棋”， “看Noam Chomsky 的演讲&quot;, “在DuoLingo完成一节课&quot;等等。如果你太疲惫了以至于无法高效率地干活的话，用拖延来给自己有效地休息下。 记住：如果你不计划自己的时间，你就失去了充分利用好时间的机会，于是乎你会走进一条没有阻力的道路，那通常就是玩一下AngryBirds 或是看下YouTube的视频。</p><h3 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; font-weight: normal; color: rgb(234, 76, 137); white-space: normal;">谁在乎呢？</h3><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">这可能是最重要的一点了。 下次当你准备在Facebook发点什么东西，或者看个搞笑视频，或读一篇博文，或参与进网上的争辩之前，问问你自己：谁在乎呢？ 如果这些事情没法帮你变成一个更好的自己，那就别浪费你的时间。<br  />今天我在BuzzFeed上读了一篇关于&quot;Epic Twitter Comebacks&quot;的文章。 我被那可恶的标题所吸引，然后沉浸于阅读那文章。 随后我对自己读完这篇文章感到很生气。那是篇毫无意义的文章。阅读或者撰写那文章不会有一丁点的产出。 流行的文章到处都在分享 – Facebook，BuzzFeed， 以及无数的山寨站点–那些新闻业界的麦当劳连锁店。时间耗费在这些东西上，让每个人变得更糟糕。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">我发现自己已经末膝般陷入了长达一个小时的编辑，在二十分钟内，我就不得不进行一次检查：这些屎一个字一个字的都没意义。 如果没有这些东西，世界会变得更好。 每次都把时间消耗在盲目地看那些只有7秒钟的视频，这究竟能有什么意义呢？它不会让你变得更加开心，也不会留下持续性的满足感；这只是原始的，没有产出的消耗而已。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">话说回来，想一想那些数不尽的耗费在屏幕前的时间，说服你自己说，那只不过又是一个视频，只不过又是一张图片，只不过又是。。。然后谨记着这些时间正是你的人生。我们如何去过每一天，正是如何去过我们的人生。 就是这样，我们拥有的人生就是这样的；你就是由你全部经历所构成的。 你想要你的经历均是由一些URL，一些视频，一些不用心的评论来概括么？</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">变得警惕起来！当你发现自己沉浸在盲目的消耗时，问问你自己：谁在乎呢？当你正在做的事情没法帮你变成一个更好的自己时，做点其它事情的吧。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">注：少发微博和微信朋友圈</p><h2 style="font-family: Avenir, sans-serif; border: 0px; font-size: 1.2em; margin: 0px 0px 5px; padding: 16px 0px 0px; outline: 0px; line-height: 1.1em; color: rgb(51, 51, 51); white-space: normal;">100天行动读者反馈</h2><hr style="font-family: Avenir, sans-serif; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-top-color: rgb(234, 234, 234); height: 1px; margin: 1em 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 18px; white-space: normal;"  /><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">@9是甜心宝贝</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">饮食有些倦怠，害怕未来会失望。想到100天计划，，算了一下今天是第50天了。100天，继续ing</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/wNByw5VpECgaTX72aWBrHaOpXPE2J4hsC2IeSlMadd9Og1nEYibrXhHfGydARNug3LZDaNA7qb1XosQu6AgRpWw/0" data-ratio="1.7772727272727273" data-w="440"  /><br  /></p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">@魏洋涛 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">Dear Warfalcon, 看了你的文章之后，我从去年12月7日开始参加#百天行动#计划，目标和实现情况如下： </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">运动 ：57天，以慢跑和力量训练为主，目前可以不停奔跑15公里，为9月半马做准备 —-继续保持 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">阅读：34天， 以人文科学为主，目前已经陆续看完3本书 —– 继续保持，需要改正的是看完一本再看下一本 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">英语：32天，听力大幅提升 —– 继续保持，制定口语训练计划 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">技术学习：43天， 逐渐掌握相关知识 —–继续保持， 需要系统制定学习计划 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">自我激励：50天，感觉每天都有很大的压力 —- 需要减少到30次，自我催眠太多也不好 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">推理思考：36天，逐渐习惯推理思考，不是考记忆力 —– 坚持每天一次，利用思维导图等 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">早起：几乎每天吧—-现在已经形成习惯，保持 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">想做还没有做的事情：</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">练字：争取每周有3天时间练习 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">加强沟通能力：采用思维导图，想好再说 </p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">困惑：性格过于急躁，压力大时会轻微情绪失控？</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">我想用练字让自己静心，请问有何种建议？ 感谢你每天的努力！ 祝好 Allan Wei</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">@warfalcon</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">我不建议在现有的基础再新加习惯，现在坚持的习惯已经足够多了，先把目前的习惯坚持下去，完成100天行动再说。如果压力实在过大，建议减少几个习惯，同时开始的习惯太多，非常容易被打断。</p><p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">这些习惯中一年时间能养成二、三个都会直接对自己有所改变，别太贪心。</p><p><br  /></p></div>
+
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+                    </script>
+                                        <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo24531b.css">
+                                                            
+                                        
+                    <div class="rich_media_tool" id="js_toobar">
+
+                                                <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>
+                                                <div id="js_read_area" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum"></span>
+                        </span>
+
+                        <a id="js_report_article" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>
+
+                    </div>
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                    <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+
+                    
+                    <div id="js_iframetest" style="display:none;"></div>
+
+                    
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script>window.moon_map = {"a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail236317.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios236317.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android22772d.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile224ef3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report224ef3.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie224ef3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment23ad25.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2340dc.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2420fd.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl224ef3.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx224ef3.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr22f190.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax22589f.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html224ef3.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report23c757.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class236751.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source23a582.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos23c757.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report224ef3.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe238f79.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2420fd.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link224ef3.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core22589f.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion224ef3.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event23c291.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async243273.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img23354e.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr22589f.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share23c757.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib23c757.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse238f07.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2442b9.js"};</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon230eaa.js"></script>
+    <script id="t_cmt" type="text/html">
+        <li class="discuss_item">
+            <# if(is_elected == 1){ #>
+            <div class="discuss_opr">
+                <span class="media_tool_meta tips_global meta_praise js_comment_praise <# if(like_status == 1){ #>praised<# } #>" data-status="<#=like_status#>" data-content-id='<#=content_id#>'>
+                    <i class="icon_praise_gray"></i>
+                    <span class="praise_num"><# if(like_num_format !== 0){ #><#=like_num_format#> <# } #></span>
+                </span>
+            </div>
+            <# } #>
+            <div class="user_info">
+                <strong class="nickname"><#=nick_name#><# if(is_from_friend == 1){ #>(朋友)<# } #></strong>
+                <img class="avatar" src="<#=logo_url#>">
+            </div>
+            <div class="discuss_message">
+                <span class="discuss_status"><#=status#></span>
+                <#=content#>
+            </div>
+            <p class="discuss_extra_info">
+                <#=time#>               
+            </p>
+            <# if(reply && reply.reply_list && reply.reply_list.length > 0){ #>
+                <div class="reply_result">
+                    <div class="nickname">作者回复</div>
+                    <div class="discuss_message"><#=reply.reply_list[0].content#></div>
+                    <p class="discuss_extra_info"><#=reply.reply_list[0].time#></p>
+                </div>
+            <# } #>
+                
+        </li>
+    </script>
+
+  <script id="t_ad" type="text/html">
+    <div class="rich_media_extra" id="gdt_area">
+        <# if(pos_type==0){ #>
+        <div class="rich_tips with_line title_tips">
+            <span class="tips">推广</span>
+        </div>
+        <# } #>
+        <div class="js_ad_link extra_link" data-type="<#=type#>" data-ticket="<#=ticket#>" data-url="<#=url#>" data-rl="<#=rl#>"  data-aid="<#=aid#>" data-pt="<#=pt#>" data-tid="<#=traceid#>" data-gid="<#=group_id#>" data-apurl="<#=apurl#>">
+            <# if(pt==1){ #>
+            <#=hint_txt#>
+            <img class="icon_arrow_gray" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_arrow_gray1ef6d4.png">
+            <img class="icon_loading_white icon_after" style="display:none;" id="loading_<#=traceid#>" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white22c04a.gif">
+            <# }else if(pt==2){ #>
+            <img class="appmsg_banner" src="<#=image_url#>">
+            <# }else if(pt==7){ #>
+            
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">
+                    <div class="preview_group_info">
+                        <strong class="preview_group_title2"><#=hint_txt#></strong>
+                        <div class="preview_group_desc"><#=ad_desc#></div>
+                        <img src="<#=image_url#>" alt="" class="preview_card_avatar">
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==100){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=biz_info.nick_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <# if(!!biz_info.head_img){ #>
+                        <img src="<#=biz_info.head_img#>" alt="" class="preview_group_avatar br_radius">
+                        <# }else{ #>
+                        <img class="preview_group_avatar br_radius" src="http://mmbiz.qpic.cn/mmbiz/a5icZrUmbV8p5jb6RZ8aYfjfS2AVle8URwBt8QIu6XbGewB9wiaWYWkPwq4R7pfdsFibuLkic16UcxDSNYtB8HnC1Q/0" alt="<#=biz_info.nick_name#>">
+                        <# } #>                                 
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_view_profile_<#=pos_type#>" <# if(biz_info.is_subscribed == 0){ #>style="display:none"<# } #> class="btn btn_inline btn_primary btn_line js_ad_btn" href="javascript:void(0);">查看</a>
+                        <a id="js_add_contact_<#=pos_type#>" data-url="<#=url#>" data-type="<#=type#>" data-tid="<#=traceid#>" data-rl="<#=rl#>" <# if(biz_info.is_subscribed ==1){ #>style="display:none"<# } #> class="btn btn_inline btn_line  btn_primary js_ad_btn" href="javascript:void(0);">关注</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==102){ #>
+            <div class="preview_group">
+                <div class="preview_group_inner">
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_group_avatar br_radius">
+                    </div>
+                    <div class="preview_group_opr">
+                        <a id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn btn_download" href="javascript:void(0);">下载</a>
+                    </div>
+                </div>
+            </div>
+            <# }else if(pt==101){ #>
+            <div class="preview_group preview_card">
+                <div class="preview_group_inner card_inner">                            
+                    <div class="preview_group_info append_btn">
+                        <strong class="preview_group_title"><#=app_info.app_name#></strong>
+                        <div class="preview_group_desc"><#=hint_txt#></div>
+                        <img src="<#=app_info.icon_url#>" alt="" class="preview_card_avatar">                               
+                    </div>
+                    <div class="preview_group_opr">
+                        <a href="javascript:void(0);" id="js_app_action_<#=pos_type#>" class="btn btn_inline btn_primary js_ad_btn">下载</a>
+                    </div>
+                </div>                        
+            </div>
+            <# }else if(pt==103||pt==104){ #>
+            <div class="preview_group obvious_app">
+                <div class="preview_group_inner">
+                    <div class="pic_app">
+                        <img src="<#=image_url#>" alt="">
+                    </div>
+                    <div class="info_app">
+                        <p class="name_app"><#=app_info.app_name#></p>
+                        <# if(pt==103){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._category#></span><em>|</em><span class="compacity"><#=app_info._app_size#></span></p>
+                        <# } else if(pt==104){ #>
+                        <p class="profile_app"><span class="fun_exp"><#=app_info._app_size#></span><em>|</em><span class="compacity"><#=app_info._down_count#></span></p>
+                        <# } #>
+                        <div class="dm_app">
+                            <a href="javascript:void(0);" id="js_appdetail_action_<#=pos_type#>" class="ad_btn btn_download js_ad_btn">下载</a>
+                            <p class="extra_info">来自<# if(pt==103){ #>Appstore<# }else{ #>腾讯应用宝<# } #></p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <# } #>
+        </div>
+    </div>
+  </script>
+  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm23b0e8.css";
+      var tid = "";
+      var aid = "";
+      var appuin = "MjM5NjA3OTM0MA==";
+
+      var source = "1";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "warfalcon";
+      var ct = "1426260525";
+      var user_name = "gh_60dc3ce05445";
+      var fakeid   = "";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "Quora&nbsp;问答：&nbsp;如何高效地上网？";
+      var msg_desc = "这个问题以前讨论过，觉得我的应对方法比这篇文章更实用一些，输入：网络&nbsp;，查看&nbsp;学会在网络上控制你的注意力&nbsp;1&nbsp;和2&nbsp;里面给出一些实用性非常强的应对方法。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/wNByw5VpECgaTX72aWBrHaOpXPE2J4hsJxialdEev3LloMZYUlF985QgERS1THBMVvB7h0AVF98ZehqFibpRCTaQ/0";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&amp;mid=206156542&amp;idx=1&amp;sn=509facfec895eedad7f666e04a5de1de#rd";
+      var user_uin = "0"*1;
+      var msg_source_url = 'http://select.yeeyan.org/view/262736/439920#rd';
+      var img_format = 'jpeg';
+      var networkType;
+      var appmsgid = '' || '206156542';
+      var comment_id = "0" * 1;
+      var svr_time = "1426322840" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "";
+
+            seajs.use("appmsg/index.js");
+  </script>
+
+    </body>
+</html>
+
