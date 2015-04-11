@@ -99,6 +99,13 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - Multiclass Classification
     - One-Versus-All (OVA) Decomposition
     - One-versus-one(OVO) Decomposition
+- Lecture 12: Nonlinear Transformation
+    - Circular Separable
+    - Linear Hypothesis in Z-Space
+    - The Nonlinear Transform Steps
+    - Computation/Storage Price
+    - Model Complexity Price
+    - polynomial Transform Revisited
 
 <!-- /MarkdownTOC -->
 
@@ -189,6 +196,17 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
         + predict with maximum estimated P(k|x)
     + Multiclass via Binary Classification
         + predict the tournament champion
++ Lecture 12: Nonlinear Transformation
+    + Quadratic Hypothesis
+        + linear hypothesis on quadratic-transformed data
+    + Nonlinear Transform
+        + happy linear modeling after Z = ø(X)
+    + Price of Nonlinear Transform
+        + computation/storage/[model complexity]
+    + Structured Hypothesis Sets
+        + linear/simpler model first
++ Lecture 13: Hazard of Overfitting
+
 
 
 ## Lecture 1 The Learning Problem
@@ -639,7 +657,7 @@ now we have **upper bound** of bounding function
 
 #### Step 2: Decompose H by Kind
 
-想办法将 Hyspothesis set 换成某一个 h。如下图所示，现在在乎的所有和 BAD 有关的只是 E~in~(h) 和 E~in~(h)' 来决定了。也就是说，如果 h 在 D 与 D’ 上做出一样的 dichotomy 的话，那么 E~in~(h) 和 E~in~(h)' 就会长一样。所以我只要把所有的 hypothesis set 分成 |H(x1, x2…, x’1, x’2…)| 这么多类就好，也就是在这 2N 个点上有多少种 Dichotomies 就好了。这样的话最多最多有 m~H~(2N) 种，把每一种抓一个代表出来我们就可以使用 union bound 了。
+想办法将 Hypothesis set 换成某一个 h。如下图所示，现在在乎的所有和 BAD 有关的只是 E~in~(h) 和 E~in~(h)' 来决定了。也就是说，如果 h 在 D 与 D’ 上做出一样的 dichotomy 的话，那么 E~in~(h) 和 E~in~(h)' 就会长一样。所以我只要把所有的 hypothesis set 分成 |H(x1, x2…, x’1, x’2…)| 这么多类就好，也就是在这 2N 个点上有多少种 Dichotomies 就好了。这样的话最多最多有 m~H~(2N) 种，把每一种抓一个代表出来我们就可以使用 union bound 了。
 
 ![mlf41](./_resources/mlf41.jpg)
 
@@ -1336,4 +1354,130 @@ OVA 和 OVO 方法的思想都很简单，可以作为以后面对多值分类�
 
 10 个类别，需要 `10*(10-1)/2 = 45` 个分类器，然后因为每个分类器只需要 2N/10 份的资料，所以一次计算的消耗是 N/5 的三次方，相乘之后就是第二个答案
 
+## Lecture 12: Nonlinear Transformation
+
+![mlf154](./_resources/mlf154.jpg)
+
+二元分类视觉上像切一条线，数学上来说就是用输入 x 乘上某个向量 w 然后得到一个分数 s，这种模型很有好处，复杂度可控(d~vc~限制)，但是有限制，可能有些数据，没办法用线来切开。
+
+how to **break the limit** of linear hypothesis?
+
+### Circular Separable
+
+![mlf155](./_resources/mlf155.jpg)
+
+re-derive **Circular**-PLA, **Circular**-Regression
+
+x~1~ 与 x~2~ 就是某个输入的横纵坐标(这里只考虑二维情况)
+
+对于上面的例子，我们可以假设分类器是一个圆心在原点的正圆，圆内的点被分为+1，圆外的被分为-1，于是有：
+
+![mlf156](./_resources/mlf156.jpg)
+
+在上面的式子中，将 (0.6, -1, -1) 看做向量 w，将(1, x1^2, x2^2) 看做向量z，这个形式和传统的线性假设很像。可以这样理解，原来的 x-空间的点都映射到了 z-空间，这样，在 x-空间中线性不可分的数据，在 z-空间中变得线性可分；然后，我们在新的 z-空间中进行线性假设。
+
+### Linear Hypothesis in Z-Space
+
+![mlf157](./_resources/mlf157.jpg)
+
+![mlf158](./_resources/mlf158.jpg)
+
+在数学上，通过参数 w 的取值不同，上面的假设可以得到正圆、椭圆、双曲线、常数分类器，它们的中心都必须在原点。如果想要得到跟一般的二次曲线，如圆心不在原点的圆、斜的椭圆、抛物线等，则需要更一般的二次假设。
+
+![mlf159](./_resources/mlf159.jpg)
+
+具体参数 w 的产生，就是把空间转换函数的不同变量的不同次数项一个一个对应写下来。可以参考上图的例子。
+
+对于找个通用的模型来说，直线可以看成是一个退化的特例
+
+**一个习题**
+
+![mlf160](./_resources/mlf160.jpg)
+
+### The Nonlinear Transform Steps
+
+Good Quadratic Hypothesis
+
+![mlf161](./_resources/mlf161.jpg)
+
+具体步骤如下：
+
+![mlf162](./_resources/mlf162.jpg)
+
+![mlf163](./_resources/mlf163.jpg)
+
+也就是说，在操作上实际上不是往左边的箭头，而是往右边的箭头。往右边的箭头告诉我x-空间的每一个点都可以映射到z-空间，然后我等z-空间的线性分类告诉我分类结果。
+
+如上的流程里面有两个比较关键可以选择的事情：如何做feature transform；选择怎样的linear model。这里的非线性转换其实也是特征转换(feature transform)，在特征工程里很常见。Feature transform 看起来很强大，就像打开了潘多拉的盒子，我们突然一下子可以做更多更多的事情了。不过听起来这么强大，到底有没有什么代价呢？且听下回分解。
+
+not new, not just polynomial:
+
+raw(pixels) (**domain knowledge**)-> **concrete(intensity, symmetry)**
+
+**一个习题**
+
+![mlf164](./_resources/mlf164.jpg)
+
+### Computation/Storage Price
+
+所谓”有得必有失“，将特征转换到高次空间，我们需要付出学习代价（更高的模型复杂度）。x-空间的数据转换到z-空间之后，新的假设中的参数数量也比传统线性假设多了许多：
+
+![mlf165](./_resources/mlf165.jpg)
+
+Q large -> **difficult to compute/store**
+
+### Model Complexity Price
+
+![mlf166](./_resources/mlf166.jpg)
+
+Q large -> **large d~vc~**
+
+那么如何选择呢？
+
+![mlf167](./_resources/mlf167.jpg)
+
+在两个关键问题上没有办法兼得
+
+根据之前分析过的，VC dimension 约等于自由变量(参数)的数量，所以新假设的 d~vc~ 急速变大，也就是模型复杂大大大增加。回顾机器学习前几讲的内容，我们可以有效学习的条件是
+
+1. E~in~(g) 约等于 E~out~(g)
+2. E~in~(g) 足够小。
+
+当模型很简单时，d~vc~ 很小，我们更容易满足（1）而不容易满足（2）；反之，模型很复杂时，d~vc~ 很大），更容易满足（2）而不容易满足（1）。看来选择合适复杂度的 model 非常 trick。
+
+careful about **your brain's model complexity**
+
+观察是不可靠的，依靠的是人的学习，已经受主观影响了，所以
+
+![mlf168](./_resources/mlf168.jpg)
+
+**一个习题**
+
+![mlf169](./_resources/mlf169.jpg)
+
+(d+2)x(d+1)/2 - 1
+
+注意这里把一个实数空间映射到了一个50次的多项式，因此复杂度增加到了一千多维，这就会带来很高的计算代价
+
+### polynomial Transform Revisited
+
+前面我们分析的非线性转换都是多项式转换(polynomial transform)。我们将二次假设记为 H~2~，k次假设记为 H~k~。显然，高次假设的模型复杂度更高。如下图所示，低次假设的模型是包含在高次假设的模型里面的。当Hypothesis之间有这样的互相包含的关系的时候，我们将它叫做hypothesis set的一个结构。
+
+![mlf170](./_resources/mlf170.jpg)
+
+也就是说，高次假设对数据拟合得更充分，E~in~ 更小；然而，由于付出的模型复杂度代价逐渐增加，E~out~ 并不是一直随着 E~in~ 减小。
+
+所以并不是高维度就好，而是应该找到一个折中。
+
+![mlf171](./_resources/mlf171.jpg)
+
+实际工作中，通常采用的方法是：先通过最简单的模型（线性模型）去学习数据，如果 E~in~ 很小了，那么我们就认为得到了很有效的模型；否则，转而进行更高次的假设，一旦获得满意的 E~in~ 就停止学习（不再进行更高次的学习）。
+
+![mlf172](./_resources/mlf172.jpg)
+
+总结为一句话：**linear/simpler model first**! simple, efficient, **safe**, and **workable**!
+
+**一个习题**
+
+![mlf173](./_resources/mlf173.jpg)
 
