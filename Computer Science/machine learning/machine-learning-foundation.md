@@ -106,6 +106,10 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - Computation/Storage Price
     - Model Complexity Price
     - polynomial Transform Revisited
+- Lecture 13: Hazard of Overfitting
+    - Case Study
+    - Learning Curves Revisited
+    - A Detailed Experiment
 
 <!-- /MarkdownTOC -->
 
@@ -206,7 +210,10 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     + Structured Hypothesis Sets
         + linear/simpler model first
 + Lecture 13: Hazard of Overfitting
-
+    + What is Overfitting
+    + The Role of Noise and Data Size
+    + Deterministic Noise
+    + Dealing with Overfitting
 
 
 ## Lecture 1 The Learning Problem
@@ -1481,3 +1488,68 @@ careful about **your brain's model complexity**
 
 ![mlf173](./_resources/mlf173.jpg)
 
+## Lecture 13: Hazard of Overfitting
+
+Bad Generalization
+
+![mlf174](./_resources/mlf174.jpg)
+
+这是什么意思呢，假设我们在一个二次空间里有五个点，如果我们想要找到的拟合函数是二次多项的话，可以看做是真实的值加上一些小小的噪声(也就是有一些 E~in~ 但并不大)。当然我们也可以用上面的方法把他们转到四次多项式上，那么五个点，四次多项式，有唯一解并且保证了 E~in~(g) = 0，可是与此同时，我们可以看到这条四次多项式和target函数差距很大，E~out~(g) 会非常大。
+
+bad generalization: **low E~in~, high E~out~**
+
+![mlf175](./_resources/mlf175.jpg)
+
+**overfitting**: low**er** E~in~, high**er** E~out~
+
+简单的说就是这样一种学习现象：VC dimension 太大的时候，E~in~ 很小，E~out~ 却很大。而另外一方面，E~in~ 和 E~out~ 都很大的情况叫做 Under-fitting。这是机器学习中两种常见的问题。这里的fitting指的就是 E~in~ 。上图中，竖直的虚线左侧是”underfitting”, 左侧是”overfitting”。
+
+发生overfitting 的主要原因是：使用过于复杂的模型(d~vc~ 很大)；数据噪音；有限的训练数据。
+
+用开车来比喻的话
+
+![mlf176](./_resources/mlf176.jpg)
+
+**一个习题**
+
+![mlf177](./_resources/mlf177.jpg)
+
+### Case Study
+
+两组数据，一组由一个十次多项式生成，带噪声；另一组由一个五十次多项式生成，不带噪声；然后我们用二次和十次多项式去拟合，来看看结果如何
+
+![mlf178](./_resources/mlf178.jpg)
+
+overfitting from g~2~ to g~10~? **both yes**
+
+可以看到在 E~in~ 部分，g~2~ 要比 g~10~ 大，毕竟是十次多项式；可以要比 E~out~ 的时候，g~10~ 就变得太大了，发生了 overfitting
+
+如上图所示，我们可以分别从噪声与 Data Size 的角度理解地简单些：
+
+有噪音时，更复杂的模型会尽量去覆盖噪音点，即对数据过拟合！这样，即使训练误差E~in~ 很小(接近于零)，由于没有描绘真实的数据趋势，E~out~ 反而会更大。即噪音严重误导了我们的假设。
+
+还有一种情况，如果数据是由我们不知道的某个非常非常复杂的模型产生的，实际上有限的数据很难去“代表”这个复杂模型曲线。我们采用不恰当的假设去尽量拟合这些数据，效果一样会很差，因为部分数据对于我们不恰当的复杂假设就像是“噪音”，误导我们进行过拟合。
+
+如下面的例子，假设数据是由50次幂的曲线产生的（下图右边，without噪声），与其通过10次幂的假设曲线去拟合它们，还不如采用简单的2次幂曲线来描绘它的趋势。
+
+![mlf179](./_resources/mlf179.jpg)
+
+以退为进 philosophy: **concession** for **advantage**
+
+### Learning Curves Revisited
+
+![mlf180](./_resources/mlf180.jpg)
+
+在样本数量比较小的时候，低次项多项式反而效果会更好。没有太多数据的话，不妨直接用简单的 hypothesis
+
+在没有 noise 的情况下，情况依然是二次的比较好
+
+![mlf181](./_resources/mlf181.jpg)
+
+当你要学习的东西是很复杂的时候，其实这个复杂度本身就是 noise，因为无论二次还是十次都没办法完全拟合
+
+**一个习题**
+
+![mlf182](./_resources/mlf182.jpg)
+
+### A Detailed Experiment
