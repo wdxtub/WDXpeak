@@ -110,6 +110,7 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - Case Study
     - Learning Curves Revisited
     - A Detailed Experiment
+- Lecture 13:
 
 <!-- /MarkdownTOC -->
 
@@ -211,10 +212,14 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
         + linear/simpler model first
 + Lecture 13: Hazard of Overfitting
     + What is Overfitting
+        + lower E~in~ but higher E~out~
     + The Role of Noise and Data Size
+        + overfitting 'easily' happens!
     + Deterministic Noise
+        + what H cannot capture acts like noise
     + Dealing with Overfitting
-
+        + data cleaning/pruning/hinting, and more
++ Lecture 14:
 
 ## Lecture 1 The Learning Problem
 
@@ -1553,3 +1558,57 @@ overfitting from g~2~ to g~10~? **both yes**
 ![mlf182](./_resources/mlf182.jpg)
 
 ### A Detailed Experiment
+
+什么时候需要小心 overfit 会发生
+
+我们在 target function 上加一个高斯噪声，然后来研究不同的噪声强度对于 overfitting 的影响
+
+![mlf183](./_resources/mlf183.jpg)
+
+某个次方的多项式叫做 Q~f~ 比如说十次多项式就是 Q~10~
+
+![mlf184](./_resources/mlf184.jpg)
+
+红色表示非常 overfit，蓝色表示没有多少 overfit，
+
+![mlf185](./_resources/mlf185.jpg)
+
+可见，数据规模一定时，随机噪音越大，或者确定性噪音越大（即目标函数越复杂），越容易发生overfitting。总之，容易导致overfitting 的因素是：数据过少；随机噪音过多；确定性噪音过多；假设过于复杂(excessive power)。
+
+对于最后一点解释一下，右边这个图与左边的图有一些小小的不一样：靠下部分说明好像 Q~f~ 往小的方向走的时候也会有overfit的现象出现。大家知道我们 overfit 的衡量方式是 E~out~(g~10~) – E~out~(g~2~)，当 target function 是10次多项式以下的时候，那么学习器 g~10~ 就太强了。
+
+overfitting 'easily' happens
+
+![mlf186](./_resources/mlf186.jpg)
+
+如果我们的假设空间不包含真正的目标函数f(X)（未知的），那么无论如何 H 无法描述f(X) 的全部特征。这时就会发生确定性噪音。它与随机噪音是不同的。例如，目标函数是50次的多项式，而hypothesis是10次多项式的话，一定找个target function有某些地方是没办法被任何一个hypothesis所描述的。我们可以类比的理解它：在计算机中随机数实际上是“伪随机数”，是通过某个复杂的伪随机数算法产生的，因为它对于一般的程序都是杂乱无章的，我们可以把伪随机数当做随机数来使用。确定性噪音的哲学思想与之类似。
+
+philosophy: when teaching a kid, perhaps better not to use examples from a complicated target function
+
+**一个习题**
+
+![mlf187](./_resources/mlf187.jpg)
+
+对应导致过拟合发生的几种条件，我们可以想办法来避免过拟合。
+
+![mlf188](./_resources/mlf188.jpg)
+
+all very **practical** techniques to combat overfitting
+
+假设过于复杂(excessive d~vc~) => start from simple model
+
+随机噪音 => 数据清洗(Data Cleaning/Pruning)：将错误的label 纠正或者删除错误的数据。possibly helps, but **effect varies**
+
+数据规模太小 => 收集更多数据，或根据某种规律“伪造”更多数据（Data hinting）：例如，在数字识别的学习中，将已有的数字通过平移、旋转等，变换出更多的数据。
+
+正规化(regularization) 也是限制模型复杂度的方法，在下一讲介绍。其他解决过拟合的方法在后面几讲介绍。
+
+**一个习题**
+
+![mlf189](./_resources/mlf189.jpg)
+
+要保证对称性，跟 target 函数一致
+
+## Lecture 13:
+
+
