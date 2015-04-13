@@ -121,6 +121,13 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - General Regularizers Ω(w)
     - L2 and L1 Regularizer
     - The Optimal λ
+- Lecture 15: Validation
+    - Comparison between E~in~ and E~test~
+    - The Dilemma about K
+    - Leave-One-Out Cross Validation
+    - Disadvantages of Leave-One-Out Estimate
+    - V-fold Cross Validation
+    - Final Words on Validation
 
 <!-- /MarkdownTOC -->
 
@@ -238,6 +245,15 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
         + regularization decreases d~EFF~
     + General Regularizers
         + target-dependent, [plausible], or [friendly]
++ Lecture 15: Validation
+    + Model Selection Problem
+        + dangerous by E~in~ and dishonest by E~test~
+    + Validation
+        + select with E~val~(D~train~) while returning A~m*~(D)
+    + Leave-One-Out Cross Validation
+        + huge computation for almost unbiased estimate
+    + V-Fold Cross Validation
+        + reasonable computation and performance
 
 ## Lecture 1 The Learning Problem
 
@@ -1631,6 +1647,8 @@ all very **practical** techniques to combat overfitting
 
 ## Lecture 14: Regularization
 
+minimizes **augmented error**, where the added **regularizer** effectively **limits model complexity**
+
 发生 Overfitting 的一个重要原因可能是假设过于复杂了，我们希望在假设上做出让步，用稍简单的模型来学习，避免 Overfitting。例如，原来的假设空间是10次曲线，很容易对数据过拟合；我们希望它变得简单些，比如 w 向量只保持三个分量（其他分量为零）。
 
 ![mlf190](./_resources/mlf190.jpg)
@@ -1784,3 +1802,127 @@ regularizer 和 error measure 的方向很像，三个不同的面向
 **一个习题**
 
 ![mlf210](./_resources/mlf210.jpg)
+
+## Lecture 15: Validation
+
+机器学习的每个模型都有各式各样的参数。即使只是对于二元分类，学习算法上可以选择PLA，LR等；很多学习算法都是iterative的，需要决定迭代次数；可能需要决定每一次迭代走多大，例如梯度下降；或者有很多的transform，例如线性、二次等；同时 regularizer 又有很多的选择 L1/L2；再来 regularizer 到底要加多强的 λ。况且这些选择是组合起来的，那么我们怎么做出正确的选择？
+
+![mlf211](./_resources/mlf211.jpg)
+
+in addition to your **favorite** combination, may need to try other combinations to get a good **g**
+
+![mlf212](./_resources/mlf212.jpg)
+
+把模型选择问题一般化一下，就是如下的定义：有 M 个模型，每个模型有其对应的 Hypothesis set 以及学习算法A，希望选出某一个模型得到的g，它的 E~out~(g) 是最小的。但是 E~out~ 不知道，无法以其作为标准。
+
+![mlf213](./_resources/mlf213.jpg)
+
+根据 E~in~(g) 最小来选择模型也是行不通的。一方面容易造成 overfitting；另一方面，假设有两个模型PK：算法 A~1~ 在 H~1~ 上让 E~in~ 最小；算法 A~2~ 在 H~2~ 上让 E~in~ 最小。最后选出来的 g 的效果是在 H~1~∪H~2~ 上让 E~in~ 最小，也就说额外增加了model complexity，容易造成bad generalization。
+
+**selecting by E~in~ is dangerous**
+
+![mlf214](./_resources/mlf214.jpg)
+
+通过测试数据来选择模型是自欺欺人的。如果能找到一些测试数据，来看看哪一个模型的表现更好就选择哪个。如果用这样的方式，可以得到Hoeffding的理论保证如下图。看起来很棒，可是问题是我们找不到测试数据，测试数据就像考卷，不可能说考试之前就发下来的。
+
+**selecting by E~test~ is infeasible and cheating**
+
+### Comparison between E~in~ and E~test~
+
+![mlf215](./_resources/mlf215.jpg)
+
+那，将这两者结合一下：把训练数据留一部分下来作为测试数据，用其他的训练数据来训练模型，然后用测试数据来测试模型的表现好坏。这是legal cheating。
+
+**一个习题**
+
+![mlf216](./_resources/mlf216.jpg)
+
+根据上面的分析，原来的训练数据分割出一部分作为测试数据，也被叫做validation set。同样，也会有 Hoeffding 不等式的保证。
+
+![mlf217](./_resources/mlf217.jpg)
+
+为了和原来的 E~out~ 作比较，我们知道更多的训练数据一般来说会有更好的 E~out~。所以很大程度上来说也就有如下的保证。
+
+![mlf218](./_resources/mlf218.jpg)
+
+先把数据切成两个部分，训练集和测试集，用训练集训练出最好的模型，再把所有的数据放到最好的模型上训练，这样就可以找到用更多数据训练出来的最佳模型(不是 g^-^ 了)
+
+![mlf219](./_resources/mlf219.jpg)
+
+我们来看看 validation 有没有用，横轴是 validatoin set 的大小，纵轴是 Expected E~out~(越低越好)，如果用 in-sample 会得到的那条横线；如果作弊用 E~test~ 会得到最下面的虚线；如果只用训练集，那么会得到 g^-^；如果选出最佳之后再用全部的数据集，会得到 g。
+
+我们可以看到用 g 的时候，实际上是很有用的。但是 g^-^ 有时候比用 E~in~ 还糟糕，为什么呢？因为当测试集太大，训练集就会太小，效果就不好
+
+### The Dilemma about K
+
+![mlf220](./_resources/mlf220.jpg)
+
+那 Validation Set 的大小 K 应该如何选择？选择的 K 应该尽可能地让这三个 Error 约等式成立。通常情况下，K 取 N/5。
+
+![mlf221](./_resources/mlf221.jpg)
+
+注意到加入Validation的方式花的时间比原来25N^2要来的小，因为训练模型的数据更少了。
+
+### Leave-One-Out Cross Validation
+
+考虑一个极端的情形，取非常小的K = 1。小的K可以让 E~out~(g) 与 E~out~(g-)非常接近，不过之前那个约等式右边希望 E~out~(g-) 与 E~val~(g-)接近就很难满足了。那我们来看看能不能克服这个问题。
+
+![mlf222](./_resources/mlf222.jpg)
+
+e~n~ 表示取第 n 笔数据作为 validation data，所得到的 E~val~(g-)。e~n~ 到底能不能告诉我们 E~out~(g)有多好呢？一个 e~n~ 当然不行，那把每笔数据都作为一次 validation data 然后平均起来，选择平均 Error 最小的作为最后的g，这样的方式叫做 cross validation。
+
+E~loocv~(H, A) ≈ E~out~(g)
+
+![mlf223](./_resources/mlf223.jpg)
+
+那 Leave-one-out Cross Validation 有何理论保证呢？或者它能不能告诉我们最在乎的事情 E~out~(g)有多好。假设有一个算法和1000笔数据拿来做 Leave-one-out Cross Validation，然后对各式各样的1000笔数据来做取一个平均。证明跟 E~out~(N-1)的平均值是可以连接的。因为 E~out~(g-) 与 E~out~(g) 几乎是一样的，前者是1000笔数据做出来的，后者是999笔数据做出来的。
+
+e~n~前面的符号表示期望值
+
+所以，我们得到了一个几乎完全没有偏见的针对 E~out~(g)的衡量方式。也就是说，Leave-one-out Cross Validation在选择模型上会比 E~in~ 来的更有效。
+
+**一个习题**
+
+![mlf224](./_resources/mlf224.jpg)
+
+### Disadvantages of Leave-One-Out Estimate
+
+![mlf225](./_resources/mlf225.jpg)
+
+很明显，一方面，Leave-One-Out Cross Validation大大增加了计算的复杂度，实际应用上上可能不太行；另一方面，对于二元分类来说，分类结果在0与1之间跳动，Leave-One-Out求一个平均值。对这个平均值来说，这些0与1的跳动是很大的，希望用平均的方式把这些很大的跳动消掉，其实还是不太容易。
+
+这两个问题使得这个方法在实际上并不是特别常用
+
+### V-fold Cross Validation
+
+how to **decrease computation need** for cross validation?
+
+![mlf226](./_resources/mlf226.jpg)
+
+practical rule of thumb: V = 10
+
+为了降低计算复杂度，将训练资料分为V份，取其中V-1做训练，另外1份做validation。这种方式通常叫做V-fold Cross Validation，实际上V通常取10。
+
+### Final Words on Validation
+
+**Selecting Validation Tool**
+
++ **V-Fold** generally preferred over single validation if computation allows
++ **5-Fold or 10-Fold** generally works well: not necessary to trade V-Fold with Leave-One-Out
+
+**Nature of Validation**
+
++ all training models: select among hypotheses
++ all validation schemes: select among finalists
++ all testing methods: just evaluate
+
+validation still more optimistic than testing
+
+do not fool yourself and others, **report test result**, not **best validation result**
+
+Traning 就像初赛，各个模型都从 Hypothesis Set 中选出最合适的h；Validation就像复赛，从多种模型的scheme中选出一个最优的。这两步都是在进行模型选择，之后的testing methods都只是在对模型进行estimate了。也因为Validation还是在做选择，只要做选择就会有数据的污染等等，所以Validation仍然比testing要乐观。对于模型来说，testing的表现才是真正要看重的，而不是最好的validation的表现。
+
+**一个习题**
+
+![mlf227](./_resources/mlf227.jpg)
+
