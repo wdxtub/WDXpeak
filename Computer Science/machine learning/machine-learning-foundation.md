@@ -110,7 +110,17 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - Case Study
     - Learning Curves Revisited
     - A Detailed Experiment
-- Lecture 13:
+- Lecture 14: Regularization
+    - Matrix Form of Regularized Regression Problem
+    - The Lagrange Multiplier
+    - Augmented Error
+    - The Result
+    - Legendre Polynomials
+    - Regularization and VC Theory
+    - Another View of Augmented Error
+    - General Regularizers Ω(w)
+    - L2 and L1 Regularizer
+    - The Optimal λ
 
 <!-- /MarkdownTOC -->
 
@@ -219,7 +229,15 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
         + what H cannot capture acts like noise
     + Dealing with Overfitting
         + data cleaning/pruning/hinting, and more
-+ Lecture 14:
++ Lecture 14: Regularization
+    + Regularized Hypothesis Set
+        + original H + constraint
+    + Weight Decay Regularization
+        + add (λ/N)w^T^w in E~aug~
+    + Regularization and VC Theory
+        + regularization decreases d~EFF~
+    + General Regularizers
+        + target-dependent, [plausible], or [friendly]
 
 ## Lecture 1 The Learning Problem
 
@@ -1495,6 +1513,8 @@ careful about **your brain's model complexity**
 
 ## Lecture 13: Hazard of Overfitting
 
+overfitting happens with **excessive power**, **stochastic/deterministic noise**, and **limited data**
+
 Bad Generalization
 
 ![mlf174](./_resources/mlf174.jpg)
@@ -1609,6 +1629,158 @@ all very **practical** techniques to combat overfitting
 
 要保证对称性，跟 target 函数一致
 
-## Lecture 13:
+## Lecture 14: Regularization
 
+发生 Overfitting 的一个重要原因可能是假设过于复杂了，我们希望在假设上做出让步，用稍简单的模型来学习，避免 Overfitting。例如，原来的假设空间是10次曲线，很容易对数据过拟合；我们希望它变得简单些，比如 w 向量只保持三个分量（其他分量为零）。
 
+![mlf190](./_resources/mlf190.jpg)
+
+![mlf191](./_resources/mlf191.jpg)
+
+step back = **constrain**
+
+也就是 Hypothesis Set 需要从高阶 step back 到低阶，例如从从10次多项式 H~10~ 走回到2次多项式 H~2~，如下图左所示。实际上就是代表在原来的Learning问题上加上一些限制Constraint。
+
+![mlf192](./_resources/mlf192.jpg)
+
+如果现在将左图的限制放松一些，如下右图所示。
+
+![mlf193](./_resources/mlf193.jpg)
+
+boolean operation 的最优化是困难的(上图右边的 s.t. 部分，那个类似方括号的操作)
+
+可是，右上图中的优化问题是 NP-Hard 的。如果对 w 进行更soft/smooth 的约束，可以使其更容易优化。我们将此时的假设空间记为H(C)，这是“正则化的Hypothesis Set”。如果我们能够顺利地解决下图的最佳化问题，找出一个好的 w~REG~ 的话，那么就是regularized hypothesis。
+
+![mlf194](./_resources/mlf194.jpg)
+
+把一个离散的替换成一个连续的，方便优化
+
+**一个习题**
+
+![mlf195](./_resources/mlf195.jpg)
+
+前面可以知道向量 w~q~^2^ 的和要小于 H(C) 中的 C，答案三不符合这个条件
+
+### Matrix Form of Regularized Regression Problem
+
+![mlf196](./_resources/mlf196.jpg)
+
+把回归问题写成矩阵的形式
+
+### The Lagrange Multiplier
+
+那如何求解这个优化问题呢？先来看看我们新加入的这个限制对优化问题造成了怎样的影响。原来没有限制的时候，只需要让目标函数沿着梯度的反方向一路滚下去知道梯度=0。那加入了限制之后，也就是说w需要在一个红色的球里滚动，如下图所示。可以想象，大部分的时候我们需要的解都是在球的边界附近，只要梯度与w不是平行的，目标函数就仍然可以向谷底滚一点点，可以得到一个更好的解。也就是说，最优的结果是梯度与 w~REG~是平行的。
+
+![mlf197](./_resources/mlf197.jpg)
+
+w~lin~: 做 linear regression 的解
+
+我们现在要做的是在一定限制里求解，所以解必须在圆圈里。在边缘的带点只能在垂直于球的法向量的方向上滚。如果梯度的反方向和 w 不平行，那么在可以滚的方向上会有一个分量，就可以沿着允许的方向滚。
+
+直到 ▽E~in~(w~REG~) 和 w~REG~ 平行，才算是找到了最优解
+
+也就是满足最下面的公式(拉格朗日参数 λ)
+
+### Augmented Error
+
+![mlf198](./_resources/mlf198.jpg)
+
+**ridge regression**
+
+minimizing **unconstrained E~aug~** effectively minimizes some **C-constrained** E~in~
+
+![mlf199](./_resources/mlf199.jpg)
+
+我们要求解的话，就要找出 w~REG~，然后看看有没有一个相对应的 λ，让这两个向量是平行的。观察下面这个式子发现，梯度是原来 E~in~ 的微分，只要对 w~REG~ 做积分，那么就可以得到原来的目标函数的等价形式。
+
+求梯度等于零，实际上就是找原函数的最小值在哪里
+
+加上的这一项通常叫做regularizer。如果给定了 λ (λ>=0，因为它代表两个向量长度的比值而 λ = 0则就代表无限制的原问题)，那么就可以通过解这个优化问题得到 w~REG~。也就是说，我们不再需要去求解之前的那个 constrained C 的优化问题了，对于使用者来说，指定 C 与指定 λ 来说没有什么区别。
+
+也就是原来的条件成为了目标函数的一部分了
+
+### The Result
+
+![mlf200](./_resources/mlf200.jpg)
+
+一点点的 regularization 也会有很好的效果
+
+总之，λ 越大，希望的 w 越短越好(因为在最小化问题中相当于在惩罚长的 w)，对应的常数 C 越小，模型越倾向于选择更小的 w 向量。这种正规化成为 weight-decay regularization，它对于线性模型以及进行了非线性转换的线性假设都是有效的。
+
+### Legendre Polynomials
+
+另外补充一下，虽然 regularization 可以跟任何的transform做搭配，课件中的实验为了结果更明显一些，其实在transform的时候加入了一点小技巧。naive 多项式的transform有一些小小的缺点：如果|x| <= 1，高次 x^Q^ 是很小的数字，要想它在hypothesis中发挥影响力则需要很大的 w，这就与 regularization 目的（将w压到很小）背道而驰。也就是说 regularization 会过度地惩罚了高次的 x^Q^ ，这里用的技巧就叫做 legendre polynomials，如下图所示。
+
+![mlf201](./_resources/mlf201.jpg)
+
+找一些互相垂直的基底，用原来的多项式做垂直化(系数会有一些改变，补偿呗过分惩罚的高次项分数)，效果会更好
+
+**一个习题**
+
+![mlf202](./_resources/mlf202.jpg)
+
++ λ = 0则就代表无限制的原问题
++ C 很大，表示条件很宽松，也包含了线性回归的解
+
+### Regularization and VC Theory
+
+![mlf203](./_resources/mlf203.jpg)
+
+根据 VC Bound 理论，E~in~ 与 E~out~ 的差距是模型的复杂度。也就是说，假设越复杂（d~vc~ 越大），E~out~ 与 E~in~ 相差就越大，违背了我们学习的意愿。
+
+### Another View of Augmented Error
+
+![mlf204](./_resources/mlf204.jpg)
+
+E~aug~ 跟 VC 其实有一些异同，E~aug~ 新加入的那项可以认为是某个单一 hypothesis 有多复杂；而 VC 则表示整个hypothesis set有多复杂。也许，E~aug~ 是一个比原来的 E~in~ 的更好的代理。
+
+minimizing E~aug~:
+
++ (heuristically) operating with the better proxy;
++ (technically) enjoying flexibility of whole H
+
+![mlf205](./_resources/mlf205.jpg)
+
+对于某个复杂的假设空间 H，d~vc~ 可能很大；通过正规化，原假设空间变为正规化的假设空间 H(C)。与 H 相比，H(C) 是受正规化的“约束”的，因此实际上 H(C) 没有 H 那么大，也就是说 H(C) 的 VC维比 原 H 的VC维要小，也就是 Effective VC Dimension。因此，E~out~ 与 E~in~ 的差距变小。
+
+不仅考虑了 Hypothesis set，也考虑了算法怎么做选择，就可以得到一个更优化的 VC Dimension
+
+**一个习题**
+
+![mlf206](./_resources/mlf206.jpg)
+
+### General Regularizers Ω(w)
+
+want: constrait in the **'direction' of target function**
+
+刚刚讲到的regularizer都集中在weight decay上面，那如果想要换更一般的regularizer呢。指导我们更好地设计正规项的原则：最好能告诉target function在哪一个方向。
+
+![mlf207](./_resources/mlf207.jpg)
+
++ target-dependent(symmetry)：如果知道target function的特性，也许可以放进去。例如如果想要的是比较接近偶次方函数，加上的regularizer就是让奇次方的w越小越好。
++ plausible(sparsity)：有说服力的，例如比较平滑或者简单的regularizer。因为regularization主要是为了解决overfitting
++ friendly(optimize)：方便优化求解。
+
+当然，就算选择了一个不太好的regularizer，还有lamda = 0的保护，最差就是不用它而已。
+
+regularizer 和 error measure 的方向很像，三个不同的面向
+
+**机器学习是一门非常重实践的学科，要多写代码**
+
+### L2 and L1 Regularizer
+
+![mlf208](./_resources/mlf208.jpg)
+
+那接下来来看一下L2与L1的regularizer。L2非常的平滑，也易于求解。那L1的特点呢？它也是convex的，不过不是处处可微。不过L1的解常常会是sparse的，也就是w中会有很多的0，因为它的解常常会发生在顶点处。
+
+**L1 useful if needing sparse solution**
+
+### The Optimal λ
+
+![mlf209](./_resources/mlf209.jpg)
+
+那 λ 应该如何选择？λ 当然不是越大越好！选择合适的 λ 也很重要，它收到随机噪音和确定性噪音的影响，噪音越大，需要的 λ 越大。那具体要如何选择呢？且听下回分解。
+
+**一个习题**
+
+![mlf210](./_resources/mlf210.jpg)
