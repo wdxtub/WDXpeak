@@ -128,6 +128,13 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
     - Disadvantages of Leave-One-Out Estimate
     - V-fold Cross Validation
     - Final Words on Validation
+- Lecture 16: Three Learning Principles
+    - Occam's Razor
+    - Simple Model
+    - Sampling Bias
+    - Visual Data Snooping
+    - Dealing with Data Snooping
+    - Power of Three
 
 <!-- /MarkdownTOC -->
 
@@ -254,6 +261,15 @@ Hsuan-Tien Lin htlin@csie.ntu.edu.tw
         + huge computation for almost unbiased estimate
     + V-Fold Cross Validation
         + reasonable computation and performance
++ Lecture 16: Three Learning Principles
+    + Occam's Razor
+        + simple, simple, simple!
+    + Sampling Bias
+        + match test scenario as much as possible
+    + Data Snooping
+        + any use of data is 'contamination'
+    + Power of Three
+        + relatives, bounds, models, tools, principles
 
 ## Lecture 1 The Learning Problem
 
@@ -1805,6 +1821,8 @@ regularizer 和 error measure 的方向很像，三个不同的面向
 
 ## Lecture 15: Validation
 
+(crossly) reserve **validation data** to simulate testing procedure for **model selection**
+
 机器学习的每个模型都有各式各样的参数。即使只是对于二元分类，学习算法上可以选择PLA，LR等；很多学习算法都是iterative的，需要决定迭代次数；可能需要决定每一次迭代走多大，例如梯度下降；或者有很多的transform，例如线性、二次等；同时 regularizer 又有很多的选择 L1/L2；再来 regularizer 到底要加多强的 λ。况且这些选择是组合起来的，那么我们怎么做出正确的选择？
 
 ![mlf211](./_resources/mlf211.jpg)
@@ -1925,4 +1943,143 @@ Traning 就像初赛，各个模型都从 Hypothesis Set 中选出最合适的h�
 **一个习题**
 
 ![mlf227](./_resources/mlf227.jpg)
+
+## Lecture 16: Three Learning Principles
+
+### Occam's Razor
+
+> An explanation of the data should be made as simple as possible, but no simpler.
+
+> Entities must not be muliplied beyond necessity. -- William of Occam
+
+**Occam's razor** for trimming down unnecessary explanation
+
+The simplest model that fits the data is aslo the most plausible
+
+它的哲学意义蛮有名的，比喻剃掉过分的解释。在机器学习里面的意思就是：对训练数据最简单的解释就是最好的。那么问题来了，什么叫做简单的模型和解释；以及为什么确定简单的就是最好的？
+
+曾今定义过 simple hypothesis：看起来很简单，例如一个大大的圆而不是弯弯曲曲的曲线；只需要少数的参数，圆心和半径就能确定这个 hypothesis长什么样子。也曾今定义过 simple model(也就是Hypothesis Set)：有效的hypothesis数量不是很多，成长函数长的很慢。
+
+### Simple Model
+
+![mlf228](./_resources/mlf228.jpg)
+
+simple: **small hypothesis/model complexity
+
+**Simple is Better**
+
+![mlf229](./_resources/mlf229.jpg)
+
+那为什么简单是好的呢？直觉的解释如下：想象有一个简单的model，同时给你一堆随机产生的没什么规律的训练数据。这时候你的 model 只有很小的机会能够找到 E~in~ 是0，杂乱的训练数据导致大部分的时候都没办法分开。那反过来说，如果今天有一组训练数据用你的 simple model 可以分开，这表明了你的数据是有显著性的，是有规律的数据。而用复杂的模型，则是达不到这样的效果的。
+
+direct action: **linear first**
+
+always ask whether **data over-modeled**
+
+所以根据这个锦囊妙计出发，先试线性的模型；选择模型之前永远要想一想是否尽可能地用了最简单的模型。
+
+**一个习题**
+
+![mlf230](./_resources/mlf230.jpg)
+
+### Sampling Bias
+
+抽样有偏差的时候，学习算法产生的结果也会有偏差，这样的情形叫做Sampling bias。VC理论里的一个假设就是：训练数据与测试数据来自于同一个分布。不然的话，学习可能没办法做的很好。那怎么办呢？
+
+实用的建议：了解你的测试环境，让你的训练环境跟测试环境尽可能地接近。举例来说，如果测试环境是last user records，也就是时间轴上靠后的使用者资料，那么训练的时候应该要想办法对时间轴上靠后的数据的权重加强一下。或者，做validation的时候也选择late user records靠后的用户资料。
+
+If the data is sampled in a biased way, learning will produce a similarly biased outcome.
+
+techincal explanation: data from P~1~(x, y) but test under P~2~ ≠ P~1~: **VC fails**
+
+philosophical explanation: study Math but test English: no strong test guarantee
+
+'minor' VC assumption: data and testing **both iid from P**
+
+**一个习题**
+
+![mlf231](./_resources/mlf231.jpg)
+
+### Visual Data Snooping
+
+第三个锦囊妙计就是不要偷看数据。例如之前我们通过观察数据发现圆圈可能是一个好的hypothesis，这其实忽略了人脑的VC dimension。当然实际情况下，偷看资料可能经常发生，不只有使用眼睛的方式。
+
+学习中使用数据的任何过程，都是间接地让你偷看到数据。偷看到数据的表现以后，在下决策去做任何的一件事都要想到，这个数据已经因为你的决策选择过程而多出了很多的model complexity而污染。
+
+所以，在实际操作中，要谨慎地处理Data Snooping这件事情。要做到完全不偷看数据很难，一个折中的方式是做validation。另外，在实际操作中如果要做什么决定的时候尽量避免用数据来做决定，要先把domain knowledge变成feature放进去而不是看完数据再放专业知识进去。然后，要时刻存着怀疑之心，时刻要有一个感觉经过多少过程得到这些结果，结果到底可能被污染的多严重。
+
+If a data set has affected any step in the learning process, its ability to assess the outcome has been compromised.
+
+### Dealing with Data Snooping
+
++ truth - **very hard to avoid**, unless being extremely honest
++ extremely honest: **lock your test data in same**
++ less honest: **reserve validation and use cautiously**
+
++ be blind: avoid **making modeling decision by data**
++ be suspicious: interpret research results (including your onw) by proper **feeling of contamination**
+
+careful balance between **data driven modeling(snooping)** and **validation (no-snooping)**
+
+**一个习题**
+
+![mlf232](./_resources/mlf232.jpg)
+
+### Power of Three
+
+Three Related Fields
+
+![mlf233](./_resources/mlf233.jpg)
+
+Three Theoretical Bounds
+
+![mlf234](./_resources/mlf234.jpg)
+
+Three Linear Models
+
+![mlf235](./_resources/mlf235.jpg)
+
+Three Key Tools
+
+![mlf236](./_resources/mlf236.jpg)
+
+Three Learning Principles
+
+![mlf237](./_resources/mlf237.jpg)
+
+三个相关的领域：
+
++ Data Mining：从大量的数据里找出一些有兴趣的特性。它跟ML是高度相关的。
++ Artificial Intelligence：想让机器做一些有智慧的事情。ML是实现AI的一种方法。
++ Statistics：从数据里做一些推论的动作。是ML的工具。
+
+三个理论保证：
+
++ Hoeffding不等式：针对单个hypothesis的抽样
++ Multi-Bin Hoeffding：针对M个hypothesis
++ VC Bound：针对整个hypothesis set。
+
+三个模型：
+
++ PLA/Pocket：二元分类
++ Linear regression：线性回归，公式解
++ Logistic regression：分类概率
+
+三个重要工具：
+
++ Feature Transform：通过映射到高维空间，将E_in变小。
++ Regularization：反其道而行，想让VC Dimension变小一点，但是可能E_in会变大一些。
++ Validation：留下干净的数据来做模型的选择。
+
+三个锦囊妙计：
+
++ Occam’s Razer：simple is good。
++ Sampling Bias：training matches testing。
++ Data Snooping：honesty is best policy。
+
+Three Future Directions
+
+![mlf238](./_resources/mlf238.jpg)
+
+未来的学习方向：将在后续的机器学习技法课程中讲解。一个是更多不一样的转换方式，不止有多项式的转换；一个是更多的正则化的方式；再来就是不是那么多的Label，譬如说要做无监督的学习应该要如何来做等等。
 
