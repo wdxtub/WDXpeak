@@ -27,3 +27,21 @@ Apply skills learned in this course to a problem that is important to you
 + Report could be basis for a conference submission
 
 
+## 期末项目
+
++ location_tool: 读数据
++ location: 类
++ pso_algo: 算法
++ reference_point: 参考点类
+
+## 3.1.2 OpenMP version
+
+Besides the method using CUDA, it is also possible to optimize the performance using OpenMP. Though it may not be as efficient as the CUDA version, it can still boost the performance with little modification of the code as well as the data structure.
+
+However, simply adding several openmp statement can not meet our needs as most of the time it can not make full use of the powerful cores of our CPUs. First we redesign our variables used in the algorithm so that less shared spaces are used as well as the sync issue.
+
+Also as the n+1 step needs the result of the n step, we have to add barriers to make sure that the computations are performed in the correct order.
+
+## 4.3 Fast Platform OpenMP
+
+not finish yet
