@@ -160,113 +160,114 @@
 + mat 席子
 + mattress 床垫 （厚的那种）
 + mattress pad 床垫 (薄的那种)
-bed canopy 支在床上的篷子 （一般用于儿童床上的装饰）
-bedside table 床头柜
-Banqueting chair 宴会椅
-Barstool 吧椅
-Bathroom accessories 浴室配套装置
-Bathroom combination 浴室组合柜
-Bathroom consoles 浴室多用架
-Bathroom furniture 浴室家具
-Bathroom vanity 浴室盥洗台
-Birch door 桦木门
-Board-room and conference table 会议桌
-Bookcase 书柜
-Bookshelf 书架
-Built-in kitchen 配套厨房家具
-Bunk 双层床
-Bunk bed 双层床
-Children’s chair 儿童椅
-CKD(complete knock down) 整体拆装式家具
-Clothes rail 挂衣杆
-Cocktail cabinet 吧柜，酒柜
-Cocktail table 鸡尾酒桌
-Coffee table 茶几，咖啡桌
-Combine-unit 组合柜
-Composite furniture 复合家具
-Console 小桌
-Contract programmes 订做家具
-Cot 童床（婴儿床）
-Couch 长沙发椅
-Cupboard 橱柜
-Cupboard wall unit for flat 套房衣柜
-Curtain 窗帘，挂帘
-Customized furniture 订做家具
-Double-bed 双人床
-Double function sofa-bed 双人沙发床
-Double sided mirror 双面镜
-Draughtsman chair 吧椅
-Drawer 抽屉
-Dressing table 梳妆台
-Easy chair 轻便椅
-End table 茶几
-Entrance hall furniture 门厅家具
-Exterior door户外门
-Filing cabinet 文件柜
-Fireplace壁炉
-Fitment 固定家具
-Fitting 家居用品
-Flower stand 花架
-Folding chair 折叠椅
-Folding furniture 折叠家具
-Folk furniture 民间家具
-Junior desk chair 学生书桌椅
-Kitchen block /kitchen rock 厨房地砖
-Kitchen cabinet 餐具柜
-Kitchen chair, stool and bench 厨房椅、圆凳及条椅
-Kitchen fitment 厨房固定家具
-Kitchen table 厨房餐桌
-Kitchen unit 厨房成套家具
-Mirror for chest of drawers 多屉柜梳妆镜
-Multi-purpose sofa 多用沙发
-Multi-purpose table 多用桌
-Nest 茶几
-Occasional furniture 配套家具，休闲家具
-Occasional table 休闲桌
-Office furniture 办公家具
-Office seating 办公座椅
-Office table 办公桌
-Partition wall 隔断
-School table 课桌
-screen 屏风
-Seat 座椅
-secretaire 写字桌(尤指有抽屉及分类格者)
-Secretarial chair 秘书椅
-sectional sofa 拼合沙发
-semi-CKD 半拆装家具
-separate wine cabinet 独立厨柜
-serving table 送餐桌
-settee; chaise longue 长靠椅
-shelving combination 组合架
-shoe rack 鞋架
-side table 小桌
-sideboard 餐具柜
-simmous bed 席梦思床
-single bed 单人床
-slat stool 板条凳
-sleeper sofa 可睡沙发
-sofa 沙发
-sofa bed 沙发床
-sofa table 沙发桌
-soft chair 软椅
-spring bed; steel cot 钢丝床；弹簧床
-spring-seat chair 弹簧座椅
-square stool 方凳
-square table 方桌
-steel chair 扶手椅
-steel desk 钢制写字台
-steel safe 保险柜
-step stool 梯凳
-stool 凳子；搁脚凳
-storage for umbrellas 伞架
-straight back chair 直背椅
-strong box; safe 保险箱
-studio couch 单人沙发床
-suitcase; trunk 衣箱；小型旅行箱
-swivel armchair 帆布折叠躺椅
-swivel-top stool 转动凳
++ bed canopy 支在床上的篷子 （一般用于儿童床上的装饰）
++ bedside table 床头柜
++ Banqueting chair 宴会椅
++ Barstool 吧椅
++ Bathroom accessories 浴室配套装置
++ Bathroom combination 浴室组合柜
++ Bathroom consoles 浴室多用架
++ Bathroom furniture 浴室家具
++ Bathroom vanity 浴室盥洗台
++ Birch door 桦木门
++ Board-room and conference table 会议桌
++ Bookcase 书柜
++ Bookshelf 书架
++ Built-in kitchen 配套厨房家具
++ Bunk 双层床
++ Bunk bed 双层床
++ Children’s chair 儿童椅
++ CKD(complete knock down) 整体拆装式家具
++ Clothes rail 挂衣杆
++ Cocktail cabinet 吧柜，酒柜
++ Cocktail table 鸡尾酒桌
++ Coffee table 茶几，咖啡桌
++ Combine-unit 组合柜
++ Composite furniture 复合家具
++ Console 小桌
++ Contract programmes 订做家具
++ Cot 童床（婴儿床）
++ Couch 长沙发椅
++ Cupboard 橱柜
++ Cupboard wall unit for flat 套房衣柜
++ Curtain 窗帘，挂帘
++ Customized furniture 订做家具
++ Double-bed 双人床
++ Double function sofa-bed 双人沙发床
++ Double sided mirror 双面镜
++ Draughtsman chair 吧椅
++ Drawer 抽屉
++ Dressing table 梳妆台
++ Easy chair 轻便椅
++ End table 茶几
++ Entrance hall furniture 门厅家具
++ Exterior door户外门
++ Filing cabinet 文件柜
++ Fireplace壁炉
++ Fitment 固定家具
++ Fitting 家居用品
++ Flower stand 花架
++ Folding chair 折叠椅
++ Folding furniture 折叠家具
++ Folk furniture 民间家具
++ Junior desk chair 学生书桌椅
++ Kitchen block /kitchen rock 厨房地砖
++ Kitchen cabinet 餐具柜
++ Kitchen chair, stool and bench 厨房椅、圆凳及条椅
++ Kitchen fitment 厨房固定家具
++ Kitchen table 厨房餐桌
++ Kitchen unit 厨房成套家具
++ Mirror for chest of drawers 多屉柜梳妆镜
++ Multi-purpose sofa 多用沙发
++ Multi-purpose table 多用桌
++ Nest 茶几
++ Occasional furniture 配套家具，休闲家具
++ Occasional table 休闲桌
++ Office furniture 办公家具
++ Office seating 办公座椅
++ Office table 办公桌
++ Partition wall 隔断
++ School table 课桌
++ screen 屏风
++ Seat 座椅
++ secretaire 写字桌(尤指有抽屉及分类格者)
++ Secretarial chair 秘书椅
++ sectional sofa 拼合沙发
++ semi-CKD 半拆装家具
++ separate wine cabinet 独立厨柜
++ serving table 送餐桌
++ settee; chaise longue 长靠椅
++ shelving combination 组合架
++ shoe rack 鞋架
++ side table 小桌
++ sideboard 餐具柜
++ simmous bed 席梦思床
++ single bed 单人床
++ slat stool 板条凳
++ sleeper sofa 可睡沙发
++ sofa 沙发
++ sofa bed 沙发床
++ sofa table 沙发桌
++ soft chair 软椅
++ spring bed; steel cot 钢丝床；弹簧床
++ spring-seat chair 弹簧座椅
++ square stool 方凳
++ square table 方桌
++ steel chair 扶手椅
++ steel desk 钢制写字台
++ steel safe 保险柜
++ step stool 梯凳
++ stool 凳子；搁脚凳
++ storage for umbrellas 伞架
++ straight back chair 直背椅
++ strong box; safe 保险箱
++ studio couch 单人沙发床
++ suitcase; trunk 衣箱；小型旅行箱
++ swivel armchair 帆布折叠躺椅
++ swivel-top stool 转动凳
 
 以下部分是比较潮的英语单词
+
 微博 Microblog
 山寨 copycat
 异地恋 long-distance relationship
