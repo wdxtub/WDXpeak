@@ -8,6 +8,12 @@
     - 开发机器学习应用程序的步骤
 - 第 2 章 k-近邻算法(kNN)
     - k-近邻算法的一般流程
+    - 使用k-近邻算法改进约会网站的配对效果
+        - 使用 Matplotlib 创建散点图
+        - 归一化数值
+        - 测试算法
+    - 小结
+- 决策树
 
 <!-- /MarkdownTOC -->
 
@@ -83,4 +89,87 @@ DBSCAN | Parzen 窗设计
 
 1. 收集数据：可以使用任何方法
 2. 准备数据：距离计算所需要的数值，最好是结构化的数据格式
-3.
+3. 分析数据：可以使用任何方法
+4. 训练算法：此步骤不适用于k-近邻算法
+5. 测试算法：计算错误率
+6. 使用算法：首先需要输入样本数据和结构化的输出结果，然后运行k-近邻算法判定输入数据分别属于哪个分类，最后应用对计算出的分类执行后续的处理
+
+对未知类别属性的数据集中的每个点依次执行以下操作：
+
+1. 计算已知类别数据集中的点与当前点之间的距离；
+2. 按照距离递增次序排序；
+3. 选取与当前点距离最小的 k 个点；
+4. 确定前 k 个点所在类别的出现频率
+5. 返回前 k 个点出现频率最高的类别作为当前点的预测分类
+
+具体可以参考 `AlgorithmTour/MachineLearningInAction/kNN.py`
+
+    import kNN
+    group, labels = kNN.createDataSet()
+    kNN.classify0([0,0], group, labels, 3)
+
+### 使用k-近邻算法改进约会网站的配对效果
+
+海伦收集了一些约会数据，包括：
+
++ 每年获得的飞行常客里程数
++ 玩视频游戏所耗时间百分比
++ 每周消费的冰激凌公升数
+
+使用 `file2matrix` 函数把数据 `datingTestSet.txt` 读入到程序中
+
+    reload(kNN)
+    datingDataMat, datingLabels = kNN.file2matrix('datingTestSet2.txt')
+
+#### 使用 Matplotlib 创建散点图
+
+在 Python 命令行环境中
+
+    import matplotlib
+    import matplotlib.pyplot as plt
+    from numpy import array
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.scatter(datingDataMat[:,1], datingDataMat[:,2])
+    plt.show()
+
+得到下图
+
+![mla2.3](./_resources/mla2.3.jpg)
+
+乱七八糟完全看不清，使用 `scatter` 函数利用标签来个性化标记
+
+    ax.scatter(datingDataMat[:,1], datingDataMat[:,2], 15.0*array(datingLabels), 15.0*array(datingLabels))
+    plt.show()
+
+标上颜色之后，效果会好很多，可是依然很难从中获得什么有效的信息
+
+![mla2.4](./_resources/mla2.4.jpg)
+
+(以上两张图的横轴是玩视频游戏所耗时间百分比，总州市每周消费的冰淇淋公升数)
+
+如果把横轴和纵轴换成每年获取的飞行常客里程数和玩视频游戏所耗时间百分比，结论会更清晰一些
+
+    ax.scatter(datingDataMat[:,0], datingDataMat[:,1], 15.0*array(datingLabels), 15.0*array(datingLabels))
+    plt.show()
+
+![mla2.5](./_resources/mla2.5.jpg)
+
+#### 归一化数值
+
+为了避免不同的特征的数值不同所导致的影响不同，可能需要进行归一化，也就是把特征值转换成[0,1]值
+
+#### 测试算法
+
+机器学习算法一个很重要的工作就是评估算法的正确率，通常我们只提供已有数据的 90% 作为训练样本来训练分类器，而使用剩余的 10% 数据去测试分类器，检测分类器的正确率
+
+之后是手写的另一个例子，就略过了，总体思想是差不多的。
+
+### 小结
+
+k-近邻算法是分类数据最简单最有效的算法，必须保存全部数据集，如果训练数据集很大，必须使用大量的存储空间。此外，由于必须对数据集中的每个数据计算距离值，实际使用可能非常耗时。**k决策树**是其优化版本，可以节省大量的计算开销。
+
+另一个却显示它无法给出任何数据的基础结构信息，因此我们也无法知晓平均实例样本和典型实例样本具有什么特征。使用**概率测量方法**可以解决这个问题。
+
+## 决策树
+
