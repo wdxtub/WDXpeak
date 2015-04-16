@@ -214,6 +214,7 @@ Please give kind consideration to my son XXX's visa application. Thanks a lot!
 I hereby to guarantee.
 
 XXX(申请人父亲/母亲)
+
 Signature:
 　　
 担保信
