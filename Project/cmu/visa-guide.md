@@ -10,9 +10,12 @@
     - 签证申请费
     - SEVIS 费
 - 面试流程
+    - 4.13 广州
+    - 另一个
     - 注意事项
 - 学习计划
 - 父母担保书
+- 体检
 - 面试问题大汇总
     - 回答问题的原则
     - 一 你是谁？
@@ -56,13 +59,14 @@
 + DS160
     + 请在上面注明您的中文姓名、您中文姓名的电报码、中文家庭地址、公司名字及地址。请将您的表格确认页竖着打印在A4纸上。面谈时请携带打印出来的DS-160表格确认页，不要使用传真的确认页。
 + 电子照片 for ds160 (找照相馆要)
++ 签证预约确认信
 + 纸质照片(5.1cm x 5.1cm = 2inch x 2inch)
     + 于6个月内拍摄的2英寸x2英寸（51毫米x51毫米）正方形白色背景的彩色正面照。请用透明胶带将您的照片贴在护照封面上。
 + 护照，护照末页要有本人签名
-+ I-20表格
++ I-20表格(要签字)
     + 填写完整的I-20A-B表（发放给F1学生）或I-20M-N表（发放给M-1学生）必须由学校指定官员（DSO）和申请人本人签字。表格上的姓名必须与您护照上的姓名完全一致，并已被美国的学术机构输入SEVIS系统。
 + Admission Letter/Offer Letter
-+ TOEFL 成绩单
++ TOEFL 成绩单 √
 + GRE 成绩单
 + 签证费收据
     + 您可以在中信银行在中国的任何分行支付签证申请费140美元（896元人民币）。请将收据用胶水或胶条粘贴在确认页的下半页上。
@@ -71,15 +75,15 @@
 + 本科成绩单
 + 学位证书[2]
 + 毕业证书[2]
++ 学生证
++ 学校、专业、项目介绍
 
 ### 个人材料
 
-+ 个人履历
++ 个人履历 大使馆有范例
     + 详细描述您过去在学术和工作方面的经历
-+ 各种荣誉和奖励的证明
++ 各种荣誉和奖励的证明 √
 + 家庭照片
-+ 对专业的详尽说明，以及易懂的例子
-+ 举例说明你的专业在中国国内实际应用的说明
 + 研究/学习计划和回国计划
     + 在美期间计划好的学习或研究工作的详细信息，包括您所在美国大学的导师和/或系主任的名字及电子邮件地址。
 
@@ -89,7 +93,6 @@
 + 银行流水
 + 父母职业及工资证明
 + 户口本
-+ 出生证明
 + 父母担保信(英文+父母签名)
 + 奖学金证明
 
@@ -97,7 +100,7 @@
 
 ### 签证申请费
 
-在任何一家中信实业银行都能购买，价格是896元(只能交人民币)。交费时要带着护照原件，如果不是本人交付，要带着代办人的身份证原件和缴费人的护照复印件。缴费后不得转让及退款。中信银行开具的两联申请费收据要和其他签证申请材料一起递交。
+在任何一家中信实业银行都能购买，价格是160刀(只能交人民币)。交费时要带着护照原件，如果不是本人交付，要带着代办人的身份证原件和缴费人的护照复印件。缴费后不得转让及退款。中信银行开具的两联申请费收据要和其他签证申请材料一起递交。
 
 ### SEVIS 费
 
@@ -125,6 +128,70 @@ SEVIS全称Student and Exchange Visitor Information System(学生和交流学者
 
 最后一步就是办理收取签证相关手续。
 
+### 4.13 广州
+
+领事馆搬到了珠江新城，出地铁站B2，B1都很近。
+
+大门口两条队，左边是移民，右边是签证，lz约的9:15面签，到的时候大概是8:50，因为是四月签证的人不多，就十来个人排队。。lz傻傻的排了两分钟的队，然后看到一行人匆匆忙忙插队进去了，才知道只要时间快到了都能直接进去，不用排队的。
+
+在这里提醒各位小伙伴，如果时间快到了，直接拿着签证预约信去找安保小哥，会让你进去的。
+
+然后一路都会有工作人员指引你去安检。脱外套，皮带，不用脱鞋了。
+
+之后进入面签大厅，总共大概有25个窗口，前8个是确认窗口，中间有8个指纹窗口，最后是面签窗口。
+
+男VO，白人小哥，详细对话在下面~
+
+    A: Morning!
+    Q: Morning, why do you go to US？
+    A: I am here for my F-1 student visa, this is my i-20.(递上i-20和护照).
+    Q: Wow, Northeastern.
+    A: Yeah.
+    (啪啪啪打键盘).
+    Q: Are you graduated now?
+    A: No, I am a senior student in Hu....
+    Q: Ok.(我还没说完校名就打断我真的好吗！！！！)
+    (啪啪啪啪打键盘)
+    Q: Do you study computer science in university?
+    A: No, my major is EE.
+    (啪啪啪啪啪啪打键盘)
+    Q: Do you have a thesis mentor?
+    A: No, this is a course-based program, so I just have a director.
+    (开始看我护照上之前的美国J-1签证,一边碎碎念一边啪啪啪打键盘，居然打错了还按了一下delete..亮点是delete找了半天。。)
+    Q: Ok, you are approved.(把我的护照往旁边一甩，拿出小黄条)
+    A: Wow.(很惊讶，我以为要开始问交换的经历了)
+    Q: Make sure you take this(指了指i-20) on the plane.
+    A: I have one question. When can I get my passport? Because I know a 120days policy.
+    Q: Oh, it's ok, you will get your passport in one week.
+    A: Oh! Thanks.
+    Q: You have a nice day.
+    A: You too.
+
+除了i-20和护照，啥都没要，算上安检总共不超过30分钟。
+
+### 另一个
+
+    33:(笑)Good morning, sir. I'm here for my F-1 student visa.（主动递上Passport和I-20）
+    VO:(笑)Good morning! ******* university？ 鏉ユ簮涓€浜�.涓夊垎鍦拌鍧�.
+    33:（因为还没回过神，没大听清，本来想说sorry pardon，但又反应过来他说university应该是问去哪个学校）University of XXXXX.
+    VO:Why do you choose this university?
+    33:Because of its strong faculty and reputation.
+    VO:Have you met their faculty?
+    33:No.
+    VO:(笑)Then how do you know their faculty are strong?.
+    33:啊？（超出准备的范围了啊！这时VO笑得更开心了，我立刻反应）From their website.
+    VO:（没继续为难我）So what's your major?
+    33:Computer Science.
+    VO:What will you do after graduation?
+    33:I will come back to China and find a job at a XXXXXX..1point3acres缃�
+    VO:So what's your parents' job?
+    33:My father is XXXX, and my mom is XXXXXX.
+    VO:balabalabalabala（我这时候已经没听他在说什么了，因为他把I-20还给我并且很显然准备面下一个的样子了）
+    33:(Soooooo Happy)Thank you! Oh, when can I get my passport back?
+    VO:(继续笑)About 3-4 business days.
+    33:Thank you!!!(again)Have a nice day!!!.
+    VO:(笑着点头)
+
 ### 注意事项
 
 + 按您预约的面谈时间, 请不要提前超过30分钟前来使馆排队。
@@ -143,6 +210,9 @@ SEVIS全称Student and Exchange Visitor Information System(学生和交流学者
 + 即使拒签也要保持风度。有的申请者被拒签后吵闹，这样做其实不仅无济于事，还会影响形象。可以冷静地询问签证官拒签的原因是什么，如果是材料不够齐全的原因，那么可以下次补齐材料。如果签证官明确表示拒签，最好是不要与签证官争辩。虽然签证官的决定无法上诉，但您可以下次设法提出新的材料，证明自已与中国存在着无法割断的关系，从而排除签证官对自己的怀疑，下次申请获得签证。
 
 ## 学习计划
+
+study plan:study plan 不能随便应付，一定要认真对待，不光要有纸质材料，还有做好口述的准备。不同学位，专业plan不尽相同。但是原则一样：你为什么来usa读书？为什么不在中国读，你来了要怎么读，读完之后呢？study plan 不仅是对你要对自己专业也很详细的了解，也要对自己以后留学时候学习规划有深入了解。所以，无论你是硕士博士，研究型，授课型，study plan 请认真对待。VO关心你会不会移民，所以你要有计划性，稀里糊涂就去读书，怎么可以呢？
+
 
 1. 简单说明自己的学习经历，专业背景及工作经历;
 2. 说明自己进一步求学的动机及为什么选择该国，该大学与该专业;
@@ -232,6 +302,16 @@ Signature:
 XXXX签名：
 
 XXXX年XX月XX日
+
+## 体检
+
+美国留学体检过程说明
+
+1. 体检所需材料：护照或身份证、两张两寸照片和体检费。
+2. 体检流程：受理→付费→填表→抽血→内外科、五官科、心电图、B超、放射科→预防接种→体检表→交回受理处
+    + 常规预防接种项目：麻疹、风疹、腮腺炎和白喉、破伤风免疫力的证明
+3. 证书的领取：《国际旅行预防接种证书》在接种后当场签发；《国际旅行健康证明书》在体检完毕后2个工作日内签发(实际以各体检中心通知为准)。
+4. 体检地址：各地区出入境检验检疫局，请查询当地114。
 
 ## 面试问题大汇总
 
