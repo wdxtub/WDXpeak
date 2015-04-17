@@ -22,7 +22,7 @@
 4.14 | 66.1 | insanity 12
 4.15 | 66.6 | insanity 10
 4.16 | 66.2 | insanity 08
-4.17 | x | insanity 09
+4.17 | 65.9 | insanity 09
 4.18 | x | insanity 11
 4.19 | x | insanity 10
 4.20 | x | insanity 07
