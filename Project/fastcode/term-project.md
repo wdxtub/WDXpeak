@@ -86,7 +86,7 @@ GHC Machine(OpenMP) | 11.942 | 1.74022 | 18.15x
 
 There are 500 test cases in our testing. And for each test case there are 64 particles and 20 times iteration.
 
-some analysis, use the report from project 1/2 and ref
+We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has two(local) or eight(ghc) cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
 
 
 
