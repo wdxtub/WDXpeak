@@ -24,7 +24,8 @@
 4.16 | 66.2 | insanity 08
 4.17 | 65.9 | 回校，休息
 4.18 | 66.1 | 踢球
-4.19 | x | insanity 09
+4.19 | 65.8 | 膝盖脚踝养伤
+4.20 | x | insanity 09
 4.19 | x | insanity 11
 4.20 | x | insanity 10
 4.21 | x | insanity 07

@@ -16,7 +16,6 @@ ID | Name | Unit
 18660 | Numerical Methods for Engineering Design and Optimization | 12
 18697 | Statistical Discovery and Learning | 12
 18781 | Speech Recognition and Understanding | 12
-18794 | Pattern Recognition Theory | 12
 18655 | Service Oriented Computing
 86675 | Computational Perception | 12
 95712 | Object Oriented Programming in JAVA | 12
