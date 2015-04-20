@@ -72,6 +72,17 @@ However, we can't use OpenMP on all for statements as in the pso algorithm, the 
 
 So what we can do is to change our data structure so as to keep the correct order and reduce unnecessary operations. For pso algorithm, KD-tree is a good choice. However the implementation of KD-tree is difficult to suit the OpenMP. After tesing we have to give up combing KD-tree with OpenMP(But we use is on the CUDA version).
 
+Then we make those variables owned by each thread private because they do not have to communicate with other threads. It is better to make them `private` instead of `shared`.
+
+    #pragma omp parallel for private(x, y, i, temp_p)
+    for (i = 0; i < particle_num; i++) {
+        x = rand() % rangeX;
+        y = rand() % rangeY;
+        temp_p = find_nearest_neighbour(database, x, y);
+        particles_x[i] = temp_p.first;
+        particles_y[i] = temp_p.second;
+    }
+
 OpenMP is focusing on multi-platform shared memory multiprocessing programming. Using fork-join model, some STL containers don't work well in multithreading environment. That is to say, they are not thread-safe. So we modify our code in order to use the basic data structure such as array and struct. Actually, the random-access container(vector) works fine with OpenMP. But the set/map container is difficult to use correctly in OpenMP, even with the help of the latest version of OpenMP, only limited operations on these contains are available. We make most of the data structure friendly to OpenMP to accelerate the computation.
 
 ## Analysis of results What are the results? What do they mean?
@@ -81,20 +92,34 @@ We test our code both on local machine and cmu ghc machine. Unlike CUDA, the num
 Method | Time(second) | Error | Speedup
 :---: | :---: | :---: | :---:
 Origin | 216.7 | 1.71381 | x
-Local Machine(OpenMP) | 51.365 | 2.22721 | 4.22x
+Local Machine 1(OpenMP) | 51.365 | 2.22721 | 4.22x
 GHC Machine(OpenMP) | 11.942 | 1.74022 | 18.15x
+
+Local Machine | CPU | Memory
+:---: | :---: | :---:
+1 | 2.4 GHz Intel Core i5 | 2G
+2 | x | x
 
 There are 500 test cases in our testing. And for each test case there are 64 particles and 20 times iteration.
 
 We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has two(local) or eight(ghc) cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
 
+The different optimizing methods have different effects. For running test cases concurrency, the more thread there are, the less time it consumed. For example, it takes about 51s to finish the testing on my machine but only 11s on GHC machines. The GHC machines have 4x cores than mine thus the speedup is almost the same.
 
+One of the interesting fact is that the GHC machine got the speedup more than 16x than the origin sequential version. Where does this 2x speedup come from?
+
+They come from the techniques we used to optimizing the pso algorithm itself, including code reordering, loop unrolling, branch eliminating, SIMD and avoiding capacity/conflict/compulsory misses.
+
+However, as pso algorithm has its own limitation, most more powerful techniques can not be applied on it (the iteration process has to be in order). For each iteration, the amount of computation is not as much as matrix multiplication or kmeans. We try our best to get this 2x speedup using simple data structure and OpenMP.
+
+But the good news is, the increases of performance is almost linear in testing. As it is, we can save lots of time using more powerful CPUs without worry about the sync issue. It can promote the efficiency on developing new algorithms.
 
 
 ## Conclusion. What is the take home message?
 
-+ We have to make a choice between time and space, flexibility and speed
-+ Finding the opportunities of concurrency is the most difficult task in writing fast code
-+ The improvement on data structure may be better than any other optimizing methods
-+ However, sometimes the manycore/multicore optimization can be used on complex but efficient algorithm, so we have to choose a better way according to the situation.
-+ Though you can make code run faster without knowing the meaning behind the code, if you really want to push things to the limit, you should know how the code works and opitimize the whole procedure.
++ We have to make a choice between time and space, flexibility and speed.
++ Finding the opportunities of concurrency is the most difficult task in writing fast code.
++ The improvement on data structure may be better than any other optimizing methods.
++ However, sometimes the manycore/multicore optimization cannot be used on complex but efficient algorithm, so we have to choose between them according to the situation.
++ Though you can make code run faster without knowing the meaning behind the code, if you really want to push things to the limit, you should know how the code works and optimize the whole procedure.
++ Most of the optimizations contribute little to the performance, some of them even make things worse. We should test them with great caution to get the best result.

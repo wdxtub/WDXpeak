@@ -4,9 +4,6 @@
 
 - 美国留学需要注意事项
     - 日常英语
-        - 家居日用品英文
-- 龙虾 Lobster
-- 冰糖 Rock Sugar
     - 入乡随俗
         - 联系工具
         - 身份证明
@@ -53,8 +50,6 @@
 + 留心观察美国的政治生态，媒介现象以及民众对于自由的理解和运用，观察美国「政府-社会-个人」间的关系以及边界，观察一个民主法治社会的运行细节。不管你学什么专业，这些都是目前中国所不易见到的。
 
 ### 日常英语
-
-#### 家居日用品英文
 
 + refrigerator 冰箱
 + automatic rice cooker 电饭锅
@@ -268,557 +263,535 @@
 
 以下部分是比较潮的英语单词
 
-微博 Microblog
-山寨 copycat
-异地恋 long-distance relationship
-剩女 3S lady(single，seventies,stuck)/left girls
-熟女 cougar(源自电影Cougar Club)
-裸婚 naked wedding
-炫富 flaunt wealth
-团购 group buying
-人肉搜索 flesh search
-潮人：trendsetter
-发烧友： fancier
-骨感美女：boney beauty
-卡奴：card slave
-下午茶 high tea
-愤青 young cynic
-性感妈妈 yummy mummy
-亚健康 sub-health
-灵魂伴侣 soul mate
-小白脸 toy boy
-精神出轨 soul infidelity
-人肉搜索 flesh search
-钻石王老五 diamond bachelor
-时尚达人 fashion icon
-御宅 otaku
-橙色预警 orange signal warning
-预约券 reservation ticket
-上相的,上镜头的 photogenic
-80后：80's generation
-百搭：all-match
-限时抢购：flash sale
-合租：flat-share
-荧光纹身：glow tattoo
-泡泡袜：loose socks
-裸妆：nude look
-黄牛票：scalped ticket
-扫货：shopping spree
-烟熏妆：smokey-eye make-up
-水货：smuggled goods
-纳米技术：nanotechnology
-正妹 hotty
-对某人念念不忘 get the hots for
-草莓族 Strawberry generation
-草根总统 grassroots president
-笨手笨脚 have two left feet
-拼车 car-pooling
-解除好友关系 unfriend v.
-暴走 go ballistic
-海外代购 overseas purchasing
-跳槽 jump ship
-闪婚 flash marriage
-闪电约会 speeddating
-闪电恋爱 whirlwind romance
-刻不容缓，紧要关头 crunch time
-乐活族 LOHAS(Lifestyle Of Health And Sustainability)
-一夜情 one-night stand
-偶像派 idol type
-脑残体 leetspeak
-挑食者 picky-eater
-伪球迷 fake fans
-狂热的 gaga eg: I was gaga over his deep blue eyes when I first set eyes on him
-防暑降温补贴 high temperature subsidy
-奉子成婚 shotgun marriage
-婚前性行为 premarital sex
-开博 to open a blog
-房奴车奴 mortgage slave
-上课开小差 zone out
-万事通 know-it-all
-赌球 soccer gambling
-桑拿天 sauna weather
-假发票 fake invoice
-二房东 middleman landlord
-笑料 laughing stock
-泰国香米 Thai fragrant rice
-学历造假 fabricate academic credentials
-暗淡前景 bleak prospects
-毕业典礼 commencement
-散伙饭 farewell dinner
-毕业旅行 after-graduation trip
-节能高效的 fuel-efficient
-具有时效性的 time-efficient
-很想赢 be hungry for success
-面子工程 face job
-指甲油 nail varnish
-学历门槛 academic threshold
-王牌主播 mainstay TV host
-招牌菜 signature dishes
-城市热岛效应 urban heat island effect
-逃学 play hooky, 装病不上班 play hooky from work
-一线城市 first-tier cities
-高考 the National College Entrance Examines
-录取分数线 admission scores
-保障性住房 indemnificatory housing
-一决高下 Duke it out
-囤积居奇 hoarding and profiteering
-灰色市场 Grey market
-反倾销 anti-dumping
-吃白食的人 freeloader
-公关 public relation
-不幸的日子，不吉利的日子 black-letter day
-吉利的日子 saints' days
-廉租房 low rent housing
-限价房 capped-price housing
-经适房 affordable housing
-替罪羔羊 whipping boy
-对口支援 partner assistance
-电脑游戏迷：gamer
-家庭主男：house-husband
-小白脸，吃软饭的：kept man
-二奶：kept woman
-麦霸：Mic king / Mic queen
-型男：metrosexual man(范指那些极度重视外貌而行为gay化的直男，型男属于其中的一种)
++ 微博 Microblog
++ 山寨 copycat
++ 异地恋 long-distance relationship
++ 剩女 3S lady(single，seventies, stuck)/left girls
++ 熟女 cougar(源自电影Cougar Club)
++ 裸婚 naked wedding
++ 炫富 flaunt wealth
++ 团购 group buying
++ 人肉搜索 flesh search
++ 潮人 trendsetter
++ 发烧友 fancier
++ 骨感美女 boney beauty
++ 卡奴 card slave
++ 下午茶 high tea
++ 愤青 young cynic
++ 性感妈妈 yummy mummy
++ 亚健康 sub-health
++ 灵魂伴侣 soul mate
++ 小白脸 toy boy
++ 精神出轨 soul infidelity
++ 钻石王老五 diamond bachelor
++ 时尚达人 fashion icon
++ 御宅 otaku
++ 橙色预警 orange signal warning
++ 预约券 reservation ticket
++ 上相的,上镜头的 photogenic
++ 80后 80's generation
++ 百搭 all-match
++ 限时抢购 flash sale
++ 合租 flat-share
++ 荧光纹身 glow tattoo
++ 泡泡袜 loose socks
++ 裸妆 nude look
++ 黄牛票 scalped ticket
++ 扫货 shopping spree
++ 烟熏妆 smokey-eye make-up
++ 水货 smuggled goods
++ 纳米技术 nanotechnology
++ 正妹 hotty
++ 对某人念念不忘 get the hots for
++ 草莓族 Strawberry generation
++ 草根总统 grassroots president
++ 笨手笨脚 have two left feet
++ 拼车 car-pooling
++ 解除好友关系 unfriend v.
++ 暴走 go ballistic
++ 海外代购 overseas purchasing
++ 跳槽 jump ship
++ 闪婚 flash marriage
++ 闪电约会 speeddating
++ 闪电恋爱 whirlwind romance
++ 刻不容缓，紧要关头 crunch time
++ 乐活族 LOHAS(Lifestyle Of Health And Sustainability)
++ 一夜情 one-night stand
++ 偶像派 idol type
++ 脑残体 leetspeak
++ 挑食者 picky-eater
++ 伪球迷 fake fans
++ 狂热的 gaga eg: I was gaga over his deep blue eyes when I first set eyes on him
++ 防暑降温补贴 high temperature subsidy
++ 奉子成婚 shotgun marriage
++ 婚前性行为 premarital sex
++ 开博 to open a blog
++ 房奴车奴 mortgage slave
++ 上课开小差 zone out
++ 万事通 know-it-all
++ 赌球 soccer gambling
++ 桑拿天 sauna weather
++ 假发票 fake invoice
++ 二房东 middleman landlord
++ 笑料 laughing stock
++ 泰国香米 Thai fragrant rice
++ 学历造假 fabricate academic credentials
++ 暗淡前景 bleak prospects
++ 毕业典礼 commencement
++ 散伙饭 farewell dinner
++ 毕业旅行 after-graduation trip
++ 节能高效的 fuel-efficient
++ 具有时效性的 time-efficient
++ 很想赢 be hungry for success
++ 面子工程 face job
++ 指甲油 nail varnish
++ 学历门槛 academic threshold
++ 王牌主播 mainstay TV host
++ 招牌菜 signature dishes
++ 城市热岛效应 urban heat island effect
++ 逃学 play hooky
++ 装病不上班 play hooky from work
++ 一线城市 first-tier cities
++ 高考 the National College Entrance Examines
++ 录取分数线 admission scores
++ 保障性住房 indemnificatory housing
++ 一决高下 Duke it out
++ 囤积居奇 hoarding and profiteering
++ 灰色市场 Grey market
++ 反倾销 anti-dumping
++ 吃白食的人 freeloader
++ 公关 public relation
++ 不幸的日子，不吉利的日子 black-letter day
++ 吉利的日子 saints' days
++ 廉租房 low rent housing
++ 限价房 capped-price housing
++ 经适房 affordable housing
++ 替罪羔羊 whipping boy
++ 对口支援 partner assistance
++ 电脑游戏迷：gamer
++ 家庭主男：house-husband
++ 小白脸，吃软饭的：kept man
++ 二奶：kept woman
++ 麦霸：Mic king / Mic queen
++ 型男：metrosexual man(范指那些极度重视外貌而行为gay化的直男，型男属于其中的一种)
 
 下面这部分对女生比较有用
-一，化妆品/护肤品/洗涤
-护肤: skin care
-洗面奶: facial cleanser/face wash(foaming,milky,cream,gel)
-爽肤水: toner/astringent
-紧肤水：firming lotion
-柔肤水：toner/smoothing toner （facial mist/facial spray/complexion mist）
-护肤霜: moisturizers and creams
-保湿：moisturizer
-隔离霜，防晒：sun screen/sun block
-美白：whitening
-露：lotion，霜：cream
-日霜：day cream
-晚霜：night cream
-眼部gel: eye gel
-面膜: facial mask/masque
-眼膜: eye mask
-护唇用：lip care
-口红护膜：lip coat
-磨砂膏: facial scrub
-去黑头: (deep) pore cleanser/striper pore refining
-去死皮: exfoliating scrub
-润肤露（香体乳）:lotion/moisturizer
-护手霜: hand lotion/moisturizer
-沐浴露: wash
 
-二，化妆品/护肤品功能
-acne/spot（青春痘用品）
-active（赋活用）
-after sun（日晒后用品）
-alcohol-free（无酒精）
-anti-（抗、防）
-anti-wrinkle（抗老防皱）
-balancing（平衡酸硷）
-clean-/purify-（清洁用）
-combination（混合性皮肤）
-dry（干性皮肤）
-essence（精华液）
-facial（脸部用）
-fast/quick dry（快干）
-firm（紧肤）
-foam（泡沫）
-gentle（温和的）
-hydra-（保湿用）
-long lasting（持久性）
-milk（乳）
-mult-（多元）
-normal（中性皮肤）
-nutritious（滋养）
-oil-control（抑制油脂）
-oily（油性皮肤）
-pack（剥撕式面膜）
-peeling（敷面剥落式面膜）
-remover（去除、卸妆）
-repair（修护）
-revitalite（活化）
-scrub（磨砂式(去角质)）
-sensitive（敏感性皮肤）
-solvent（溶解）
-sun block（防晒用）
-toning lotion（化妆水）
-trentment（修护）
-wash（洗）
-waterproof（防水）
+化妆品/护肤品/洗涤
 
-三，化妆品/彩妆
-彩妆: cosmetics
-遮瑕膏: concealer
-修容饼：shading powder
-粉底: foundation (compact,stick)
-粉饼: pressed powder
-散粉：loose powder
-闪粉：shimmering powder/glitter
-眉粉: brow powder
-眉笔：brow pencil
-眼线液（眼线笔）：liquid eye liner, eye liner
-眼影: eye shadow
-睫毛膏: mascara
-唇线笔: lip liner
-唇膏: lip color/lipstick（笔状 lip pencil，膏状 lip lipstick，盒装 lip color/lip gloss）
-唇彩: lip gloss/lip color
-腮红: blush
-卸装水: makeup remover
-卸装乳: makeup removing lotion
-帖在身上的小亮片: art
-指甲: manicure/pedicure
-指甲油: nail polish/color/enamel
-去甲油：nail polish remover
-护甲液：nail saver
-发: hair products/accessories
-洗发水: shampoo
-护发素: hair conditioner
-锔油膏: conditioning hairdressing/hairdressing gel /treatment
-摩丝: mousse
-发胶: styling gel
-染发: hair color
-冷烫水: perm/perming formula
-卷发器: rollers/perm rollers
++ 护肤 skin care
++ 洗面奶 facial cleanser/face wash(foaming,milky,cream,gel)
++ 爽肤水 toner/astringent
++ 紧肤水 firming lotion
++ 柔肤水 toner/smoothing toner （facial mist/facial spray/complexion mist）
++ 护肤霜 moisturizers and creams
++ 保湿 moisturizer
++ 隔离霜，防晒 sun screen/sun block
++ 美白 whitening
++ 露 lotion
++ 霜 cream
++ 日霜 day cream
++ 晚霜 night cream
++ 眼部gel eye gel
++ 面膜 facial mask/masque
++ 眼膜 eye mask
++ 护唇用 lip care
++ 口红护膜 lip coat
++ 磨砂膏 facial scrub
++ 去黑头 (deep) pore cleanser/striper pore refining
++ 去死皮 exfoliating scrub
++ 润肤露（香体乳） lotion/moisturizer
++ 护手霜 hand lotion/moisturizer
++ 沐浴露 wash
 
-四，化妆品/化妆工具
-工具: cosmetic applicators/accessories
-粉刷: cosmetic brush, face brush
-粉扑: powder puffs
-海绵扑: sponge puffs
-眉刷: brow brush
-睫毛夹: lash curler
-眼影刷: eye shadow brush/shadow applicator
-口红刷: lip brush
-胭脂扫: blush brush
-转笔刀: pencil sharpener
-电动剃毛器: electric shaver-for women
-电动睫毛卷: electric lash curler
-描眉卡: brow template
-纸巾: facial tissue
-吸油纸: oil-absorbing sheets
-化装棉: cotton pads
-棉签: q-tips
-＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-　 1、eye cream/eye care/eye gel：眼霜或者眼部保养品或者眼胶
-　　2、masque：面膜,是面膜产品的通称.
-　　面膜的其他表示方法有*mask-面具*pack-外盒,包
-　　3、day&night：指白天专用的产品和晚上专用的产品
-　　4、exfoliate：剥落,脱落.一般看到exfoliate基本上就是去角质的产品了.
-　　其他表示方法:scrub去除杂质
-　　5、essence：精华,要素;指精华液,美容液,精华露.
-　　essential-精华的;soul-精髓;extract-萃取精华
-　　6、lotion：化妆水,洗涤剂.英文法文表示一致,都是lotion
-　　有些品牌也用lotion作为乳液的用词,不过严格来讲,最好是在lotion前面加上milk(乳液,乳状物),或者milky(乳状的),也就是milk/milky lotion
-　　化妆水的其他用语:toner;tonic;water
-　　乳液的其他用语:fluid-流动的,液体(英文法文通用);liquid-液体物质
-　　7、foam：泡沫,或者可以挤出来的泡沫,可以产生泡沫的产品
-　　8、soap：肥皂,块状的产品
-　　肥皂类其他用语:bar
-　　9、make up remover：卸妆
-　　卸妆的其他用语:cleanser, cleansing, clean off, clean out都有清洁,扫除的意思,但有时会跟洗脸产品的标示有重叠,要留意是否注明[可以清除彩妆]
-　　10、balm：香油,芳香性树脂,大多指护唇油(罐装的唇膏)
-　　护唇膏的其他用语:lipsalve-嘴唇用油膏;lip ointment-唇用软膏
-　　11、shake well before use：使用前请先摇匀
-　　通常这一类产品都含有不同密度的物质,所以要先摇匀
-　　摇匀的其他用语:brandish-摇动;jiggle-轻轻晃动;joggle-轻摇
-　　12、tissue-off：用完以后要以面纸或者化妆棉,擦掉的产品
-　　擦拭的其他用语:well-off;brush;wipe off
-　　需要[剥,撕]的其他用语eel off
-　　13、wash-off：水洗,用后要洗掉的
-　　水洗的其他用语:water-off;rinsing-off;washable;sweep
-　　14、pat：轻拍,轻抚,轻压
-　　拍打的其他用语ab-以手按压;flap-拍打,扑打
-　　有些产品需要稍加画圆,按摩.外文是:massage-onto-在肌肤上面按摩;circular movement-画圆移动
-～～～～～～～～～～～～～～～～～～～
-nail polish 指甲油
-cosmetics case 化妆箱
-high heels 高跟鞋
-gloves 手套
-wrist watch 手表
-belt 腰带
-pendant 项饰
-necklace 项链
-neck scarf 围巾
-earrings 耳环
-bracelet 手链, 手镯
-tie 领带
-cuff links 袖扣
-ascot 宽领带
-pocket watch 表袋
-hair net 发网
-shampoo 洗发水
-cream rinse 营养发水
-hair spray 发胶
-powder puff 粉扑
-compact 带镜粉盒
-astringent 化妆水
-perfume 香水
-skin milk 乳液
-cold cream 油底霜
-atomizer 喷雾式香水
-clip 夹子
-hand mirror 手镜
-bobby pin 发夹
-false eyelash 假睫毛
-lipstick 口红
-wig 假发
-tie pin 领带夹
-tissue 面纸
-purse 手提包
-brooch 胸针
-shawl 披肩
-neckerchief 领巾
-还有，来例假是：I'm having my period吼吼~~~
-Because I have pimples 痘痘in the face.
-毛孔：pore
-T型区：T-zone or T area
+化妆品/护肤品功能
 
-超市物品英文名称(很全很强大)
-饼干类 Biscuits
-零嘴 Snacks
-各式洋芋片 Crisps
++ acne/spot（青春痘用品）
++ active（赋活用）
++ after sun（日晒后用品）
++ alcohol-free（无酒精）
++ anti-（抗、防）
++ anti-wrinkle（抗老防皱）
++ balancing（平衡酸硷）
++ clean-/purify-（清洁用）
++ combination（混合性皮肤）
++ dry（干性皮肤）
++ essence（精华液）
++ facial（脸部用）
++ fast/quick dry（快干）
++ firm（紧肤）
++ foam（泡沫）
++ gentle（温和的）
++ hydra-（保湿用）
++ long lasting（持久性）
++ milk（乳）
++ mult-（多元）
++ normal（中性皮肤）
++ nutritious（滋养）
++ oil-control（抑制油脂）
++ oily（油性皮肤）
++ pack（剥撕式面膜）
++ peeling（敷面剥落式面膜）
++ remover（去除、卸妆）
++ repair（修护）
++ revitalite（活化）
++ scrub（磨砂式(去角质)）
++ sensitive（敏感性皮肤）
++ solvent（溶解）
++ sun block（防晒用）
++ toning lotion（化妆水）
++ trentment（修护）
++ wash（洗）
++ waterproof（防水）
 
-宠物食品 Pet. Food
-糖业类 Confectionery
-厕所用品 Toiletries
+化妆品/彩妆
 
-榖类食品 Cereals
-家禽类 Poultry
-各式腌菜 Pickles
++ 彩妆 cosmetics
++ 遮瑕膏 concealer
++ 修容饼 shading powder
++ 粉底 foundation (compact,stick)
++ 粉饼 pressed powder
++ 散粉 loose powder
++ 闪粉 shimmering powder/glitter
++ 眉粉 brow powder
++ 眉笔 brow pencil
++ 眼线液（眼线笔）liquid eye liner, eye liner
++ 眼影 eye shadow
++ 睫毛膏 mascara
++ 唇线笔 lip liner
++ 唇膏 lip color/lipstick（笔状 lip pencil，膏状 lip lipstick，盒装 lip color/lip gloss）
++ 唇彩 lip gloss/lip color
++ 腮红 blush
++ 卸装水 makeup remover
++ 卸装乳 makeup removing lotion
++ 帖在身上的小亮片 art
++ 指甲 manicure/pedicure
++ 指甲油 nail polish/color/enamel
++ 去甲油nail polish remover
++ 护甲液 nail saver
++ 发 hair products/accessories
++ 洗发水 shampoo
++ 护发素 hair conditioner
++ 锔油膏 conditioning hairdressing/hairdressing gel /treatment
++ 摩丝 mousse
++ 发胶 styling gel
++ 染发 hair color
++ 冷烫水 perm/perming formula
++ 卷发器 rollers/perm rollers
 
+化妆品/化妆工具
 
-以下将常用的食品的中英对照作整理, 以方便大家采购:
-A. 肉品类 (鸡, 猪, 牛)
-B. 海产类
-C. 蔬果类
-D. 其它
++ 工具 cosmetic applicators/accessories
++ 粉刷 cosmetic brush, face brush
++ 粉扑 powder puffs
++ 海绵扑 sponge puffs
++ 眉刷 brow brush
++ 睫毛夹 lash curler
++ 眼影刷 eye shadow brush/shadow applicator
++ 口红刷 lip brush
++ 胭脂扫 blush brush
++ 转笔刀 pencil sharpener
++ 电动剃毛器 electric shaver-for women
++ 电动睫毛卷 electric lash curler
++ 描眉卡 brow template
++ 纸巾 facial tissue
++ 吸油纸 oil-absorbing sheets
++ 化装棉 cotton pads
++ 棉签 q-tips
 
-A. 肉品类 (鸡, 猪, 牛)
-鸡 以身体部位分：
-大鸡腿 Fresh Grade Legs
-鸡胸肉 Fresh Grade Breast
-小鸡腿 Chicken Drumsticks
-鸡翅膀 Chicken Wings
-其它部位及内藏，英国人都不吃，或给猫、狗吃的。
++ nail polish 指甲油
++ cosmetics case 化妆箱
++ high heels 高跟鞋
++ gloves 手套
++ wrist watch 手表
++ belt 腰带
++ pendant 项饰
++ necklace 项链
++ neck scarf 围巾
++ earrings 耳环
++ bracelet 手链, 手镯
++ tie 领带
++ cuff links 袖扣
++ ascot 宽领带
++ pocket watch 表袋
++ hair net 发网
++ shampoo 洗发水
++ cream rinse 营养发水
++ hair spray 发胶
++ powder puff 粉扑
++ compact 带镜粉盒
++ astringent 化妆水
++ perfume 香水
++ skin milk 乳液
++ cold cream 油底霜
++ atomizer 喷雾式香水
++ clip 夹子
++ hand mirror 手镜
++ bobby pin 发夹
++ false eyelash 假睫毛
++ lipstick 口红
++ wig 假发
++ tie pin 领带夹
++ tissue 面纸
++ purse 手提包
++ brooch 胸针
++ shawl 披肩
++ neckerchief 领巾
++ 来例假是：I'm having my period
+
+超市物品英文名称
+
++ 饼干类 Biscuits
++ 零嘴 Snacks
++ 各式洋芋片 Crisps
++ 宠物食品 Pet. Food
++ 糖业类 Confectionery
++ 厕所用品 Toiletries
++ 榖类食品 Cereals
++ 家禽类 Poultry
++ 各式腌菜 Pickles
+
+肉品类 (鸡, 猪, 牛)
+
++ 鸡 以身体部位分：
+
++ 大鸡腿 Fresh Grade Legs
++ 鸡胸肉 Fresh Grade Breast
++ 小鸡腿 Chicken Drumsticks
++ 鸡翅膀 Chicken Wings
++ 其它部位及内藏，英国人都不吃，或给猫、狗吃的。
 
 猪肉 则分：
-绞肉 Minced Steak
-猪肝 Pigs Liver
-猪脚 Pigs feet
-猪腰 Pigs Kidney
-猪心 Pigs Hearts
-猪肚 Pig bag
-没骨头的猪排 Pork Steak
-连骨头的猪排 Pork Chops
-卷好的腰部瘦肉 Rolled Pork loin
-卷好的腰部瘦肉连带皮 Rolled Pork Belly
-做香肠的绞肉 Pork sausage meat
-醺肉 Smoked Bacon
-小里肌肉 Pork Fillet
-带骨的瘦肉 Spare Rib Pork chops
-小排骨肉 Spare Rib of Pork
-肋骨 Pork ribs (ps 可煮汤食用)
-汉堡肉 Pork Burgers
-一块块的?C肉 Pork-pieces
-猪油滴 Pork Dripping
-猪油 Lard
-蹄膀 Hock
-中间带骨的腿肉 Casserole Pork
-有骨的大块肉 Joint
+
++ 绞肉 Minced Steak
++ 猪肝 Pigs Liver
++ 猪脚 Pigs feet
++ 猪腰 Pigs Kidney
++ 猪心 Pigs Hearts
++ 猪肚 Pig bag
++ 没骨头的猪排 Pork Steak
++ 连骨头的猪排 Pork Chops
++ 卷好的腰部瘦肉 Rolled Pork loin
++ 卷好的腰部瘦肉连带皮 Rolled Pork Belly
++ 做香肠的绞肉 Pork sausage meat
++ 醺肉 Smoked Bacon
++ 小里肌肉 Pork Fillet
++ 带骨的瘦肉 Spare Rib Pork chops
++ 小排骨肉 Spare Rib of Pork
++ 肋骨 Pork ribs (ps 可煮汤食用)
++ 汉堡肉 Pork Burgers
++ 一块块的?C肉 Pork-pieces
++ 猪油滴 Pork Dripping
++ 猪油 Lard
++ 蹄膀 Hock
++ 中间带骨的腿肉 Casserole Pork
++ 有骨的大块肉 Joint
 
 牛肉
-小块的瘦肉 Stewing Beef
-牛肉块加牛腰 Steak & Kidney
-可煎食的大片牛排 Frying steak
-牛绞肉 Minced Beef
-大块牛排 Rump Steak
-牛键肉 Leg Beef
-牛尾 OX-Tail
-牛心 OX-heart
-牛舌 OX-Tongues
-带骨的腿肉 Barnsley Chops
-肩肉 Shoulder Chops
-腰上的牛排肉 Porter House Steak
-头肩肉筋、油较多 Chuck Steak
-拍打过的牛排 Tenderized Steak
-[注]牛杂类在传统摊位市场才可买到，超级市场则不贩卖。有：
-牛肠 Roll, 牛筋 Cowhells, 蜂窝牛肚 Honeycomb Tripe
-牛肚块 Tripe Pieces, 白牛肚 Best thick seam
 
-B. 海产类
++ 小块的瘦肉 Stewing Beef
++ 牛肉块加牛腰 Steak & Kidney
++ 可煎食的大片牛排 Frying steak
++ 牛绞肉 Minced Beef
++ 大块牛排 Rump Steak
++ 牛键肉 Leg Beef
++ 牛尾 OX-Tail
++ 牛心 OX-heart
++ 牛舌 OX-Tongues
++ 带骨的腿肉 Barnsley Chops
++ 肩肉 Shoulder Chops
++ 腰上的牛排肉 Porter House Steak
++ 头肩肉筋、油较多 Chuck Steak
++ 拍打过的牛排 Tenderized Steak
+
+[注]牛杂类在传统摊位市场才可买到，超级市场则不贩卖。有：
+
++ 牛肠 Roll
++ 牛筋 Cowhells
++ 蜂窝牛肚 Honeycomb Tripe
++ 牛肚块 Tripe Pieces
++ 白牛肚 Best thick seam
+
+海产类
+
 鱼：
-鲱 Herring
-鲑 Salmon
-鳕 Cod
-鲔鱼 Tuna
-比目鱼 Plaice
-鱆鱼 Octopus
-乌贼 Squid
-花枝 Dressed squid
-鲭 Mackerel
-北大西洋产的鳕鱼 Haddock
-鳟鱼 Trout (ps适合蒸来吃)
-鲤鱼 Carp
-鳕鱼块 Cod Fillets (可做鱼羹，或炸酥鱼片都很好吃)
-海鳗 Conger (Eel)
-海鲤 Sea Bream
-鳕鱼类 Hake
-红鲣 Red Mullet (可煎或红烧 来吃)
-熏鲑* Smoked Salmon
-带有黑胡椒粒的熏鲭* Smoked mackerel with crushed pepper corn
-鲱鱼子 Herring roes
-鳕鱼子 Boiled Cod roes
-*以上两种鱼只需烤好手放柠檬汁就十分美味了
+
++ 鲱 Herring
++ 鲑 Salmon
++ 鳕 Cod
++ 鲔鱼 Tuna
++ 比目鱼 Plaice
++ 鱆鱼 Octopus
++ 乌贼 Squid
++ 花枝 Dressed squid
++ 鲭 Mackerel
++ 北大西洋产的鳕鱼 Haddock
++ 鳟鱼 Trout (ps适合蒸来吃)
++ 鲤鱼 Carp
++ 鳕鱼块 Cod Fillets (可做鱼羹，或炸酥鱼片都很好吃)
++ 海鳗 Conger (Eel)
++ 海鲤 Sea Bream
++ 鳕鱼类 Hake
++ 红鲣 Red Mullet (可煎或红烧 来吃)
++ 熏鲑* Smoked Salmon
++ 带有黑胡椒粒的熏鲭* Smoked mackerel with crushed pepper corn
++ 鲱鱼子 Herring roes
++ 鳕鱼子 Boiled Cod roes
++ *以上两种鱼只需烤好手放柠檬汁就十分美味了
 
 海鲜 则有：
-牡_?Oyster
-蚌 Mussel(黑色、椭圆形、没壳的即为淡菜)
-螃蟹 Crab
-虾 Prawn
-蟹肉条 Crab stick
-虾仁 Peeled Prawns
-大虾 King Prawns
-田螺 Winkles
-小螺肉 Whelks Tops
-小虾米 Shrimps
-小贝肉 Cockles
-龙虾 Lobster
---------------------------------------------------------------------------------
 
++ 牡蛎 Oyster
++ 蚌 Mussel(黑色、椭圆形、没壳的即为淡菜)
++ 螃蟹 Crab
++ 虾 Prawn
++ 蟹肉条 Crab stick
++ 虾仁 Peeled Prawns
++ 大虾 King Prawns
++ 田螺 Winkles
++ 小螺肉 Whelks Tops
++ 小虾米 Shrimps
++ 小贝肉 Cockles
++ 龙虾 Lobster
 
 蔬菜可买到的有：
-马铃薯 Potato
-红萝卜 Carrot
-洋葱 Onion
-茄子 Aubergine
-芹菜 Celery
-包心菜 White Cabbage
-紫色包心菜 Red cabbage
-大黄瓜 Cucumber
-蕃茄 Tomato
-小红萝卜 Radish
-白萝卜 Mooli
-西洋菜 Watercress
-玉米尖 Baby corn
-玉米 Sweet corn
-白花菜 Cauliflower
-葱 Spring onions
-大蒜 Garlic
-姜 Ginger
-大白菜 Chinese leaves
-大葱 Leeks
-芥菜苗 Mustard & cress
-青椒 Green Pepper
-红椒 Red pepper
-黄椒 Yellow pepper
-洋菇 Mushroom
-绿花菜 Broccoli florets
-绿皮南瓜 Courgettes (形状似小黄瓜，但不可生食)
-香菜 Coriander
-四季豆 Dwarf Bean
-长形平豆 Flat Beans
-透明包心菜 Iceberg
-莴苣菜 Lettuce
-芜菁 Swede or Turnip
-秋葵 Okra
-辣椒 Chillies
-小芋头 Eddoes
-大芋头 Taro
-蕃薯 Sweet potato
-菠菜 Spinach
-绿豆芽 Beansprots
-碗豆 Peas
-玉米粒 Corn
-高丽小菜心 Sprot
+
++ 马铃薯 Potato
++ 红萝卜 Carrot
++ 洋葱 Onion
++ 茄子 Aubergine
++ 芹菜 Celery
++ 包心菜 White Cabbage
++ 紫色包心菜 Red cabbage
++ 大黄瓜 Cucumber
++ 蕃茄 Tomato
++ 小红萝卜 Radish
++ 白萝卜 Mooli
++ 西洋菜 Watercress
++ 玉米尖 Baby corn
++ 玉米 Sweet corn
++ 白花菜 Cauliflower
++ 葱 Spring onions
++ 大蒜 Garlic
++ 姜 Ginger
++ 大白菜 Chinese leaves
++ 大葱 Leeks
++ 芥菜苗 Mustard & cress
++ 青椒 Green Pepper
++ 红椒 Red pepper
++ 黄椒 Yellow pepper
++ 洋菇 Mushroom
++ 绿花菜 Broccoli florets
++ 绿皮南瓜 Courgettes (形状似小黄瓜，但不可生食)
++ 香菜 Coriander
++ 四季豆 Dwarf Bean
++ 长形平豆 Flat Beans
++ 透明包心菜 Iceberg
++ 莴苣菜 Lettuce
++ 芜菁 Swede or Turnip
++ 秋葵 Okra
++ 辣椒 Chillies
++ 小芋头 Eddoes
++ 大芋头 Taro
++ 蕃薯 Sweet potato
++ 菠菜 Spinach
++ 绿豆芽 Beansprots
++ 碗豆 Peas
++ 玉米粒 Corn
++ 高丽小菜心 Sprot
 
 水果 类有：
-柠檬 Lemon
-梨子 Pear
-香蕉 Banana
-葡萄 Grape
-黄绿苹果 Golden apple (脆甜)
-绿苹果 Granny smith (较酸)
-可煮食的苹果 Bramleys
-桃子 Peach
-橙 Orange
-草莓 Strawberry
-芒果 Mango
-菠萝 Pine apple
-奇异果 Kiwi
-杨桃 Starfruit
-蜜瓜 Honeydew-melon
-樱桃 Cherry
-枣 子Date
-荔枝 lychee
-葡萄柚 Grape fruit
-椰子 Coconut
-无花果 Fig
 
++ 柠檬 Lemon
++ 梨子 Pear
++ 香蕉 Banana
++ 葡萄 Grape
++ 黄绿苹果 Golden apple (脆甜)
++ 绿苹果 Granny smith (较酸)
++ 可煮食的苹果 Bramleys
++ 桃子 Peach
++ 橙 Orange
++ 草莓 Strawberry
++ 芒果 Mango
++ 菠萝 Pine apple
++ 奇异果 Kiwi
++ 杨桃 Starfruit
++ 蜜瓜 Honeydew-melon
++ 樱桃 Cherry
++ 枣子 Date
++ 荔枝 lychee
++ 葡萄柚 Grape fruit
++ 椰子 Coconut
++ 无花果 Fig
 
-D. 其它
+其它
+
 米则有：
-长米 Long rice (较硬，煮前最好先泡一个小时)
-短米 Pudding rice or short rice (较软)
-糙米 Brown rice
-泰国香米* THAI Fragrant rice
-糯米* Glutinous rice
-*可在中国商店买到。
+
++ 长米 Long rice (较硬，煮前最好先泡一个小时)
++ 短米 Pudding rice or short rice (较软)
++ 糙米 Brown rice
++ 泰国香米* THAI Fragrant rice
++ 糯米* Glutinous rice
++ *可在中国商店买到。
 
 英国面粉
-高筋面粉 Strong flour
-中筋面粉 Plain flour
-低筋面粉 Self- raising flour
-小麦面粉 Whole meal flour
+
++ 高筋面粉 Strong flour
++ 中筋面粉 Plain flour
++ 低筋面粉 Self-raising flour
++ 小麦面粉 Whole meal flour
 
 糖
-砂糖 Brown sugar（泡奶茶、咖啡适用）
-红糖 dark Brown Sugar（感冒时可煮姜汤时用）
-白砂糖 Custer sugar（适用于做糕点）
-糖粉 Icing Sugar（可用在打鲜奶油及装饰蛋糕外层）
-冰糖 Rock Sugar
---------------------------------------------------------------------------------
 
++ 砂糖 Brown sugar（泡奶茶、咖啡适用）
++ 红糖 dark Brown Sugar（感冒时可煮姜汤时用）
++ 白砂糖 Custer sugar（适用于做糕点）
++ 糖粉 Icing Sugar（可用在打鲜奶油及装饰蛋糕外层）
++ 冰糖 Rock Sugar
 
+食物
 
-面条 Noodles
-方便面 Instant noodles
-酱油 Soy sauce(分生抽浅色及老抽深色两种)
-醋 Vinegar
-太白粉 Cornstarch
-麦芽糖 Maltose
-芝麻 Sesame Seeds
-麻油 Sesame oil
-蚝油 Oyster sauce
-胡椒 Pepper
-辣椒粉 Red chilli powder
-芝麻酱 Sesame paste
-腐皮 Beancurd sheet
-豆腐 Tofu
-西贾米 Sago
-椰油 Creamed Coconut
-味精 Monosidum glutamate
-花椒 Chinese red pepper
-豆鼓 Salt black bean
-鱼干 Dried fish
-海带 Sea vegetable or Sea weed
-绿豆 Green bean
-红豆 Red Bean
-黑豆 Black bean
-大红豆 Red kidney bean
-冬菇 Dried black mushroom
-酸菜 Pickled mustard-green
-粉丝 Silk noodles
-燕菜 Agar-agar
-米粉 Rice-noodle
-竹笋罐头 Bamboo shoots
-八角 Star anise
-馄饨皮 Wantun skin
-干粟子 Dried chestuts
-金针 Tiger lily buds
-红枣 Red date
-荸荠罐头 Water chestnuts
-木耳 Fungus (an edible fungus)
-虾米 Dried shrimps
-腰果 Cashewnuts
++ 面条 Noodles
++ 方便面 Instant noodles
++ 酱油 Soy sauce(分生抽浅色及老抽深色两种)
++ 醋 Vinegar
++ 太白粉 Cornstarch
++ 麦芽糖 Maltose
++ 芝麻 Sesame Seeds
++ 麻油 Sesame oil
++ 蚝油 Oyster sauce
++ 胡椒 Pepper
++ 辣椒粉 Red chilli powder
++ 芝麻酱 Sesame paste
++ 腐皮 Beancurd sheet
++ 豆腐 Tofu
++ 西贾米 Sago
++ 椰油 Creamed Coconut
++ 味精 Monosidum glutamate
++ 花椒 Chinese red pepper
++ 豆鼓 Salt black bean
++ 鱼干 Dried fish
++ 海带 Sea vegetable or Sea weed
++ 绿豆 Green bean
++ 红豆 Red Bean
++ 黑豆 Black bean
++ 大红豆 Red kidney bean
++ 冬菇 Dried black mushroom
++ 酸菜 Pickled mustard-green
++ 粉丝 Silk noodles
++ 燕菜 Agar-agar
++ 米粉 Rice-noodle
++ 竹笋罐头 Bamboo shoots
++ 八角 Star anise
++ 馄饨皮 Wantun skin
++ 干粟子 Dried chestuts
++ 金针 Tiger lily buds
++ 红枣 Red date
++ 荸荠罐头 Water chestnuts
++ 木耳 Fungus (an edible fungus)
++ 虾米 Dried shrimps
++ 腰果 Cashewnuts
 
 ### 入乡随俗
 
@@ -1116,13 +1089,13 @@ LinkedIn相当于求职版Facebook。你LinkedIn上的个人资料页面相当�
 
 下面我再补充说一下上面的三个原则
 
-1. 家里有多余的物品的
+1.家里有多余的物品的
 
 这个我主要是针对类似像被子啊床上用品，毛巾浴巾啊，衣服，甚至包括平时穿的鞋子，用的本子文具，正在用的化妆品护肤品（放在家里一年恐怕就过期了吧）等等……拿被子来说，你在国内可能都没有买过，也不知道好坏，价格又相差这么多，你很可能乘以6之后就拿个差的，于是后面两年都盖得很不舒服。还不如抱着妈妈给你选的被子，舒舒服服少操心呢。床单被套枕套我带了两套来，都是国内就特别喜欢的，而且比较旧了，想着如果后面回国，也不必带回来了，反正是旧的。想家的时候看到熟悉的床铺，还能聊以安慰一下。而且这些纺织品都是当年妈妈精挑细选的。刚来美国两三天你就要跑来跑去置办家居，挑选出来的东西怎么可能胜过妈妈当年的精挑细选呢。
 
 今年回国后其实我还想带懒人桌来的。我觉得好处是（一）这东西很提升我的生活品质；（二）它才20块钱，比亚马逊上20多刀便宜多了。但是最后没带的原因是：（一）太重了，超过4斤；（二）价值还是太轻微了，无论是20刀还是20块。最后我在亚马逊上买了一个，虽然不如国内的好用，但是也已经非常满足。最主要的是，这个夏天我实习啦，这个桌子也就相当于一小时而已啦>_<。
 
-2. 自己有特别偏好的
+2.自己有特别偏好的
 
 这个小标题我可以再给它取个名字叫“少女心”。发生在女生身上的概率更高一些：有特别钟爱的本子或者文具，有心爱的头饰首饰，有不忍放手的衣服鞋子包包，有自己的爱好（就比如那个帖子里爱日式烘焙的妹子带模具；还比如第一次我带了一套刻橡皮章的工具，这一次带了编中国结的绳子，我估计下一次会把家里的刺绣和布艺带来），有最适合自己使用的化妆品护肤品，甚至毛巾啊，日用品啊等等。我下面挑几个我所想到的我的例子来说：
 
@@ -1177,46 +1150,49 @@ LinkedIn相当于求职版Facebook。你LinkedIn上的个人资料页面相当�
 （以下几乎所有产品可购于Amazon）
 
 衣：
--鞋子：因为美国鞋子太便宜，选择也多，要舒适的运动鞋有New Balance, Saucony，要帅气有Dr. Martens等等等等
--衣服：美国大多数的衣服是不那么好看，但是仔细逛逛也是能找到适合自己的服装的呀。有好多小伙伴从国内的带来的衣服都太有“中国特色”了，还有某些淘宝爆款什么，走在街上会显得有点奇怪
--包：从便宜到贵的都有卖，上学的话背Kipling, Herschel什么的都蛮好
--被子：这个取决于个人，我个人对化纤被接受无能，所以断然从中国背了一条蚕丝被过来，如果不care的话不用带，其实美帝的被子也蛮舒服的（还能扔洗衣机里洗好方便）。如果要从国内带被子的话请带上被套，因为国内外被子是不一样大的……
+
++ 鞋子：因为美国鞋子太便宜，选择也多，要舒适的运动鞋有New Balance, Saucony，要帅气有Dr. Martens等等等等
++ 衣服：美国大多数的衣服是不那么好看，但是仔细逛逛也是能找到适合自己的服装的呀。有好多小伙伴从国内的带来的衣服都太有“中国特色”了，还有某些淘宝爆款什么，走在街上会显得有点奇怪
++ 包：从便宜到贵的都有卖，上学的话背Kipling, Herschel什么的都蛮好
++ 被子：这个取决于个人，我个人对化纤被接受无能，所以断然从中国背了一条蚕丝被过来，如果不care的话不用带，其实美帝的被子也蛮舒服的（还能扔洗衣机里洗好方便）。如果要从国内带被子的话请带上被套，因为国内外被子是不一样大的……
 
 食：
+
 不要从中国带老干妈了！中国超市都有卖，Amazon上也有呀。玻璃瓶的辣酱真的超级重……
 
 住：
--电饭锅烧水壶电火锅电吹风等等各种小电器：国内带过来电压不同不好用。这些产品在美国买很方便的，也不贵。最近好多人都和我推荐买电压力锅，在想要不要过两天去买一个。
--电子词典：带来一次没用过，我也不知道当年为什么花钱买它……
--眼镜：这个有争议，取决于你学校的保险是否cover配眼镜的费用，如果保险不包的话那眼镜还是很贵的，可以多带一副，如果cover眼睛的话在美国配眼镜还蛮划算的，而且那些大牌的眼镜架会比较便宜
--保温杯：Thermos一生推，各种合作款简直美呆（但是贵），很好用，Amazon也有卖象印的，粉红色的那个很好看（大概也就二十几块钱）。
--衣架：塑料的两刀一打，某些fancy一点的稍微贵一点。
--护肤品：不管什么品牌的护肤品在美国都便宜，我最常用的是Kiehl's和Jurlique
--化妆品：同理，Benefit，Urban Decay, Nars...都肯定比在中国便宜很多吧
--牙刷：我买了Sonicare的电动牙刷，比普通牙刷好用很多
--洗发水沐浴露：多重啊。。。开架品牌超市里都有。对了，洗头发推荐Lush洗发皂，洗完不容易塌
--灯：貌似很多人有护眼灯的需求？我是觉得这边的台灯什么的虽然有点丑，但用用也还可以啦
+
++ 电饭锅烧水壶电火锅电吹风等等各种小电器：国内带过来电压不同不好用。这些产品在美国买很方便的，也不贵。最近好多人都和我推荐买电压力锅，在想要不要过两天去买一个。
++ 电子词典：带来一次没用过，我也不知道当年为什么花钱买它……
++ 眼镜：这个有争议，取决于你学校的保险是否cover配眼镜的费用，如果保险不包的话那眼镜还是很贵的，可以多带一副，如果cover眼睛的话在美国配眼镜还蛮划算的，而且那些大牌的眼镜架会比较便宜
++ 保温杯：Thermos一生推，各种合作款简直美呆（但是贵），很好用，Amazon也有卖象印的，粉红色的那个很好看（大概也就二十几块钱）。
++ 衣架：塑料的两刀一打，某些fancy一点的稍微贵一点。
++ 护肤品：不管什么品牌的护肤品在美国都便宜，我最常用的是Kiehl's和Jurlique
++ 化妆品：同理，Benefit，Urban Decay, Nars...都肯定比在中国便宜很多吧
++ 牙刷：我买了Sonicare的电动牙刷，比普通牙刷好用很多
++ 洗发水沐浴露：多重啊。。。开架品牌超市里都有。对了，洗头发推荐Lush洗发皂，洗完不容易塌
++ 灯：貌似很多人有护眼灯的需求？我是觉得这边的台灯什么的虽然有点丑，但用用也还可以啦
 
 推荐从国内带的：
 
--菜刀！不能更好用，从国内带了把金门菜刀，见啥砍啥，毫无压力。美国切菜刀手感没那么好
--针线盒：缝缝补补有时候用得到，不过这个问题在超市有时候也买得到
--线材：网线，耳机延长线什么的，美国略贵（不过耳机延长线真的有用么）
--各种中成药，在Chinatown买的感觉质量不能保证呀：我常用的有板蓝根，牛黄解毒片，健胃消食片，枇杷膏等等
--茶：不爱喝茶的请略过，但在美国很难买到好茶（我爸给我准备了七种茶叶也是醉了）
--调料：花椒大料八角辣椒什么的，中国超市也有卖，但感觉质量没国内在卖的那些好，室友甚至还带了自家制的糖桂花花椒油什么的。
--干货：木耳香菇什么的，不容易坏，吃起来也蛮方便
--餐具：淘宝上有卖质量很好的木筷子，美国买不到
--内衣：。。。以VS为例，最小号大概相当于国内70B这样，身形小的姑娘不一定好买，可以稍微考虑一下要不要从国内带一点
--零食：行李箱里有空就塞个十几包浪味仙，还能当缓冲对不对~
++ 菜刀！不能更好用，从国内带了把金门菜刀，见啥砍啥，毫无压力。美国切菜刀手感没那么好
++ 针线盒：缝缝补补有时候用得到，不过这个问题在超市有时候也买得到
++ 线材：网线，耳机延长线什么的，美国略贵（不过耳机延长线真的有用么）
++ 各种中成药，在Chinatown买的感觉质量不能保证呀：我常用的有板蓝根，牛黄解毒片，健胃消食片，枇杷膏等等
++ 茶：不爱喝茶的请略过，但在美国很难买到好茶（我爸给我准备了七种茶叶也是醉了）
++ 调料：花椒大料八角辣椒什么的，中国超市也有卖，但感觉质量没国内在卖的那些好，室友甚至还带了自家制的糖桂花花椒油什么的。
++ 干货：木耳香菇什么的，不容易坏，吃起来也蛮方便
++ 餐具：淘宝上有卖质量很好的木筷子，美国买不到
++ 内衣：。。。以VS为例，最小号大概相当于国内70B这样，身形小的姑娘不一定好买，可以稍微考虑一下要不要从国内带一点
++ 零食：行李箱里有空就塞个十几包浪味仙，还能当缓冲对不对~
 
 ## 留美后留下工作或拿到绿卡
 
 ### 工作
 
-CS 专业据我所知，如果你是第一阶梯CS 专业大神phd , 例如CMU , Stanford , MIT , Berkeley , 学习视觉，机器学习，AI，数据库，算法，搜索之类的，你找不到20W加（含package）的flag 最优厚工作岗位我现在就从我家跳下去喂狗。最后还托人把我的首级寄给你供你赏玩。当然，要想从国内本科申到这些学校的cs phd，并且顺利毕业的话，难度可以说是很大。温兆伦都没做到这一点。说句不好听的，各学校还有假借其他专业录取，以一来就转cs的。这主要是因为除了cs以外，其他专业的phd都比较好申（而且找不到工作）的缘故。
+CS 专业据我所知，如果你是第一阶梯 CS 专业大神phd, 例如CMU , Stanford , MIT , Berkeley , 学习视觉，机器学习，AI，数据库，算法，搜索之类的，你找不到20W加（含package）的 flag 最优厚工作岗位我现在就从我家跳下去喂狗。最后还托人把我的首级寄给你供你赏玩。当然，要想从国内本科申到这些学校的cs phd，并且顺利毕业的话，难度可以说是很大。温兆伦都没做到这一点。说句不好听的，各学校还有假借其他专业录取，以一来就转cs的。这主要是因为除了cs以外，其他专业的phd都比较好申（而且找不到工作）的缘故。
 
-如果你是第一阶梯CS硕士，毕业前多写一点代码刷刷题搞一个github . 你的疑虑应该是：哪家公司工资高，待遇好，是要去flag 呢还是要去start up? Start up 承诺给我10000股，能上市吗？ start up 给我offer 就比google 的少2W，我被lowball 了吗？之类的问题
+如果你是第一阶梯CS硕士，毕业前多写一点代码刷刷题搞一个github. 的疑虑应该是：哪家公司工资高，待遇好，是要去flag 呢还是要去start up? Start up 承诺给我10000股，能上市吗？ start up 给我offer 就比google 的少2W，我被lowball 了吗？之类的问题
 
 这种人往往是四处宣传CS专业好找工作，文科生都要的人。实际上他们准备面试5个月看了几千页的书（4大本或者5大本，algorithm, intro to algorithm, programming perl, cracking the interview等等）和 paper (flag自己的paper)，面试了20多轮(一家full time 3-5轮，面了5-6家算少的)，这不会告诉你的。如果你想入行，多去看看人家面挂了的经历，或者自己去挂几次，试试看，自然会了解其中困难。我这么和你说，这些美帝顶尖学校的对口硕士生，都有面挂的可能。当然他们总有人要的。不是f就是l，不是a就是g
 
@@ -1272,6 +1248,7 @@ MS（就业导向）的话，学校好坏就不重要了，当然这样一来EB1
 当然题主不必一味悲观。如果题主能通过结婚（包括但不限于485男/女、公民、非印籍非中籍留学生、绿卡持有者、H1B身份I-140提交者，排名分先后）获得绿卡，就不必为EB2遥遥无期的排期而纠结了。
 
 注：
+
 485男/女：短时间内得正式绿卡。假结婚市场上最受欢迎的身份，没有之一，绿卡是正式绿卡，不会被轻易撤销。当然，从提交I-485到正式批准的时间很短并且批准时间不确定，除假结婚外基本只适合闪婚一族。
 
 公民：立刻得EAD卡，两年内得临时绿卡，两年后转正式。给配偶PR是美国公民天生自带最有用的buff之一，使假结婚跟政治庇护一起成为中国人移民美国的两大途径。理论上在临时绿卡期间有被移民局查的风险，但据说如果婚内遭遇家暴，可起诉离婚并获得“家暴绿卡”。
@@ -1391,7 +1368,7 @@ H1B身份I-140提交者：可以给配偶提供H4身份合法居留，并有资�
 + 这是一个高度容忍和高度诚信的社会。他们会选择完全的相信你。但是发现你撒了几次谎，就选择完全不相信你。所以诚信才显得如此重要，而且每个人都珍惜自己的Integraty。这样一来人际交流的成本反而更低了，不用互相提防，特别是经商的成本很低，所以我现在还把大部分业务放在美国。利润是少了点，但是风险要小很多。这也是我们的企业喜欢做外单的原因。如果我们自己也有这样的文化该多好啊！这样大家就放心国内贸易了。
 + 彼此帮助，彼此赞赏，彼此关怀。“Can I help you？” " you are so kind, and intelligent" "O U Do N?"---纽约方言--how are you doing?，“are you ok,can I do something to help you?” 让人每天心里都暖暖的，自己也会同样对被人。
 + 第一次碰到了soft speaking的人。他们故意压低音量，为的是要你认真听他话里的内容，和理论的依据。而不是我习惯了的谁大声谁有理，得理不饶人。这些在当时是 culture shock，不幸的是，没想到喜欢了，习惯了，10年之后回到国内，还要 culture shock 一次.
-+ 在南方亚特兰大住了6年，感觉当地非常保守--相对中国现状，有天地之别，以致回到国内很不习惯。在那里，大都是敬神的人。工作里有隔天的医生早晨团契，学习上有知名生物教授又是很好的基督徒，在Emory，和CDC 的周末聚会，经常遇到他们，讲道就跟他们的学术论文一样精彩，富有logic和辩证。家庭聚会更是享受和朋友相聚和一起敬拜的美妙时光。
++ 在南方亚特兰大住了6年，感觉当地非常保守--相对中国现状，有天地之别，以致回到国内很不习惯。在那里，大都是敬神的人。工作里有隔天的医生早晨团契，学习上有知名生物教授又是很好的基督徒，在 Emory，和 CDC 的周末聚会，经常遇到他们，讲道就跟他们的学术论文一样精彩，富有logic和辩证。家庭聚会更是享受和朋友相聚和一起敬拜的美妙时光。
 
 ### 法国
 
