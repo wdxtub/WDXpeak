@@ -2,6 +2,8 @@
 
 <!-- MarkdownTOC -->
 
+- Course requirements
+    - Restrictions
 - 美国留学需要注意事项
     - 日常英语
     - 入乡随俗
@@ -39,6 +41,67 @@
     - 俄罗斯
 
 <!-- /MarkdownTOC -->
+
+## Course requirements
+
+A minimum of 96 units are required to obtain the MS in ECE degree.
+
+Of the 96 units, 60 units must be ECE graduate work (typically 5 courses):
+
++ Courses must be at the ECE (18) 600-level or higher or CS (15) 700-level or higher
++ 12 units may be graduate project units
++ The following ECE/CS courses may NOT be used as part of these 60 units: 18-601, 18-603, 18-605, 18-606, 18-700, 18-703 and 15-894.
++ Courses outside these departments that have been approved to be counted towards the 60 units of ECE Core Graduate Coursework include: 08-766, 08-781+08-769, 10-701, 11-752,16-711, 16-720, 16-722, 16-731, 16-741, 16-743, 16-745, 16-811, 16-822, 16-823, 16-843, 16-850, 16-862, 19-712, 19-714, 21-801, 24-751, 24-760, 24-765, 24-779, 33-755, 33-758, 33-761, 33-762, 36-708, 36-783, 42-744, 96-714, 96-736, 96-810, 96-811, 96-821, 96-835, 96-839, 96-840, 96-842.
++ Petitions for exceptions to these criteria are seldom accepted.
+
+For the remaining 36 units, courses satisfying the following criteria below are acceptable:
+
++ Any ECE course at 500-level or above
++ Any course at the 600-level or higher from one of the following colleges or programs (with restrictions noted below)
+    + Carnegie Institute of Technology (CIT)
+        + Biomedical Engineering (42)
+        + Chemical Engineering (06)
+        + Civil & Environmental Engineering (12)
+        + Engineering & Public Policy (19) (restrictions include 19-655, 19-722)
+        + Information Network Institute (14)
+        + Materials Science & Engineering (27)
+        + Mechanical Engineering (24) (restrictions include 24-792)
+        + CMU Rwanda (04) (restrictions include 04-601, 04-602, 04-605, 04-900, 04-980)
+        + CMU Silicon Valley (96) (restrictions include 96-705)
+    + Dietrich: Center for the Neural Basis of Cognition (86)
+    + Heinz School of Information Systems (95)
+    + Heinz College-Wide Courses (94)
+    + Mellon College of Science (MCS)
+        + Biological Sciences (03)
+        + Chemistry (09)
+        + Mathematical Sciences (21)
+        + Physics (33)
+    + School of Computer Science (SCS)
+        + Computational Biology (02) (restrictions include 02-713)
+        + Computer Science (15)
+        + Entertainment Technology Center (53)
+        + Institute for Software Research (08)
+        + Robotics Institute (16) (restrictions include 16-861, 16-865)
+        + Human-Computer Interaction Institute (05) (restrictions include 05-820)
+        + Language Technologies Institute (11) (restrictions include 11-641)
+        + Machine Learning (10)
+        + Software Engineering (17) (restrictions include 17-643)
+    + Tepper School of Business (45)
++ Up to 12 unit undergraduate course from the above colleges, departments, and programs.
+
+Courses outside these departments that have been approved to be counted towards the 24 units of Restricted Electives include: 36-725, 46-926, 46-929, 47-830, 47-834, 51-882, 90-756, 93-711, 94-808, 94-834, 94-835, and 94-860.
+
+Courses where more than 50% of the course grade is based on a group project or more than 20% is based on attendance cannot be used towards the required 96 units.
+
+Petitions for exceptions to these criteria may be considered by the Graduate Studies Committee. Please see your academic advisor for more information.
+
+### Restrictions
+
+Of the 96 required units, you may not count:
+
++ More than 15 units of graduate project units
++ More than 12 units of undergraduate courses at a 400-level or below
++ Any units of physical education, ROTC, seminar courses, or courses taken as pass/fail or audit
 
 ## 美国留学需要注意事项
 

@@ -11,12 +11,10 @@ ID | Name | Unit
 15666 | Computer Game Programming | 12
 15862 | Computational Photography | 12
 18794 | Pattern Recognition Theory | 12
-18797 | Machine Learning for Signal Processing | 12
 18641 | Java Smart Phone Development | 12
 18660 | Numerical Methods for Engineering Design and Optimization | 12
 18697 | Statistical Discovery and Learning | 12
 18781 | Speech Recognition and Understanding | 12
 18655 | Service Oriented Computing
-86675 | Computational Perception | 12
 95712 | Object Oriented Programming in JAVA | 12
 95771 | Data Structures and Algorithms | 12
