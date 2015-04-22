@@ -104,11 +104,11 @@ Local Machine | CPU | Memory
 
 There are 500 test cases in our testing. And for each test case there are 64 particles and 20 times iteration.
 
-We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has two(local) or sixteen(server) cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
+We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has sixteen cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
 
-The different optimizing methods have different effects. For running test cases concurrency, the more thread there are, the less time it consumed. For example, it takes about 51s to finish the testing on my machine but only 5s on our server. Our server has 8x cores(16 cores) than mine thus the speedup is almost the same.
+The different optimizing methods have different effects. For running test cases concurrency, the more thread there are, the less time it consumed. For example, it takes about over 200s to finish the testing without OpenMP but only 5s on our server. Our server has 16x cores(16 cores) than mine thus the speedup is almost the same.
 
-One of the interesting fact is that the server got the speedup more than 32x than the origin sequential version. Where does this 6x speedup come from?
+One of the interesting fact is that the server got the speedup more than 32x(each core can maintain 2 threads) than the origin sequential version. Where does this 6x speedup come from?
 
 They come from the techniques we used to optimizing the pso algorithm itself, including code reordering, loop unrolling, branch eliminating, SIMD and avoiding capacity/conflict/compulsory misses.
 
