@@ -183,3 +183,12 @@ Cons:
 
 ## Limitations of CF
 
++ Cold Start:
+    + It needs to have enough users in the system
+    + New items need to get enough ratings
++ Sparsity:
+    + It is hard to find users who rated the same items
++ Popularity Bias:
+    + Cannot recommend items to users with unique tastes
+    + Tends to recommend popular items
+

@@ -28,9 +28,9 @@
 4.20 | 65.7 | 膝盖养伤，力量训练
 4.21 | 66.0 | 办手续，走来走去
 4.22 | 65.7 | 膝盖休息最后一天
-4.24 | x | insanity 09
-4.25 | x | insanity 11
-4.26 | x | insanity 10
-4.27 | x | insanity 07
-4.28 | x | insanity 12
-4.29 | x | insanity 08
+4.23 | 64.6 | insanity 09
+4.24 | x | insanity 11
+4.25 | x | insanity 10
+4.26 | x | insanity 07
+4.27 | x | insanity 12
+4.28 | x | insanity 08
