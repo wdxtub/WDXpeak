@@ -93,7 +93,9 @@ Method | Time(second) | Error | Speedup
 :---: | :---: | :---: | :---:
 Origin | 216.7 | 1.71381 | x
 Local Machine 1(OpenMP) | 51.365 | 2.22721 | 4.22x
-GHC Machine(OpenMP) | 11.942 | 1.74022 | 18.15x
+Server(OpenMP)1 | 5.62625 | 2.62159 | 38.56x
+Server(OpenMP)2 | 15.12063 | 1.57904 | 14.33x
+Server(OpenMP)3 | 15.21625 | 1.16756 | 14.25x
 
 Local Machine | CPU | Memory
 :---: | :---: | :---:
@@ -102,15 +104,17 @@ Local Machine | CPU | Memory
 
 There are 500 test cases in our testing. And for each test case there are 64 particles and 20 times iteration.
 
-We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has two(local) or eight(ghc) cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
+We can see from the table that the more powerful the CPU is, the better performance we can get. The multicore processor we are optimizing for has two(local) or sixteen(server) cores. OpenMP targeted on optimizing toward multicore as the openmp technique make the code run in parallel.
 
-The different optimizing methods have different effects. For running test cases concurrency, the more thread there are, the less time it consumed. For example, it takes about 51s to finish the testing on my machine but only 11s on GHC machines. The GHC machines have 4x cores than mine thus the speedup is almost the same.
+The different optimizing methods have different effects. For running test cases concurrency, the more thread there are, the less time it consumed. For example, it takes about 51s to finish the testing on my machine but only 5s on our server. Our server has 8x cores(16 cores) than mine thus the speedup is almost the same.
 
-One of the interesting fact is that the GHC machine got the speedup more than 16x than the origin sequential version. Where does this 2x speedup come from?
+One of the interesting fact is that the server got the speedup more than 32x than the origin sequential version. Where does this 6x speedup come from?
 
 They come from the techniques we used to optimizing the pso algorithm itself, including code reordering, loop unrolling, branch eliminating, SIMD and avoiding capacity/conflict/compulsory misses.
 
-However, as pso algorithm has its own limitation, most more powerful techniques can not be applied on it (the iteration process has to be in order). For each iteration, the amount of computation is not as much as matrix multiplication or kmeans. We try our best to get this 2x speedup using simple data structure and OpenMP.
+However, as pso algorithm has its own limitation, most more powerful techniques can not be applied on it (the iteration process has to be in order). For each iteration, the amount of computation is not as much as matrix multiplication or kmeans. We try our best to get this 6x speedup using simple data structure and OpenMP.
+
+After testing with different configs, we can see that the increasing number of particles and iterations brings about lots of computation. Doubling the number of particles has the same effect on performance as doubling the number of iterations.
 
 But the good news is, the increases of performance is almost linear in testing. As it is, we can save lots of time using more powerful CPUs without worry about the sync issue. It can promote the efficiency on developing new algorithms.
 
