@@ -167,7 +167,7 @@ The core of the Recommendation Engine can be assimilated to a general data minin
 + Cons:
     + Requires a large number of `reliable` user feedback data to bootstrap
     + Requires products to be standardized (users should have bought `exactly` the same product)
-    + Assumes that `prior behavior determines current behavior` without taking into account contextual knoledge(session-level)
+    + Assumes that `prior behavior determines current behavior` without taking into account contextual knowledge(session-level)
 
 **Netflix Prize's first conclusion: it is really extremely simple to produce "reasonable" recommendations and extremly difficult to improve them.**
 
