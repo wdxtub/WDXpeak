@@ -16,7 +16,7 @@ Yes. My study in Carnegie Mellon University will be course-based.
 
 ## Advisor & Department Head
 
-My study in CMU will be course-based which means there will be no advisor. The department head is Jelena Kovačević (jelenak@cmu.edu).
+My study in CMU will be course-based which means there will be no advisor for research. Still we have a course advisor named Jimmy Zhu(jzhu@ece.cmu.edu)
 
 ## Why do I choose the JIE double-degree program?
 
@@ -25,6 +25,4 @@ Engineering is the most important ability in current world. The JIE program foun
 ## Career Objective
 
 Most technology for natural language processing are based on English. But I want to apply them on Chinese. Also, my grandparents used to raise me when I was a child but as the time goes by, there may not be much time left for them. After finishing my master degree in America, I want to come back to China and help Chinese software/internet company solve difficult problems on processing Chinese language and take good care of my grandparents. That's my current carrer goal.
-
-
 

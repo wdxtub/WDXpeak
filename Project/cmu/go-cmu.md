@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC -->
 
+- 经验分享
 - Course requirements
     - Restrictions
 - 美国留学需要注意事项
@@ -41,6 +42,19 @@
     - 俄罗斯
 
 <!-- /MarkdownTOC -->
+
+## 经验分享
+
+如果你没有时间，但依然想提高presentation能力，可以找GCC。这是CMU的一个免费的提供语言训练的组织，据点在CMU图书馆。大家入学之后就能找到。是很好的资源。
+
+
+a) 婉约地了解当地人口分布
+http://projects.nytimes.com/census/2010/explorer
+
+这个网站有美国2010年各地种族分布。虽然不是最新的，但是基本上和当前状况差不多。大家可以通过这个了解所居住地区的人口分布，比如白人，亚洲人，黑人的比例。
+
+b) 简单粗暴的看你所居住地区的犯罪频率和类型
+http://www.spotcrime.com/
 
 ## Course requirements
 
