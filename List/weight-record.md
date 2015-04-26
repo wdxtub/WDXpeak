@@ -32,7 +32,7 @@
 4.24 | 64.4 | T25 教他们健身
 4.25 | x | 熬夜，不计数
 4.26 | 65.5 | insanity 11
-4.27 | x | insanity 10
+4.27 | 65.2 | insanity 10
 4.28 | x | insanity 07
 4.29 | x | insanity 12
 4.30 | x | insanity 08
