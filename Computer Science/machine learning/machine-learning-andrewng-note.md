@@ -6,6 +6,7 @@
 - Machine Learning Definition
 - Lecture 2: Linear Regression, Gradient Descent and Normal Equations
 - Lecture 3: Locally weighted regression(loess), logistic regression
+- Lecture 4
 
 <!-- /MarkdownTOC -->
 
@@ -58,3 +59,7 @@ non-paramatric learning algorithm 参数的数量随着样本数量的增加而�
 在想要知道的点的估计值附近的区域选择点来进行LR(线性回归)，使用权重函数保证离指定点近的样本点权重较大，而远的较小
 
 perceptron algorithm
+
+## Lecture 4
+
+Newton method
