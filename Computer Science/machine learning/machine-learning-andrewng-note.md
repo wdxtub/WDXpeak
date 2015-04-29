@@ -7,6 +7,8 @@
 - Lecture 2: Linear Regression, Gradient Descent and Normal Equations
 - Lecture 3: Locally weighted regression(loess), logistic regression
 - Lecture 4
+- Lecture 5
+- Lecture 6
 
 <!-- /MarkdownTOC -->
 
@@ -63,3 +65,17 @@ perceptron algorithm
 ## Lecture 4
 
 Newton method
+
+## Lecture 5
+
+Generative learning algorithm
+
+Digression Gausssians
+
+Naive Bayes
+
+Laplace Smoothing
+
+## Lecture 6
+
+朴素贝叶斯
