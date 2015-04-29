@@ -79,3 +79,7 @@ Laplace Smoothing
 ## Lecture 6
 
 朴素贝叶斯
+
+神经网络
+
+SVM
