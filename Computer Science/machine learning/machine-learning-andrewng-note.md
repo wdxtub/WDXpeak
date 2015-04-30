@@ -9,6 +9,8 @@
 - Lecture 4
 - Lecture 5
 - Lecture 6
+- Lecture 7
+- Lecture 8
 
 <!-- /MarkdownTOC -->
 
@@ -82,4 +84,24 @@ Laplace Smoothing
 
 神经网络
 
+SVM 的预备知识
+
+## Lecture 7
+
 SVM
+
+Optimal margin classifier
+
+KKT condition
+
+SVM dual
+
+## Lecture 8
+
+kernels
+
+soft margin
+
+SMO algo
+
+

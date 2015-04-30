@@ -35,7 +35,7 @@
 4.27 | 65.2 | insanity 10
 4.28 | 65.3 | 踢球
 4.29 | 65.8 | insanity 12
-4.30 | x | insanity 08
+4.30 | 65.6| insanity 08
 5.1 | x | insanity 09
 5.2 | x | insanity 11
 5.3 | x | insanity 10
