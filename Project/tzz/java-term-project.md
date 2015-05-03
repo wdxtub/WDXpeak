@@ -8,20 +8,24 @@ Graph 与 Graph Algorithm 的可视化
 
 1. GUI 选择文件
 2. 命令行输入文件位置
-3. 读入一个指定的 data file(和第二个其实一个意思)
+3. 读入一个指定的 data file(和第二个其实一个意思) √
 
 读入的过程大概就是：
 
-1. 知道文件在哪里
-2. 按照给定的规律读出来图的信息
-3. 存成代码能看懂的格式(数组，链表之类的)
+1. 知道文件在哪里 √
+2. 按照给定的规律读出来图的信息 √
+3. 存成代码能看懂的格式(数组，链表之类的) √
+    + ArrayList √
+    + 邻接矩阵
+    + Node √
+    + Edge √
 4. 显示出来一些东西证明真的读入进去了(老师懒，所以展示的部分要特别留意)
 
-具体的data file要有趣一点，稍微复杂一点，才能体现出后面的算法，最好有实际的意义，让老师觉得诶哟很有趣哦。
+具体的data file要有趣一点，稍微复杂一点，才能体现出后面的算法，最好有实际的意义，让老师觉得wow。
 
 ## 输出
 
-保存成差不多格式即可，也可以自己加点拓展，方便显示
+保存成差不多格式即可，也可以自己加点拓展，方便显示 √
 
 ## 算法
 
@@ -48,3 +52,28 @@ Graph 与 Graph Algorithm 的可视化
     + 具体的思考过程
 + 点出自己的extra work，妥妥有加分
 
+## bfs & dfs test result
+
+Neighbors of 苏州? [广州, 南京, 上海, 杭州, 济南]
+Neighbors of 广州? [苏州, 长沙, 海口, 香港, 澳门, 南宁, 台北]
+Neighbors of 北京? [石家庄, 天津, 沈阳, 呼和浩特, 太原, 银川, 长春, 哈尔滨]
+Neighbors of 西安? [武汉, 太原, 郑州, 银川, 兰州, 重庆, 成都]
+Neighbors of 成都? [西安, 西宁, 昆明, 重庆, 拉萨, 兰州]
+
+bfs find path between Guangzhou(广州) and Beijing(北京)!
+done<-Beijing(北京)<-Shijiazhuang(石家庄)<-Jinan(济南)<-Suzhou(苏州)<-Guangzhou(广州)
+
+bfs find path between Guangzhou(广州) and Huhehaote(呼和浩特)!
+done<-Huhehaote(呼和浩特)<-Taiyuan(太原)<-Zhengzhou(郑州)<-Jinan(济南)<-Suzhou(苏州)<-Guangzhou(广州)
+
+bfs find path between Suzhou(苏州) and Xining(西宁)!
+done<-Xining(西宁)<-Chengdu(成都)<-Xian(西安)<-Zhengzhou(郑州)<-Jinan(济南)<-Suzhou(苏州)
+
+dfs find path between Guangzhou(广州) and Beijing(北京)!
+->Guangzhou(广州)->Suzhou(苏州)->Hangzhou(杭州)->Fuzhou(福州)->Nanchang(南昌)->Changsha(长沙)->Guiyang(贵阳)->Kunming(昆明)->Chengdu(成都)->Chongqing(重庆)->Wuhan(武汉)->Hefei(合肥)->Jinan(济南)->Zhengzhou(郑州)->Xian(西安)->Taiyuan(太原)->Beijing(北京)
+
+dfs find path between Guangzhou(广州) and Huhehaote(呼和浩特)!
+->Guangzhou(广州)->Suzhou(苏州)->Hangzhou(杭州)->Fuzhou(福州)->Nanchang(南昌)->Changsha(长沙)->Guiyang(贵阳)->Kunming(昆明)->Chengdu(成都)->Chongqing(重庆)->Wuhan(武汉)->Hefei(合肥)->Jinan(济南)->Zhengzhou(郑州)->Xian(西安)->Taiyuan(太原)->Beijing(北京)->Huhehaote(呼和浩特)
+
+dfs find path between Suzhou(苏州) and Xining(西宁)!
+->Suzhou(苏州)->Guangzhou(广州)->Nanning(南宁)->Guiyang(贵阳)->Kunming(昆明)->Chengdu(成都)->Chongqing(重庆)->Wuhan(武汉)->Changsha(长沙)->Nanchang(南昌)->Fuzhou(福州)->Hangzhou(杭州)->Hefei(合肥)->Jinan(济南)->Zhengzhou(郑州)->Xian(西安)->Taiyuan(太原)->Beijing(北京)->Huhehaote(呼和浩特)->Yinchuan(银川)->Lanzhou(兰州)->Xining(西宁)
