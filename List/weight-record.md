@@ -38,7 +38,8 @@
 4.30 | 65.6| 休息，要睡久一点
 5.1 | 65.7 | insanity 08
 5.2 | 65.1 | insanity 09
-5.3 | 65.2 | insanity 11
+5.3 | 65.2 | 感冒，休息
+5.4 | x | insanity 11
 5.3 | x | insanity 10
 5.4 | x | insanity 12
 5.5 | x | insanity 08
