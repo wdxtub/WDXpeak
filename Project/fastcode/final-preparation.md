@@ -26,6 +26,8 @@ Saturday May 9th, 8:00-11:00am, N206
     - Long Questions
 - CUDA & Manycore Computing
     - Midterm Question 3 - CUDA
+    - Short Questions
+    - Long Questions
     - SIMD Short Answer
 
 <!-- /MarkdownTOC -->
@@ -221,25 +223,26 @@ The configuration parameters should be modified such that the block size (BLOCK_
 
 ![kernel1 answer](./_resources/final5.jpg)
 
+(唯一的区别就是 for 循环 stride 那里从 < 变成了 <=)
+
 ![kernel2 answer](./_resources/final6.jpg)
+
+(唯一的曲鳖就是 for 循环 blockdim.x 不用右移一位)
 
 > Give the relevant execute configuration parameter values at the kernel launch. Is there a cost in terms of extra arithmetric operation needed? Which resource limitation can be potentially addressed with such modification?
 
-kernel 1
+kernel 1 (same as kernel 1 ans)
 
-![kernel1](./_resources/final3.jpg)
+![kernel1](./_resources/final5.jpg)
 
-Kernel 2
+Kernel 2 (same as kernel 2 ans)
 
-![kernel2](./_resources/final4.jpg)
+![kernel2](./_resources/final6.jpg)
 
-Fewer threads have to check the branch if it is taken or not. One multiplication and one module operation were removed
+For kernel1: Fewer threads have to check the branch if it is taken or not. One multiplication and one module operation were removed
 
-![kernel1 answer](./_resources/final5.jpg)
+For kernel2: Less threads check the branch. One right shift operation was removed.
 
-Less threads check the branch. One right shift operation was removed.
-
-![kernel2 answer](./_resources/final6.jpg)
 
 ### Midterm Question 3 - CUDA
 
@@ -271,7 +274,98 @@ Based on the code above in Part 2, please answer the following questions:
 
 > How many iterations of the for-loop (Line 23) will have branch divergence? Show the value of the strides for the iterations with branch divergence.
 
++ Strides = 16
++ Strides = 8
++ Strides = 4
++ Strides = 2
++ Strides = 1
 
+> Identify an opportunity to significantly reduce the bandwidth requirement on the global memory. How would you achieve this? How many accesses can you eliminate?
+
+    if (threadIdx.x == 0){
+        d_C[blockIdx.x] = accumResult[0];
+    }
+
+Eliminate 255 accesses
+
+> Is there any opportunity to reduce the number of `__syncthreads (Line 25)` executed? If no, why not? If it is possible, hwo could you achieve this? Explain in one or two sentences hwo you could do this. You don't have to write out the code.
+
+When the for-loop in Line 23 is only using one warp, no `__syncthreads()` are necessary. This would eliminate 5 `__syncthreads()`
+
+### Short Questions
+
+> Difference between constant and shared memory?
+
++ **constant memory**: good for read only, and if each thread in a warp is reading the same data, otherwise bank conflicts occur
++ **shared memory**: good for fast on chip read/write and high reuse, more flexible to avoid bank conflicts
+
+> What is benefit of using registers?
+
+Fast!!!
+
+### Long Questions
+
+    1 // D = A + B * C
+    …
+    12 int main(int argc, char* argv[]) {
+    13   const unsigned int N = 128;
+    14
+    15   // Allocate memory.
+    16   float* A = NULL;
+    17   float* B = NULL;
+    18   float* C = NULL;
+    19   float* D = NULL;
+    20   cudaMalloc(&A, N * sizeof(float));
+    21   cudaMalloc(&B, N * sizeof(float));
+    22   cudaMalloc(&C, N * sizeof(float));
+    23   cudaMalloc(&D, N * sizeof(float));
+    …
+    27   const unsigned int Y = 64;
+    28   const unsigned int X = N / Y;
+    29
+    30   fma_kernel<<<X, Y>>>(A, B, C, D);
+    31
+    32   // Free memory.
+    33   cudaFree(A); cudaFree(B); cudaFree(C); cudaFree(D);
+    34 }
+
+> How many?
+
++ Threads per block are there? Y = 64
++ How many blocks are there in total? X = 2
+
+> Range / Value?
+
++ It is simple... Idx(range), Dim(Value)...
++ threadIdx.x Range[0, 63]
++ blockDim.x Value 64
++ blockIdx.x Range[0, 1]
+
+> FMA
+
++ Fused Multiply and Add
++ Benefit 1. 2Flops / clock
++ Benefit 2. precision benefits (since less rounding by using larger internal buffer)
+
+> Share / L1 / Global memory?
+
++ No shared memory usage.
++ Implicit L1 cache usage
++ 3 read + 1 write per thread (4 * 64 = 256 per thread block, 512 total)
+
+> Maximum inflight warps?
+
++ 128 threads / 32 threads per warp = 4
++ No other(register, shared memory) limitation
+
+> Occupancy
+
++ (inflight warp) / (maximum warp)
++ 4 / (7 * 2048 / 32) * 100 = 0.8928%
+
+> GFLOPS
+
+2 flops/instruction(FMA) * 192 instructions/clock * 7.5M * 980 MHz(boosted) = 2634 Gflops
 
 
 ### SIMD Short Answer
