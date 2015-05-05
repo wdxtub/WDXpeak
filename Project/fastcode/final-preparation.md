@@ -49,6 +49,8 @@ Saturday May 9th, 8:00-11:00am, N206
     - Barrier
     - Single
 - Definition - Hadoop
+    - MapReduce
+    - How does Hadoop Work
     - Why safe
     - Master-slave structure
     - HDFS I/O
@@ -81,7 +83,7 @@ Saturday May 9th, 8:00-11:00am, N206
 3. HDFS support Read/Write/Append operations
 4. HDFS is tailored to meet the requirements of MapReduce
 
-Answer 2&3
+Answer 2 & 3
 
 > Consider the following problems, which one is most suitable to be solved in MapReduce framework?
 
@@ -616,6 +618,55 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
         a++;
     }
 
+> HDFS的是基于流数据模式访问和处理超大文件的需求而开发的，默认的最基本的存储单位是64M，具有高容错、高可靠性、高可扩展性、高吞吐率等特征，适合的读写任务是
+
+1. 一次写入，少次读写
+2. 多次写入，少次读写
+3. 一次写入，多次读写
+4. 多次写入，多次读写
+
+Answer 3
+
+> HDFS无法高效存储大量小文件，想让它能处理好小文件，比较可行的改进策略不包括
+
+1. 利用SequenceFile、MapFile、Har等方式归档小文件
+2. 多Master设计
+3. Block大小适当调小
+4. 调大namenode内存或将文件系统元数据存到硬盘里
+
+Answer 4
+
+>关于HDFS的文件写入，正确的是
+
+1. 支持多用户对同一文件的写操作
+2. 用户可以在文件任意位置进行修改
+3. 默认将文件块复制成三份存放
+4. 复制的文件块默认都存在同一机架上
+
+Answer 3
+
+知识点：在HDFS的一个文件中只有一个写入者，而且写操作只能在文件末尾完成，即只能执行追加操作。默认三份文件块两块在同一机架上，另一份存放在其他机架上。
+
+> MapReduce框架提供了一种序列化键/值对的方法，支持这种序列化的类能够在Map和Reduce过程中充当键或值，以下说法错误的是
+
+1. 实现Writable接口的类是值
+2. 实现WritableComparable<T>接口的类可以是值或键
+3. Hadoop的基本类型Text并不实现WritableComparable<T>接口
+4. 键和值的数据类型可以超出Hadoop自身支持的基本类型
+
+Answer 3
+
+> 以下四个Hadoop预定义的Mapper实现类的描述错误的是
+
+1. IdentityMapper<K, V>实现Mapper<K, V, K, V>，将输入直接映射到输出
+2. InverseMapper<K, V>实现Mapper<K, V, K, V>，反转键/值对
+3. RegexMapper<K>实现Mapper<K, Text, Text, LongWritable>，为每个常规表达式的匹配项生成一个(match, 1)对
+4. TokenCountMapper<K>实现Mapper<K, Text, Text, LongWritable>，当输入的值为分词时，生成(taken, 1)对
+
+Answers 2
+
+知识点：InverseMapper<K, V>实现Mapper<K, V, V, K>
+
 ## Definition - OpenMP(2.1)
 
 ### Different level of Parallelism
@@ -731,6 +782,28 @@ Only one thread will execute the region of code.
 
 ## Definition - Hadoop
 
+At its core, Hadoop has two major layers namely:
+
++ Processing/Computation layer (MapReduce), and
++ Storage layer (Hadoop Distributed File System).
+
+### MapReduce
+
+MapReduce is a parallel programming model for writing distributed applications devised at Google for efficient processing of large amounts of data (multiterabyte data-sets), on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner. The MapReduce program runs on Hadoop which is an Apache open-source framework.
+
+### How does Hadoop Work
+
+Hadoop runs code across a cluster of computers. This process includes the following core tasks that Hadoop performs:
+
++ Data is initially divided into directories and files. Files are divided into uniform sized blocks of 128M and 64M (preferably 128M).
++ These files are then distributed across various cluster nodes for further processing.
++ HDFS, being on top of the local file system, supervises the processing.
++ Blocks are replicated for handling hardware failure.
++ Checking that the code was executed successfully.
++ Performing the sort that takes place between the map and reduce stages.
++Sending the sorted data to a certain computer.
++ Writing the debugging logs for each job.
+
 ### Why safe
 
 1. fail-safe storage:By default save 3 copies for each block
@@ -745,13 +818,13 @@ A distributed “group by” operation is implicitly performed between the map a
 
 ### HDFS I/O
 
-A typical read from a client involves:
+A typical read from a client involves:
 
 1. Contact the NameNode to determine where the actual data is stored
 2. NameNode replies with block idenIfiers and locaIons (which DataNode)
 3. Contact the DataNode to fetch data
 
-A typical write from a client involves:
+A typical write from a client involves:
 
 1. Contact the NameNode to update the namespace and verify permissions
 2. NameNode allocates a new block on a suitable DataNode
