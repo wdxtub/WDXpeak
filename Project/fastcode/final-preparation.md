@@ -32,6 +32,7 @@ Saturday May 9th, 8:00-11:00am, N206
     - Short Questions - OMP
     - Long Questions - OMP
     - SIMD Short Answer
+    - SIMD Long Answer
 - Bonus Question
 
 <!-- /MarkdownTOC -->
@@ -362,14 +363,14 @@ Fast!!!
 + 128 threads / 32 threads per warp = 4
 + No other(register, shared memory) limitation
 
-> Occupancy
+> The NVIDIA GTX670 has 7 multiprocessors, maximum 2048 threads per multiprocessor, maximum 1024 threads per block ,fixed warp size of 32 and fixed clock speed of 915 MHz. What is the maximum occupancy percentage for this kernel?
 
 + (inflight warp) / (maximum warp)
 + 4 / (7 * 2048 / 32) * 100 = 0.8928%
 
-> GFLOPS
+> The NVIDIA GTX670 has 7 multiprocessors, 192 CUDA cores per multiprocessor, fixed warp size of 32 and fixed clock speed of 915 MHz. And GTX670 can conduct 192 floating point instructions per clock cycle per multiprocessor. What is the theoretical maximum GFLOPs?
 
-2 flops/instruction(FMA) * 192 instructions/clock * 7.5M * 980 MHz(boosted) = 2634 Gflops
+2 flops/instruction(FMA) * 192 instructions/clock * 7M * 915 MHz(boosted) = 2634 Gflops = 2459.52 GFLOPs
 
 ## Mid Term Review
 
@@ -444,18 +445,144 @@ Reasons:
 
 > But this doesn't work. Can you provide the reason why?
 
+Reasons:
 
+1. It is performing row-wise minimization
+2. Atomics do not support ternary operators
+3. Even if they did, they protect only writes, so race condition would persist
+
+> Part III: Starting with the original program (line 1-11), if we do not want to chagne the OpenMP directive in line 4, can you make a small update to the code to make the program functionally correct?
+
+Use #pragma omp critical
+
+> Part IV: Given your change to the program will run correctly, but it would still be a slow program. Can you give three reasons why it is slow?
+
+1. Critical: Sequential running
+2. False sharing of `min_elem` array
+3. thread overhead
+
+> Part V: Make two suggestios on hwo to improve the speed of the code. You don't need to write the code, just state the modification briefly and the reason for the speedup.
+
+1. Move the pragma to outer loop
+2. Transpose the matrix to perform row-wise access
+3. Use local variable to store min and write to `min_elem` at the end
 
 ### SIMD Short Answer
 
+> What is wrong with the following code segment?
+
     float array[256] = {...}; // initialize with some value
     __m128 v0 = _mm_load_ps((__m128*)array);
+
+Deliberate **Red Herring**; will complie fine
 
 绝大部分 SSE 指令都要求位址是 16 的倍数，如果不是的话，就会导致 exception。而浮点数只会对齐在 4 bytes 或 8 bytes 的边上(根据 compiler 设定而不同)
 
 这题里面就不符合对齐的要求。
 
+> Describe one possible way to fix the above code
+
 可以用 `_mm_loadu_ps` 来读取非 16 对齐的。
+
+`__attribute__((aligned(16)))` or `__declspec(align(16))`
+
+### SIMD Long Answer
+
+Question: Well known Complex Multiplication kernel
+
+复数乘法
+
+> The initial, high-level changes required to make this code segment amenable to vectorization.
+
+alignment and loop unrolling
+
+> If data layout changes are allowed how, would such a change reduce the vectorization overhead? What are the disadvantages of your proposed format change?
+
+AOS -> SOA
+
++ No need for shuffling
++ need to carry around more pointers
++ may impact prefetcher, cache behavior
+
+> The scalar version requires
+
+    256 * 4 load ops,
+    256 * 6 arithmetic ops, and
+    256 * 2 store ops
+
+> Describe the portion of non-arithmetic SIMD instructions(loads, sotres, shuffles etc.) required to implement this kernel in SIMD.
+
+Recall, the `_mm_shuffle_ps` instruction can operate on a single vector (the first input) and arbitrarily permute is based on the mask (the second input)
+
+Example:
+
+    _mm_shuffle_ps({1,2,3,4}, DCBA) -> {4,3,2,1}
+    _mm_shuffle_ps({1,2,3,4}, AACC) -> {1,1,3,3}
+
+Where A is first element, B is the second element and so on.
+
+Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} and {Y0,Y1,Y2,Y3} produces {X0-Y0,X1+Y1,X2-Y2,X3+Y3}
+
+    _mm_addsub_ps(
+        _mm_mul_ps(
+            _mm_shuffle_ps(X, AACC)   // reals
+            _mm_shuffle_ps(Y, ABCD))  // ident
+        _mm_mul_ps(
+            _mm_shuffle_ps(X, BBDD)   // images
+            _mm_shuffle_ps(Y, BADC))) // rev
+
+等价于
+
+    _mm_addsub_ps( 4 flops
+        _mm_mul_ps( 4 flops
+            _mm_shuffle_ps(X, AACC)   // reals
+                           Y)         // ident
+        _mm_mul_ps( 4 flops
+            _mm_shuffle_ps(X, BBDD)   // images
+            _mm_shuffle_ps(Y, BADC))) // rev
+
+12 flops/ 6 insts == 2flops/insts
+
+复数乘法的公式为 `(a+bi)(c+di) = (ac-bd) + (ad+bc)i`
+
+这一条可以一次计算两队复数的乘积
+
+    a = x0 + y0i
+    b = x1 + y1i
+    c = x2 + y2i
+    d = x3 + y3i
+
+其中
+
+    X = {x0,y0,x2,y2}
+    Y = {x1,y1,x3,y3}
+
+这里
+
+    ab = (x0 + y0i)(x1 + y1i) = (x0x1-y0y1) + (x0y1+y0x1)i
+    cd = (x2 + y2i)(x3 + y3i) = (x2x3-y2y3) + (x2y3+y2x3)i
+
+对应的语句
+
+    _mm_mul_ps( 4 flops
+        _mm_shuffle_ps(X, AACC)   // reals
+                       Y)         // ident
+
+    {x0,x0,x2,x2} mul {x1,y1,x3,y3} = {x0x1,x0y1,x2x3,x2y3}
+
+    _mm_mul_ps( 4 flops
+            _mm_shuffle_ps(X, BBDD)   // images
+            _mm_shuffle_ps(Y, BADC))) // rev
+
+    {y0,y0,y2,y2} mul {y1,x1,y3,x3} = {y0y1,y0x1,y2y3,y2x3}
+
+最后再用 `_mm_addsub_ps`
+
+    x0x1-y0y1,x0y1+y0x1,x2x3-y2y3,x2y3-y2x3
+
+正好分别是 ab 和 cd 的实部和虚部
+
+然后根据这个来分析具体的比例即可
 
 ## Bonus Question
 
