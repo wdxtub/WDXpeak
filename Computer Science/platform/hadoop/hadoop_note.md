@@ -1,30 +1,30 @@
 # Hadoop 原理学习
 
-Hadoop是Apache 下的一个项目，由HDFS、MapReduce、HBase、Hive 和ZooKeeper等成员组成。其中，HDFS 和MapReduce 是两个最基础最重要的成员。
+Hadoop 是 Apache 下的一个项目，由 HDFS、MapReduce、HBase、Hive 和 ZooKeeper 等成员组成。其中，HDFS 和 MapReduce 是两个最基础最重要的成员。
 
-HDFS是Google GFS 的开源版本，一个高度容错的分布式文件系统，它能够提供高吞吐量的数据访问，适合存储海量（PB 级）的大文件（通常超过64M），其原理如下图所示：
+HDFS 是 Google GFS 的开源版本，一个高度容错的分布式文件系统，它能够提供高吞吐量的数据访问，适合存储海量(PB 级)的大文件(通常超过64M)，其原理如下图所示：
 
 ![hdfs](./_resources/hadoop1.jpg)
 
-采用Master/Slave 结构。NameNode 维护集群内的元数据，对外提供创建、打开、删除和重命名文件或目录的功能。DataNode 存储数据，并提负责处理数据的读写请求。DataNode定期向NameNode 上报心跳，NameNode 通过响应心跳来控制DataNode。
+采用 Master/Slave 结构。NameNode 维护集群内的元数据，对外提供创建、打开、删除和重命名文件或目录的功能。DataNode 存储数据，并提负责处理数据的读写请求。DataNode 定期向 NameNode 上报心跳，NameNode 通过响应心跳来控制 DataNode。
 
-Hadoop MapReduce的实现也采用了Master/Slave 结构。Master 叫做JobTracker，而Slave 叫做TaskTracker。用户提交的计算叫做Job，每一个Job会被划分成若干个Tasks。JobTracker负责Job 和Tasks 的调度，而TaskTracker负责执行Tasks。
+Hadoop MapReduce的实现也采用了Master/Slave 结构。Master 叫做 JobTracker，而 Slave 叫做TaskTracker。用户提交的计算叫做 Job，每一个 Job 会被划分成若干个 Tasks。JobTracker 负责 Job 和 Tasks 的调度，而 TaskTracker 负责执行 Tasks。
 
 ## Shuffle 和 Sort 分析
 
-MapReduce 框架的核心步骤主要分两部分：Map 和Reduce。当你向MapReduce 框架提交一个计算作业时，它会首先把计算作业拆分成若干个Map 任务，然后分配到不同的节点上去执行，每一个Map 任务处理输入数据中的一部分，当Map 任务完成后，它会生成一些中间文件，这些中间文件将会作为Reduce 任务的输入数据。Reduce 任务的主要目标就是把前面若干个Map 的输出汇总到一起并输出。从高层抽象来看，MapReduce的数据流图如下图所示：
+MapReduce 框架的核心步骤主要分两部分：Map 和 Reduce。当你向 MapReduce 框架提交一个计算作业时，它会首先把计算作业拆分成若干个 Map 任务，然后分配到不同的节点上去执行，每一个 Map 任务处理输入数据中的一部分，当 Map 任务完成后，它会生成一些中间文件，这些中间文件将会作为 Reduce 任务的输入数据。Reduce 任务的主要目标就是把前面若干个 Map 的输出汇总到一起并输出。从高层抽象来看，MapReduce 的数据流图如下图所示：
 
 ![data flow](./_resources/hadoop2.jpg)
 
-在本文中，Shuffle是指从Map产生输出开始，包括系统执行排序以及传送Map输出到Reducer作为输入的过程。在这里我们将去探究Shuffle是如何工作的，因为对基础的理解有助于对MapReduce程序进行调优。
+在本文中，Shuffle 是指从 Map 产生输出开始，包括系统执行排序以及传送 Map 输出到 Reducer 作为输入的过程。在这里我们将去探究 Shuffle 是如何工作的，因为对基础的理解有助于对 MapReduce 程序进行调优。
 
-首先从Map端开始分析，当Map开始产生输出的时候，他并不是简单的把数据写到磁盘，因为频繁的操作会导致性能严重下降，他的处理更加复杂，数据首先是写到内存中的一个缓冲区，并作一些预排序，以提升效率，如图：
+首先从 Map 端开始分析，当 Map 开始产生输出的时候，他并不是简单的把数据写到磁盘，因为频繁的操作会导致性能严重下降，他的处理更加复杂，数据首先是写到内存中的一个缓冲区，并作一些预排序，以提升效率，如图：
 
 ![shuffle and sort](./_resources/hadoop3.jpg)
 
-每个Map任务都有一个用来写入输出数据的循环内存缓冲区，这个缓冲区默认大小是100M，可以通过io.sort.mb属性来设置具体的大小，当缓冲区中的数据量达到一个特定的阀值(io.sort.mb * io.sort.spill.percent，其中io.sort.spill.percent 默认是0.80)时，系统将会启动一个后台线程把缓冲区中的内容spill 到磁盘。在spill过程中，Map的输出将会继续写入到缓冲区，但如果缓冲区已经满了，Map就会被阻塞直道spill完成。spill线程在把缓冲区的数据写到磁盘前，会对他进行一个二次排序，首先根据数据所属的partition排序，然后每个partition中再按Key排序。输出包括一个索引文件和数据文件，如果设定了Combiner，将在排序输出的基础上进行。Combiner就是一个Mini Reducer，它在执行Map任务的节点本身运行，先对Map的输出作一次简单的Reduce，使得Map的输出更紧凑，更少的数据会被写入磁盘和传送到Reducer。Spill文件保存在由mapred.local.dir指定的目录中，Map任务结束后删除。
+每个 Map 任务都有一个用来写入输出数据的循环内存缓冲区，这个缓冲区默认大小是 100M，可以通过 `io.sort.mb` 属性来设置具体的大小，当缓冲区中的数据量达到一个特定的阀值 `(io.sort.mb * io.sort.spill.percent，其中io.sort.spill.percent 默认是0.80)`时，系统将会启动一个后台线程把缓冲区中的内容 spill 到磁盘。在 spill 过程中，Map 的输出将会继续写入到缓冲区，但如果缓冲区已经满了，Map 就会被阻塞直到 spill 完成。spill 线程在把缓冲区的数据写到磁盘前，会对他进行一个二次排序，首先根据数据所属的 partition 排序，然后每个 partition 中再按 Key 排序。输出包括一个索引文件和数据文件，如果设定了Combiner，将在排序输出的基础上进行。Combiner 就是一个 Mini Reducer，它在执行 Map 任务的节点本身运行，先对 Map 的输出作一次简单的 Reduce，使得 Map 的输出更紧凑，更少的数据会被写入磁盘和传送到 Reducer。Spill 文件保存在由 `mapred.local.dir` 指定的目录中，Map 任务结束后删除。
 
-每当内存中的数据达到spill阀值的时候，都会产生一个新的spill文件，所以在Map任务写完他的最后一个输出记录的时候，可能会有多个spill文件，在Map任务完成前，所有的spill文件将会被归并排序为一个索引文件和数据文件。如下图所示。这是一个多路归并过程，最大归并路数由io.sort.factor 控制(默认是10)。如果设定了Combiner，并且spill文件的数量至少是3（由min.num.spills.for.combine 属性控制），那么Combiner 将在输出文件被写入磁盘前运行以压缩数据。
+每当内存中的数据达到 spill 阀值的时候，都会产生一个新的 spill 文件，所以在 Map 任务写完他的最后一个输出记录的时候，可能会有多个 spill 文件，在 Map 任务完成前，所有的 spill 文件将会被归并排序为一个索引文件和数据文件。如下图所示。这是一个多路归并过程，最大归并路数由 `io.sort.factor` 控制(默认是10)。如果设定了 Combiner，并且 spill 文件的数量至少是 3（由`min.num.spills.for.combine` 属性控制），那么 Combiner 将在输出文件被写入磁盘前运行以压缩数据。
 
 ![map output](./_resources/hadoop4.jpg)
 
