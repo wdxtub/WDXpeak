@@ -15,11 +15,11 @@ Four Parts:
 
 在循环中如果下一次循环的计算依赖于当次循环的结果，则无法利用 OpenMP。因为在 OpenMP 中多个线程同时执行循环，迭代的顺序是不确定的，只有数据不相关时，才可以使用。
 
-> Race conditions and false sharing are common problems in OpenMP code. 
->   
+> Race conditions and false sharing are common problems in OpenMP code.
+>
 > 1. Write a small code snippet that demonstrates false sharing
->   
-> 2. Write a samll code snippet that demonstrates a race condition
+>
+> 2. Write a small code snippet that demonstrates a race condition
 
 
 1) 只需要不同的线程轮流访问邻接的数据即可

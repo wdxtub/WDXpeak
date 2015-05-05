@@ -28,7 +28,11 @@ Saturday May 9th, 8:00-11:00am, N206
     - Midterm Question 3 - CUDA
     - Short Questions
     - Long Questions
+- Mid Term Review
+    - Short Questions - OMP
+    - Long Questions - OMP
     - SIMD Short Answer
+- Bonus Question
 
 <!-- /MarkdownTOC -->
 
@@ -367,6 +371,80 @@ Fast!!!
 
 2 flops/instruction(FMA) * 192 instructions/clock * 7.5M * 980 MHz(boosted) = 2634 Gflops
 
+## Mid Term Review
+
+Some Stats
+
++ mean: 63.95
++ std dev: 14.13
++ Max: 93
+
+### Short Questions - OMP
+
+> What is False Sharing? Explain it by writing a code snippet using openMP
+
+When multiple threads access the same cache line.
+
+只需要不同的线程轮流访问邻接的数据即可
+
+    int a[10] = {0,1,2,3,4,5,6,7,8,9};
+    #pragma omp parallel for
+    for (int i = 0; i < 10; ++i){
+        a[i]++;
+    }
+
+> What is wrong with the code
+
+    #pragma omp parallel for
+    for (int i = 0; i < MAX_ITERATIONS; i++){
+        perform_kmeans(const float **dataset, // data array
+                        const int n, // Number of clusters
+                        float **cluster_centers, // ip and op for cluster centers
+                        int *membership); // Memberships
+    }
+    // You can assume that the perform_kmeans does one iteration of kmeans clustering
+
+Each iteration depends on previous. This cannot be parallelized.
+
+### Long Questions - OMP
+
+> Read the following code and answer the questions. The function finds the minimum element of every column of a square matrix. The matrix is stored in float* matrix array, which has `dimension x dimension` elements, and the minimum element will be stored in a pre-allocated array `float *min_elem` that has dimension elements
+
+     1 void func(float *matrix, float *min_elem, unsigned int dimension){
+     2     for (unsigned int i = 0; i < dimension; i++){
+     3         min_elem[i] = matrix[i*dimension];
+     4         #pragma omp parallel for
+     5         for (unsigned int j = 1; j < dimension; j++){
+     6             if (matrix[i*dimension + j] < min_elem[i]){
+     7                 min_elem[i] = matrix[i*dimension + j];
+     8             }
+     9         }
+    10     }
+    11 }
+
+> Part I: THe function is to find the minimum elements of every column of a square matrix. Will the program work correctly(output expected results) with the highlighted OMP directive? List one reason why it would or would not work correctly?
+
+It won't work correctly.
+
+Reasons:
+
+1. It is performing row-wise minimization
+2. `min_elem[i]` accesses and writes will suffer from race conditions
+
+> Part II: We do not want to change the OpenMP directive in line 4, and want to make the program functional correct. You friend Jim suggested the following modification to replace the following three lines:
+
+     6             if (matrix[i*dimension + j] < min_elem[i]){
+     7                 min_elem[i] = matrix[i*dimension + j];
+     8             }
+
+> to
+
+    #pragma omp atomic
+    min_elem[i] = min_elem[i] < matrix[i*dimension + j] ? min_elem[i] : matrix[i*dimension + j];
+
+> But this doesn't work. Can you provide the reason why?
+
+
 
 ### SIMD Short Answer
 
@@ -378,3 +456,15 @@ Fast!!!
 这题里面就不符合对齐的要求。
 
 可以用 `_mm_loadu_ps` 来读取非 16 对齐的。
+
+## Bonus Question
+
+> Write a small code snippet that demonstrates a race condition
+
+只需要不同的线程访问同一个数据即可
+
+    int a = 0;
+    #pragma omp parallel for
+    for (int i = 0; i < 10; ++i){
+        a++;
+    }
