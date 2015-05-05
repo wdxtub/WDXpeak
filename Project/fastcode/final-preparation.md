@@ -12,6 +12,8 @@ Saturday May 9th, 8:00-11:00am, N206
     + OpenMP
     + CUDA
 
+目录
+
 <!-- MarkdownTOC -->
 
 - Suggested Preparation
@@ -34,6 +36,24 @@ Saturday May 9th, 8:00-11:00am, N206
     - SIMD Short Answer
     - SIMD Long Answer
 - Bonus Question
+- Definition - OpenMP(2.1)
+    - Different level of Parallelism
+    - Thread overhead
+    - Parallelizable
+    - False sharing
+    - Solution to false sharing
+    - Reduction 聚合
+    - Sharing
+    - Schedule
+    - Order
+    - Barrier
+    - Single
+- Definition - Hadoop
+    - Why safe
+    - Master-slave structure
+    - HDFS I/O
+    - Advantage
+- Thanks
 
 <!-- /MarkdownTOC -->
 
@@ -232,7 +252,7 @@ The configuration parameters should be modified such that the block size (BLOCK_
 
 ![kernel2 answer](./_resources/final6.jpg)
 
-(唯一的曲鳖就是 for 循环 blockdim.x 不用右移一位)
+(唯一的区别就是 for 循环 blockdim.x 不用右移一位)
 
 > Give the relevant execute configuration parameter values at the kernel launch. Is there a cost in terms of extra arithmetric operation needed? Which resource limitation can be potentially addressed with such modification?
 
@@ -545,7 +565,7 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
 
 复数乘法的公式为 `(a+bi)(c+di) = (ac-bd) + (ad+bc)i`
 
-这一条可以一次计算两队复数的乘积
+这一条可以一次计算两对复数的乘积
 
     a = x0 + y0i
     b = x1 + y1i
@@ -595,3 +615,164 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
     for (int i = 0; i < 10; ++i){
         a++;
     }
+
+## Definition - OpenMP(2.1)
+
+### Different level of Parallelism
+
+**SIMD**
+
+Exploited using vectorizing compiler and hand-code intrinsics
+
+**SMT**
+
+OS abstract it to core-level parallelism
+
+**Core-level**
+
+Using threads to describe work done on different cores
+
+### Thread overhead
+
+Compute each step as a separate thread involves significant thread management overhead (hundreds of cycles)
+
+### Parallelizable
+
+Computation of each step is independent
+
+### False sharing
+
+When multiple threads access the same cache line.
+
+### Solution to false sharing
+
+1. Be aware of the cache line sizes for a platform.
+2. Avoid accessing the same cache line from different threads
+
+### Reduction 聚合
+
+在每一个线程中都会有一个私有的聚合变量，在退出并行区以后，把所有的这些私有变量（以及这个聚合变量在并行区之前的初始值）聚合成一个值
+
+1. A local copy of each list variable is made and initialized depending on the “op” (e.g. 0 for “+”)
+2. Updates occur on the local copy
+3. Local copies are reduced into a single value and combined with the original global value
+
+直接上例子
+
+    #include <iostream>
+    #include <stdio.h>
+    #include <omp.h>
+    using namespace std;
+
+    int main(){
+        int sum = 0;
+        cout << "Before: " << sum << endl;
+
+        #pragma omp parallel for reduction(+:sum)
+        for (int i = 0; i < 10; ++i){
+            sum = sum + i;
+            printf("%d\n", sum);
+        }
+
+        cout << "After: " << sum << endl;
+
+        return 0;
+    }
+
+其中sum是共享的，采用reduction之后，每个线程根据reduction（+: sum）的声明算出自己的sum，然后再将每个线程的sum加起来。
+
+
+### Sharing
+
+Global variables are SHARED among threads
+
+1.  File scope variables, staHc
+2.  Dynamically allocated memory (ALLOCATE, malloc, new)
+Not all are shared
+1.  Functions called from parallel regions are PRIVATE
+2.  Automatic variables within a statement block are PRIVATE
+
+### Schedule
+
+The schedule clause affects how loop iteraHons are mapped onto threads:
+
+1. **static**:Deal-out blocks of iterations of size “chunk” to each thread.
+2. **dynamic**:Each thread grabs “chunk” iterations off a queue until all iterations have been handled
+3. **guided**:Threads dynamically grab blocks of iterations. The size of the block starts large and shrinks down to size “chunk” as the calculation proceeds.
+4. **runtime**:Schedule and chunk size taken from the OMP_SCHEDULE environment variable.
+
+### Order
+
+The ordered region executes in the sequenHal order
+
+### Barrier
+
+    #include <stdio.h>
+    #include <omp.h>
+
+    int main(){
+        #pragma omp parallel
+        {
+            for (int i = 0; i < 100; ++i){
+            printf("%d+\n", i);
+            }
+            #pragma omp barrier
+            for (int j = 0; j < 10; ++j){
+                printf("%d-\n", j);
+            }
+        }
+    }
+
+两个线程(具体数目不同 CPU 不同)执行了第一个for循环，当两个线程同时执行完第一个for循环之后，在barrier处进行了同步，然后执行后边的for循环。
+
+### Single
+
+Only one thread will execute the region of code.
+
+## Definition - Hadoop
+
+### Why safe
+
+1. fail-safe storage:By default save 3 copies for each block
+2. fail-safe task management:Failed tasks re-scheduled up to 4 times
+
+A distributed “group by” operation is implicitly performed between the map and reduce phases
+
+### Master-slave structure
+
+1. **JobTrackerNode**:Creating object for the job, determines number of mappers/ reduces, schedules jobs, bookkeeping tasks’ status and progress
+2. **TaskTrackerNode**:slaves manage individual tasks
+
+### HDFS I/O
+
+A typical read from a client involves:
+
+1. Contact the NameNode to determine where the actual data is stored
+2. NameNode replies with block idenIfiers and locaIons (which DataNode)
+3. Contact the DataNode to fetch data
+
+A typical write from a client involves:
+
+1. Contact the NameNode to update the namespace and verify permissions
+2. NameNode allocates a new block on a suitable DataNode
+3. The client directly streams to the selected DataNode
+
+### Advantage
+
+Block replication benefits MapReduce
+
+1. Scheduling decisions can take replicas into account
+2. Exploit better data locality
+
+HDFS checksum all data during I/O
+
+**Small number of large files preferred over a large number of small files**
+
+## Thanks
+
++ Jiexin Guo
++ Yaoxiu Hu
++ Jinhong Chen
++ Yuanyuan Ma
+
+
