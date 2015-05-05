@@ -16,6 +16,9 @@
 		<array>
 			<string>hadoop_note.md</string>
 		</array>
+		<array>
+			<string>hadoop_tutorial.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

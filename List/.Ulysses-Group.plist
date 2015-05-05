@@ -27,6 +27,9 @@
 		<array>
 			<string>books-reading-list.md</string>
 		</array>
+		<array>
+			<string>articles-writing-list.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

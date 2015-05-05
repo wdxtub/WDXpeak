@@ -43,6 +43,15 @@
 		<array>
 			<string>thesis-proposal.md</string>
 		</array>
+		<array>
+			<string>machine-learning-for-recommender-system.md</string>
+		</array>
+		<array>
+			<string>test-set-selection.md</string>
+		</array>
+		<array>
+			<string>yssnlp.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

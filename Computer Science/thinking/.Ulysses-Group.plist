@@ -18,6 +18,12 @@
 		<array>
 			<string>turing-test-out-of-date.md</string>
 		</array>
+		<array>
+			<string>mixed-reality.md</string>
+		</array>
+		<array>
+			<string>write-readable-code.md</string>
+		</array>
 	</array>
 </dict>
 </plist>
