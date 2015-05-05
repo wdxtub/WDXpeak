@@ -40,7 +40,8 @@
 5.2 | 65.1 | insanity 09
 5.3 | 65.2 | 感冒，休息
 5.4 | 65.5 | 感冒，休息
-5.5 | 65.3 | insanity 11
+5.5 | 65.3 | 感冒，休息
+5.6 | 65.2 | insanity 11
 5.3 | x | insanity 10
 5.4 | x | insanity 12
 5.5 | x | insanity 08
