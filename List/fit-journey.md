@@ -4,16 +4,16 @@
 
 具体测试项目参照 Insanity Workout 01 Fit Test 中的八个项目，每个项目均计时一分钟，看能做多少组
 
-项目\日期 | 14.10.19 | 15.3.19 | 15.5.6
-:---: | :---: | :---: | :---:
-Switch Kicks | 150 | 120 | 150
-Power Jacks | 65 | 60 | 70
-Power Knees | 115 | 111 | 130
-Power Jumps | 65 | 57 | 75
-Globe Jumps | 15 | 12 | 13
-Suicide Jumps | 24 | 22 | 26
-Pushup Jacks | 39 | 30 | 40
-Low Plank Oblique | 60 | 50 | 64
+项目\日期 | 14.7.25 | 14.10.19 | 15.3.19 | 15.5.6
+:---: | :---: | :---: | :---: | :---:
+Switch Kicks | 140 | 150 | 120 | 150
+Power Jacks | 59 | 65 | 60 | 70
+Power Knees | 110 | 115 | 111 | 130
+Power Jumps | 60 | 65 | 57 | 75
+Globe Jumps | 12 | 15 | 12 | 13
+Suicide Jumps | 23 | 24 | 22 | 26
+Pushup Jacks | 34 | 39 | 30 | 40
+Low Plank Oblique | 60 | 60 | 50 | 64
 
 ## 身体数据日志
 
