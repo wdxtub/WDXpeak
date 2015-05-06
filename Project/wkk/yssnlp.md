@@ -281,4 +281,55 @@ _李正华, 苏州大学 hlt.suda.edu.cn_
 
 问答系统分类：
 
-+ IR-based QA
++ IR-based QA: 基于关键词匹配 + 信息抽取，仍然是基于浅层语义分析
++ Community QA: 依赖于网民贡献，问答过程仍然依赖于关键词检索技术
++ KB-based QA: Knowledge Graph
+
+知识库问答关键问题
+
++ 自然语言问句改写为结构化查询语句
+    + 基本步骤：Which software has been developed by organizations founded in California, USA?
+    + 短语检测：software, developed by, organizations, founded in, California
+    + 资源映射：dbo:Software, dbr:developer, dbo:Company, dbr:foundationPlace, dbo:California
+    + 语义组合：<dbo:Sotware, dbr:develper, dbo:Compnay>, <dbo:Company, dbr:foundationPlace, dbo:California>
+    + 查询生成： SELECT DISTINCT ?url WHERE { <condition1>, <condition2>, ...}
++ 大规模开放域知识图谱带来的挑战
+    + 大规模、开放域
+        + 实体链接 Entity Mention
+        + 关系发现 Relation Pattern
+            + 看做一个分类问题
+            + 需要 NLP 工具分析词性、句法等
+            + 错误累积、语言依赖
+            + 需要标注数据
+            + 大规模开放域知识库下难以获得充足标注
+        + 传统方法：同义词词典、人工关系模板
+    + 自然语言问句表达多样、富含歧义
+        + 短语切分歧义，资源映射，组合歧义
+        + 如何消除歧义？
+        + Joint Disambiguation using Markov Logic Network
+    + 知识库多源异构
+        + 很多场景下，单单只用一个知识库的信息不能完全回答用户的问题
+        + 例如：谁出演了《变形金刚》并且和《Monkey Business》的演唱者结婚了
+        + 电影知识库、音乐知识库、人物知识库都用到了
+        + 先对齐再问答
+            + 对齐有错误的话，错误会积累传递
+            + 知识库是快速迭代更新的，对于问题的回答并不需要知识库中所有节点的对齐，只需要触发一个子图
+        + 联合模型
+            + 知识库对齐的结果影响问句分析
+            + 问句的分析结果对于知识库对齐有影响
+        + Joint Inference
+            + 问句语义解析
+            + 知识库对齐
+            + Integer Linear Programming
++ 更多挑战
+    + 不完备：需要知识推理
++ 知识推理
+    + 逻辑推理
+        + 人工规则不适用
+        + 自动学习高阶规则性能差
+    + 基于表示学习的知识推理
+        + 推理过程 -> 相似度计算
++ 知识库表示学习
+    + 学习实体、类别、关系的向量表示
+    + 难点：一对多、多对一、多对多、可反关系
+
