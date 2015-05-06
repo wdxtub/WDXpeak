@@ -129,8 +129,8 @@ NLP技术 | **分词/词性** | **句法语义分析** | 机器翻译 | **信息
 + 建模：计算预测结果的概率或者得分的方法
 	+ P(W|S) = Pθ(W|S)
 + 训练：利用训练数据估计所用模型的参数权值
-	+ θ^*^ = argmaxθ SOME.CRITERION(W,S,θ)
+	+ θ* = argmaxθ SOME.CRITERION(W,S,θ)
 + 预测：对输入数据求一个最佳概率或者得分的结果
-	+ W^*^ = argmaxWPθ(W|S)
+	+ W* = argmaxWPθ(W|S)
 + 上下文模型：考虑时间地点人物历史
-	+ W^*^ = argmaxWPθ(W|S, Location, Entity, History)
+	+ W* = argmaxWPθ(W|S, Location, Entity, History)
