@@ -35,6 +35,7 @@ Saturday May 9th, 8:00-11:00am, N206
     - Long Questions - OMP
     - SIMD Short Answer
     - SIMD Long Answer
+        - AoS vs SoA
 - Bonus Question
 - Definition - OpenMP(2.1)
     - Different level of Parallelism
@@ -525,6 +526,39 @@ AOS -> SOA
 + No need for shuffling
 + need to carry around more pointers
 + may impact prefetcher, cache behavior
+
+#### AoS vs SoA
+
+Struct of Arrays: 一共只有一个 struct
+
+    typedef struct
+    {
+        float* x;
+        float* y;
+        float* z;
+    } Constraints;
+
+x | x | x | y | y | y | z | z | z
+
+Array of Struct
+
+    typedef struct __align__(16)
+    {
+        float3 position;
+    } Constraint;
+
+x | y | z | x | y | z | x | y | z
+
+It depends on the usage of the data.
+
+Note that AoS pads within each struct. While SoA pads between the arrays.
+
+These have the following trade-offs:
+
+1. AoS tends to be more readable to the programmer as each "object" is kept together.
+2. AoS may have better cache locality if all the members of the struct are accessed together.
+3. SoA could potentially be more efficient since grouping same datatypes together sometimes exposes vectorization.
+4. In many cases SoA uses less memory because padding is only between arrays rather than between every struct.
 
 > The scalar version requires
 
