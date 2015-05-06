@@ -6,8 +6,12 @@
 
 - 慕课：自然语言处理的一个新舞台
 - 移动互联网时代自然语言的创新
-	- NLP 2.0 研发策略
-	- 自然语言处理的基本问题
+    - NLP 2.0 研发策略
+    - 自然语言处理的基本问题
+    - 自然语言处理的延伸
+    - 多智能处理
+- 阿里巴巴大数据实践只自然语言处理
+    - 知识图谱
 
 <!-- /MarkdownTOC -->
 
@@ -67,7 +71,7 @@ _孙茂松, 清华, sms@tsinghua.edu.cn_
 
 ## 移动互联网时代自然语言的创新
 
-_周明, MSRA_
+_周明, MSRA, mingzhou@mircosoft.com_
 
 ### NLP 2.0 研发策略
 
@@ -122,13 +126,9 @@ NLP技术 | **分词/词性** | **句法语义分析** | 机器翻译 | **信息
 + 句子、篇章、上下文感知
 	+ Input: 当前句子和以前的 n-1 句子
 	+ Output: 当前句子的翻译
-	+ 当前句子NLP -\> 考虑历史 -\> 考虑时间地点设备 -\> 考虑使用人
+	+ 当前句子NLP -> 考虑历史 -> 考虑时间地点设备 -> 考虑使用人
 
 **统计自然语言处理**
-
-θ* = argmaxθ SOME.CRITERION(W,S,θ)
-
-θ = argmaxθ SOME.CRITERION(W,S,θ)
 
 + 建模：计算预测结果的概率或者得分的方法
 	+ P(W|S) = Pθ(W|S)
@@ -138,3 +138,80 @@ NLP技术 | **分词/词性** | **句法语义分析** | 机器翻译 | **信息
 	+ W* = argmaxWPθ(W|S)
 + 上下文模型：考虑时间地点人物历史
 	+ W* = argmaxWPθ(W|S, Location, Entity, History)
+
+### 多智能处理
+
++ 数据智能
+	+ 大规模、多样化、新鲜的数据
+	+ 云计算基础设施
+	+ 机器学习
+	+ 数据驱动的系统
++ 知识智能
+	+ 知识库、词典、规则、推理
+	+ 知识驱动的系统
++ 社会智能
+	+ 网页锚文本
+	+ 各种用户标签
+	+ 用户日志
+	+ 用户反馈
+	+ 社区问答
+	+ 社会关系网络
+	+ 人类计算
+
+**知识库及建立**
+
+Knowledge Base | # of KB Entity | # of KB Triple
+---|---|---
+微软、谷歌、百度、搜狗 | 未公开 | 未公开
+Freebase [Jan. 2013] | 22M | 100M
+Yago [Jan. 2013] | 10M | 120M
+DBpedia [Jan. 2013] | 3.77M | 430M
+
++ 知识来源
+    + 结构化数据：IMDB, Facebook, LinkedIn
+    + 半结构化数据：网页表格、维基百科
+    + 无结构化的数据：网页文档
++ 知识抽取技术
+    + 自动生成 wrapper，譬如从网页中爬
+    + 词汇模板 (Hearst Patterns)
+    + 基于分布的相似度计算语义相似词
+    + Bootstrapping，用一些种子，生成模板，再爬
+    + 人工检查和校正
+
+**社会智能挖掘**
+
++ Tweet
+    + Spam filter, Classification, Tweet quality, Entity extraciton, Sentiment analysis
++ User
+    + Zombie fans detection, User profile, Social impact index, Expert finding, Yellow page of users
++ Tweet collection
+    + Clustering, Topic detection, Event extraction, Summarization, Social search
+
+## 阿里巴巴大数据实践只自然语言处理
+
++ 深度学习
+    + DNN, CNN, RNN, W2V, RBM, DBN
++ 分词、词性标注、命名实体识别、句法分析、N-gram、语义分析、情感分析
++ Map Reduce, MPI, Parameter Server
++ CPU集群(云梯), GPU 集群
+
+典型应用分享
+
++ 知识图谱
++ 全网用户兴趣挖掘
+
+### 知识图谱
+
++ 知识库(核心)
+    + 基础数据库
+        + 词库：同反多义词、相关词、上下位
+        + 句库：实体描述、句法分析、情感语句
+        + 度量库：重要度、相似度、词间关系
+    + RDF 数据库
+        + 实体库：品牌、产品、商品、买家、卖家
+        + 属性库：单独属性、列举属性、关联属性
++ 信息抽取(输入)
+    + 数据融合：度量、对齐、冲突消解、缺失补齐、简单推理
+    + 结构化数据挖掘、半结构化数据挖掘、非结构化数据挖掘、热点
++ 数据处理(输入)
+    +

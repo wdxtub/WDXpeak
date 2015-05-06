@@ -392,7 +392,7 @@ Fast!!!
 
 > The NVIDIA GTX670 has 7 multiprocessors, 192 CUDA cores per multiprocessor, fixed warp size of 32 and fixed clock speed of 915 MHz. And GTX670 can conduct 192 floating point instructions per clock cycle per multiprocessor. What is the theoretical maximum GFLOPs?
 
-2 flops/instruction(FMA) * 192 instructions/clock * 7M * 915 MHz(boosted) = 2634 Gflops = 2459.52 GFLOPs
+2 flops/instruction(FMA) * 192 instructions/clock * 7M * 915 MHz = 2459.52 GFLOPs
 
 ## Mid Term Review
 
