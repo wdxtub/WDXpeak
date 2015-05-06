@@ -12,6 +12,11 @@
     - 多智能处理
 - 阿里巴巴大数据实践只自然语言处理
     - 知识图谱
+    - 用户标签挖掘
+- 互联网+ 背景下的 NLP+
+    - MLF Algorithms and Features
+- 一种结构化数据标注方法：部分标注与原子任务
+- 面向大规模开放域知识库问答系统
 
 <!-- /MarkdownTOC -->
 
@@ -214,4 +219,66 @@ DBpedia [Jan. 2013] | 3.77M | 430M
     + 数据融合：度量、对齐、冲突消解、缺失补齐、简单推理
     + 结构化数据挖掘、半结构化数据挖掘、非结构化数据挖掘、热点
 + 数据处理(输入)
-    +
+    + 数据监控、数据抓取、数据筛选、数据标注
+    + 内网数据、外网数据
+
+### 用户标签挖掘
+
++ 用户画像
++ 基于特征识别的用户分类
++ 用户单日兴趣标签
++ 用户短期兴趣标签
++ 用户长期兴趣标签
+
+## 互联网+ 背景下的 NLP+
+
+_汤步洲, tangbuzhou@gmail.com_
+
+### MLF Algorithms and Features
+
++ ML Algorithms
+    + Conditional Random Fields (CRFs)
+    + Support Vector Machines (SSVMs)
++ Features
+    + Bag-of-word
+    + Syntactic information (e.g., POS)
+    + Document structure (e.g., sections)
+    + Domain knowledge(e.g., dictionaries)
+    + Word representations (i.e., Brown Clustering)
+
+## 一种结构化数据标注方法：部分标注与原子任务
+
+partial annotation and atomic task
+
+_李正华, 苏州大学 hlt.suda.edu.cn_
+
+目前 NLP 的瓶颈
+
++ 传统标记数据年代久远
++ 需要面向网络文本，标注一定规模的评价和训练数据
+
+近期工作
+
++ 依存句法
+    + Google Web Treebank(Petrov and McDonald, 2012)
+    + Twitter (Kong et al., 2014)
+    + Weibo (Wang et al., 2014)
+    + 哈工大 6 万句传统领域依存树库(LDC)
+    + 哈工大数据堂合作标注的 5 万句微博依存树库
++ 分词词性
+    + CIPS-SIGHAN 2012 微博分词评测
+    + NLPCC 2015 微博分词词性标注评测任务
+
+标注数据需要回答的一些问题
+
++ 标注哪些数据，如何选择
++ 如何制定标注规范
++ 如何标注，如何设计标注任务
++ 结构化数据标注质量如何保证
++ 标注后，如何和传统数据一起训练
+
+## 面向大规模开放域知识库问答系统
+
+问答系统分类：
+
++ IR-based QA
