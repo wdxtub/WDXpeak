@@ -76,9 +76,9 @@ RMR(kcal) | 2598 | x | 2532 | x | 2611 | 2620
 5.4 | 65.5 | 感冒，休息
 5.5 | 65.3 | 感冒，休息
 5.6 | 65.2 | insanity 01
-5.3 | x | insanity 10
-5.4 | x | insanity 12
-5.5 | x | insanity 08
-5.6 | x | insanity 09
-5.7 | x | insanity 10
-5.8 | x | insanity 11
+5.7 | 65.5 | insanity 10
+5.8 | x | insanity 12
+5.9 | x | insanity 08
+5.10 | x | insanity 09
+5.11 | x | insanity 10
+5.12 | x | insanity 11
