@@ -24,6 +24,7 @@ Saturday May 9th, 8:00-11:00am, N206
 - OpenMP & Multicore Computing
     - Mid-term OMP Question
     - Multiple Choice Questions
+        - nowait vs barrier vs single
     - Short Answer Questions
     - Long Questions
 - CUDA & Manycore Computing
@@ -47,9 +48,9 @@ Saturday May 9th, 8:00-11:00am, N206
     - Reduction 聚合
     - Sharing
     - Schedule
-    - Order
-    - Barrier
-    - Single
+    - Synchronization
+        - Ordered
+        - Collapse
 - Definition - Hadoop
     - MapReduce
     - How does Hadoop Work
@@ -57,6 +58,12 @@ Saturday May 9th, 8:00-11:00am, N206
     - Master-slave structure
     - HDFS I/O
     - Advantage
+    - HDFS
+- Definition - CUDA - Working
+    - SIMT: Single Instruction Multiple Threads
+    - Why not just use one thread block?
+    - __syncthreads()
+    - atomics
 - Thanks
 
 <!-- /MarkdownTOC -->
@@ -74,6 +81,8 @@ Saturday May 9th, 8:00-11:00am, N206
 
 基本原理的理解，个别细节处的变化，概念的精确认识
 
+---
+
 ## Sample Question
 
 ### Multi-choice/Single Choice questions
@@ -87,6 +96,12 @@ Saturday May 9th, 8:00-11:00am, N206
 
 Answer 2 & 3
 
+For 2: HDFS is not `peer-to-peer`, it is `master-slave`
+
+For 3: HDFS doesn't support `Append` operation
+
+---
+
 > Consider the following problems, which one is most suitable to be solved in MapReduce framework?
 
 1. Calculate the 500000th Fibonacci number
@@ -95,6 +110,8 @@ Answer 2 & 3
 4. Hosting a website
 
 Answer 2
+
+---
 
 ### Short Answers
 
@@ -105,6 +122,8 @@ Answers
 
 1. Hadoop Web Interface
 2. Hadoop will rerun the job on different nodes
+
+---
 
 ### Design Question
 
@@ -128,6 +147,10 @@ Answer:
 3. Mapper: Output the time if the URL matches the pattern. Reducer: Just output what is received.
 4. No, because it won't reduce anything.
 
+Combiner 的意义在于能够先对 mapper 的结果在本地 reduce 一次，实际上对于计算量的减少并不算大，但是这里有个问题，数据合并得越多，shuffle 过程中需要传输的数据越少，这种 IO 操作速度的提升，是实实在在看得见的。但是如果 combiner 没办法做合并的操作，那么就不能减少数据传输，也就没办法加速。
+
+---
+
 ## OpenMP & Multicore Computing
 
 ### Mid-term OMP Question
@@ -142,6 +165,8 @@ Answer:
     + Sharing/locking of variables
     + Cache-line optimization
 
+---
+
 ### Multiple Choice Questions
 
 > The "atomic" synchronization clause in OpenMP will ensure,
@@ -154,6 +179,10 @@ Answer:
 
 Answer 3
 
+atomic 只对某个变量的更新有效，而且是针对 thread 的，所以只有 3 符合要求
+
+---
+
 > Select all statements that are true for the execution pattern in OpenMP
 
 1. Only the master thread can create new threads
@@ -163,6 +192,38 @@ Answer 3
 5. A "single" construct denotes a block of code that is executed by only one thread
 
 Answer 2 & 5
+
+#### nowait vs barrier vs single
+
+**Barrier**
+
+    #include <stdio.h>
+    #include <omp.h>
+
+    int main(){
+        #pragma omp parallel
+        {
+            for (int i = 0; i < 100; ++i){
+            printf("%d+\n", i);
+            }
+            #pragma omp barrier
+            for (int j = 0; j < 10; ++j){
+                printf("%d-\n", j);
+            }
+        }
+    }
+
+两个线程(具体数目不同 CPU 不同)执行了第一个for循环，当两个线程同时执行完第一个for循环之后，在barrier处进行了同步，然后执行后边的for循环。
+
+**Single**
+
+Only one thread will execute the region of code.
+
+**NO WAIT / nowait**
+
+If specified, then threads do not synchronize at the end of the parallel loop.
+
+---
 
 ### Short Answer Questions
 
@@ -175,6 +236,8 @@ Answer
 + Guided - Threads dynamically grab blocks of iterations. The size of the blocks start large and shrink down to a specified size as the calculation proceeds.
     + Each grabbed block size is proportional to the number of unassigned iterations, divided by the number of threads, decreasing to 1
 
+---
+
 ### Long Questions
 
 > Very briefly describe the storage attributes "SHARED", "PRIVATE", "FIRSTPRIVATE", and "LASTPRIVATE"
@@ -183,6 +246,8 @@ Answer
 + PRIVATE: variables with this attribute are private to each thread
 + FIRSTPRIVATE: variables with this attribute are private to each thread. They are initialized using the value of the variable with the same name of the master
 + LASTPRIVATE: variables with this attribute are private to each thread. In a parallelized loop, the value of this private vairable in the last iteration will be copied to ta global variable with the same name outside the parallel region.
+
+---
 
 > By describing the execution of the following chunks of code(clearly explaining which section of the code will execute in parallel), select the more optimized chunk of code.
 
@@ -206,7 +271,9 @@ Then the process will be repeated for the other values of i < 16
 
 **Conclusion**
 
-Thus code chunk(a) provides greater parallelism by allowing `funcA(int)` to be executed in parallel
+Thus code chunk(s) provides greater parallelism by allowing `funcA(int)` to be executed in parallel
+
+---
 
 ## CUDA & Manycore Computing
 
@@ -218,6 +285,8 @@ No. In this case, no threads share input data, so reading-sharing cannot be expl
 
 `cudaMemcpy()` and `cudaMalloc()` are very expensive and slow operations and should be used only for DMA through global memory. If you want to use the constant memory you should use `__constant__ float constData[256];` to declare and allocate the memory space and `cudaMemcpyToSymbol()` to copy the data. These operations are much faster and optimized for this purpose.
 
+---
+
 > Does CUDA support Function Pointers?
 
 1. No
@@ -228,6 +297,8 @@ No. In this case, no threads share input data, so reading-sharing cannot be expl
 
 Answer 3
 
+---
+
 > How can I find out how many registers / how much shared/constant memory my kernel is using?
 
 1. You can't, Nvidia doesn't allow you to find out, only after executing the code
@@ -237,6 +308,8 @@ Answer 3
 5. Only if you carefully examine your source code and/or the ptx assembly
 
 Answer 2 & 4
+
+---
 
 > The following kernels are wasteful in their use of threads; half of the threads in each block never execute. Modify the kernels to eliminate such waste.
 
@@ -258,6 +331,8 @@ The configuration parameters should be modified such that the block size (BLOCK_
 
 (唯一的区别就是 for 循环 blockdim.x 不用右移一位)
 
+---
+
 > Give the relevant execute configuration parameter values at the kernel launch. Is there a cost in terms of extra arithmetric operation needed? Which resource limitation can be potentially addressed with such modification?
 
 kernel 1 (same as kernel 1 ans)
@@ -272,6 +347,7 @@ For kernel1: Fewer threads have to check the branch if it is taken or not. One m
 
 For kernel2: Less threads check the branch. One right shift operation was removed.
 
+---
 
 ### Midterm Question 3 - CUDA
 
@@ -284,6 +360,8 @@ Based on the code above in Part 2, please answer the following questions:
 + Line 21: A
 + Line 21: B
 + Line 30: d_C
+
+---
 
 > How many accesses to shared memory are done for **each thread block**? List the line numbers, the variable accessed, and counts per thread block
 
@@ -301,6 +379,8 @@ Based on the code above in Part 2, please answer the following questions:
 + L30: accumResult[0], 256 times
 + Total: 1277 times
 
+---
+
 > How many iterations of the for-loop (Line 23) will have branch divergence? Show the value of the strides for the iterations with branch divergence.
 
 + Strides = 16
@@ -308,6 +388,8 @@ Based on the code above in Part 2, please answer the following questions:
 + Strides = 4
 + Strides = 2
 + Strides = 1
+
+---
 
 > Identify an opportunity to significantly reduce the bandwidth requirement on the global memory. How would you achieve this? How many accesses can you eliminate?
 
@@ -317,9 +399,13 @@ Based on the code above in Part 2, please answer the following questions:
 
 Eliminate 255 accesses
 
+---
+
 > Is there any opportunity to reduce the number of `__syncthreads (Line 25)` executed? If no, why not? If it is possible, hwo could you achieve this? Explain in one or two sentences hwo you could do this. You don't have to write out the code.
 
 When the for-loop in Line 23 is only using one warp, no `__syncthreads()` are necessary. This would eliminate 5 `__syncthreads()`
+
+---
 
 ### Short Questions
 
@@ -331,6 +417,8 @@ When the for-loop in Line 23 is only using one warp, no `__syncthreads()` are ne
 > What is benefit of using registers?
 
 Fast!!!
+
+---
 
 ### Long Questions
 
@@ -396,6 +484,8 @@ Fast!!!
 
 2 flops/instruction(FMA) * 192 instructions/clock * 7M * 915 MHz = 2459.52 GFLOPs
 
+---
+
 ## Mid Term Review
 
 Some Stats
@@ -418,6 +508,8 @@ When multiple threads access the same cache line.
         a[i]++;
     }
 
+---
+
 > What is wrong with the code
 
     #pragma omp parallel for
@@ -430,6 +522,8 @@ When multiple threads access the same cache line.
     // You can assume that the perform_kmeans does one iteration of kmeans clustering
 
 Each iteration depends on previous. This cannot be parallelized.
+
+---
 
 ### Long Questions - OMP
 
@@ -456,6 +550,8 @@ Reasons:
 1. It is performing row-wise minimization
 2. `min_elem[i]` accesses and writes will suffer from race conditions
 
+---
+
 > Part II: We do not want to change the OpenMP directive in line 4, and want to make the program functional correct. You friend Jim suggested the following modification to replace the following three lines:
 
      6             if (matrix[i*dimension + j] < min_elem[i]){
@@ -475,9 +571,13 @@ Reasons:
 2. Atomics do not support ternary operators
 3. Even if they did, they protect only writes, so race condition would persist
 
+---
+
 > Part III: Starting with the original program (line 1-11), if we do not want to chagne the OpenMP directive in line 4, can you make a small update to the code to make the program functionally correct?
 
 Use #pragma omp critical
+
+---
 
 > Part IV: Given your change to the program will run correctly, but it would still be a slow program. Can you give three reasons why it is slow?
 
@@ -485,11 +585,15 @@ Use #pragma omp critical
 2. False sharing of `min_elem` array
 3. thread overhead
 
+---
+
 > Part V: Make two suggestios on hwo to improve the speed of the code. You don't need to write the code, just state the modification briefly and the reason for the speedup.
 
 1. Move the pragma to outer loop
 2. Transpose the matrix to perform row-wise access
 3. Use local variable to store min and write to `min_elem` at the end
+
+---
 
 ### SIMD Short Answer
 
@@ -504,11 +608,15 @@ Deliberate **Red Herring**; will complie fine
 
 这题里面就不符合对齐的要求。
 
+---
+
 > Describe one possible way to fix the above code
 
 可以用 `_mm_loadu_ps` 来读取非 16 对齐的。
 
 `__attribute__((aligned(16)))` or `__declspec(align(16))`
+
+---
 
 ### SIMD Long Answer
 
@@ -519,6 +627,8 @@ Question: Well known Complex Multiplication kernel
 > The initial, high-level changes required to make this code segment amenable to vectorization.
 
 alignment and loop unrolling
+
+---
 
 > If data layout changes are allowed how, would such a change reduce the vectorization overhead? What are the disadvantages of your proposed format change?
 
@@ -560,6 +670,8 @@ These have the following trade-offs:
 2. AoS may have better cache locality if all the members of the struct are accessed together.
 3. SoA could potentially be more efficient since grouping same datatypes together sometimes exposes vectorization.
 4. In many cases SoA uses less memory because padding is only between arrays rather than between every struct.
+
+---
 
 > The scalar version requires
 
@@ -641,6 +753,8 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
 
 然后根据这个来分析具体的比例即可
 
+---
+
 ## Report Speedup
 
 + 不同的体系结构有不同的优势，如果用同样的算法测试不同的架构，得到的结果是不准确的。
@@ -693,6 +807,7 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
         + different implementation strategy
         + different fine-tuning parameters
 
+---
 
 ## Bonus Question
 
@@ -705,6 +820,8 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
     for (int i = 0; i < 10; ++i){
         a++;
     }
+
+---
 
 > HDFS的是基于流数据模式访问和处理超大文件的需求而开发的，默认的最基本的存储单位是64M，具有高容错、高可靠性、高可扩展性、高吞吐率等特征，适合的读写任务是
 
@@ -754,6 +871,8 @@ Answer 3
 Answers 2
 
 知识点：InverseMapper<K, V>实现Mapper<K, V, V, K>
+
+---
 
 ## Definition - OpenMP(2.1)
 
@@ -825,48 +944,36 @@ When multiple threads access the same cache line.
 
 Global variables are SHARED among threads
 
-1.  File scope variables, staHc
-2.  Dynamically allocated memory (ALLOCATE, malloc, new)
+1. File scope variables, static
+2. Dynamically allocated memory (ALLOCATE, malloc, new)
+
 Not all are shared
-1.  Functions called from parallel regions are PRIVATE
-2.  Automatic variables within a statement block are PRIVATE
+
+1. Functions called from parallel regions are PRIVATE
+2. Automatic variables within a statement block are PRIVATE
 
 ### Schedule
 
 The schedule clause affects how loop iteraHons are mapped onto threads:
 
-1. **static**:Deal-out blocks of iterations of size “chunk” to each thread.
-2. **dynamic**:Each thread grabs “chunk” iterations off a queue until all iterations have been handled
-3. **guided**:Threads dynamically grab blocks of iterations. The size of the block starts large and shrinks down to size “chunk” as the calculation proceeds.
-4. **runtime**:Schedule and chunk size taken from the OMP_SCHEDULE environment variable.
+1. **static**: Deal-out blocks of iterations of size “chunk” to each thread.
+2. **dynamic**: Each thread grabs “chunk” iterations off a queue until all iterations have been handled
+3. **guided**: Threads dynamically grab blocks of iterations. The size of the block starts large and shrinks down to size “chunk” as the calculation proceeds.
+4. **runtime**: Schedule and chunk size taken from the OMP_SCHEDULE environment variable.
 
-### Order
+### Synchronization
 
-The ordered region executes in the sequenHal order
+#### Ordered
 
-### Barrier
+The ordered region executes in the sequential order. Specifies that the iterations of the loop must be executed as they would be in a serial program.
 
-    #include <stdio.h>
-    #include <omp.h>
 
-    int main(){
-        #pragma omp parallel
-        {
-            for (int i = 0; i < 100; ++i){
-            printf("%d+\n", i);
-            }
-            #pragma omp barrier
-            for (int j = 0; j < 10; ++j){
-                printf("%d-\n", j);
-            }
-        }
-    }
 
-两个线程(具体数目不同 CPU 不同)执行了第一个for循环，当两个线程同时执行完第一个for循环之后，在barrier处进行了同步，然后执行后边的for循环。
+#### Collapse
 
-### Single
+Specifies how many loops in a nested loop should be collapsed into one large iteration space and divided according to the schedule clause. The sequential execution of the iterations in all associated loops determines the order of the iterations in the collapsed iteration space.
 
-Only one thread will execute the region of code.
+---
 
 ## Definition - Hadoop
 
@@ -928,6 +1035,33 @@ Block replication benefits MapReduce
 HDFS checksum all data during I/O
 
 **Small number of large files preferred over a large number of small files**
+
+### HDFS
+
+namenode(master)->管理文件系统，持有文件系统树,和树中所有文件和目录的元数据（meta data）。同时namenode知道用户需要文件的各个文件块分别位于哪些datanode
+
+datanode->存储以及取回文件块.定时（隔一段时间）向namenode汇报自己保存着谁的文件块
+
+## Definition - CUDA - Working
+
+### SIMT: Single Instruction Multiple Threads
+
+1. A single instruction controls multiple processing element
+2. Different from SIMD – SIMD exposes the SIMD width to the programmer
+3. SIMT abstract the #threads in a thread block as a user-specified parameter
+
+### Why not just use one thread block?
+
+If you only use one core of a manycore hardware, it can not fully utilized the resources.
+
+### __syncthreads()
+
+1. waits until all threads in the thread block have reached this point and all global and shared memory accesses made by these threads prior to __syncthreads() are visible to all threads in the block
+2. used to coordinate communication between the threads of the same block
+
+### atomics
+
+An atomic function performs a read-modify-write atomic operation a word
 
 ## Thanks
 
