@@ -36,6 +36,7 @@ Saturday May 9th, 8:00-11:00am, N206
     - SIMD Short Answer
     - SIMD Long Answer
         - AoS vs SoA
+- Report Speedup
 - Bonus Question
 - Definition - OpenMP(2.1)
     - Different level of Parallelism
@@ -639,6 +640,59 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
 正好分别是 ab 和 cd 的实部和虚部
 
 然后根据这个来分析具体的比例即可
+
+## Report Speedup
+
++ 不同的体系结构有不同的优势，如果用同样的算法测试不同的架构，得到的结构是不准确的。
++ Algorithms have to match architecure
++ Much harder to make standardized cross platform comparison.
+    + Wide Parallel Reduction - Good for GPU
+    + Narrow Parallel Reduction - Good for CPU
++ Speedup 从哪里来(Platform - Application)
+    + Hardware Architect - Architecture Researchers(1) - Application Developers(2) - End User
+    + (1)**Implementation Strategies**(1.5-8x): Detailed performance tuning to specific hardware platform to achieve maximum execution efficiency
+        + Saving Memory BW(GPU) / Kernel Merge Vectorization(CPU)
+    + (2)**Algortihm Strategies**(10-40x): Selection of local computation building blocks and algorithms to improve overall application performance
+        + Faster Convergence
+    + (2)**Organization & Structure**(20-100x): Arrangements of overall application components and computation patterns that mitigate performance bottlenecks
+        + Reduce Computation
++ 说来说去就是比较是很难的，常见的几种方式有
+    + 确保同一个算法在不同平台上是一致的
+    + 旧平台 vs 新平台
+    + 贵平台 vs 便宜平台
+    + 100W 部分 vs 1W 部分
++ 啥时候比较是有用的
+    + Before: Performance x, After: Performance y
+    + ROI(Speedup) y / x (并行化程序时对比可能比较有效)
+    + Speedup 不仅取决于 processor 或者 platform
+        + different application architecurt
+        + different algorithm strategy
+        + different implementation strategy
+        + different fine-tuning parameters
++ 怎么Speedup
+    + Deep application domain expertise
+        + Start with application-level trade-offs
+        + Measure where bottlenecks are
+        + Understand what performance is required
+    + Deep implementation platform expertise
+        + Leverage existing building blocks / patterns
+        + Understand the peak-achievable performance
+    + 早期决策时确定什么对性能影响最大
+    + 用现有的库、设计模式来减少部署的风险
++ 如何Report
+    + Baseline
+        + Platform
+        + Software architecure
+        + Algorithm strategy
+        + Implementation strategy
+    + Speedup
+        + different processor
+        + different platform
+        + different application architecurt
+        + different algorithm strategy
+        + different implementation strategy
+        + different fine-tuning parameters
+
 
 ## Bonus Question
 
