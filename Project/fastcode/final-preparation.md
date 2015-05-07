@@ -643,7 +643,7 @@ Recall, the `__mm_addsub_ps` instruction which for input vectors {X0,X1,X2,X3} a
 
 ## Report Speedup
 
-+ 不同的体系结构有不同的优势，如果用同样的算法测试不同的架构，得到的结构是不准确的。
++ 不同的体系结构有不同的优势，如果用同样的算法测试不同的架构，得到的结果是不准确的。
 + Algorithms have to match architecure
 + Much harder to make standardized cross platform comparison.
     + Wide Parallel Reduction - Good for GPU
