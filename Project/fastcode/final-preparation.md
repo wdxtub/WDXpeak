@@ -841,14 +841,14 @@ Answer 3
 
 > 以下四个Hadoop预定义的Mapper实现类的描述错误的是
 
-1. IdentityMapper<K, V>实现Mapper<K, V, K, V>，将输入直接映射到输出
-2. InverseMapper<K, V>实现Mapper<K, V, K, V>，反转键/值对
-3. RegexMapper<K>实现Mapper<K, Text, Text, LongWritable>，为每个常规表达式的匹配项生成一个(match, 1)对
-4. TokenCountMapper<K>实现Mapper<K, Text, Text, LongWritable>，当输入的值为分词时，生成(taken, 1)对
+1. `IdentityMapper<K, V>`实现`Mapper<K, V, K, V>`，将输入直接映射到输出
+2. `InverseMapper<K, V>`实现`Mapper<K, V, K, V>`，反转键/值对
+3. `RegexMapper<K>`实现`Mapper<K, Text, Text, LongWritable>`，为每个常规表达式的匹配项生成一个(match, 1)对
+4. `TokenCountMapper<K>`实现`Mapper<K, Text, Text, LongWritable>`，当输入的值为分词时，生成(taken, 1)对
 
 Answers 2
 
-知识点：InverseMapper<K, V>实现Mapper<K, V, V, K>
+知识点：`InverseMapper<K, V>`实现`Mapper<K, V, V, K>`
 
 ---
 
