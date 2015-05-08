@@ -255,17 +255,17 @@ Answer
 
 **For section a)**
 
-The 4 threads will initially take on iterations 0, 1, 2, 3 of the for-loop.
+The 4 threads will initially take on iterations 0, 1, 2, 3 of the for-loop and each of the threads will execute the function `funcA(int)` in parallel
 
-Since the code block within the for-loop is marked as critical, the execution of the function `funcA(int)` and `ic = ic + results_of_funcA(i)` will happen in sequence
+The atomic clause will apply to only `ic = ic + results_of_funcA(i)`, and each thread will execute for these instructions in a non-overlapping manner
 
 Then the process will be repeated for the other values of i < 16
 
 **For seciton b)**
 
-The 4 threads will initially take on iterations 0, 1, 2, 3 of the for-loop and each of the threads will execute the function `funcA(int)` in parallel
+The 4 threads will initially take on iterations 0, 1, 2, 3 of the for-loop.
 
-The atomic clause will apply to only `ic = ic + results_of_funcA(i)`, and each thread will execute for these instructions in a non-overlapping manner
+Since the code block within the for-loop is marked as critical, the execution of the function `funcA(int)` and `ic = ic + results_of_funcA(i)` will happen in sequence
 
 Then the process will be repeated for the other values of i < 16
 
@@ -277,9 +277,11 @@ Thus code chunk(s) provides greater parallelism by allowing `funcA(int)` to be e
 
 ## CUDA & Manycore Computing
 
-> Consider the matrix addition where each element fo the output matrix is the sum of the corresponding elements of the two input matrices. Can one use the shared memory to reduce the global memory bandwidth consumption?
+> Consider the matrix addition where each element of the output matrix is the sum of the corresponding elements of the two input matrices. Can one use the shared memory to reduce the global memory bandwidth consumption?
 
 No. In this case, no threads share input data, so reading-sharing cannot be exploited through cooperative use of shared memory.
+
+每个 thread 都有自己的一份 register 和 local memory 的空间。同一个 block 中的每个 thread 则有共享的一份 share memory。此外,所有的 thread(包括不同 block 的 thread)都共享一份 global memory, constant memory 和 texture memory。不同的 grid 则有各自的 global memory, constant memory 和 texture memory。
 
 > During a meeting, a new graduate student told his advisor that he improved his kernel performance by using `cudaMalloc()`  to allocate constant memory and `cudaMemcpy()` to transfer read-only data from the CPU memory to the constant memory. If you were his advisor, what would be your response and why?
 
@@ -299,7 +301,7 @@ Answer 3
 
 ---
 
-> How can I find out how many registers / how much shared/constant memory my kernel is using?
+> How can I find out how many registers / how much shared / constant memory my kernel is using?
 
 1. You can't, Nvidia doesn't allow you to find out, only after executing the code
 2. You can use the visual profiler to get such feedback
@@ -322,30 +324,6 @@ Kernel 2
 ![kernel2](./_resources/final4.jpg)
 
 The configuration parameters should be modified such that the block size (BLOCK_SIZE) is half of what it was originally in this case
-
-![kernel1 answer](./_resources/final5.jpg)
-
-(唯一的区别就是 for 循环 stride 那里从 < 变成了 <=)
-
-![kernel2 answer](./_resources/final6.jpg)
-
-(唯一的区别就是 for 循环 blockdim.x 不用右移一位)
-
----
-
-> Give the relevant execute configuration parameter values at the kernel launch. Is there a cost in terms of extra arithmetric operation needed? Which resource limitation can be potentially addressed with such modification?
-
-kernel 1 (same as kernel 1 ans)
-
-![kernel1](./_resources/final5.jpg)
-
-Kernel 2 (same as kernel 2 ans)
-
-![kernel2](./_resources/final6.jpg)
-
-For kernel1: Fewer threads have to check the branch if it is taken or not. One multiplication and one module operation were removed
-
-For kernel2: Less threads check the branch. One right shift operation was removed.
 
 ---
 
@@ -401,7 +379,7 @@ Eliminate 255 accesses
 
 ---
 
-> Is there any opportunity to reduce the number of `__syncthreads (Line 25)` executed? If no, why not? If it is possible, hwo could you achieve this? Explain in one or two sentences hwo you could do this. You don't have to write out the code.
+> Is there any opportunity to reduce the number of `__syncthreads (Line 25)` executed? If no, why not? If it is possible, hwo could you achieve this? Explain in one or two sentences how you could do this. You don't have to write out the code.
 
 When the for-loop in Line 23 is only using one warp, no `__syncthreads()` are necessary. This would eliminate 5 `__syncthreads()`
 
@@ -461,8 +439,8 @@ Fast!!!
 > FMA
 
 + Fused Multiply and Add
-+ Benefit 1. 2Flops / clock
-+ Benefit 2. precision benefits (since less rounding by using larger internal buffer)
++ Benefit 1: 2 Flops / clock
++ Benefit 2: precision benefits (since less rounding by using larger internal buffer)
 
 > Share / L1 / Global memory?
 
