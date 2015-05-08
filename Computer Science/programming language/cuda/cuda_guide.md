@@ -61,7 +61,7 @@
 + When an instruction executed by the threads in a warp must wait for the result of a previously initiated long-latency operation, the warp is not selected for execution -> lantency hiding
 + Priority mechanism used to schedule ready warps
 + Scheduling does not introduce idle time -> zero-overhead thread scheduling
-+ Scheduling is used for telerating long-latency operations, such as:
++ Scheduling is used for tolerating long-latency operations, such as:
 + piplined floating-point arithmetic
 + branch instructions
 
