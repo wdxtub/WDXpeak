@@ -61,6 +61,12 @@
     - 半监督聚类
     - 检索结果聚类
 - 智能问答基础技术
+    - 问题类型
+    - 主要技术
+- 互联网信息抽取
+    - 文本语义信息抽取
+    - 实体识别
+    - 语义类挖掘
 
 <!-- /MarkdownTOC -->
 
@@ -896,4 +902,98 @@ Training Set -> Learn Classifier -> Model <- Test set
 
 ## 智能问答基础技术
 
+起源于信息检索社区。根据用户的提问给出简短的答案，有时需要提供答案的证据。
 
+### 问题类型
+
++ 根据答案类型划分
+    + 事实型问题(Factual questions)
+    + 观点型问题(Opinions)
+    + 摘要型问题(Summaries)
++ 根据问题言语行为(question speech act)划分
+    + 是否型问题(Yes/NO questions)
+    + WH 问题(WH questions)
+    + 间接请求(Indirect Requests)
+    + 命令(Commands)
++ 复杂/困难问题
+    + 为什么/怎么样(Why, How questions)
+    + 什么(What questions)
+
+### 主要技术
+
++ 传统自动问答技术
+    + 基于语料库的自动问答
+        + 问题分析(分类、模板匹配、语义分析)
+        + 段落检测(段落抽取、排序)
+        + 答案抽取(实体识别、模板匹配、排序)
+    + 基于知识库的自动问答
++ 社区问答技术
+    + 问题分类、问题推荐
+    + 专家发现、信誉评估
+    + 知识抽取
+
+---
+
+## 互联网信息抽取
+
+**非结构化数据**(纯文本，句子，查询字符串) 和**半结构化数据**(HTML文档，查询日志，词典) -IE-> **结构化数据**(语义知识)
+
++ 网页主要文本抽取(BTE)方法
+    + 识别出一个包含最多词语(排除最多标签)的连续区域
++ 基于文本标签比例的抽取方法(CERT, Content Extraction via Tag Ratios)
+    + 绘制文本标签直方图
+    + 对文本标签直方图进行变换，并进行聚类，得到网页内容
++ 基于网页分块重要性识别的抽取方法(Learning Block Importance Models for Web Pages)
+    + 首先将网页分为块状区域(VIPS, 基于视觉的网页分块算法)
+    + 然后对每块区域判断重要性
++ 基于模板的方法
+    + 基于批量处子统一模板的网页来自动检测模板
+    + 利用模板抽取网页内容
+
+### 文本语义信息抽取
+
+**主要任务**
+
++ 命名实体抽取(Named entity extraction)
+    + 命名实体识别(Named entity recognitoin, NER)
+    + 共指消解(Co-reference resolution)
++ 属性抽取(Attribute extraction)
++ 关系挖掘(Relation mining)
+    + 相关短语和实体(Related terms and entities)
+    + 归类(Categorization)
+    + 关系检测与分类(Relation detection and classification)
++ 事件挖掘(Event mining)
+    + 事件检测与分类(Event detection and classification)
+
+### 实体识别
+
++ 识别文本中出现的实体
+    + MUC(1997): Person, Location, Organization, Date/Time/Currency
+    + ACE(2005): 100 多种更具体的类型
++ 人工规则 vs 机器学习方法
++ 针对不同试题类型与领域考虑不同方法
+    + 封闭类(e.g., geographical locations, disease names, gene & protein names): 人工规则 + 词典
+    + 语法相关(e.g., phone numbers, zip codes): 正则表达式
+    + 语义相关(e.g., person and compnay names): 综合考虑上下文，句法特征，词典，启发式规则等
+    + 对于典型的实体类型抽取效果已经较好
+
+### 语义类挖掘
+
++ 目标：发现同位短语(coordinate terms), 类似于可比实体发现
++ 主要方法
+    + 一阶共现(First-order co-occurrences): 普通共现 & 模板
+    + **二阶共现(Second-order co-occurrences)**: 分布式相似性
+        + 分布式假设：出现在相似上下文(词语、句法)中的词语比较相似
+
+**基于分布相似性(DS)**
+
++ 定义上下文：句法上下文，词语上下文
++ 将每个短语表示为一个特征向量
+    + 特征：短语出现的一个上下文
+    + 特征值：上下文针对短语的权重
++ 计算短语相似性
+    + 特征向量之间的相似性
+
+**语义层级构建**
+
++ 主要子任务
