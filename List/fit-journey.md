@@ -78,8 +78,9 @@ RMR(kcal) | 2598 | x | 2532 | x | 2611 | 2620
 5.6 | 65.2 | insanity 01
 5.7 | 65.5 | insanity 10
 5.8 | 65.5 | 为考试储备精力
-5.9 | x | 可能跑外环，看天气
-5.10 | x | insanity 13
+5.9 | x | 休息
+5.10 | x | 休息
+5.11 | 66.0 | insanity 13
 5.11 | x | insanity 08
 5.12 | x | insanity 09
 5.13 | x | insanity 10

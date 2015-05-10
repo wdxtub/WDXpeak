@@ -67,6 +67,13 @@
     - 文本语义信息抽取
     - 实体识别
     - 语义类挖掘
+    - 相关系统
+- 情感分析与观点挖掘
+    - 研究框架
+    - 情感分类
+    - 情感词汇资源构建
+    - 观点抽取
+- 信息摘要
 
 <!-- /MarkdownTOC -->
 
@@ -997,3 +1004,177 @@ Training Set -> Learn Classifier -> Model <- Test set
 **语义层级构建**
 
 + 主要子任务
+    + 为短语(term)赋予类标签或上位词(label)
+        + Beijing -> city, cpatial
+        + Apple -> company, fruit
+        + Red -> Color
+        + 方法: Pattern matching + counting
+            + 人工设计或自动生成模板
+            + 文本模板或 HTML 表格
+            + 输出 <term, label, pattern, source, weight> 元组
+        + 挑战
+            + 边界检测: 短语边界、标签边界
+            + 标签选择
+        + 合并元组
+            + 对于每个短语 T 与标签 L，计算 w(T, L)
+        + 方法:简单计数
+            + 对于每对(T, L)统计<T, L, P, S, W>元组的数量
+            + 或者 TF-IDF
+    + 为语义类(semantic class)赋予类标签(label)
+        + {Beijing, Shanghai, Dalian...} -> cities, Chinese cities...
+        + 方法: 投票(Voting)
+    + 构建层级
+
+**通用关系**
+
+关系: 与实体相关的事实
+
+历史: MUC-7(1997) 提出，ACE、KBP 扩展
+
+**关系抽取方法**
+
++ 基于知识/规则的方法
+    + 专家制定规则、模板(可以基于词汇、句法结构)
++ 机器学习方法
+    + 半监督学习：基于人工标注数据训练模型
+    + 半监督学习：基于自举方法从种子样例中训练模型
+        + 自举方法(Bootstrapping): DIPRE(Brin 1998, 双重迭代模板关系抽取)
+    + 混合或交互系统
+        + 专家与机器学习算法交互(e.g., active learning)从而迭代优化/扩展规则和模板
+        + 交互包括标注样例、修改规则等
+
+**属性抽取(Attribute Extraction)**
+
++ 基于无结构化文本
++ 基于 HTML 表格
++ 基于 Wikipedia Infobox
+
+### 相关系统
+
++ NeedleSeek
+    + needleseek.msra.cn
+    + 基于 Web 大规模数据挖掘开放域语义知识
+    + 基于挖掘的语义知识回答/服务用户需求
+    + 语义卡片(Semantic Card)
+        + 将输入的词或段誉映射为一个或多个概念
+    + 语义图(Semantic Map)
+        + 概念组织成语义类，并获取概念之间的语义关系
++ 人立方系统
+    + renlifang.msra.cn 中文
+    + entitycube.research.microsoft.com 英文
+    + 侧重人物、机构之间的关系
++ 谷歌知识图谱
+    + 实体关系网络
+
+---
+
+## 情感分析与观点挖掘
+
++ 应用
+    + 产品比较与推荐
+    + 个人与机构声誉分析
+    + 电视节目满意度分析
+    + 互联网舆情分析
+        + 利用文本情感计算技术深入分析人们对社会现实和现象的群体性情绪、观点、思想、心理、意志和要求
+    + 反恐与维稳
++ 原型系统与产品
+    + 英文: OpinionFinder, RapidMiner, TextMap, Bing 产品搜索, condersr.com, tweetfeel.com
+    + 中文: 爱搜车众评, 雅虎人物搜索
+
+### 研究框架
+
++ 应用层：情感检索，情感摘要，情感问答
++ 核心层：情感要素抽取，情感倾向性分析，主客观分析/观点文本识别
++ 基础层：NLP 基本模块，情感资源收集与标注
++ 来源：产品评论，电影评论，新闻评论，博客，微博
+
+### 情感分类
+
++ 将文本按照所表达的总体情感进行分类
+    + 例如正面(Positive), 负面(Negative), 中性(neutral)
++ 基于话题的文本分类相似又不同
+    + 话题词汇很重要
+    + 情感词汇更重要，如: great, excellent, horrible, bad, worst, ...
+
+**情感分析任务**
+
++ 主客观分析/观点文本识别
+    + 客观：反映关于世界的事实信息
+    + 主观：反映个人情感、信念等
++ 倾向性分析(可看作主客观分析的细粒度处理)
+    + 对包含观点的文本进行倾向性判断
+    + 一般分为三类：褒义、贬义、中性(在一些问题不考虑中性)
++ 情绪分析
+    + 愤怒、高兴、喜好、悲哀、吃惊等等
++ 粒度
+    + 词、句子、文档
+
+**情感资源**
+
++ 情感分析的基础
++ 英文资源较多
+    + 情感词典: WentiWordNet, Inquirer 等
+        + 包含词语、短语等
+        + 倾向性词语、主观性词语
+    + 已标注语料库数量较多
+    + 开源情感分析工具 OpinionFinder
++ 中文资源较少，但逐年增多
+    + 知网 Hownet 提供了部分情感词汇
+    + 近两年的评测提供了中文标注文本
+        + NTCIR, COAE, NLP&CC 等
++ 情感资源基本上跟领域、语言有关
++ 主客观分析与倾向性分析的资源也不一样
+
+### 情感词汇资源构建
+
++ 基于心理学的评价理论
++ 任务
+    + 确定词语的主观性(subjectivity)
+    + 确定词语的倾向(orientation)
+    + 确定词语态度的强度(strength)
++ 连接词方法(Conjunction Method)
+    + 用 and 相连的形容词通常具有相同的倾向，而用 but 的则具有相反的倾向
+    + 对形容词按照不同倾向聚类
++ PMI 方法(Pointwise Mutual Information 点互信息, Orientation, Subjectivity)
+    + 判别倾向性：具有相似倾向性的词语倾向于在文档中共同出现
+    + 判别主观性：主观性形容词倾向于出现在其他主观性形容词周围
+    + 可基于 AltaVista 搜索引擎的 NEAR 操作符返回的结果数进行 PMI 的计算
+    + 预测词语的倾向性 SO(t)
++ WordNet 扩展方法
+    + 著名的英文词义关系计算资源，词义数据库，包含词义及其关系
+    + wordnet.princeton.edu
+    + WordNet 中基本单元为Synset(synonym set): (近似)同义集合
+        + WordNet 的基本单元
+        + 每个 synset 表示一个语义概念
+        + Example synset: {hit, strike, impinge on, run into, collide with}
+    + 每个词条包括多个 synsets, 注释，使用样例等信息
+    + Synsets 通过不同的词义关系相连
+    + 使用词语之间的同义、反义关系
+    + 假设：形容词通常与其同义词具有相同的倾向性，而与反义词具有相反的倾向性
+    + 利用种子形容词集，能够获得 WordNet 中所有形容词的倾向性
++ 释义方法(Gloss Use Method)
+    + Orientation, Subjectivity, SentiWordNet
+    + 假设
+        + 倾向性：具有相似倾向性的词语具有相似的释义
+        + 主观性：具有相似倾向性的词语具有相似的释义，不具有倾向性的词语具有无倾向的释义
+
+### 观点抽取
+
+一个观点表示为一个五元组(目标对象, 目标对象特征, 观点的情感值, 观点持有者, 观点表达时间)
+
+观点抽取任务很困难，**重点关注两个子任务**
+
++ 特征抽取与聚类(aspect extraction and grouping)
+    + 抽取对象的所有特征表达，并将同义特征表达聚类。每个特征类表示了关于该对象的独一无二的某个特征
++ 特征情感分类(aspect sentiment classification)
+    + 确定观点针对每个特征的情感倾向：正面、负面、中性
+
+**对象特征抽取**
+
++ 频繁特征：被许多评论提及的特征
++ 非频繁特征抽取：基于同一情感词被用来描述不同特征与对象
+
+---
+
+## 信息摘要
+
