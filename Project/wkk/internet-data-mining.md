@@ -76,8 +76,11 @@
 - 信息摘要
     - 文档摘要基本技术
     - 抽取式文档摘要
-- 社交网络分析
     - 相关评测
+- 社交网络分析
+    - 社会网络
+    - 异构网络
+- 信息推荐
 
 <!-- /MarkdownTOC -->
 
@@ -1269,13 +1272,6 @@ Training Set -> Learn Classifier -> Model <- Test set
 
 目前摘要总体性能不高，需要方法上的突破。
 
----
-
-## 社交网络分析
-
-
-
-
 ### 相关评测
 
 + DUC
@@ -1291,3 +1287,110 @@ Training Set -> Learn Classifier -> Model <- Test set
         + Biomedical Summarization
 + NTCIR-9~10: 1click(新型)
 + TREC2013: Temporal Summarization Track(新型)
+
+---
+
+## 社交网络分析
+
++ 社会媒体的特性
+    + 用户生成内容多，富含观点
+    + 群体智慧
+    + 用户交互性强
+    + 异构网络
++ 社交媒体分析
+    + 社交网络分析
+        + 基于社交关系、结构进行挖掘
+        + 例如：社区检测、连接预测、影响力分析
+    + 社交内容挖掘
+        + 基于文本等内容数据进行挖掘
+        + 例如：摘要、关键词、情感分析
+
+社交网络可以用矩阵表示
+
+### 社会网络
+
++ 由相互关联的节点(个体或机构)组成的结构
+    + 不同关系：例如好友关系、亲属关系等
++ 图表示
+    + 节点 = 成员
+    + 边 = 关系
++ 现实例子
+    + 好友网络(facebook, renren, wechat)
+    + 媒体分享(Flickr, Youtube)
+    + 社会标注(Del.icio.us)
++ 相关任务
+    + 社交网络抽取(Social Network Extraction)
+        + 从数据源中抽取、构建社交网络
+    + **网络中心性分析(Network Centrality Analysis)**
+        + 识别社交网络上最重要的节点(重要性的定义由目的、环境所定)
+        + 输入：一个社交网络
+        + 输出：最重要的节点列表
+        + 方法：为节点计算分数或排序，反映节点的重要性/专业性/影响力
+        + 课采用链接分析领域的不同算法
+            + PageRank 算法及其变种
+            + HITS 算法确定权威源
+        + 可以采用**网络中心性测度(Centrality measures)**来评估节点重要性
+        + 代表性测度
+            + 度数中心性 Degree Centrality -> 入度中心性(indegree centrality, 有向图上的拓展)
+                + 有最多朋友的人最重要
+            + 中介中心性 Betweenness Centrality
+                + 有多少对节点为了以最短路径到达彼此必须经过给定节点？
+            + 亲近中心性 Closeness Centrality
+                + 一个节点的亲近中心性基于该节点与图中所有节点的平均最短路径计算得到
+    + **社区检测(Community Detection)**
+        + 一个社区由一个节点结合所表示，该集合中节点之间交互频繁
+        + 多种方法
+            + 基于子图可达性(K-clique, K-club)
+            + 基于节点聚类
+                + 节点相似性基于它们的交互模式的相似性而定义
+                + 两个节点结构相似(structurally equivalent)，如果它们连接到相同的其他节点
+                + 实际上使用向量相似性(cosine similary, Jaccard similarity, ...)
+                + 应用 K-means Clustering Algorithm
+            + 基于图分割
+                + 不同社区之间的交互应该不频繁
+                + 图分割 Cut: 两个节点集之间的边的数量
+                + 目标: 最小化 Cut
+                    + 不足：经常获得包含一个节点的社区
+                    + 需要考虑社区大小
+    + 分类(Classification)
+        + 用户的行为倾向可表达为类别标签
+            + 是否点击了一个广告
+            + 是否对特定的话题感兴趣
+            + 喜欢/不喜欢一个产品
+        + 输入
+            + 一个社交网络
+            + 部分节点的类别标签
+        + 输出
+            + 网络中其他节点的类别标签
+    + 链接预测(Link Prediction)
+        + 给定一个社交网络，预测哪些节点相互连接
+        + 输出一个节点对列表
+        + 例如: facebook 中的好友推荐
+    + 病毒式营销(Viral Marketing)
+        + 找出若干用户，为其提供优惠或折扣，从而影响网络上的其他用户，使得收益最大化
+        + 找到能够覆盖网络的最小节点集合(可用贪心选择)
+    + 网络建模(Network Modeling)
+        + 发现网络的统计模式
+            + Small-world effect(e.g., 6 degrees of separation)
+            + Power-law distribution(a.k.a. scale-free distribution)
+            + Community structure(high clustering coefficient)
+        + 对网络动力学进行建模
+
+### 异构网络
+
++ 网络中具有不同类型/模态的节点对象
+    + YouTube: Users, tags, videos, ads
+    + Del.icio.us: Users, tags, bookmarks
++ 网络中节点之间具有不同类型/维度的交互
+    + Facebook: Send email, leave a message, write a comment, tag photos
+    + Same users interacting at different sites: Facebook, YouTube, Twitter
++ 多模网络 Multi-Mode Network
+    + 网络中包含多模态对象
++ 多维网络 Multi-Dimensional Network
+    + 网络中包含节点间的异构链接
+
+异构网络在现实中非常普遍，对异构网络的分析与挖掘更具挑战性，是当前数据挖掘领域研究的热点
+
+---
+
+## 信息推荐
