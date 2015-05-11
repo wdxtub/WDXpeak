@@ -403,8 +403,26 @@ _lesunle@163.com, xianpei@nfs.iscas.ac.cn_
 
 _shawyh@fudan.edu.cn, gdm.fudan.edu.cn_
 
++ What is knowledge graph?
+    + Knowledge graph contains entities/concepts as vertices and semantic relationships as edges
++ What makes knowledge graph different?
+    + Ontology
+        + Domain dependent
+        + Small scale
+    + Semantic network
+        + Focus on concepts instead of entities
+    + Knowledge graph
+        + Large scale
+        + Cover entities and concepts
+        + Cover different semantic relationships
 
+**Cloud based Graph DB engine**
 
+A graph db system based on Hbase, support big knowledge graph data
+
+![kg3](./_resources/kg3.jpg)
+
+[demo](http://gdm.fudan.edu.cn/Soso/index.jsp)
 
 ---
 
