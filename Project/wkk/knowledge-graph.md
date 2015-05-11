@@ -13,6 +13,8 @@
     - 知识融合
     - 知识验证
 - 中文知识图谱 - 复旦
+- 从应用角度来看知识图谱的价值和挑战
+- 阿里巴巴实践
 - Knowledge-Based Application Design Patterns - Google
 - 论文
 
@@ -422,7 +424,22 @@ A graph db system based on Hbase, support big knowledge graph data
 
 ![kg3](./_resources/kg3.jpg)
 
-[demo](http://gdm.fudan.edu.cn/Soso/index.jsp)
+---
+
+## 从应用角度来看知识图谱的价值和挑战
+
++ 知识图谱**旨在描述真实世界中存在的各种实体或概念及其关系**，一般用三元组表示
++ 知识图谱亦可呗看做是一张巨大的图，节点表示实体或概念，边则由属性或关系构成
+
+**人工参与的本体知识库构建**
+
+![kg5](./_resources/kg5.jpg)
+
+---
+
+## 阿里巴巴实践
+
+![kg4](./_resources/kg4.jpg)
 
 ---
 
