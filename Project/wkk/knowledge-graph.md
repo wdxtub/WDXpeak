@@ -4,10 +4,14 @@
 
 - wkk 中的设计
 - 知识图谱
+- 中文知识图谱：体系、获取与服务
+    - 知识体系
+    - 知识获取
 - 知识图谱：大数据语义链接的基石 - 李涓子
     - 概念三角形
     - 本体形式化
     - 本体的描述方法
+- 垂直知识图谱构造工具与行业应用
 - 面向中文知识图谱构建的知识融合与验证
     - 相关工作
     - 知识融合
@@ -163,6 +167,77 @@ surface form 和覆盖率已然要靠足够大和全的知识图谱。而目前�
 
 ---
 
+## 中文知识图谱：体系、获取与服务
+
+The Knowledge Graph is a system that understands facts about people, places and things and how these entities are all connected.
+
+知识图谱本质上是一种语义网络。其结点代表实体(entity)或者概念(concept)，边代表实体/概念之间的各种语义关系。
+
+### 知识体系
+
++ Ontology vs Knowledge Base
+    + Ontology: 共享概念和的规范，涉及**概念**、**关系**和**公理**三个要素
+    + Knowledge Base: 服从于 ontology 控制的知识单元的载体
+    + Ontology 是蛋糕的模具，Knowledge Base 是蛋糕
++ Formal Ontology vs Lightweight Ontology
+    + Formal Ontology: 大量使用公理
+    + Lightweight Ontology: 不用或很少使用公理
++ 关系
+    + 层级关系 Hypernym - Hyponym
+        + Is-a (Kind-of)
+        + Part - Whole
+    + 非层级关系
+        + Thematic roles 论旨角色
+        + Possession 领属
+        + Attribute 属性
+        + Casuality 因果
+
+**三种组织形式**
+
++ 层级分类法
+    + Ontology(狭义)
+        + 树状结构，不同层节点之间具有严格的 IsA 关系
+            + Human activities -> leisure activities -> sports -> golf
+        + 优点：因为概念关系单一，方便于知识推理
+        + 缺点：无法表示概念关系的多样性
+    + Taxonomy
+        + 树状结构，上下位节点之间并非严格的 IsA 关系，而是 Hypernym - Hyponym 关系
+            + Places -> Milky Way Galaxy -> Solar Systems -> sol -> Inner Planets -> Earth -> North America -> United States -> California
+        + 优点：可以表示比较丰富的概念关系
+        + 缺点：给推理带来困难，无法避免概念冗余
++ 标签分类法
+    + Folksonomy
+        + 网络用户自发性定义的平面的、费层级的标签分类
+        + 优点：灵活，可以表达更为丰富的概念关系
+        + 缺点
+            + 缺乏层次性，难以揭示复杂的关系
+            + 自定义的标签缺乏语义精确性，标签缺乏组织与关联
+            + 给推理带来很大的困难
+    + 目前网络知识资源(Wikipedia、百度百科、互动百科等)多是采用 Taxonomy 与 Folksonomy 相结合的组织形式，以 Taxonomy 为主
+    + 存在的问题
+        + Folksonomy 标签不能覆盖所有的关系(开放分类标签 & Infobox 属性标签)
+        + 这些开放式类别标签存在冗余、不规范的问题，标签之间也缺乏关联
+        + 不同的只是资源采用不同的 Taxonomy
+        + 类别属性定义不统一
+    + 解决方案：Ontology Matching
+        + 建立体系间的 Alignment
+        + 评测：Ontology Alignment Evaluation Initiative
+
+### 知识获取
+
++ 文本信息结构
+    + 结构化数据(Infobox)：置信度高、规模小、缺乏个性化的属性信息
+    + 半结构化数据：置信度较高、规模较大、个性化的信息、形式多样、含有噪声
+    + 纯文本：置信度低、复杂多样、规模大
++ 抽取方法
+    + 结构化与半结构化文本信息(利用网页信息)
+        + 信息块的识别(Record Identification)
+        + 模板的学习(Pattern Learning)
+        + 属性值的抽取(Attribute Value Extraction)
+    + 相对于工业界，学术界更加侧重于从纯文本中抽取实体知识
+
+---
+
 ## 知识图谱：大数据语义链接的基石 - 李涓子
 
 **知识图谱基础**
@@ -280,6 +355,37 @@ O = {C, I, T, P}
 + 本体可以作为知识图谱表示的概念模型和逻辑基础
 + 知识图谱可以描述不同层次和粒度的概念抽象
 + 知识图谱可以作为互联网资源组织的基础
+
+---
+
+## 垂直知识图谱构造工具与行业应用
+
+_阮彤，华东理工大学_
+
++ 通用知识图谱
+    + [ssco](http://ssco.zhishimofang.com)
+        + **分类极有意义，可用**
+    + [zhishi.me](http://http://zhishi.apexlab.org/)
+        + 质量较差，暂时可能很难用上
+    + [知网](http://www.keenage.com/zhiwang/c_zhiwang.html)
+        + 参考学习
+
+**知识图谱的技术优势**
+
++ 渐进式数据模式设计
+    + 初始设计的时候，很难清楚所有的概念，而知识图谱的动态可扩充性以及“无模式”特性使得用户很容易增加或者改进模式
++ 数据集成更轻松
+    + 本体的语义互操作特性以及“链接数据”原则，使得来自不同供应商的数据集成更为方便
++ 现有标准支持
+    + 有 RDF(S), OWL, SPARQL 等标准，可以逐渐要求内容供应商支持
++ 语义搜索
+    + 用户可以查询具有某类特征的某类实体，比起基于关键词的搜索，更为精准
+
+**框架**
+
+![kg6](./_resources/kg6.jpg)
+
+![kg7](./_resources/kg7.jpg)
 
 ---
 
@@ -470,4 +576,5 @@ Freebase, Google Refine, Schema.org, Knowledge Graph
 + http://www.cqvip.com/qk/93202x/200803/27479992.html
 + [In Papers]Building, Maintaining, and Using Knowledge Baese: A Report from the Trenches
 + [In papers]国内知识图谱应用研究综述
++ Xing Niu, Xinruo Sun, Haofen Wang, Shu Rong, Guilin Qi and Yong Yu, Zhishi.me - Weaving Chinese Linking Open Data, Semantic Web In-Use track, in Proc. of The 10th International Semantic Web Conference (ISWC 2011), October 23, 2011, Bonn, Germany.
 
