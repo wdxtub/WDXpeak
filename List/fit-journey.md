@@ -82,6 +82,6 @@ RMR(kcal) | 2598 | x | 2532 | x | 2611 | 2620
 5.10 | x | 休息
 5.11 | 66.0 | insanity 13
 5.12 | 65.6 | insanity 08
-5.13 | x | insanity 09
+5.13 | 65.6 | insanity 09
 5.14 | x | insanity 10
 5.15 | x | insanity 11

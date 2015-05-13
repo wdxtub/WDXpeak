@@ -10,6 +10,8 @@ Personal Information Management(PIM) is the focus of many scholars in the area o
 
 The PIM is the foundation of PKM, where individuals are able to create their own knowledge database for immediate or future use in this process.The required skills / competences in PIM are retrieving, evaluating and organising, which are the skills playing significant roles in capture / locate knowledge.
 
+So we must answer one of the most important question about PIM, that is, how to arrange the information. The idea of Knowledge Graph is one of the options to be the rules for information management. However, nowadays most techniques used on knowledge graph focus on information retrieval but not the information management, they focus on identifying identities from the web and find connections between them. They treat this problem in a large scale and make it impossible to apply it on personal information management. This paper presents a method to build a simplified knowledge graph to finish the information management task such as text classification and information recommendation.
+
 Nowadays the most famous product close to PIM is 'Evernote', a note application that can be used in almost every platform. But it can only meet the needs of getting/retrieving information, when it comes to understand and connect the information, it becomes useless.
 
 So we need a tool to help us understand what our notes are and find connection between our notes as well as the other information in the Internet.
@@ -40,7 +42,7 @@ They are all too complicated for people to use in daily life. So I want to build
 
 ## Method
 
-There are several aspects of this PIM system. All in all, it contains a directory-based offline/online note application powered by python and a PIM assistant using the techniques of information retrieval, natural language processing and recommender system.
+There are several aspects of this PIM system. All in all, it contains a directory-based offline/online note application powered by python, a PIM assistant using the techniques of information retrieval, natural language processing and recommender system, and the most important, a knowledge graph database to be the basis of all the features mentioned above.
 
 The note application is implemented with python and flask, using direct mapping from folders to notebooks and files to notes. Anyone who knows how to use file explorer in any operating system can use it without learning effort.
 
@@ -49,6 +51,8 @@ Information retrieval is based on the TextRank method[7], and Automatic Summariz
 For natural language processing, with the help of NLTK[9], I modified the processing pipeline to handle Chinese(NLTK originally not support Chinese) to extract useful information from the user's notes.
 
 Now that we have the selected daily information that will be merged into the note application and the important information from the notes, lots of applications can be done on this basis. I'll make a book recommender system as an example. Based on tags[10] and collaborative filtering[11], it will recommend related books from user's notes to help people extend their range of knowledge.
+
+All these information, on one hand will be the trainging data for the personal knowledge graph, on the other side will be classified using the same knowledge graph. When some of the keywords match the specific nodes in the knowledge graph, the probabilities begin to accumulate from the leaves to the root and give the final classification result. Also, based on the different relations among different nodes, several recommendation can be given too.
 
 These three parts improves the effectvieness of three main PIM processes(get/retrieve, understand/analyze and connect/organize) with an unified and easy-to-use program that can also be integrated with other services(such as github/dropbox) easily.
 
