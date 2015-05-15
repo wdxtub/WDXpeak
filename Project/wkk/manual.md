@@ -3,10 +3,20 @@
 
 <!-- MarkdownTOC -->
 
+- 安装指南
 - 导入Kindle书摘
 - 导入Evernote笔记
 
 <!-- /MarkdownTOC -->
+
+## 安装指南
+
+安装 igraph 的时候在 mac 下直接 `pip install python-igraph` 会在编译 C core 的时候出问题，所以最好用 `homebrew` 事先安装好所有的依赖
+
+    brew install homebrew/science/igraph
+    pip install python-igraph
+
+然后就可以了
 
 
 

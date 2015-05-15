@@ -83,8 +83,8 @@ RMR(kcal) | 2598 | x | 2532 | x | 2611 | 2620
 5.11 | 66.0 | insanity 13
 5.12 | 65.6 | insanity 08
 5.13 | 65.6 | 走路
-5.14 | 66.5 | 踢球
-5.15 | x | 踢球
-5.16 | x | insanity 09
-5.17 | x | insanity 10
-5.18 | x | insanity 11
+5.14 | 66.5 | insanity 09
+5.15 | 65.4 | 踢球
+5.16 | x | insanity 10
+5.17 | x | insanity 11
+5.18 | x | x
