@@ -18,6 +18,14 @@
 
 然后就可以了
 
+安装 cairo 因为 mac 自带老版本，需要告知新版本位置
+
+    export PKG_CONFIG_PATH=/usr/local/Cellar/cairo/1.14.0/lib/pkgconfig/:/opt/X11/lib/pkgconfig
+
+    export PYTHON=/usr/local/opt/python/bin/python2.7
+
+用 igraph 失败，改用 networkX
+
 
 
 ## 导入Kindle书摘
