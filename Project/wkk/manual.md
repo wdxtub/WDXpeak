@@ -3,11 +3,18 @@
 
 <!-- MarkdownTOC -->
 
+- Nomadic 启动
 - 安装指南
 - 导入Kindle书摘
 - 导入Evernote笔记
 
 <!-- /MarkdownTOC -->
+
+## Nomadic 启动
+
+    nomadic-d
+
+    nomadic browse
 
 ## 安装指南
 
