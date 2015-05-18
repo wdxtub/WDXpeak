@@ -8,3 +8,8 @@
 6. John Allen Paulos 《数盲：数学无知者眼中的迷茫世界》
 7. Aho、Hpcroft & Ullman <Data Structures and Algorithms>
 8. Cormen、Leiserson & Rivest <Introduction to Algorithms>
+
+---
+
+1. 普鲁斯特是个神经学家
+2. 罗素 自传
