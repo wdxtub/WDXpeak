@@ -9,6 +9,8 @@
     - 编译安装的方法
     - QEMU
 - 3 保护模式(Protect Mode)
+    - 保护模式的运行环境
+    - GDT(Global Descriptor Table)
 
 <!-- /MarkdownTOC -->
 
@@ -85,3 +87,28 @@
 ## 3 保护模式(Protect Mode)
 
 实模式到保护模式
+
+    nasm pmtest1.asm -o pmtest1.bin
+    dd if=pmtest1.bin of=a.img bs=512 count=1 conv=notrunc
+
+程序做了什么
+
++ 定义了一个叫做 GDT 的数据结构
++ 后面的 16 位代码进行了一些与 GDT 有关的操作
++ 程序最后跳到 32 位代码中做了一点操作显存的工作
+
+### 保护模式的运行环境
+
+这里把程序编译成 COM 文件，然后让 DOS 来执行它(以突破 512 字节的限制)
+
+1. 到 Bochs 官网下载一个 FreeDos, 命名为 freedos.img
+2. 用 bximage 生成一个软盘映像，起名为 pm.img
+3. 修改 bochsrc，把两个 img 都插入进去 `floppya: 1_44=freedos.img, status=inserted` 和 `floppyb: 1_44=pm.img, status=inserted`
+4. 启动bochs，FreeDos 启动后格式化盘B `format b:`
+5. 把 pmtest1.asm 的第 8 行中的 07c00h 改为 0100h 并重新编译 `nasm pmtest1.asm -o pmtest1.com`
+6. 将 pmtest1.com 复制到虚拟软盘 pm.img 上 `sudo mkdir /mnt/floppy`, `sudo mount -o loop pm.img /mnt/floppy`, `sudo cp pmtest1.com /mnt/floppy/`, `sudo umount /mnt/floppy`
+7. 到 FreeDos 中执行如下命令：`B:\pmtest1.com`，就可以看到结果了(出现了一个红色的 P)
+
+### GDT(Global Descriptor Table)
+
+在 IA32 下，CPU 有两种模式：实模式和保护模式，在保护模式下，CPU 有巨大的寻址能力，并提供更好的硬件保障

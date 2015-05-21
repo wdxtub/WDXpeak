@@ -17,6 +17,9 @@
     - 相关工作
     - 知识融合
     - 知识验证
+- 移动问答系统中的知识图谱
+    - 出门问问
+- Knowledge Graphs: A View from Data Management Perspective
 - 中文知识图谱 - 复旦
 - 从应用角度来看知识图谱的价值和挑战
 - 阿里巴巴实践
@@ -541,6 +544,49 @@ _lesunle@163.com, xianpei@nfs.iscas.ac.cn_
 
 ---
 
+## 移动问答系统中的知识图谱
+
+出门问问
+
++ IBM Watson in Jeopardy
+    + 受限的百科问答
+    + 知识主要依赖 wikipedia
+    + 非结构化文本分析 + 结构化领域知识
+    + 约 70 个子模型
+    + IR + NLP + ML
++ Google Now
+    + 58% 的搜索结果使用了结构化的输出
+    + 结构化输出的准确率达到约 88%
+    + 依赖 Google 知识图谱
+    + 5 亿 objects, 35 亿 facts 和 relations (2012/05)
+
+### 出门问问
+
++ 数据来源
+    + 合作网站 API
+    + 网站抓取
++ 知识图谱的数据整合
+    + 实体聚合：不同来源的相同实体聚合
+    + 属性聚合：不同来源的相同属性的聚合
+    + 数据规范化：映射到我们的 schema
++ 知识图谱的数据存储
+    + 离线数据处理：Graph Database
+    + 在线服务：定制的便于检索的数据结构
++ 知识图谱的研发重点
+    + 三元组的抽取
+    + 无监督/半监督的数据获取
+
+---
+
+## Knowledge Graphs: A View from Data Management Perspective
+
+钱卫宁 华东师范大学 wnqian@sei.ecnu.edu.cn
+
+semantic web -> RDF -> linked data -> knowledge graph(2012) -> big data
+
+
+---
+
 ## 中文知识图谱 - 复旦
 
 _shawyh@fudan.edu.cn, gdm.fudan.edu.cn_
@@ -611,4 +657,7 @@ Freebase, Google Refine, Schema.org, Knowledge Graph
 + [In Papers]Building, Maintaining, and Using Knowledge Baese: A Report from the Trenches
 + [In papers]国内知识图谱应用研究综述
 + Xing Niu, Xinruo Sun, Haofen Wang, Shu Rong, Guilin Qi and Yong Yu, Zhishi.me - Weaving Chinese Linking Open Data, Semantic Web In-Use track, in Proc. of The 10th International Semantic Web Conference (ISWC 2011), October 23, 2011, Bonn, Germany.
-
++ Knowledge graph management - SIGMOD12, SIGMOD2013, SIGMOD2014, VLDB2014, ICDE2014
++ Knowledge graph construction - CIKM2014
++ Knowledge graph application - IJCAI2015, WWW2014, DASFAA2015
++ gdm.fudan.edu.cn
