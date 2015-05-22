@@ -11,6 +11,19 @@
 - 3 保护模式(Protect Mode)
     - 保护模式的运行环境
     - GDT(Global Descriptor Table)
+    - LDT(Local Descriptor Table)
+    - 特权级转移
+    - 页式存储
+    - 中断和异常
+    - 保护模式小结
+- 4 让操作系统走进保护模式
+- 5 内核雏形
+- 6 进程
+- 7 输入输出系统
+- 8 进程间通讯
+- 9 文件系统
+- 10 内存管理
+- 总结
 
 <!-- /MarkdownTOC -->
 
@@ -111,4 +124,135 @@
 
 ### GDT(Global Descriptor Table)
 
-在 IA32 下，CPU 有两种模式：实模式和保护模式，在保护模式下，CPU 有巨大的寻址能力，并提供更好的硬件保障
+在 IA32 下，CPU 有两种模式：实模式和保护模式，在保护模式下，CPU 有巨大的寻址能力，并提供更好的硬件保障。
+
+Intel 8086 是 16 位的 CPU，有着 16 位的寄存器(Register)、16 位的数据总线(Data Bus)以及 20 位的地址总线(Address Bus)和 1MB 的寻址能力。一个地址是由段和偏移两部分组成的：
+
+    物理地址(Physical Address) = 段值(Segment)x16 + 偏移(Offset)
+
+其中段值和偏移都是 16 位的。
+
+在实模式下，16 位的寄存器需要用 `段:偏移` 这种方法才能达到 1MB 的寻址能力。而 32 位寄存器可以寻址 4GB 空间，这里 `段` 的概念发生了改变。实模式下，段值还可以看做是地址的一部分，而在保护模式下，段值仅仅是一个索引，指向一个数据结构的一个表项，这个数据结构就是 GDT。
+
+进入保护模式的主要步骤：
+
+1. 准备 GDT
+2. 用 lgdt 加载 gdtr
+3. 打开 A20
+4. 置 cr0 的 PE 位
+5. 跳转，进入保护模式
+
+pmtest2.asm 是从实模式跳转到保护模式再跳转回实模式的一个范例
+
+    nasm pmtest2.asm -o pmtest2.com
+
+    sudo mount -o loop pm.img /mnt/floppy
+    sudo cp pmtest2.com /mnt/floppy/
+    sudo umount /mnt/floppy
+
+    运行
+
+    B:\pmtest2.com
+
+![bos2](./_resources/bos2.jpg)
+
+这里没有进入死循环，重新出现了 DOS 提示符，说明我们重新回到了实模式下的 DOS
+
+### LDT(Local Descriptor Table)
+
+具体代码在 pmtest3.asm 中
+
+    nasm pmtest3.asm -o pmtest3.com
+
+    sudo mount -o loop pm.img /mnt/floppy
+    sudo cp pmtest3.com /mnt/floppy/
+    sudo umount /mnt/floppy
+
+    运行
+
+    B:\pmtest3.com
+
+![bos3](./_resources/bos3.jpg)
+
+### 特权级转移
+
+门也是一种描述符(Gate Descriptor): 调用门(Call gates), 中断门(Interrupt gates), 陷阱门(Trap gates), 任务门(Task gates)，具体的代码示例在 pmtest4.asm 中
+
+之后的 pmtest5.asm 等都是类似的特权转移，我不怎么关心，不赘述
+
+### 页式存储
+
+页就是一块内存，这里只讨论大小为 4KB 的情况。
+
+逻辑地址 -分段机制-> 线性地址 -分页机制-> 物理地址
+
+代码在 pmtest6.asm 中
+
+更相信的内存管理代码在 pmtest7.asm 中，一些其他的函数放在 lib.inc 中，方便看，用下面这条语句来包含在 pmtest7.asm 中
+
+    %include "lib.inc"
+
+这次我们运行一下
+
+    nasm pmtest7.asm -o pmtest7.com
+
+    sudo mount -o loop pm.img /mnt/floppy
+    sudo cp pmtest7.com /mnt/floppy/
+    sudo umount /mnt/floppy
+
+    运行
+
+    B:\pmtest7.com
+
+![bos4](./_resources/bos4.jpg)
+
+进一步体会分页机制 pmtest8.asm
+
+### 中断和异常
+
+代码是 pmtest9.asm 系列，具体有很多很多术语，但是我其实并没有太多想要搞懂的欲望，毕竟不弄操作系统，如果以后需要，再说。
+
+### 保护模式小结
+
++ 在 GDT, LDT 以及 IDT 中，每一个描述符都有自己的界限和属性等内容，是对描述符所描述的对象的一种限定和保护
++ 分页机制中的 PDE 和 PTE 都含有 R/W 和 U/S 位，提供了页级保护。
++ 页式存储的使用时应用程序使用的是线性地址空间而不是物理地址，与物理内存就被保护起来
++ 中断不再向实模式下一样使用，也提供特权检验等内容
++ I/O 指令不再随便使用，于是端口被保护起来
++ 在程序运行过程中，如果遇到不同特权级间的访问情况，会对 CPL, RPL, DPL, IOPL 等内容进行非常严格的检验，同时可能伴随堆栈的切换，这都对不同层级的程序进行了保护
+
+## 4 让操作系统走进保护模式
+
+建立一个文件，将其通过引导扇区加载如内存，然后将控制权交给它，就解除了 512 字节的束缚。
+
+FAT12 是 DOS 时代就开始使用的文件系统，分为扇区(Sector), 簇(Cluster), 分区(Partition)
+
+例子直接 make 即可
+
+## 5 内核雏形
+
+这一部分跳过
+
+## 6 进程
+
+在 64 位的 Linux 下会出现编译错误，需要换到 32 位的来
+
+## 7 输入输出系统
+
+依然是很多很多和硬件打交道的内容，跳过
+
+## 8 进程间通讯
+
+同步消息机制
+
+## 9 文件系统
+
+设计比较简陋
+
+## 10 内存管理
+
+一个简单的 shell
+
+## 总结
+
+基本上很多都是汇编，感觉意义不是特别大，毕竟我也不会参与太多涉及硬件的内容，可能之后如果遇到相关工作，在回过头来自己做一次吧

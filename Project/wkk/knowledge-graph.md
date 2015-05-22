@@ -660,4 +660,4 @@ Freebase, Google Refine, Schema.org, Knowledge Graph
 + Knowledge graph management - SIGMOD12, SIGMOD2013, SIGMOD2014, VLDB2014, ICDE2014
 + Knowledge graph construction - CIKM2014
 + Knowledge graph application - IJCAI2015, WWW2014, DASFAA2015
-+ gdm.fudan.edu.cn
++ gdm.fudan.edu.cn 知识工厂 gdm.fudan.edu.cn/KnowledgeWorks/
