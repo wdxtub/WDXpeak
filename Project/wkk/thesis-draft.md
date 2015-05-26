@@ -2,6 +2,15 @@
 
 Da Wang, A.Prof. Chenying Gao
 
+## 注意
+
++ 有些地方可能要配图
++ 不断慢慢补充吧，把中文资料大概都翻译过去
++ 公式之类的就把其他论文的搬过去，应该没有问题
++ 算法步骤图
++ 表格
++ 剩下的逐步完善
+
 ## Abstract
 
 This paper presents an effective toolkit for personal information management(PIM). The development of this toolkit is based on the idea that new information retrieval methods and natural language processing methods can help people extract useful information when facing the information explosion/chaos/overload. With a automatic and unified information processing pipeline, this toolkit focuses on improving the effectiveness of three main PIM processes: get/retrieve, understand/analyze and connect/organize.
@@ -82,7 +91,7 @@ Chapter 5 is the conclusion part which contains the comparison result of the tex
 
 Appendix A is a brief user guide in installing and using the system.
 
-## Chapter 2 Knowledge Graph
+## Chapter 2 Personal Knowledge Graph
 
 ### 2.1 Introduction
 
@@ -91,6 +100,10 @@ Knowledge Graph is a kind of semi-structured data set to represent and store hum
 So far, the knowledge graph databases built by human (Wikipedia, Freebase), in quality, coverage rate and precision rate, are much better than any other auto generated knowledge graph databases (NELL [37]￼￼, OpenIE [38], DeepDive [39]).
 
 There are three types of information structures on the Internet: Structured, Semi-Structured and Plain text. The structured data has high degree of confidence but in small scale. The semi-structured data is not as accurate as structured data but there are more resources of them. Most data on the Internet are in plain text form. It is difficult to extract knowledge from them because of complexity and variety. We usually get knowledge from the structured and semi-structured data using record identification, pattern learning and attribute value extraction.
+
+Most Knowledge Graph systems are treated as a basic component in searching engines such as Google, Baidu and SoSo. Their goals are to build a big complex graph containing as much knowledge as possible which in the meantime makes it impossible to apply it on personal usage.
+
+In order to build the Personal Knowledge Graph, we need to find a way to model the knowledge of the world in an abstract way so that we will not be stuck in finding as much knowledge material as possible, instead we can focus on building the best structure of the  personal knowledge graph.
 
 ### 2.2 Knowledge Representation
 
@@ -152,19 +165,108 @@ However, we still need some order to build the knowledge graph so as to have a c
 
 #### 2.3.2 Layer Model for Personal Knowledge Graph
 
+In order to build the knowledge graph with both the advantages of complex adaptive system as well as the clearness of the tree structure that normally used to represent knowledge graph, I design a five-layer model to represent the personal knowledge graph.
 
+The first layer is the Root Layer which contains only one node called the root node. The root node is the parent node for every other nodes in the knowledge graph.
+
+The second layer is the Field Layer. The nodes in this layer only have one parent node, the root node. That is to say, every node in this layer represents a specific knowledge field such as biology, society, history, technology and science, etc.
+
+The third layer is the Transition Layer. The nodes in this layer can only have several parent nodes which are from the first and the second layer. It is called the transition layer because this is the last layer that has the strict node hierarchy. That is to say, any nodes beneath this layer will not have a clear definition of parent or child node.
+
+The fourth layer is the Entity Layer. The nodes in this layer can only have several parent nodes which are from the second or third layer. There is no node hierarchy in this layer. That is to say, it can be treated as a complex adaptive system that are characterized by a high degree of adaptive capacity, giving them resilience in the face of perturbation.
+
+The fifth layer is the Base Layer. In fact, nodes in this layer are the same as the node in the fourth layer except for one thing: they don’t have any other child nodes. This layer can be regarded as a trick in implementation so that when the system search the nodes in this layer, it knows that it is the end of the route and find other searching path.
+
+#### 2.3.3 Search Strategy and Data Format
+
+Using the category index page (http://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E9%A1%9E%E7%B4%A2%E5%BC%95) as the root page, with the help of Scrapy(An open source and collaborative framework for extracting the data you need from websites in a fast, simple, yet extensible way), I can easily build the nodes in the first and second layer.
+
+Each node in the second layer has its own classification page (for example Chinese History: http://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2). Using Information from the webpage and pre-defined matching pattern, the system can build the nodes in the third layer accordingly.
+
+In addition to this, for some items in the wikipedia, there are detailed structured table for the whole fields or areas. We also use this kind of information to find connections between different nodes.
+
+这里要各种插图
+
+In the end, with all the pages, nodes and connections we get from the internet, we store the nodes of the knowledge graph in a specific data format shown as followed:
+
+这里是具体的数据结构，第一行是什么第二行是什么之类的
+
+The system will load all the nodes and build the whole knowledge graph when initializing. The nodes in the second and the third layer will be the candidates for text classification (will be further introduced in Chapter 3) and the nodes in the fourth and fifth layer are used for knowledge reasoning and probability accumulation. Different keywords are from different nodes, the probabilities of these nodes will be transfer to their parent node thus the system can determine the category based on probability.
 
 ### 2.4 Results
+
+For testing the efficiency of the design, I build a knowledge graph with 597 nodes and 651 edges. The detailed number of nodes in different layers are shown as followed:
+
+插表格，每个 layer 的 node 数量
+
+We can also visualized the graph with NetworkX (a Python language software package for the creation, manipulation, and study of the structure, dynamics, and function of complex networks). The big red circle is the root node and the blue ones represent the nodes in second layer. The green and small red ones are nodes from the third and fourth layer. The nodes in the fifth layer, as they are only a tricky representation in implementation, are not shown in the following figure.
+
+插图
+
+Now we have a complete knowledge graph and can test its performance using different kinds of applications. It is not as big as the complex system from big companies but has the same high level structure so that even though it is a simplified model, we can still have good performance on applications based on this personal knowledge graph
 
 ## Chapter 3 Note System
 
 ### 3.1 Introduction
 
+The first application I built is a note system based on the personal knowledge graph. Similar to the famous cross-platform application Evernote, it provides basic note taking feature as well as other smart functions that Evernote doesn’t have such as import/export toolkit and automatic classification based on knowledge graph.
+
+Evernote is one of the best note applications in the world. It support different devices from computer to mobile phone and arrange the notes with notebooks and tags. Several kinds of information can be attached with the note such as where and when you create the note, what is the last update time of this note and the historical version of the note. Each note can has its own attachment and share with other people with one click. What’s more, it is very convenient to import notes from the websites, wechat as well as email.
+
+However, with all these advantages mentioned above, there are several disadvantages about Evernote, especially for programmers, they are:
+
+1. We need the Evernote app to visit and edit our notes. If there is no Evernote application, you can not even see your note.
+2. It is difficult to backup to the cloud service when the Internet is not available.
+3. The editor of Evernote is not based on plain text, the format can only be used in the application itself.
+4. Even though it provides exporting function, the formats of the document is limited. For example, it is difficult to send your note to your kindle.
+5. Notes are notes, not knowledge. The algorithm in Evernote to find connections among notes are not smart enough which makes it more difficult to help people build their own knowledge framework.
+
+The note system presented in this paper solve the above problems that make it inconvenient to use Evernote in a simple and elegant way. The system is built on python and plain text which makes it easy to support multiple platform without much effort. Each note is store in a text file and use directory to represent the concept of notebooks. That is to say, you can arrange your notes just put them in the same folder to tell the system that they are in the same notebook. Using this mechanism makes it clear even without the note system. User can visit their notes in any platform that has a file explorer. With the help of the python programmer community, importing, exporting, conversion can be easy tasks for everyone. After mapping the notes to the personal knowledge graph, the system can connect and extend the notes automatically to help user get deeper understanding about the notes.
+
 ### 3.2 Data Management
+
+Most note system choose to use database as the storage method. However, as different platforms have different version of database (even the same database may act differently in mobile devices and computers). It is not a good choice to store everything in a database. Instead, the system presented in this paper with arrange notes and other data in plain text files along with directory. These are the basic components for any operating systems which makes sure that the system can work well even in a brand new machine without any installation or configuration.
+
+The settings of the note system will be stored in a json file which tells the system where to find the notes and where to put the temporary files. For each note, you can just use it as normal plain text file or using the Markdown syntax (a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name). Many websites support this format such as Github(http://www.github.com) and Quora(http://www.quaro.com).
+
+这里插入一张对比图
+
+Using this folder-based plain text mechanism, user can easily integrate the note system with different services provided by different Internet companies such as Dropbox(http://www.dropbox.com) and Github.
 
 ### 3.3 Web UI
 
+As is mentioned above, the note application is implemented with python and flask, using direct mapping from folders to notebooks and files to notes. Anyone who knows how to use file explorer in any operating system can use it without learning effort.
+
+Flask is a micro framework for Python based on Werkzeug, Jinja2 and good intentions. It is high flexible so that different features can be added to the system when needed without difficulties.
+
+几个界面的图
+
+It supports a simple directory structure of HTML, Markdown, txt, and pdf notes and any other files which may need to be referenced. It is also possible for users to have an easier way of searching through and browsing those files through either the command line or a simple web interface.
+
+Here are the features that the note system supported:
+
++ Supports GitHub-Flavored Markdown
++ Supports MathJax syntax
++ Supports references to images and other files, and will automatically update those references if the files are moved
++ Full-text search (across html, txt, markdown, and even pdf files)
++ A rich text editor (in-browser) for dumping in web clippings (external images are automatically saved locally)
++ The rich text editor can convert and save HTML notes into Markdown
++ Auto-recompiling of Markdown notes and updating of whatever browser is viewing the note (i.e. live-ish previews)
++ Serves a browsable site of all your notes
++ Complete command-line interface
++ Export notes as portable presentations
+
 ### 3.4 Integrated with Knowledge Graph
+
+Now that we have a completed note system, it is the time to integrate it with the personal knowledge graph described in Chapter 2.
+
+#### 3.4.1 Note Labeling
+
+#### 3.4.2 Note Classification
+
+Information retrieval is based on the TextRank method[11], and Automatic Summarization[12] to generate daily report for specific user according to his interests.
+
+For natural language processing, with the help of NLTK[9], I modified the processing pipeline to handle Chinese(NLTK originally not support Chinese) to extract useful information from the user's notes.
 
 ### 3.5 Applications
 
@@ -206,7 +308,7 @@ Case Studies in Innovation. Edmonton: Spotted Cow Press. 2000. [7] S. Avery, R
 software for personal knowledge management in formal online learning”, Turkish Online Journal of Distance Education, vol. 8, 2007, pp. 52-65.
 [9] L. Razmerita, K. Kirchner, F. Sudzina, “Personal knowledge management: The role of Web 2.0 tools for managing knowledge at individual and organisational levels”, Online Information Review, vol. 33, 2009, pp. 1021-1039.
 [10] “Chinese word segmentation as character tagging,” pp. 1–19, May 2003.
-[11] “TextRank: Bringing Order into Texts,” pp. 1–8, Mar. 2015.
+[11] Mihalcea, Rada, and Paul Tarau. "TextRank: Bringing order into texts." Association for Computational Linguistics, 2004.
 [12] A. Nenkova, “Automatic Summarization,” FNT in Information Retrieval, vol. 5, no. 2, pp. 103–233, 2011.
 [13] “Graph-based Ranking Algorithms for Sentence Extraction, Applied to Text Summarization,” pp. 1–4, Mar. 2015.
 [14] J. Goldstein, V. Mittal, J. Carbonell, and M. Kantrowitz, “Multi-Document Summarization By Sentence Extraction,” pp. 1–9, Aug. 2002.
@@ -247,7 +349,7 @@ software for personal knowledge management in formal online learning”, Turkish
 [49]
 
 
-
+[9] Bird, Steven. "NLTK: the natural language toolkit." Proceedings of the COLING/ACL on Interactive presentation sessions. Association for Computational Linguistics, 2006.
 
 [10] Y. G. P. D. Y. Z. Guandong Xu, “SemRec: A Semantic Enhancement Framework for Tag based Recommendation,” pp. 1–6, Jun. 2011.
 
