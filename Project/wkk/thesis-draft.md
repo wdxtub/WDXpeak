@@ -258,15 +258,90 @@ Here are the features that the note system supported:
 
 ### 3.4 Integrated with Knowledge Graph
 
-Now that we have a completed note system, it is the time to integrate it with the personal knowledge graph described in Chapter 2.
+Now that we have a completed note system, it is the time to integrate it with the personal knowledge graph described in Chapter 2. Personal Knowledge Graph can be treated as a kind of user profile as the weights between different nodes will change with the addition of notes.
+
+In order to avoid the cold start problem in many machine learning system, some labeling work must be done before the integrating process can be finished. After that, the system will use algorithms based on entropy theory to extract the keywords of each note or use the bag of words model with the topic modeling method. With all the preparation work ready, the system will build the inverted index to accelerate the searching speed and use Naive Bayes method to finish the note classification task.
 
 #### 3.4.1 Note Labeling
 
-#### 3.4.2 Note Classification
+As the complex adaptive theory mentioned above, it is not a difficult task to label all the notes as the user just need to identify the related field of the notes and the system will learn the probabilities of them.
 
-Information retrieval is based on the TextRank method[11], and Automatic Summarization[12] to generate daily report for specific user according to his interests.
+标注程序的图
 
-For natural language processing, with the help of NLTK[9], I modified the processing pipeline to handle Chinese(NLTK originally not support Chinese) to extract useful information from the user's notes.
+Using the labeling program the user can label each note with ease. And after building the initial database of the personal notes, the system can classify the notes automatically.
+
+#### 3.4.2 Tag Extraction
+
+Before extracting keywords (or tags) from the note, as the target language in the system is Chinese,
+
+    基于前缀词典实现高效的词图扫描，生成句子中汉字所有可能成词情况所构成的有向无环图 (DAG)
+    采用了动态规划查找最大概率路径, 找出基于词频的最大切分组合
+    对于未登录词，采用了基于汉字成词能力的 HMM 模型，使用了 Viterbi 算法
+
+
+    1.  将待抽取关键词的文本进行分词
+    2.  以固定窗口大小(默认为5，通过span属性调整)，词之间的共现关系，构建图
+    3.  计算图中节点的PageRank，注意是无向带权图
+
+
+separate the text into sentences based on a trained model
+
+build a sparse matrix of words and the count it appears in each sentence
+
+normalize each word with tf-idf
+
+    tf: term frequency - how frequent a term occurs in a document
+    idf: inverse doc frequency - how important a word is (weigh down the frequent terms, ex: is, does, how)
+    stop words
+
+
+construct the similarity matrix between sentences
+
+use pagerank to score the sentences in graph
+
+    rank the sentences with underlying assumption that “summary sentences“ are similar to most other sentences
+
+Graph-based ranking algorithms are essentially a way of deciding the importance of a vertex within a graph, based on global information recursively drawn from the entire graph. The basic idea implemented by a graph-based ranking model is that of “voting” or “recommendation”. When one vertex links to another one, it is basically casting a vote for that other vertex. The higher the number of votes that are cast for a vertex, the higher the importance of the vertex. Moreover, the importance of the vertex casting the vote determines how important the vote itself is, and this information is also taken into account by the ranking model. Hence, the score associated with a vertex is determined based on the votes that are cast for it, and the score of the vertices casting these votes.
+
+这里要装逼弄一堆公式 TFIDF TEXTRANK 中文分词
+
+#### 3.4.3 Inverted Index
+
+In computer science, an inverted index (also referred to as postings file or inverted file) is an index data structure storing a mapping from content, such as words or numbers, to its locations in a database file, or in a document or a set of documents. The purpose of an inverted index is to allow fast full text searches, at a cost of increased processing when a document is added to the database.
+
+Given the texts
+T[0] = "it is what it is"
+T[1] = "what is it"
+T[2] = "it is a banana"
+we have the following inverted file index (where the integers in the set notation brackets refer to the indexes (or keys) of the text symbols, T[0], T[1] etc.):
+"a":      {2}
+"banana": {2}
+"is":     {0, 1, 2}
+"it":     {0, 1, 2}
+"what":   {0, 1}
+
+
+The inverted index data structure is a central component of a typical search engine indexing algorithm. A goal of a search engine implementation is to optimize the speed of the query: find the documents where word X occurs. Once a forward index is developed, which stores lists of words per document, it is next inverted to develop an inverted index. Querying the forward index would require sequential iteration through each document and to each word to verify a matching document. The time, memory, and processing resources to perform such a query are not always technically realistic. Instead of listing the words per document in the forward index, the inverted index data structure is developed which lists the documents per word.
+
+With the inverted index created, the query can now be resolved by jumping to the word id (via random access) in the inverted index.
+
+
+    •   Knuth, D. E. (1997) [1973]. "6.5. Retrieval on Secondary Keys". The Art of Computer Programming (Third ed.). Reading, Massachusetts: Addison-Wesley. ISBN 0-201-89685-0.
+    •   Zobel, Justin; Moffat, Alistair; Ramamohanarao, Kotagiri (December 1998). "Inverted files versus signature files for text indexing". ACM Transactions on Database Systems(New York: Association for Computing Machinery) 23 (4): pp. 453–490. doi:10.1145/296854.277632.
+
+
+#### 3.4.3 Note Classification
+
+这里要装逼弄一堆公式
+
+In machine learning, naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' theoremwith strong (naive) independence assumptions between the features.
+Naive Bayes has been studied extensively since the 1950s. It was introduced under a different name into the text retrievalcommunity in the early 1960s,[1]:488 and remains a popular (baseline) method for text categorization, the problem of judging documents as belonging to one category or the other (such as spam or legitimate, sports or politics, etc.) with word frequencies as the features. With appropriate preprocessing, it is competitive in this domain with more advanced methods including support vector machines.[2] It also finds application in automatic medical diagnosis.[3]
+Naive Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression,[1]:718which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
+In the statistics and computer science literature, Naive Bayes models are known under a variety of names, including simple Bayes and independence Bayes.[4] All these names reference the use of Bayes' theorem in the classifier's decision rule, but naive Bayes is not (necessarily) a Bayesian method;[4] Russell and Norvig note that "[naive Bayes] is sometimes called aBayesian classifier, a somewhat careless usage that has prompted true Bayesians to call it the idiot Bayes model."
+
+[http://en.wikipedia.org/wiki/Naive\_Bayes\_classifier]
+
+配合好参考文献
 
 ### 3.5 Applications
 
