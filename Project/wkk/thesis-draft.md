@@ -400,15 +400,146 @@ Now we have a directory-based note system using Markdown syntax and integrate it
 
 ### 4.1 Introduction
 
+Chris Anderson wrote in his book “The Long Tail" that we are leaving the age of information and entering the age of recommendation. The Web is leaving the era of search and entering one of discovery. Search is what you do when you're looking for something. Discovery is when something wonderful that you didn't know existed, or din't know how to ask for, finds you.
 
+This is also one of the most important stages in build the full circle of learning. There are so much information on the Internet and how can we find those knowledge we don’t even know it is important? That comes to the recommender problem:
+
++ Estimate a **utility function** that **automatically predicts** how a user will like an item.
++ Based on: Past behavior, Relations to tother users, Item similarity, Context
++ Let `C` be set of all users and let `S` be set of all possible recommendable items
++ Let `u` be a utility function measuring the usefulness of item `s` to user `c`, i.e., `u: C x S -> R`, where `R` is a totally ordered set
++ For each user `c` in `C`, we want to choose items `s` in `S` that maximize `u`
+
+![rs1](./_resources/rs1.jpg)
+
+**Approaches to Recommendation**
+
+Offline: Learning Process, Model/Clusters
+
+Online: Decision Process, Recommended Items
+
++ Collaborative filtering(CF): Recommend items based only on the users past behavior
+    + **User-based**: Find similar users to me and recommend what they liked
+    + **Item-based**: Find similar items to those that I have previously liked
++ Content-based: Recommend based on item features
++ Personalized Learning to Rank: Treat recommendation as a ranking problem
++ Demographic: Recommend based on user features
++ Social recommendations(trust-based)
++ Hybrid: Combine any of the above
+
+**Serendipity**
+
++ Unsought finding
++ Don't recommend items the user already knows or **would have found anyway**
++ Expand the user's taste into neighboring areas by improving the obvious
++ Collaborative filtering can offer controllable serendipity(e.g. controlling how many neighbors to use in the recommendation)
+
+**The CF Ingredients**
+
++ List of `m` Users and a list of `n` Items
++ Each user has a `list of items` with associated `opinion`
+    + Explicit opinion - a rating score
+    + Sometimes the rating is implicitly - purchase records or listen to tracks
++ `Active user` for whom the CF prediction task is performed
++ `Metric` for measuring `similarity between users`
++ Method for selecting a subset of `neighbors`
++ Method for `predicting a rating` for items not currently rated by the active user
+
+
+**Pros & Cons**
+
++ Pros:
+    + Requires `minimal knowledge` engineering efforts
+    + Users and products are symbols without any internal structure or characteristics
+    + Produces good-enough results in most cases
++ Cons:
+    + Requires a large number of `reliable` user feedback data to bootstrap
+    + Requires products to be standardized (users should have bought `exactly` the same product)
+    + Assumes that `prior behavior determines current behavior` without taking into account contextual knowledge(session-level)
+
+**Sparsity Problem**
+
++ Typically: large product sets, user ratins for a small percentage of them
++ Standard CF must have a number of users comparable to one tenth of the size of the product catalogue
++ Methods of dimensionality reduction
+    + Matrix Factorization
+    + Clustering
+    + Projection(PCA ...)
+
+**Scalability Problem**
+
++ Nearest neighbor algorithms require computations that grows with both the number of customers and products
++ With millions of customers and products a web-based recommender can suffer serious scalability problems
++ The worst case complexity is O(mn)(`m` customers and `n` product)
++ But in practice the complexity is O(m+n) since for each customer only a small number of products are considered
++ Some clustering techniques like K-means can help
+
+**Performance Implications**
+
++ User-based CF - similarity between users is dynamic, precomputing user neighborhood can lead to poor predictions
++ Item-based CF - similarity between items is static
++ Enables precomputing of item-time similarity => prediction process involves only a table lookup for the similarity values & computation of the weighted sum
+
+##### Model-based Collaborative Filtering
+
++ Use the entire user-item database to generate a prediction
++ Usage of statistical techniques to find the neighbors - e.g. nearest-neighbor
++ First develop a model of user
++ Type of model:
+    + Probabilistic (e.g. Bayesian Network)
+    + Clustering
+    + Rule-based approaches (e.g. Association Rules)
+    + Classification
+    + Regression
+    + LDA
+
+**Classifiers**
+
++ Classifiers are general computational models trained using positive and negative examples
++ They may take in inputs
+    + Vector of item features
+    + Preferences of customers
+    + Relations among item
++ E.g. Logistic Regression, Bayesian Networks, Support Vector Machines, Decision Trees, etc.
++ Pros
+    + Versatile
+    + Can be combined with other methods to improve accuracy of recommendations
++ Cons
+    + Need a relevant training set
+    + May overfit(Regularization)
+
++ Cold Start: There needs to be enough other users already in the system to find a match. New items need to get enough ratings
++ Popularity Bias: Hard to recommend items to someone with unique tastes
+    + Tends to recommend popular items(items from the tail do not get so much data)
+
+Seven hybridization techniques:
+    •   Weighted: The score of different recommendation components are combined numerically.
+    •   Switching: The system chooses among recommendation components and applies the selected one.
+    •   Mixed: Recommendations from different recommenders are presented together.
+    •   Feature Combination: Features derived from different knowledge sources are combined together and given to a single recommendation algorithm.
+    •   Feature Augmentation: One recommendation technique is used to compute a feature or set of features, which is then part of the input to the next technique.
+    •   Cascade: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+    •   Meta-level: One recommendation technique is applied and produces some sort of model, which is then the input used by the next technique.[27]
+
+Robin Burke , Hybrid Web Recommender Systems, pp. 377-408, The Adaptive Web, Peter Brusilovsky, Alfred Kobsa, Wolfgang Nejdl (Ed.), Lecture Notes in Computer Science, Springer-Verlag, Berlin, Germany, Lecture Notes in Computer Science, Vol. 4321, May 2007, 978-3-540-72078-2.
 
 ### 4.2 Data Acquisition and Parsing
 
-Scapy
+Scrapy, Book information, 描述一下数据结构(用那个复杂的)，然后处理成tag，类似于与note
 
 ### 4.3 Integrated with Knowledge Graph
 
+根据标签和自带的分类信息来链接到各个节点上，根据评分和人数之类的信息(不同评分的分布)来进行打分
+
+这里需要扯一个评分公式
+
+分析一下一些特殊值
+
 ### 4.4 Connected to Note System
+
+如何利用 knowledge graph 把结合 note 来进行 book 推荐
+
+similarity computation
 
 ## Chapter 5 Conclusion
 
@@ -422,9 +553,15 @@ For book recommendation, based on knowledge graph, the recommended items for are
 
 ### 5.1 Comparison on Note System
 
+数据对比
+
 ### 5.2 Comparison on Recommender System
 
+数据对比
+
 ### 5.3 Future Work
+
+扯淡
 
 ## Bibliography
 

@@ -81,6 +81,7 @@ Information overload.
 + Let `C` be set of all users and let `S` be set of all possible recommendable items
 + Let `u` be a utility function measuring the usefulness of item `s` to user `c`, i.e., `u: C x S -> R`, where `R` is a totally ordered set
 + For each user `c` in `C`, we want to choose items `s` in `S` that maximize `u`
+
 ![rs1](./_resources/rs1.jpg)
 
 #### Approaches to Recommendation
@@ -313,7 +314,7 @@ The core of the Recommendation Engine can be assimilated to a general data minin
 
 ##### Limitations of Collaborative Filtering
 
-+ Cold Start: There need s to be enough other users already in the system to find a match. New items need to get enough ratings
++ Cold Start: There needs to be enough other users already in the system to find a match. New items need to get enough ratings
 + Popularity Bias: Hard to recommend items to someone with unique tastes
     + Tends to recommend popular items(items from the tail do not get so much data)
 
