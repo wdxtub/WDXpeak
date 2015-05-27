@@ -272,82 +272,135 @@ Using the labeling program the user can label each note with ease. And after bui
 
 #### 3.4.2 Tag Extraction
 
-Before extracting keywords (or tags) from the note, as the target language in the system is Chinese,
+Before extracting keywords (or tags) from the note, as the target language in the system is Chinese, the first we need to do is word segmentation (Chinese characters don’t have space between words). The system uses word figure scanning method based on prefix dictionary to generate the directed acyclic graph(DAG) of all possibilities for the characters in a sentence that can form a word. Dynamic programming is also used here to find the route with the maximum probability and find the longest segmentation combination of words based on the frequencies of the words. For new or rare words that are not included in the dictionary (out of vocabulary word), the system use a Hidden Markov Model with Viterbi algorithm [46] which makes it possible to form new words based on probabilities.
 
-    基于前缀词典实现高效的词图扫描，生成句子中汉字所有可能成词情况所构成的有向无环图 (DAG)
-    采用了动态规划查找最大概率路径, 找出基于词频的最大切分组合
-    对于未登录词，采用了基于汉字成词能力的 HMM 模型，使用了 Viterbi 算法
+After going through the pre-processing pipeline for Chinese, we can use the TextRank algorithm to extract tags from user’s notes. TextRank is a Graph-based ranking algorithm that uses the global information recursively drawn from the whole graph to decide the importance of each vertex in a graph. Inspired by the famous PageRank algorithm from Google, a graph-based ranking model can be treated as a voting or recommendation problem. That is to say, the connections between vertices have the same effect of voting. If a specific vertex has a large number of votes (many other vertices are connected to it), it is a natural way to regard it as an important vertex.
 
+Now that we have those more important vertices, the importance of the vertex also affect how important the vote itself is. The vote from a more important vertex will have a higher value to represent its corresponding importance. After taking into account this information, we can have the whole ranking model to find the keywords of the notes.
 
-    1.  将待抽取关键词的文本进行分词
-    2.  以固定窗口大小(默认为5，通过span属性调整)，词之间的共现关系，构建图
-    3.  计算图中节点的PageRank，注意是无向带权图
+For the implementation, after word segmentation, the system will separate the text into sentences based on a trained model. Base on the trained model and the results from word segmentation, the system will build a sparse matrix of words and the count it appears in each sentence. After that TFIDF method is applied for the normalization of each word while tf means the term frequency which represents how frequent a term occurs in a document and idf means inverse doc frequency which represents how important a word is.
 
+With the TFIDF value it is possible to construct the similarity matrix between sentences and use PageRank algorithm to score the sentences in graph. Noted that the algorithm ranks the sentences with underlying assumption that “summary sentences“ are similar to most other sentences.
 
-separate the text into sentences based on a trained model
+The last step is handling the stop words. In computing, stop words are words which are filtered out before or after processing of natural language data. Those words that normally used but without any contribution to the meaning of the sentences can be regarded as the stop words. As the task of tag extraction is to find the keywords of a document, thus we must exclude those words to find the real tags.
 
-build a sparse matrix of words and the count it appears in each sentence
-
-normalize each word with tf-idf
-
-    tf: term frequency - how frequent a term occurs in a document
-    idf: inverse doc frequency - how important a word is (weigh down the frequent terms, ex: is, does, how)
-    stop words
-
-
-construct the similarity matrix between sentences
-
-use pagerank to score the sentences in graph
-
-    rank the sentences with underlying assumption that “summary sentences“ are similar to most other sentences
-
-Graph-based ranking algorithms are essentially a way of deciding the importance of a vertex within a graph, based on global information recursively drawn from the entire graph. The basic idea implemented by a graph-based ranking model is that of “voting” or “recommendation”. When one vertex links to another one, it is basically casting a vote for that other vertex. The higher the number of votes that are cast for a vertex, the higher the importance of the vertex. Moreover, the importance of the vertex casting the vote determines how important the vote itself is, and this information is also taken into account by the ranking model. Hence, the score associated with a vertex is determined based on the votes that are cast for it, and the score of the vertices casting these votes.
-
-这里要装逼弄一堆公式 TFIDF TEXTRANK 中文分词
+这里要装逼弄一堆公式 TFIDF TEXTRANK 中文分词 的公式，弄到word中时从论文里找
 
 #### 3.4.3 Inverted Index
 
-In computer science, an inverted index (also referred to as postings file or inverted file) is an index data structure storing a mapping from content, such as words or numbers, to its locations in a database file, or in a document or a set of documents. The purpose of an inverted index is to allow fast full text searches, at a cost of increased processing when a document is added to the database.
+After finishing the first two stages of the processing pipeline (note labeling and tag extraction), the system will build inverted index for the notes and the tags so as to accelerate the speed to find the corresponding tags in a specific note.
+
+In computer science, an inverted index is an index data structure storing a mapping from content, such as words or numbers, to its locations in a document or a set of documents. Extra time and space are need while adding new notes to the system, but with little cost inverted index makes fast full text searches possible [47]. Here is an example:
 
 Given the texts
 T[0] = "it is what it is"
 T[1] = "what is it"
 T[2] = "it is a banana"
+
 we have the following inverted file index (where the integers in the set notation brackets refer to the indexes (or keys) of the text symbols, T[0], T[1] etc.):
+
 "a":      {2}
 "banana": {2}
 "is":     {0, 1, 2}
 "it":     {0, 1, 2}
 "what":   {0, 1}
 
+The inverted index data structure is a central component of a typical search engine indexing algorithm. A goal of a search engine implementation is to optimize the speed of the query: find the documents where word X occurs. Once a forward index is developed, which stores lists of words per document, it is next inverted to develop an inverted index. Querying the forward index would require sequential iteration through each document and to each word to verify a matching document. The time, memory, and processing resources to perform such a query are not always technically realistic. Instead of listing the words per document in the forward index, the inverted index data structure is developed which lists the documents per word [48].
 
-The inverted index data structure is a central component of a typical search engine indexing algorithm. A goal of a search engine implementation is to optimize the speed of the query: find the documents where word X occurs. Once a forward index is developed, which stores lists of words per document, it is next inverted to develop an inverted index. Querying the forward index would require sequential iteration through each document and to each word to verify a matching document. The time, memory, and processing resources to perform such a query are not always technically realistic. Instead of listing the words per document in the forward index, the inverted index data structure is developed which lists the documents per word.
+The inverted index file in my system is as followed:
 
-With the inverted index created, the query can now be resolved by jumping to the word id (via random access) in the inverted index.
+这里展示一下具体的文件内容
 
-
-    •   Knuth, D. E. (1997) [1973]. "6.5. Retrieval on Secondary Keys". The Art of Computer Programming (Third ed.). Reading, Massachusetts: Addison-Wesley. ISBN 0-201-89685-0.
-    •   Zobel, Justin; Moffat, Alistair; Ramamohanarao, Kotagiri (December 1998). "Inverted files versus signature files for text indexing". ACM Transactions on Database Systems(New York: Association for Computing Machinery) 23 (4): pp. 453–490. doi:10.1145/296854.277632.
-
+After building the inverted index for the user’s note, the system can now finish the task of classifying the note automatically base on Naive Bayes method.
 
 #### 3.4.3 Note Classification
 
-这里要装逼弄一堆公式
+This is the most important part of the note system as it use the knowledge graph to help user classify and organize their notes. The system will automatically analyze the text in the note and find one or several proper categories for the note using Naive Bayes method.
 
-In machine learning, naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' theoremwith strong (naive) independence assumptions between the features.
-Naive Bayes has been studied extensively since the 1950s. It was introduced under a different name into the text retrievalcommunity in the early 1960s,[1]:488 and remains a popular (baseline) method for text categorization, the problem of judging documents as belonging to one category or the other (such as spam or legitimate, sports or politics, etc.) with word frequencies as the features. With appropriate preprocessing, it is competitive in this domain with more advanced methods including support vector machines.[2] It also finds application in automatic medical diagnosis.[3]
-Naive Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression,[1]:718which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
-In the statistics and computer science literature, Naive Bayes models are known under a variety of names, including simple Bayes and independence Bayes.[4] All these names reference the use of Bayes' theorem in the classifier's decision rule, but naive Bayes is not (necessarily) a Bayesian method;[4] Russell and Norvig note that "[naive Bayes] is sometimes called aBayesian classifier, a somewhat careless usage that has prompted true Bayesians to call it the idiot Bayes model."
+In machine learning, Naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' theorem with strong (naive) independence assumptions between the features. For text classification, that is to say the probability of the appearance of one word will not affect the appearance of the other words. This is a strong independence assumptions as in natural language there will always be some poly-words, collocations, institutional utterance and phrasal unites that violate assumption. However, for most case the Naive Bayes classifier can provide good enough performance as noisy may be one of the fixed property of the world.
 
-[http://en.wikipedia.org/wiki/Naive\_Bayes\_classifier]
+Naive Bayes is one of the most famous and easy to implement algorithm and has been studied extensively since 1950s. At first, it was introduced in some text retrieval community in the early 1960s [49] and becomes one of the most popular (or baseline) method for text classification. Text classification is the kind of problem of judging which category one document may belong to using word frequencies as the features. As the notes from the users are highly organized format data, with appropriate preprocessing the Naive Bayes method is competitive with more advanced methods such as support vector machines [50][51].
 
-配合好参考文献
+In addition to this, Naive Bayes classifiers are highly scalable requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression, which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
 
-### 3.5 Applications
+**Probabilistic model **
+
+这里要装逼弄一堆公式，参考维基百科，配合好参考文献
+
+Abstractly, naive Bayes is a conditional probability model: given a problem instance to be classified, represented by a vector  representing some n features (dependent variables), it assigns to this instance probabilities
+
+for each of k possible outcomes or classes.[7]
+The problem with the above formulation is that if the number of features n is large or if a feature can take on a large number of values, then basing such a model on probability tables is infeasible. We therefore reformulate the model to make it more tractable. Using Bayes' theorem, the conditional probability can be decomposed as
+
+In plain English, using Bayesian probability terminology, the above equation can be written as
+
+In practice, there is interest only in the numerator of that fraction, because the denominator does not depend on  and the values of the features are given, so that the denominator is effectively constant. The numerator is equivalent to the joint probability model
+
+which can be rewritten as follows, using the chain rule for repeated applications of the definition of conditional probability:
+
+Now the "naive" conditional independence assumptions come into play: assume that each feature  is conditionally independent of every other feature  for , given the category . This means that
+
+and so on, for . Thus, the joint model can be expressed as
+
+This means that under the above independence assumptions, the conditional distribution over the class variable  is:
+
+where the evidence  is a scaling factor dependent only on , that is, a constant if the values of the feature variables are known.
+Constructing a classifier from the probability model
+The discussion so far has derived the independent feature model, that is, the naive Bayes probability model. The naive Bayes classifier combines this model with a decision rule. One common rule is to pick the hypothesis that is most probable; this is known as the maximum a posteriori or MAP decision rule. The corresponding classifier, a Bayes classifier, is the function that assigns a class label  for some k as follows:
+
+**Text Classification**
+
+Here is a worked example of naive Bayesian classification to the text classification problem. Consider the problem of classifying documents by their content, for example into science and society note (This is a simplified binary classification problem as an example, for multiple choice classification we just need more options to find it probabilities). Imagine that documents are drawn from a number of classes of documents which can be modeled as sets of words where the (independent) probability that the i-th word of a given document occurs in a document from class C can be written as
+
+接下来是一堆公式，搬到word 的时候再弄
+
+(For this treatment, we simplify things further by assuming that words are randomly distributed in the document - that is, words are not dependent on the length of the document, position within the document with relation to other words, or other document-context.)
+Then the probability that a given document D contains all of the words , given a class C, is
+
+The question that we desire to answer is: "what is the probability that a given document D belongs to a given class C?" In other words, what is ?
+Now by definition
+
+and
+
+Bayes' theorem manipulates these into a statement of probability in terms of likelihood.
+
+Assume for the moment that there are only two mutually exclusive classes, S and ¬S (e.g. spam and not spam), such that every element (email) is in either one or the other;
+
+and
+
+Using the Bayesian result above, we can write:
+
+
+Dividing one by the other gives:
+
+Which can be re-factored as:
+
+Thus, the probability ratio p(S | D) / p(¬S | D) can be expressed in terms of a series of likelihood ratios. The actual probability p(S | D) can be easily computed from log (p(S | D) / p(¬S | D)) based on the observation that p(S | D) + p(¬S | D) = 1.
+Taking the logarithm of all these ratios, we have:
+
+(This technique of "log-likelihood ratios" is a common technique in statistics. In the case of two mutually exclusive alternatives (such as this example), the conversion of a log-likelihood ratio to a probability takes the form of a sigmoid curve: see logit for details.)
+
+Finally, the document can be classified as follows. It is society if  (i.e., ), otherwise it is science.
+
+Using this kind of method we can finish the automatic text classification task.
+
+#### 3.4.4 Similar Notes
+
+After classifying user’s notes, another important task is to find the connections between different notes. Usually we use TFIDF method and a distance measure to calculate the similarity between two notes and tell the user which ones are the similar notes. This kind of method is easy to implement but has two major problems. One is that two notes may have some shared words but their meanings are totally different, especially when one Chinese word can have completely different meanings in different context. The other is that two notes may not have any shared words but their meanings are highly related.
+
+With the help of personal knowledge graph, it is possible for the system to solve the above problems with ease.
+
+After initialing the personal knowledge graph, when loaded in all the user’s note, each node in the knowledge graph will has its own word list to show that this word may be highly related to a specific node. If we want to find the similar note for note A, first we need to extract the keywords from note A and check their positions in the personal knowledge graph. When calculating the similarity between note A and note B, we turn the comparison of strings into checking the degree of connection between two sub-graphs generated by note A and note B. As it is, many flow networks algorithms can be applied to find their similarity such as Dinic’s algorithm [52], push–relabel maximum flow algorithm [53] and Karger's algorithm [54]. These are all closed-form problems and can be computed fast.
+
+### 3.5 Results
+
+Now we have a directory-based note system using Markdown syntax and integrate it with personal knowledge graph and using Naive Bayes method to support better performance on text classification and similar note discovery. As it is a machine learning method the more notes added to the system the better performance it will get (some labeling work are needed to be the training data). In next chapter there will be another application based on the knowledge graph and the note system to connect personal knowledge to the internet data source.
 
 ## Chapter 4 Recommender System
 
 ### 4.1 Introduction
+
+
 
 ### 4.2 Data Acquisition and Parsing
 
@@ -418,10 +471,27 @@ software for personal knowledge management in formal online learning”, Turkish
 [43] Huang, Zengyang. "The Hierarchical Network of Concepts theory." (1998).
 [44] Cheng, Xiao, and Dan Roth. "Relational inference for wikification." Urbana 51 (2013): 61801.
 [45] A. Gal, G. Modica, H. Jamil, and A. A. Eyal, “Automatic Ontology Matching Using Application Semantics ,” pp. 1–12, Mar. 2005.
-[46]
-[47]
-[48]
-[49]
+[46] Zhang, Hua-Ping, et al. "HHMM-based Chinese lexical analyzer ICTCLAS."Proceedings of the second SIGHAN workshop on Chinese language processing-Volume 17. Association for Computational Linguistics, 2003.
+[47] Knuth, D. E. (1997) [1973]. "6.5. Retrieval on Secondary Keys". The Art of Computer Programming (Third ed.). Reading, Massachusetts: Addison-Wesley. ISBN 0-201-89685-0.
+[48] Zobel, Justin; Moffat, Alistair; Ramamohanarao, Kotagiri (December 1998). "Inverted files versus signature files for text indexing". ACM Transactions on Database Systems(New York: Association for Computing Machinery) 23 (4): pp. 453–490. doi:10.1145/296854.277632.
+[49] Russell, Stuart; Norvig, Peter (2003) [1995]. Artificial Intelligence: A Modern Approach (2nd ed.). Prentice Hall. ISBN 978-0137903955.
+[50] Rennie, J.; Shih, L.; Teevan, J.; Karger, D. (2003). Tackling the poor assumptions of Naive Bayes classifiers. ICML.
+[51] Suykens, Johan AK, and Joos Vandewalle. "Least squares support vector machine classifiers." Neural processing letters 9.3 (1999): 293-300.
+[52] Yefim Dinitz (1970). "Algorithm for solution of a problem of maximum flow in a network with power estimation" (PDF). Doklady Akademii nauk SSSR11: 1277–1280.
+[53] Goldberg, A V; Tarjan, R E (1986). "A new approach to the maximum flow problem". Proceedings of the eighteenth annual ACM symposium on Theory of computing - STOC '86. p. 136.
+[54] Karger, David (1993). "Global Min-cuts in RNC and Other Ramifications of a Simple Mincut Algorithm". Proc. 4th Annual ACM-SIAM Symposium on Discrete Algorithms.
+[55]
+[56]
+[57]
+[58]
+[59]
+[60]
+[61]
+[62]
+[63]
+[64]
+[65]
+
 
 
 [9] Bird, Steven. "NLTK: the natural language toolkit." Proceedings of the COLING/ACL on Interactive presentation sessions. Association for Computational Linguistics, 2006.
