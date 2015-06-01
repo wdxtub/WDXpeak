@@ -1,37 +1,68 @@
-内推 http://www.1point3acres.com/bbs/forum-198-1.html
+# 找工作
 
-面经 http://www.1point3acres.com/bbs/forum-145-1.html
+[内推](http://www.1point3acres.com/bbs/forum-198-1.html)
 
-我同时认识不少另外的中国学生，学习什么的也都不错，但是不够active。一年甚至9个月的master时间很短，但是很多人直到第二个学期才开始慌起来，却不知道每年只有秋季是找工作的黄金季节。春季想找fulltime的就很难了，大多数都只是internship.要注意有些公司的简历截至时间甚至在八月底就结束，而很多学校可能连开学都没有，学生估计有的甚至还在国内，这个时候就要知道你四月/五月被录取后拿到学校给你的student ID, 密码，PIN以及email 地址后,第一件事情不是上 facebook 或者校内 上去认证学校email （惭愧一下，我当年就是这么做的），而是应该马上联系你们学校的 career service 获得访问权限，在来美国之前的等待过程中就应该起草好几份 resume (针对不同industry, 咨询/银行/软件/工程/能源/法律 等等）和 cover letter (不会写去google一下cover letter sample，然后针对自己的情况作出几个template,以后申请的时候就直接往里套). 这样在8月中旬的时候就可以开始投简历。不要担心你投简历的时候还没去学校报到，一般面试最早也要9月中才开始，所以即使你八月人在国内，也尽量多投。-
+[面经](http://www.1point3acres.com/bbs/forum-145-1.html)
+
+<!-- MarkdownTOC -->
+
+- Behavior Question
+    - 自我介绍
+    - 关于Project
+    - Why thiscompany/this role?
+    - 关于冲突和teamwork
+    - 问面试官问题
+- 那这半年多你自学了什么？
+- 说说我是怎么刷题的
+- 两条投简历的原则
+- CMU 提供的 Job Hunting 相关服务
+    - Oracle
+    - Epic
+    - Cobalt
+    - bloomberg
+    - Popsugar
+    - eBay
+    - Kanjoya
+    - Houzz
+    - Evernote
+    - Yelp
+    - Amazon
+- CMU Career Fair
+
+<!-- /MarkdownTOC -->
+
+
+我同时认识不少另外的中国学生，学习什么的也都不错，但是不够 active。一年甚至9个月的 master 时间很短，但是很多人直到第二个学期才开始慌起来，却不知道每年只有秋季是找工作的黄金季节。春季想找 fulltime 的就很难了，大多数都只是 internship。要注意有些公司的简历截至时间甚至在八月底就结束，而很多学校可能连开学都没有，学生估计有的甚至还在国内，这个时候就要知道你四月/五月被录取后拿到学校给你的 student ID, 密码，PIN 以及 email 地址后,第一件事情不是上 facebook 或者校内上去认证学校 email，而是应该马上联系你们学校的 career service 获得访问权限，在来美国之前的等待过程中就应该起草好几份 resume (针对不同industry, 咨询/银行/软件/工程/能源/法律 等等）和 cover letter (不会写去google一下cover letter sample，然后针对自己的情况作出几个template,以后申请的时候就直接往里套). 这样在8月中旬的时候就可以开始投简历。不要担心你投简历的时候还没去学校报到，一般面试最早也要9月中才开始，所以即使你八月人在国内，也尽量多投。
 
 投简历要多多益善，我的建议是一星期投一次（个人倾向于周日晚上），花上两个小时时间把截至日期到下周日的所有jop opening都投一遍。这里注意要重点使用学校提供的career service 网站，这些大多都是面向学生的entry level position. 一会儿再提一下别的网站怎么用。投简历的最高峰是在秋季学校招聘会 （通常9月份到10月份的某一天）之后一个星期内，这一个星期非常重要，最好花出非常多的时间去把所有能申请的都在学校投掉。 还有不要怕招聘会和上课有时间冲突，我个人甚至建议可以为了招聘会而旷课一节，你很有可能整个学年里面就这么一次机会而已，要好好利用。
 
 总的来说，CMU graduate students 在 Job Market 还是很有竞争力的，一方面由于学校的课程设置都尽可能地与实践接轨，大多数学生选择的课程都可以在工作中应用。所以，找工作的核心在于：早点为自己设立 target job, 选课要与 job market 接轨，最后是充分利用学校的相关资源。
 
+## Behavior Question
 
-
-Behavior Question呢，实际上就是除了Technical Question之外的所有跟面试官的交流内容内容~按照 http://www.1point3acres.com/bbs/thread-105717-1-1.html 中提到的，跟面试官的交流基本上算是跟Technical Question同等重要的事情，所以特地开帖来跟想要准备这个方面的同学们分享一下经验和想法~
+Behavior Question呢，实际上就是除了Technical Question 之外的所有跟面试官的交流内容内容~ 按照[这里](http://www.1point3acres.com/bbs/thread-105717-1-1.html)提到的，跟面试官的交流基本上算是跟 Technical Question同等重要的事情，所以特地开帖来跟想要准备这个方面的同学们分享一下经验和想法~
 
 本文包含以下内容：
+
 - 自我介绍
 - 关于Project
 - why this role in this company in this specific area
-- 关于冲突和teamwork
+- 关于冲突和 teamwork
 - 问面试官问题
 
 其实这个文章并不是号召说让大家纯纯粹粹背答案，而是在准备了答案的基础上稍微有一些变通的能力。当然话说回来能想到的问题还是写一写大概理理思路比较好。
 
-在开始讨论问题之前呢，有一个问题需要考虑一下，就是面试官expect一个怎么样的人。但是不要说谎，不要随便站道德制高点（我每周工作80小时没关系的！之类）。。。因为太假了……
-这个问题的答案其实不难：专业领域上水平够，然后good team player，对工作对公司有热情，对文化对模式有认同感的人。
+在开始讨论问题之前呢，有一个问题需要考虑一下，就是面试官 expect 一个怎么样的人。但是不要说谎，不要随便站道德制高点（我每周工作80小时没关系的！之类）。。。因为太假了……
 
-专业领域水平够体现在：CS背景够强：有一两个能被demonstrate能力的编程语言，从事相关工作和经历。
-good team player体现在：有疑问多沟通，有矛盾善于解决，以team利益为先，敢于承担责任敢于优化流程。
-对公司对工作，还有对文化模式的热情体现在：整个人对面试的良好准备，还有就是问面试官的问题，还有整个面试的精神面貌和态度上。
+这个问题的答案其实不难：
 
-基于以上的assumption，回答问题的思路在于，简介阐明答案然后把答案拐回以上的assumption里，同时有针对性的否认可能会引起歧义的理解方式。
++ 专业领域上水平够，然后good team player，对工作对公司有热情，对文化对模式有认同感的人。
++ 专业领域水平够体现在：CS背景够强：有一两个能被demonstrate能力的编程语言，从事相关工作和经历。
++ good team player体现在：有疑问多沟通，有矛盾善于解决，以team利益为先，敢于承担责任敢于优化流程。
++ 对公司对工作，还有对文化模式的热情体现在：整个人对面试的良好准备，还有就是问面试官的问题，还有整个面试的精神面貌和态度上。
++ 基于以上的 assumption，回答问题的思路在于，简介阐明答案然后把答案拐回以上的 assumption里，同时有针对性的否认可能会引起歧义的理解方式。
 
-举 个简单的歪楼的例子，比如说你喜欢的姑娘问你【今天肚子有点不舒服啊，怎么办呢。】广为诟病的一个答案就是【多喝点儿热水。】为什么被诟病，就是因为这个回答太简单，让人觉得很敷衍，根本不上心。如果是面对喜欢的姑娘，你想跟她传达你对她的关心的话，答案应该是这样子的：【多喝点儿热水吧，我网上查了一下 你这个情况感觉是xxxx了然后热水会有用（表明contribution，回避不上心这个歧义的理解方式）。还有你是不是吃了冷的东西了，如果肚子不舒服的话要吃点养胃的，我给你送来吧blala。】或者是【你是不是不舒服来我给你讲个笑话转移一下注意力吧，你这样子我看着也不开心啊（直接的传达关心）】这样就好很多。为什么要第一次回答的时候就规避会引起歧义的理解方式呢：比如说【多喝点儿热水】之后，姑娘觉得你根本不关心她，就不会想跟你聊了==这个概念先入为主后面就难以挽回了，因为后面的解释都像是掩饰。。。
-
+举个简单的歪楼的例子，比如说你喜欢的姑娘问你【今天肚子有点不舒服啊，怎么办呢。】广为诟病的一个答案就是【多喝点儿热水。】为什么被诟病，就是因为这个回答太简单，让人觉得很敷衍，根本不上心。如果是面对喜欢的姑娘，你想跟她传达你对她的关心的话，答案应该是这样子的：【多喝点儿热水吧，我网上查了一下 你这个情况感觉是xxxx了然后热水会有用（表明contribution，回避不上心这个歧义的理解方式）。还有你是不是吃了冷的东西了，如果肚子不舒服的话要吃点养胃的，我给你送来吧blala。】或者是【你是不是不舒服来我给你讲个笑话转移一下注意力吧，你这样子我看着也不开心啊（直接的传达关心）】这样就好很多。为什么要第一次回答的时候就规避会引起歧义的理解方式呢：比如说【多喝点儿热水】之后，姑娘觉得你根本不关心她，就不会想跟你聊了==这个概念先入为主后面就难以挽回了，因为后面的解释都像是掩饰。。。
 
 ### 自我介绍
 
@@ -42,7 +73,6 @@ I am XXX from XXXX, majored in XXX.这是第一句。（如果不是CS的话呢�
 I am Emmon who is a graduate student from Gatech ECE. My concentration is Computer Engineering and I am solid in C/C++/Obj-C.（※第一句因为专业不是CS让人以为你的CS背景差，第二句以学习方向和熟练的语言两点来挽回一下背景的相关度）I am now working with some friends to develop an iOS application which was in App Store this May and downloaded for 5k times.（第二句强调强势方向，workingon 一个受众不小的app） I am interestedin your mobile development role and I will graduate next May.（说明来意）
 
 基本上就能涵盖所有的东西了。
-
 
 ### 关于Project
 
@@ -55,7 +85,6 @@ I developed a media player system on Pic 32（什么东西——mediaplayer）. 
 一个常见的challenge是“totally new to it”,不过这个的克服是个很容易被challenge的东西。比如说如果你能问人，能找到资料，也有很多例子可以模仿的话，那就根本不算是challenge，毕竟大家都有要接触新东西的机会。所以呢，difficult part可以细化为“没有人问”，“没有人做过”，“很少外部资料”然后加上why，然后再说用其他两条途径克服的，这样子就可以合理避免被challenge。
 
 The challenge part of my project is that I am totally new to it meanwhilefew people in our team have experience in it since it is a XXXX team. Toconquer it, I tried to find some similar implementation online and blabla这个感觉。
-
 
 ### Why thiscompany/this role?
 
@@ -72,61 +101,61 @@ The challenge part of my project is that I am totally new to it meanwhilefew peo
 这个问题的答案很能体现我们国人的中庸之道。不能轻易说别人错显得你推诿，不能不说别人错显得你怂还有盲从；不能一味听别人显得你不独立思考，不能一味不听别人显得你独；不能随便指出别人错了显得你莽撞而且你的疑问可能阻碍项目进展，不能看着别人错（这个很好理解吧）。所以呢，要中庸，显示的你考虑周到。
 
 以下这几条立场请揣摩一下：
+
 - 大家的想法都是为了把事情做完做好，所以从这个角度上来说没有矛盾是不可调节的
 - 无关第一条的事情都可以回避，私人恩怨放一边
 - 不轻易质疑别人，除非你有足够strong的support，你不能说跟你想的不一样的就是错的，需要一些相对客观的依据
 - 多跟别人交流，接上一条，如果大家都觉得你想法没问题，那么你该指出
-- 作为一个team goal为primary concern的，任何有助于这个的事情都能做，任何无关于这个的都可以放一边
-基于以上立场，很多问题的答案其实就昭然若揭了 ：）
-
+- 作为一个team goal为primary concern的，任何有助于这个的事情都能做，任何无关于这个的都可以放一边基于以上立场，很多问题的答案其实就昭然若揭了 ：）
 
 ### 问面试官问题
 
 其实这一部分可以很随意，不过主要就是一条：show passion
 可以问的问题可以是：
+
 - 如何上手（on boarding process)
 - dailylife
 - 日常上班干什么
 - the thing u like best about this company
 - next step
 
-诸如此类的。。反正显得你很感兴趣很想来就行了~这一句是大立场，因为我见过有轮coding有个人做出来了还给了一个no hire的分数是因为那个candidate完全看不出来想来。。很没精神的样子……而且不怎么搭理人。。。. 鍥磋鎴戜滑@1point 3 acres
+诸如此类的。。反正显得你很感兴趣很想来就行了~这一句是大立场，因为我见过有轮coding有个人做出来了还给了一个 no hire 的分数是因为那个 candidate完 全看不出来想来。。很没精神的样子……而且不怎么搭理人。。。
 
 剩下的tips: 多笑，多生动的举例子，尊重面试官，make assumption的时候多用问句，然后多问问面试官【我打算XXXX这样说可以吗】。大概就是这个feel。
 
-### 那这半年多你自学了什么？
+## 那这半年多你自学了什么？
 
-1） 系统并深入的学习了Java: 熟练并且深入地掌握一门oo编程语言对于找工作的重要性不言而喻哦。
-2） 数据库以及web development知识。
-3） OOdesign的知识好好学了一下，比如head first那两本：一本design pattern一本oo design 我都看了，并且还记了笔记。
-4） 找其他学校同学要来的比较有料的software engineering course project若干，并且亲自动手design/implement了其中几个Project。这个过程还挺有收获的，同时也给简历上project那块加了几笔。
-5） 网上看了一大堆关于system design的东西，google三驾马车之类的。最后的感受是system design new grad一般考得不多，就算考也应该只是最基本的。
+1. 系统并深入的学习了Java: 熟练并且深入地掌握一门oo编程语言对于找工作的重要性不言而喻哦。
+2. 数据库以及web development知识。
+3. OOdesign的知识好好学了一下，比如head first那两本：一本design pattern一本oo design 我都看了，并且还记了笔记。
+4. 找其他学校同学要来的比较有料的software engineering course project若干，并且亲自动手design/implement了其中几个Project。这个过程还挺有收获的，同时也给简历上project那块加了几笔。
+5. 网上看了一大堆关于system design的东西，google三驾马车之类的。最后的感受是system design new grad一般考得不多，就算考也应该只是最基本的。
+
 总之这半年来一天学个10多个小时也算家常便饭。
 
-### 说说我是怎么刷题的
+## 说说我是怎么刷题的
 
 我非常认真地刷了2.5遍leetcode，2遍cc150，并且每刷一遍都仔细做了总结。我这里核心在‘认真’两字：如何能够更加深入的理解算法的本质，提升自己举一反三的能力，以及不断总结自己犯的错误，不断提高代码质量。这就好比两个人虽然都声称自己刷了2遍leetcode，但一面试起来，两个人对算法的理解程度，做题的速度，以及举一反三的能力肯定是不一样的。比如说我周围的一些小伙伴时常会抱怨自己lc已经刷n遍，但面试题还是没见过/太难。但是其实仔细一分析，所谓的没见过的难题只是样子唬人，而本质只是原体变形而已，解决的思路都是想通的。我的做法是每做一道题都要不仅知道怎么解，还是知道为什么能想到这么解，以及有没有优化代码的一些小技巧。做多了你就基本上可以把leetcode题进行分类：比如哪些题都用了哪些通用的技巧…
 
+## 两条投简历的原则
 
-### 两条投简历的原则
-1) 越好的公司越要放到最后面试。因为你每面试一次，尤其是onsite，基本上会都有新的感悟，都会发现自己之前准备上的不足，而这个过程本身就是一种提高，所以说基本上是越面越强的。
+1. 越好的公司越要放到最后面试。因为你每面试一次，尤其是 onsite，基本上会都有新的感悟，都会发现自己之前准备上的不足，而这个过程本身就是一种提高，所以说基本上是越面越强的。
+2. 投简历也要抓住时机不要错过机会：许多大公司招new grad都是在某一特定时间内，过了这段招满了就不招了。今年的例子比如微软思科雅虎。这三家公司我都没拿到面试。不过好在flg都是全年招人的。
 
-2) 投简历也要抓住时机不要错过机会：许多大公司招new grad都是在某一特定时间内，过了这段招满了就不招了。今年的例子比如微软思科雅虎。这三家公司我都没拿到面试。不过好在flg都是全年招人的。
 以上两条有些情况下是矛盾的，所以需要你来在这两个原则中做出平衡。
 
 
-### CMU 提供的 Job Hunting 相关服务
+## CMU 提供的 Job Hunting 相关服务
 
-CMU 在 Job Hunting 方面为学生提供了很多服务，总的来说分为两个方面：一个是 Career Service，另一个就是每年至少有两次的 Job Affairs。Career and Professional Development Center: CMU Career Service 的 TartanTrak 有各种校内，校外,Intern, Part-time, Full-time 的信息，学生可以用 Andrew ID 登陆，提交 Resume 和 Coverletter。在 TartanTrak 上还可以看到别的链接登陆其他各个外网，便于学生寻找各种工作相关信息。
+CMU 在 Job Hunting 方面为学生提供了很多服务，总的来说分为两个方面：一个是 Career Service，另一个就是每年至少有两次的 Job Affairs。
 
-TartanTrak: http://www.studentaffairs.cmu.edu/career/students_alumni/tartantrak.html
+Career and Professional Development Center: CMU Career Service 的 TartanTrak 有各种校内，校外,Intern, Part-time, Full-time 的信息，学生可以用 Andrew ID 登陆，提交 Resume 和 Coverletter。在 TartanTrak 上还可以看到别的链接登陆其他各个外网，便于学生寻找各种工作相关信息。
 
-CMU 的 Job Affairs 是远近闻名的，周围学校的学生也会来参加。有 Technical Opportunities Conference (TOC)，Business Opportunities Conference (BOC)，TOC 和 BOC一般会在 9 月的第三举办。Employment Opportunities Conference (EOC)一般会安排在 2 月的第一周。
+CMU 的 Job Affairs 是远近闻名的，周围学校的学生也会来参加。有 Technical Opportunities Conference (TOC)，Business Opportunities Conference (BOC)，TOC 和 BOC一般会在 9 月的第三周举办。Employment Opportunities Conference (EOC)一般会安排在 2 月的第一周。
 
-Network: CMU 每年都会在 New York，Los Angeles，Silicon Valley，San Francisco，Seattle，Pittsburgh，Washington, DC，Boston 举行各种 Network Events，让在校生和Alumni 能够有机会认识，Alumni 一般会在这样的场合收简历，选择毕业生来自己的企业工作。学生应充分利用这样的机会。一般这样的 Event 都会由各个企业承办，比如 Oracle，Microsoft，PwC，等。网址是http://www.cmu.edu/alumni/involved/events/network_nights/index.html
+Network: CMU 每年都会在 New York，Los Angeles，Silicon Valley，San Francisco，Seattle，Pittsburgh，Washington, DC，Boston 举行各种 Network Events，让在校生和Alumni 能够有机会认识，Alumni 一般会在这样的场合收简历，选择毕业生来自己的企业工作。学生应充分利用这样的机会。一般这样的 Event 都会由各个企业承办，比如 Oracle，Microsoft，PwC，等。
 
-其他服务： CMU 学校有 Career Service（UC 地下一层）为学生提供 Resume，Coverletter 修改，提供各种找工作信息，一些非常有用的文档可以在这里查到：http://www.studentaffairs.cmu.edu/career/students_alumni/successguides/index.html
-
+其他服务： CMU 学校有 Career Service（UC 地下一层）为学生提供 Resume，Coverletter 修改，提供各种找工作信息，
 
 背景废话了半天开始找工相关的。下面是我比较有话说的公司和其相关感想。不一定都面过 onstite，只是给我这个水平的人一个“哪些公司可以投”的参考。
 
@@ -134,6 +163,7 @@ Network: CMU 每年都会在 New York，Los Angeles，Silicon Valley，San Franc
 另外组织自己班同学成立个不弃疗小组，互相分享分享面经，比网上找的详细多了，而且方便知道什么公司在招人，什么公司喜欢你们本项目。这样的交流组对找工作帮助非常大，我大多数 onsite 都多亏同学之间互通信息拿到的。
 
 ### Oracle
+
 Oracle 的标准是名校 + 高GPA，过了直接拿 onsite 基本保证 offer。当年我是冲着 Oracle 来的。我相信冲着“保送” Oracle 来这个项目的人不在少数。结果怎么着，Oracle 今年缩招了。去年总共 38 个 offer，今年到五月过去还没到这个数，更何况人变多了。其实春假之后大家就都慌了。也多亏 Oracle 没去年那么猛，这才逼出来今年这么多 FLAG，不然很多人早弃疗了。
 
 我也属于被 Oracle 抛弃的一员。当时我也是 4.0 的GPA 也没反应，直到现在好多人该等的还是没等来。二月中旬 EOC 上投完 Oracle 开始有反应的时候我就慌了。中间放弃希望又禁不起诱惑过无数回，最后成绩单都要了也没下文。到五月底我才彻底对他死心。.
@@ -188,6 +218,7 @@ onsite 体验非常不好。首先匹兹堡飞纽约不舍得买直飞，跑去�
 总之不想去纽约的就别去折腾了，当个 trip 体验很不好……
 
 ### Popsugar
+
 题：
 
 1. coding challenge （邮件发不限时）： Josephus 环变种，每次跳过递增的人然后拿走一个椅子，问最后剩下哪一把
@@ -199,6 +230,7 @@ onsite 体验非常不好。首先匹兹堡飞纽约不舍得买直飞，跑去�
 ### eBay
 
 题：
+
 1. 统计01数组中0和1的数量
 2. merge two sorted lists
 3. find if a tree is balanced or not.
@@ -215,7 +247,9 @@ eBay是组与组之间独立面试的，一个跪了还可以申别的，一般�
 总之整体感觉就是管理混乱……
 
 ### Kanjoya
+
 题：
+
 1. 二分搜索的变种。suppose X > 0 (random unbounded integer). Youn only haveone mehtod:bool isLessThanX(int y); find the value of X and print it.
 2. “crypto-quivalence”.Two strings are crypto-equivalent if there is an invertiblefunction letters to leetters that transforms one string to the other string. e.g. “cat” and “dog” are crypto-equivalent since c->d,a->o, t->g will turn “cat” into “dog”. However, “cat” and “all” are notcrypto-equivalent.
 
@@ -224,7 +258,9 @@ eBay是组与组之间独立面试的，一个跪了还可以申别的，一般�
 跟 HR 聊完直接跟 CTO 面代码，他一直觉得有 bug 但其实没有。然后感觉不错让我跟两个 team lead 分别面。第一个面的也很不错面试官当场说 HR 会联系你下一次面试，然后就没有然后了！！！至今都没有结果，我还发信催过一两次，也压根不回直接失踪，估计是被备胎了……本来对他家所有人印象都挺好的，不过后来这结果我也挺不爽的，索性后来找到了就不 care了。
 
 ### Houzz
+
 题：
+
 1. two sum, 电面用 hashset，onstie 又考了一遍用两种方法做.
 2. 分解质因数
 3. shift array (shifts an array by N number of steps. E.g. [0,1,2,3,4] shiftArray(arr, 3) -> [2,3,4,0,1])
@@ -242,7 +278,9 @@ eBay是组与组之间独立面试的，一个跪了还可以申别的，一般�
 总之能去的话是很不错的公司，各位巨巨可以试试…….
 
 ### Evernote
+
 题：
+
 1. coding challenge. 统计字符串中 word frequency 并排序，要求 O（n）.HR 给发的，要点是注释要写好。
 2. 各种数据结构知识(array, linkedlist, map, set, tree），从电面到 onstie 问了 N 遍，想去的话请认真温习。
 3. isPalindrome （iterative 和 recursion，rec 是写完前者之后面试官追加的）
@@ -258,7 +296,9 @@ coding challenge + 两轮 Skype + onstie。
 
 
 ### Yelp
+
 题：
+
 1. generate random graph (int nEdges, int nNodes)，返回形式随意
 2. 给你个 list 每条（用户，url），求top 10 url。
 3. 给个矩阵，求任意给定子矩阵所有元素和。面试官 CMU 小哥，我说了 naive 写法，小哥直接提示说我要用很多次，你写 DP吧。
@@ -270,6 +310,7 @@ coding challenge + 两轮 Skype + onstie。
 
 
 ### Amazon
+
 我是群面，只能说点经验：
 
 1. 尽快选题，留更多的时间做题而不是思考做哪个。反正其实难度差不多。做题时间挺紧的。
@@ -281,12 +322,11 @@ coding challenge + 两轮 Skype + onstie。
 7. 总共三次被动跟面试官交流的机会，第一次读题十几到几十分钟后当着其他面试者问面试官问题，第二次被叫出去问思路，第三次快结束前一小时问思路进度。思路清晰的话就如实回答，不清晰或者赶时间的话可以尝试套套面试官提示或者尽快结束。-google 1point3acres
 8. 保持镇定。
 
-### CMU Career Fair
+## CMU Career Fair
 
 承蒙一些坛子里的好机油们照顾 偶在去年拿了几个小AD后 从了CMU的INI的MSIT-Mobility项目.
 
-每年秋季刚开学半个月，就是CMU一年一度最盛大的Technical Opportunities Conference（TOC），也就是专门针对工科生的Career Fair
-来的公司总共有290个。。。真是多到吐血。。能叫得出名字的所有公司都来了。。叫不出名字的只要是需求IT学生的也都来了.
+每年秋季刚开学半个月，就是CMU一年一度最盛大的Technical Opportunities Conference（TOC），也就是专门针对工科生的Career Fair 来的公司总共有290个。。。真是多到吐血。。能叫得出名字的所有公司都来了。。叫不出名字的只要是需求IT学生的也都来了.
 
 不仅如此，还有非常多处在发展阶段 非常有趣的创业公司
 （一般你去聊天投简历都会送他们的T-shirt..两天下来拿了10件左右。。。一年不用买衣服了。。如果你钟爱拿公司文化衫的话，拿到20件不成问题。。。）
@@ -296,7 +336,9 @@ coding challenge + 两轮 Skype + onstie。
 好，言归正传，如何利用好Career Fair
 
 1） Career Fair到底长什么样？
+
 CMU的TOC其实跟以前本科时候每年社团纳新的百团大战很像，在体育馆里面密密麻麻摆上一百来号帐篷，每个公司分配一个到两个，然后各个公司就会布置好，放上海量纪念品，然后等着你去跟他们聊天递简历。一般来说每个公司会有2~3个人专门负责跟学生聊天，这些人大多是Engineer，有一小部分是Recruiter，其实也就是类似HR的人。
+
 HERE COMES TIP #1: 尽量找Engineer聊天，而且要找看上去Bad Ass一点的！
 为什么呢？首先我要讲一讲这个聊天递简历主要是干嘛。
 
