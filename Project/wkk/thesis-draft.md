@@ -1,6 +1,6 @@
 # Personal Information Management based on Knowledge Graph
 
-Da Wang, A.Prof. Chenying Gao
+Da Wang, A.Prof. Chengying Gao
 
 6.5 日写完！！！
 
