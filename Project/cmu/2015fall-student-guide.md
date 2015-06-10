@@ -37,13 +37,33 @@
 - 02匹村新起点
     - 021获取学生ID
     - 022Orientation
+        - 学校Orientation
+        - 院系Orientation
+    - CSSA Orientation
     - 023银行开户
     - 024信用卡申请及使用
+        - 信用额度
+        - 贷款利率
+        - Cash back 比例
+        - 年费（Annual Fee）
+        - 信用卡的种类
+            - 普通MasterCard与Visa
+            - 面向学生的信用卡
+            - Discover和American Express
+            - 各大百货和航空公司
+        - 如何申请信用卡
+        - 如何使用信用卡
     - 025关于手机
     - 026关于网络
     - 027租房事宜
+        - Squirrel Hill
+        - Shadyside
+        - North Oakland
+        - South Oakland
     - 028安顿生活
     - 029交通出行
+        - 市内交通
+        - CMU Shuttle和Escort
     - 020医疗保险和疫苗接种
 - 03学习与就业
 - 04课余生活
@@ -232,26 +252,303 @@ Super Shuttle专门提供接送机服务，可以在网站上根据机场和日�
 
 ### 021获取学生ID
 
+一般在6、7 月份的时候,你会收到学校发来要求上传 ID 卡照片的邮件，你可以选择自己满意的照片上传到SIO。如果你事先已经上传了照片，那么到达学校后就可以携带相关的证件（护照、I20表等）在 HUB办理直接领取学生ID 了。当然，你也可以选择到学校后在HUB拍照，领取学生ID。
+
+HUB在Warner Hall的底下一层，也就是正对学校正门右手边的楼。我们建议在到达CMU后首先办理学生ID，这不仅是你CMU学生身份的证明，也是免费公交的凭证，还可以作为匹兹堡各类博物馆的免费门票，详细内容将在“课余生活”中介绍。
+
+HUB的工作时间是周一、三、五的8:30AM至4:30PM，以及周二、四的10:30AM至4:30PM，详细信息参见http://www.cmu.edu/hub/index.html
+
+这里要补充的是，不是所有专业的的 ID 卡都在 HUB 领取，部分专业的 ID 卡在系秘书这里领取，如有此类情况系秘书会事先发进行通知，请注意查收邮件。
+
+请同学们保管好自己的学生卡，如果丢失补办的话是$25，很不合算。
+
 ### 022Orientation
+
+理论上，只有参加完新生入学指导，即Orientation之后，你才算是正式的CMU学生，我们在这里介绍学校、院系和CSSA组织的Orientation活动。
+
+#### 学校Orientation
+
+学校组织的Orientation一般包含城市介绍、学校介绍、文化介绍等，是了解匹兹堡，了解CMU的非常好的机会。此外，学校Orientation 中最重要的内容是 Immigration Check-In 和 SSN Application。Immigration Check-in 是在美国保持合法身份的必须步骤，如果错过就需要去 Office of International Education (OIE) 补办。社会保险号码(Social Security Number, SSN) 在美国相当于身份证号码，处处都要用到它，尤其是涉及个人收入和缴税的各类环节。SNN是重要的个人信息，一定妥善保存。因为新生人数众多，社会保险局通常会 Orientation 时到校集中办理，学校也会在Orientation时详细介绍申办SNN流程。
+
+此外，在往年的Orientation中还会介绍在Payroll Office建立档案的相关手续要求，将在学校做RA和TA的小伙伴们最好不要错过。今年CMU开始使用Workday网上工作时间填报，详细信息参见http://www.cmu.edu/cmuworks/
+
+#### 院系Orientation
+
+一般情况下，各个院系也会组织自己的Orientation, 不仅会有项目、老师和学生的介绍，还会组织各类活动，帮助大家更快的融入院系大家庭。这也是一个了解老师同学、结交新朋友，展现自己的好时机，也千万不要错过！
+
+院系Orientation会在学校Orientation之后进行，持续3天至一周不等，记得及时查收院系小秘的通知邮件。Orientation期间学校的各个社团协会也会组织各类活动，包括很多的Free Food，到时候校园内会非常热闹，到时候一定要在校园内多走动哦！
+
+### CSSA Orientation
+
+CSSA会在学校Orientation之前对所有中国学生组织新生见面会，今年的Orientation日期已经确定为8月15日，地点为Cohen University Center (CUC) McConomy Auditorium，具体信息在“最新活动”中的“Orientation”有详细介绍，期待大家的到来。
 
 ### 023银行开户
 
+出于安全等各类因素，在美国身边不宜携带多过现金，家里也不宜存放大量现金，我们建议在匹兹堡安顿下来后尽快将从国内带来的现金存入银行。目前，匹兹堡当地较大的银行有 PNC Bank，Citizens Bank和Mellon Bank。
+
+从2006年起，如果新生在PNC银行开户就可以申请将CMU学生ID和PNC账户绑定，于是学生ID就可以当作Debit直接在ATM提取现金。PNC在University Center（UC）底下一层就设有营业部，开学期间会有专门为新生办理开户的工作人员，所以新生们办的第一张卡基本上都是PNC Debit。
+
+关于银行开户有以下注意事项：
+
++ 携带相关的证件，如护照，学生ID，SSN。若开户时尚未取得SSN，可以先开户，待得到SSN以后再告诉银行。
++ 开户时银行大都会同时免费给客户办理自动取款卡(ATM Card)。使用自动取款卡，用户可以在任何一个ATM机上提取一定数量的现金。如果此提款机属於用户的开户银行，提款及其他服务一般是免费的，否则将会收取一定的手续费。通常情况下，这张卡需要2周时间才能办妥，所以在开户前取得学生ID，然后绑定PNC账户，即可刷卡消费，不失为一个好办法。
++ 在美国支票是最常见的大额付款方式。开户时银行一般会提供一定数量临时支票，而支票本需要另外购买，一般需要3至4个工作日寄到家里。不过开通网上银行之后就可以在网上进行支付，也可以选择其他在线支付网站，如Venmo (https://venmo.com/), Paypal (https://www.paypal.com/login), Popmoney (https://www.popmoney.com/)等。
++ 银行开户时一般可以办两个帐户：支票账户(Checking Account)和储蓄账户(Saving Account)。支票帐户没有利息，与Check Card和支票相关联。每次开支票、取钱或网上支付时都应注意防止账户的余额低于最低存款限制，不过这一限额通常为0。除了以上两个账户外以外，还有定期账户(Certificate Deposit)。定期账户类似定期存款，其利率是各种账户中最高的，而且不会随时间变化。如果你有大笔金额而且暂时不用，可以考虑存入定期账户。
++ 银行每月会向用户寄送电子或纸质账单，寄送方式可在银行网站上选择。收到账单后应仔细查对，以保障自己的权益。
++ 选取银行的时候，也可以考虑一下今后办信用卡的相关情况。如果在一个银行有户头，并且有固定收入，在办理信用卡时会方便很多。
+
 ### 024信用卡申请及使用
+
+信用卡在美国是一种很常见和方便的付款方式。大多数商家均接受各种主流信用卡；小餐馆、小商店可能不接受信用卡，或者必须消费满一定金额才能刷卡。使用信用卡，除了可以避免随身携带大量现金的麻烦，还可以获得积分优惠和积攒信用记录。好的信用记录在贷款（如买车）时是一个重要的条件。
+
+在选择信用卡时，一般会关注下面几项指标：
+
+##### 信用额度
+
+信用额度取决于你的信用记录和收入情况。比较初级的信用卡，信用额度 一般在$500左右；普通的信用卡，信用额度可以达到$3000 ~ $4000。
+
+##### 贷款利率
+
+这项指标英文称为Annual Percentage Rate (APR)。如果你不能按时还款，银行会按照这个利率收取利息。有的信用卡提供 0% Intro APR，即第一年的利率为 0。
+
+##### Cash back 比例
+
+大多数信用卡会提供Cash back优惠，即消费攒积分。攒的积分可以用于兑换商品，也可以折算成货币当作还款，但后者一般会打折扣。例如，某信用卡提供2%的Cashback，那么使用该信用卡消费$1000后，积分就可以换取$20的商品，也可以折算为$10当作还款。有的信用卡会为某些消费类别（如餐饮、加油）提供比较高的Cashback优惠，还有的按季度为不同的消费类别提供特殊优惠。
+
+##### 年费（Annual Fee）
+
+这是使用信用卡每年需要交给银行的费用。有的信用卡具有$100左右的年费，有的信用卡不收年费。鉴于学生的消费能力有限，Cashback优惠往往抵不过年费，所以收年费的信用卡不建议申请。
+
+#### 信用卡的种类
+
+##### 普通MasterCard与Visa
+
+MasterCard与Visa是两个主流的信用卡网络，属于这两个网络的信用卡可以在美国甚至其它国家的各种商店使用。这一类信用卡中，常用的包括 BankAmericard（美国银行）、Citi Forward（花旗银行）、Chase Freedom（大通银行）等。这些信用卡的信用额度一般在$3000 ~ $4000，具有 2%左右的 Cashback。不过申请这些信用卡需要一定的初始信用记录，一般建议拥有使用初级信用卡1到2年后再申请办理。
+
+##### 面向学生的信用卡
+
+为了方便学生积累初始信用记录，一些银行推出了门槛比较低的信用卡种类，比如PNC和Capital One。这种信用卡的信用额度一般比较低，在$500 左右，也没有Cashback优惠。
+
+##### Discover和American Express
+
+这两种信用卡不属于MasterCard或Visa，因此使用范围受限，并不是所有商家都接受这两种信用卡。但是它们的Cash back优惠比较高，某些类别可以达到 5%，申请起来也比较容易，不需要很高的信用记录。小贴士：可以让有Discover的学长姐Refer你，双方都可以获得$50的Bonus哦！
+
+##### 各大百货和航空公司
+
+美国各大百货和航空公司也会推出消费类的信用卡，如Macy's、United Airines等，使用这些信用卡可以积攒消费积分和航空里程，但消费范围会有一定局限性，在办理前一定要了解清楚。
+
+#### 如何申请信用卡
+
+首先记住，SSN是申请信用卡的必要条件。作为没有信用记录的新生，第一张信用卡可以从PNC、Capital One和Discover开始申请。如果想在申请前查询自己的信用额度，可以使用Credit Sesame、Credit Karma等免费在线信用额度查询网站。需要注意的是，这些网站提供的信用额度并不完全相同，也不是你在银行系统中的真实信用额度，只能作为参考，大家可以在网上查到更详细的教程。
+
+信用卡公司接受你的申请后，一般会电话核实信息，如果申请通过会将信用卡直接邮寄给你，并会随信附上相关的规定。收到信用卡后需要打电话或在网上激活，并记得及时在卡的背面签名，一些店家会拒绝使用没有签名的信用卡。
+
+如果不幸被拒，银行也会给你寄去拒信。一般申请被拒后短时间内不要再次尝试，等几个月信用记录有了变化再次申请，成功率会高很多。
+
+第一张信用卡使用半年到一年后，就可以申请更多的信用卡了。一般情况下不需要你主动申请，各个银行不断寄Offer给你。如果Offer上注明 pre-approved，申请时成功率较高。另外，在填写年收入时，可以将学费也计算在内，这样可以获得较高的信用额度。
+
+更多信用卡选择和申请攻略参见 http://bbs.gter.net/thread-1752917-1-1.html
+
+#### 如何使用信用卡
+
+美国的信用卡一般不设密码，在实体店消费时只需刷卡、签字。付小费时可将金额写在账单上；在网上消费则需要提供Security Code，也成CVV，就是卡背面签名后的三位数字。
+
+办卡后记得开通网上银行，这样就可以在网上进行余额查询、还款、兑换 Cashback等操作了。网上银行一般还有自动还款功能，可以把信用卡与Debit卡绑定，每月自动还款。如果不开通网上银行功能，银行会每月把账单邮寄到家里，可以使用电话或支票的方式还款。
+
+信用卡还款时自行选择还款金额，可以选择还清上次账单上的全部余额（Statement Balance），也可以只还最低金额（Minimum Due）。如果不偿还全部余额，未偿还部分会产生利息。需要注意的是，最低金额一定要及时偿还，否则会留下不好的信用记录。
+
+信用卡还可用于少量提取现金和Balance Transfer，但要注意相关的利息和手续费用。
+
+请妥善保管信用卡、卡号、Security Code 及个人信息，避免信用卡丢失或个人信息被冒用。若发生上述情况，或者对某笔交易持有异议，请立即打电话给发卡行进行挂失或申诉。
 
 ### 025关于手机
 
+初来美国，没有手机可能会造成诸多不便，建议各位新生在报道完毕、获得学生身份后先去办理手机号码。匹兹堡地区主要的运营商有 AT&T、T-mobile、Verizon以及Sprint，其中AT&T和T-Mobile使用的是 GSM 网络，你在国内的手机如果支持3G的话，插入AT&T或T-Mobile的SIM卡就可以直接使用了。Verizon和Sprint则和国内的CDMA性质相似，不使用 SIM 卡。
+
+一般情况下大家都会办AT&T或T-Mobile的卡，AT&T信号较好，但话费较贵，一般在$40~$50左右，手机通话和流量都有限制；T-Mobile话费便宜些，在$30~$40左右，通话、短信和流量都无上限，但信号较差，有时会出现无信号死角。
+
+在美国手机业务主要有Prepaid和Family Plan两种形式。Prepaid和国内的手机使用类型相似，就是预充值使用，然后费用根据你的使用量实时计算；Family Plan是几个人一起使用一个套餐，每月由Holder统一付话费，如果手机通话和流量使用较多的话算下来比较便宜。各个运营公司的Family Plan在资费和服务上都稍有不同，可以根据自己的需要挑选。
+
+办理手机需要的证件主要是护照和SSN，如果信用记录不好或者没有SSN号，就需要交押金。对于Family Plan来说押金通常是400美元起步，不过不同公司在不同情况下也有变化，一般押金会在一年之后退还。
+
+这里插播一则广告，我们会在CSSA Orientation时邀请AT&T前来为新生们办理Family Plan，而且会在一般Family Plan的基础上提供一定折扣或者免收押金（每年政策不同，请关注CSSA微信平台最新消息），感兴趣的同学可以事先找好小伙伴在当天办理手机业务。
+
+如果需要新手机，可以在运营商的专营店购买，各运营商会提供普通手机和合约机；也可以到大型的超市或者电器专营店购买，如Walmart和Best Buy，以下是匹兹堡几个运营商和电器商店的具体地址和电话：
+
+1. T-Mobile：3807 Forbes Ave Pittsburgh, PA 15213 412-687-3439
+2. AT&T：4041 Fifth Ave Pittsburgh, PA 15213 412-586-4711
+3. Verizon：355 5th Ave Pittsburgh, PA 15222 412- 310-4600
+4. Walmart：877 Freeport Rd Pittsburgh, PA 15238 412- 782-4444
+5. Best Buy：680 Waterfront Dr E Munhall, PA 15120 412-476-8061
+
 ### 026关于网络
+
+匹兹堡有不少网络运营商，不过在申请网络业务前，记得先跟房东或物业公司咨询，公寓是否已包含网络服务，或者公寓是否支持各个运营商。
+
+我们在这里主要介绍两个用户最多的网络运营商：
+
+Comcast (http://my.xfinity.com/?cid=cust)
+
+Comcast是最多人使用的网络服务，通过 cable TV 信号连接，属Cable Internet，所以在开通网络同时也可以开通有线电视，具体根据不同套餐而定。Comcast经常有Cable TV和High Speed Internet的捆绑折扣销售，前六个月会给出非常便宜的价格，还会免费提供Cable Modem和Router；六个月后，价格还原，就相对贵出不少，可以选择跟公司的客服协商价格，或者取消套餐换另一个室友申请。由于一般的房子都会有Cable线路，Comcast是比较大众化的选择，平均每月资费在$30上下。此外，CSSA正在积极联系Comcast公司在Orientation当天为大家办理网络业务，具体信息请持续关注CSSA官方微信平台。
+
+Verizon (http://www.verizon.com/home/highspeedinternet/)
+
+Verizon提供的是DSL Internet，所以开通网络不需要同时开通Cable TV。 办理Verizon同样免费提供Router，大家反映网络信号和速度很好，只是价格略高，平均每月资费$70左右，带有线电视的套餐更贵一些，在$100上下。
+
+此外，Charter、Sprint、Yahoo DSL、Qwest等公司也提供宽带网络，大家可以根据具体的折扣信息和服务覆盖范围来选择，这里给大家一些注意事项与建议：
+
++ 网络运营商一般会授权一些公司进行推销，开通网络之前可以先去网上查查Deal，也许会有惊喜。
++ 如果你作为Comcast客户取消了业务，需要等 3-6 个月以后才能重新开始以折扣价申请服务。其他公司也有相应的条款，所以建议大家在取消业务之前了解清楚。
++ 有些公寓可以搜到别人未经加密的网络，由于安全性没有保障，在使用公共网络时最好避免暴露个人信息的活动，如网上购物，网上银行服务等。
++ 注意加密自己的网络，既保护自家的网络安全，又避免他人占用带宽。
 
 ### 027租房事宜
 
+寻找住宿对新生们来说可谓最艰巨的任务，大部分同学会在出国前确定住处，但一定注意找靠谱的房东和中介，可以的话麻烦学长学姐去帮忙看房。如果没能在国内确定，也可以到达匹兹堡之后再找，可能选择已经不多了，但还是基本能保证有地方住的。
+
+首先介绍下CMU 周边的几大住宅片区
+
+#### Squirrel Hill
+
+在学校西南方，离学校较远，大约4 mile，不适合步行，但公交还是很方便的。这里的优势在居住环境好，而且周围有各类型餐馆，生活便利；步行5min 范围内有一个中等大小的超市，购物也比较方便。这个区域House和Apartment都有，但House较多。
+
+#### Shadyside
+
+在学校东北方，离学校稍近，大约 2 mile，可以步行，也有学校的Shuttle，这里居住环境比较安全，周边有数个大型超市，步行大约10min，不过餐馆较少且相对集中。这个区域以Apartment为主，House较少。
+
+#### North Oakland
+
+在学校西北方，离学校很近，适合步行，居住环境还算不错，不过周边没有超市，餐馆也较少，没有车的话购物不是很方便。
+
+#### South Oakland
+
+在学校西南方，离学校比较近，可以步行，但居住环境不佳，也不是很安全，偶尔有半夜被抢劫的事件发生。另外，因为这里住了很多匹大本科生，周末晚上比较嘈杂。
+
+以上几个区域内学校都提供晚间Escort，基本保证送到家门口，所以即使在学校奋战到深夜也不必担心回家时的安全问题。
+
+近年来CMU周边的房价也随着学校扩招水涨船高，一般人均月租金在$450-$650之间，好的Apartment和Studio会贵一些，House则相对便宜，但需要自己支付全部Utility（水电气费）。一般学生租住常见的房型有：
+
+1. Studio，厨房和卧室连在一起的一居室
+2. One Bedroom Apartment，包含厨房，一个卫生间，一间卧室和一个客厅
+3. Two bedroom Apartment, 包含厨房，一到两个卫生间，两间卧室和一个客厅
+4. House，包含厨房，地下室，1到2个卫生间，三到5间卧室，餐厅和客厅
+
+以下是几种常用的找房方式：
+
++ 通过认识的学长学姐找房源。这也是最靠谱和省心的方法，如果正巧有这边的学长学姐在找室友，恭喜你，基本可以开开心心的拎包入住了。
++ 关注CSSA BBS。经常会有同学先确定房子后找室友，他们会在BBS上po广告招室友，如果有合适的一定不要犹豫，尽快联系，机会错过可就没有了。
++ [CMU Off-Campus Housing](https://offcampus.housing.cmu.edu/) CMU为帮助学生找房子搭建的网站，房源有保障，但比较有限，而且普遍价格较高。
++ 当地房屋中介公司。以下列举了匹兹堡当地比较大的房屋中介公司，可以在它们的网站上搜索房源，再通过邮件联系。
+
+Name | Phone No. | Office Address
+--- | --- | ---
+Amore Apartment Management | (412) 373‐3300 | 4130 Monroeville Blvd, Monroeville, PA 15146
+Mozart Apartment Management | (412) 682‐58865 | Bayard Rd #1,Pittsburgh, PA 15213
+Union Real Estate | (412) 288‐7800 | 429 Forbes Ave #1500,Pittsburgh, PA 15219
+Lobos Apartment Management | (412) 586‐4321 | 4720 Centre Ave, Pittsburgh, PA 15213
+Sachs Management Co | (412) 421‐2140 | 5828 Forbes Ave, Pittsburgh, PA 15217
+Paramount realty services | (412) 687‐4288 | 311 Morewood Avenue, Pittsburgh, PA 15213
+Amberson Apartments | (412) 682‐6292 | 3 Bayard Rd, Pittsburgh, PA 15213
+Bates Hill Apartments | (412) 361‐4643 | 3812 Bates St, Pittsburgh, PA 15213
+Camelot Apartments | (412) 683‐8683 | 262 N Dithridge St, Pittsburgh, PA 15213
+The Chalfont Apartments | (412) 683‐8683 | 4742 Centre Ave, Pittsburgh, PA 15213
+Devon Towers | (412) 621‐4030 | 4920 Centre Ave, Pittsburgh, PA 15213
+E S Management | (412) 795‐5845 | 3401 Forbes Ave, Oakland, PA 15213
+Forbes Management, LLC | (412) 441‐1211 | 6236 Fifth Ave #105C,Pittsburgh, PA 15232
+Forward Management LLC | (412) 687‐3777 | 5440 5th Ave # 63,Pittsburgh, PA 15232
+Glickman Real Estate Development | (412) 521‐9555 | 5821 Forward Ave, Pittsburgh, PA 15217
+Hanley Agency | (412) 422‐7900 | 4211 Murray Ave, Pittsburgh, PA 15217
+Kamin Realty Co. | (412) 661‐5233 | 490 S. Highland Avenue Pittsburgh, PA 15206
+Oak Hill Apartments | (866) 831‐6604 | 3078 Terrace St., Oakland, PA 15213
+Walnut Capital Management | (412) 683‐3810 | 5500 Walnut St., Pittsburgh, PA 15213
+Melwood Center | (412) 621‐7411 | 4651 Centre Ave., North Oakland, PA 15213
+Webster Hall | (412) 621‐4132 | 4415 Fifth Ave., Oakland, PA, 15213
+
+其他找房网站
+
+这里推荐[Pittsburgh Craiglist](https://pittsburgh.craigslist.org/), [Zillow](http://www.zillow.com/), 和 [WalkScore](https://www.walkscore.com/)。这些网站都汇集了各类房产中介的信息，还包括周边社区情况。
+
+其他注意事项：
+
++ 在签协议之前，需要确认房租是否包含Utility (水电气费)。一般Apartment水费都包含，而House的水费需要自己出，水费里还包含垃圾处理费，大约$50/month；电费每月大概 $20-$50/month；匹兹堡的冬天很长，冬季取暖是个重要的问题，如果气费只是厨房炉灶，大概$20-$40/month，但如果包含暖气费则需$100-$200/month。
++ 在签订合同前，请一定明确房屋地址和房屋质量，并在Google Map中查找到学校和周边超市的距离和公交线路。
++ 只有在确认会租该房子的时候才交保证金，如交过保证金再反悔就来不及了。很多房屋中介在交过保证金后不允许在该房屋中介中的房屋调换。
++ 建议在正式入住前用相机将房间各个角落情况拍摄下来，以备退房时有据可依。
+
 ### 028安顿生活
+
+来到匹兹堡，搬进新家后，就要开启新生活了！在这一部分，我们将介绍在这里安顿生活时相关信息，包括怎么买家具、去哪里买吃的和生活用品等。
+
+获得家具的有几种不同的途径
+
++ 开学前，一般是 8月中旬，在 Oakland 教会会派发免费的二手家具，一般每人一个大件（包括桌椅、沙发、床垫等）和一个小件（纸箱的容量范围内随意挑选）。记得数量有限，先到先得，有兴趣的同学可以关注教会网站上发布的信息，详细信息参见：
+http://nswm.pccoakland.org/
++ 从 Craigslist或CSSA BBS上获得二手家具出售信息。很多毕业学生都会以低价出售家具，这些家具一般使用时间都不长，质量比较有保障，但要记得先到卖方家里看好家具再确认购买，详细信息参见：https://pittsburgh.craigslist.org/ http://cmucssa.net/bbs/
++ 去 IKEA，Walmart，HomeDepot 等大型家居卖场购买新家具。在这些地方，各类家具和家居装饰应有尽有，其中IKEA坐28X可直达，如果购买了大件家具还提供送货上门，只是运费较高。这里打个小广告，CSSA正在和IKEA洽谈合作，计划在Orientation期间组织一至两次往返IKEA的shuttle，大家可以找住的近的同学组团购买，分摊运费，会划算很多。
++ 其实很多家具和电器都可以通过网购完成，而且像Amazon用学生edu邮箱验证可以有为期一年的Prime，两天之内免费送货；Walmart和其他网站在达到一定之后也可以免费送货，可以考虑先去店里看好型号再在网上订货。
++ Yard Sale有的时候也是一种很不错的方法。有的时候，会有人在自己的庭院里摆出自己要卖得家具，而且价格都会很不错。可以关注一下街道周边的小广告。（可遇不可求哦！）
+
+购买食品主要有以下几个方式：
+
+**美国超市**
+
+学校附近有Giant Eagle，Whole Food，Trader Joes，Rite Aid， CVS 等，离市区较远的有Costco和Walmart 。在这些超市可以买大绝大多数日常所需的食物和生活用品，各个超市还会有自己做的半成品和熟食出售，有些味道不错哦。
+
+**中国超市**
+
+虽然美国超市可以满足基本需求，但挡不住一个思念家乡的胃，到周末想吃火锅和香锅了，怎么办？大家可以从学校坐54路到 Strip District ，这附近有几家中国超市，如好多多、Lotus和永发行，虽然店面不大，但各种中餐调料、干货、零食、速冻食品、蔬菜水果，应有尽有，而且价格低廉，凭学生卡还可以打折。此外，在稍远的McKnight Rd还有一家佳惠中国超市（Oriental Markets），店面更大一些，货品也相当齐全。
+
+以下是各个中国超市的详细地址：
+
++ 百合 Lotus： 1711 Penn Ave # 2
++ 好多多 Many More Asian Market：3050 Smallman St.
++ 永发行：2227 Penn Avenue
++ 佳慧 Oriental Market：4768 McKnight Rd.
+
+**其他超市**
+
+匹兹堡还有一些小的韩国、日本、印度以及中东超市，喜欢吃泡菜、味增汤、咖喱或者羊肉的同学们可以在这里买到经济实惠的食品，这些超市我们将会在“匹村生活”中详细介绍。
+
+**Pittsgo**
+
+Pittsgo是由CSSA运营的网上购买食材的平台。我们与Lotus合作，每周收集学生订单，统一购买，再配送到每个同学家，以服务学生为宗旨，只收取最低的运费。Pittsgo在正式开学后才会运营，详细信息参见：http://pittsgo.com/
+
+周末想去Shopping Mall血拼？离学校最近的是 Waterfront，可以乘坐公交 59U 、64、 61C/D 到达；离学校稍远一些但规模更大的有Rose Park Mall，Robinson Town，Century III Mall，Monroeville Mall等；匹兹堡周边还有两个Outlets，我们也将在“匹村生活”中详细介绍。此外，CSSA每学期都会组织去Ross Park Mall的购物活动，感兴趣的小伙伴们千万不要错过哦！
 
 ### 029交通出行
 
+#### 市内交通
+
+在你买车之前，在匹兹堡的交通出行主要依赖于公交。在这里坐公交算是比较方便的，而且刷CMU的学生ID可以免费乘坐：从学校去Downtown可以坐的71和61系列 （分A/B/C/D)；去中国超市Lotus可以54C；去机场可以坐 28X；去Waterfront （离学校最近的电影院和Shopping Mall）可以坐61C/D。公交车一般比较准时，两辆车之间相隔15min到30min，周末的班次比较少。这里推荐两款公交车实时信息查询的app，Tiramisu (这个是CMU开发的哟)和Transit。
+
+#### CMU Shuttle和Escort
+
+CMU为学生提供 Shuttle 和 Escort 两种校车服务，持学生ID均可免费乘坐，并可以随行携带一名Guest。
+
+Shuttle分A、B和C三条主线路，还有由这些线路混合而成的线路（AB），覆盖了Shadyside和North Oakland，每小时的15min和45min会有两班从学校正门前发车，首末班时间为6:45am和10:45pm。A、B线路在Craig St.和Forbes Ave.前的Starbucks有一站，Heinz和CIC的同学在那里乘车比较方便。上车后可告知司机目的地，或提前拉绳（要记得哦，有一个司机阿姨特别不喜欢被拉绳）。
+
+Escort从每天下午6:30到次日早上6:30提供送学生服务，每半点一趟，最后一班接送的时间是早6:00，接送范围覆盖North Oakland, Shadyside, Squirrel Hill。这里特别需要注意的是：
+
++ 住在North Oakland和Shadyside的同学如果下车地点在Shuttle范围之内，在晚上10:45pm之前Escort是不会负责送到这些地点的。
++ Shuttle可以在每个站Pick-up和Drop-off，但Escort只负责在学校范围内固定几个地点Pick-up，然后到学生住处Drop-off。
++ Escort也可以为学生提供特殊服务，比如受伤了需要临时接送，但需要提前给Escort Service打电话预约。
++ 持有PITT学生卡的同学也可以乘坐Escort（貌似持CMU学生卡也可以做PITT的校车）。
+
+这里推荐一款可以获取Shuttle和Escort实时信息的app，Ride System，下载后选择Carnegie Mellon University即可。关于Shuttle和Escort的详细信息参见：http://www.cmu.edu/police/shuttleandescort/
+
 ### 020医疗保险和疫苗接种
 
+如果你购买了学校制定的保险，在开学交学费时就会在Student Account看到医疗保险应交数额的账单。去年普通医疗保险加税大概是$1100，如果选择分月交，一个月将近$100，所以很多同学还是选择一次交清。
 
+这里提供的价格是Standard的，如果需要购买牙医保险和眼科保险，需要分别再交$200；如果选择 Enhanced 医疗保险，一年费用则是$2325。
 
+请大家仔细阅读保险中的条款，条款中包含许多福利性项目，如免费的体检。
+
+当然你也可以拒绝购买学校建议的保险，选择更便宜的，但需要得到学校的认可，手续相对繁琐，所以我们并不建议。
+
+如果你已经在国内打过疫苗，你会得到黄色和红色两个本子。当然，如果你没能在国内完成全部疫苗接种，也可以选择来CMU之后再打疫苗，只是开学初想打疫苗的人很多，通常需要提前几个星期来预约。
+
+校医院Health Care就在学校正门对面的楼里，打疫苗和看病取药都在这里，一般需要预约，也可以Walk-In直接排队，详细信息参见：http://www.cmu.edu/health-services/
 
 
 ## 03学习与就业
