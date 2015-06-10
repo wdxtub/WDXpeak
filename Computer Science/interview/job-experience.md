@@ -1,5 +1,15 @@
 # 北美求职记
 
+1. Cracking coding interview是本好书,不过不必要做好几遍，把关键的几章自己写一遍就好了，如果面了一段时间，发现自己那一块不好，可以重点突击
+2. 面试以考代练的效果还是很好的
+3. 口语很重要，从我的观察来看，身边口语好的人通常能拿到更过的offer
+4. Google很慢，而且一催就挂，不要拖太晚面google，否则人家觉得你的deadline太早会把你拒掉。
+5. 有人在做leetcode,我自己做了一下觉得挺难,一般公司考不了那么难得题
+6. 如果很想要一个offer，寄得给recruiter写thank you letter和follow up letter。 我samsung
+return offer, Epic, Apple的offer都是follow up+ thank you very much出来的。
+7. Apple很少给new grad发interview, 我的面试就是refer出来的
+8. GPA貌似没人看，3.5以上绝对够用，没到3.5的同学也照样拿到好的offer，不要为了GPA选水课，几乎每个面试都会过简历，没有有技术含量的project会是硬伤
+
 最近签掉了 offer，找工作的事情算是告一段落。在这里写一点面试体验和心得，希望对有兴趣去北美工作的朋友有所帮助。
 
 先简单介绍下自己，国内硕士在读，明年毕业，没有牛 paper，也没参加过 ACM-ICPC 竞赛。在实验室做过内核、虚拟机和 Android 底层相关的研究工作，接过一些网页和移动开发的外包，2011 年开始在[字节社](http://tangcha.tc/)兼职负责后台开发。另外也经常上[Stackoverflow](http://stackoverflow.com/users/111896/zellux) 和[GitHub](http://github.com/zellux)。
