@@ -2,7 +2,106 @@
 
 Da Wang, A.Prof. Chengying Gao
 
-6.5 日写完！！！
+<!-- MarkdownTOC -->
+
+- 中文概述
+- 注意
+- Abstract
+- 摘要
+- Chapter 1 Introduction
+    - 1.1 Background
+    - 1.2 Objectives
+    - 1.3 Related Works
+    - 1.4 Contribution
+    - 1.5 Structure of this Thesis
+- Chapter 2 Personal Knowledge Graph
+    - 2.1 Introduction
+    - 2.2 Knowledge Representation
+        - 2.2.1 Entity Representation
+        - 2.2.2 Relation Representation
+        - 2.2.3 Resource Description Framework
+    - 2.3 Building Knowledge Graph
+        - 2.3.1 Complex System Theory
+        - 2.3.2 Layer Model for Personal Knowledge Graph
+        - 2.3.3 Search Strategy and Data Format
+    - 2.4 Results
+- Chapter 3 Note System
+    - 3.1 Introduction
+    - 3.2 Data Management
+    - 3.3 Web UI
+    - 3.4 Integrated with Knowledge Graph
+        - 3.4.1 Note Labeling
+        - 3.4.2 Tag Extraction
+        - 3.4.3 Inverted Index
+        - 3.4.3 Note Classification
+        - 3.4.4 Similar Notes
+    - 3.5 Results
+- Chapter 4 Recommender System
+    - 4.1 Introduction
+        - Model-based Collaborative Filtering
+    - 4.2 Data Acquisition and Parsing
+    - 4.3 Integrated with Knowledge Graph
+    - 4.4 Connected to Note System
+- Chapter 5 Conclusion
+    - 5.1 Comparison on Note System
+    - 5.2 Comparison on Recommender System
+    - 5.3 Future Work
+- Bibliography
+- Appendix A
+- Acknowledgements
+
+<!-- /MarkdownTOC -->
+
+
+
+## 中文概述
+
+高老师好，
+
+前段时间因为要出国体检，顺德退宿还有各种同学聚会的缘故耽误了一点时间，这两天才终于把论文整理出来了，格式基本就是按照老师给我的论文参考来写，老师说要多一些数据对比，所以也花了比较多时间进行数据准备和不同方法的测试。考虑到英文看起来比较折腾，这里以提纲的方式大概整理每一章的内容，方便老师查看。
+
+第一章 概述
+
+1. 背景：个人信息管理系统的发展过程以及在互联网时代的新发展，引出知识图谱的概念
+2. 目标：简要描述个人信息关系系统的大致目标：通过三大类应用的组合行程信息获取处理理解的闭环，方便用户进行知识转化
+3. 相关工作：具体的文献综述，包括知识管理，自然语言处理以及知识图谱等相关的论文
+4. 贡献：把原本比较大型的知识图谱应用在个人信息管理中，模仿互联网的知识体系结构，无需人为干预
+5. 论文的结构：简要介绍每一部分的内容
+
+第二章 知识图谱
+
+1. 介绍：知识图谱的基本介绍以及现状
+2. 知识表示：从哲学角度出发，引入到计算机领域的知识表示技术，包括实体表示，关系表示等相关概念
+3. 构造知识图谱：受现有的知识图谱系统启发，基于复杂系统理论，提出了一种个人知识图谱的五层模型，利用维基百科的数据进行类别分类以及节点关系的构造
+4. 结果：通过现有数据构造的个人知识图谱，约六百个节点，以及可视化图形
+
+第三章 笔记系统
+
+1. 介绍：现有笔记系统的优点及不足，主要以印象笔记为分析对象
+2. 数据管理：利用纯文本以及 Markdown 文法来支持复杂格式的表示，利用文件夹来进行类别管理
+3. 用户界面：基于 Python 以及网络框架 Flask 构造的网页客户端，可以进行搜索或以类别进行访问，以及支持一些其他的功能
+4. 与知识图谱集成：介绍数据标注，标签提取，倒排索引，文本分类，查找相似笔记等相关技术的具体算法和使用
+5. 结果：最终得到的比较完整的笔记应用
+
+第四章 推荐系统
+
+1. 介绍：推荐系统的相关介绍，包括推荐问题的定义以及常用方法，以及常见问题和评测指标
+2. 数据获取：如何从豆瓣抓取数据并转换成 json 格式，并进行标签提取
+3. 与知识图谱集成：与笔记系统类似，进行数据标注以及特征排名，针对不同类别书籍的评分差异以及可能的作弊情况进行评分标准化的处理
+4. 与笔记系统连接：以知识图谱为轴把笔记和书籍信息通过基于知识图谱的推荐系统链接到一起
+
+第五章 结论
+
+1. 总体总结
+2. 测试数据，测试方法和评测指标
+3. 笔记系统的相关数据对比（kNN, SVM, F1, 训练时间和分类时间)
+4. 推荐系统的相关数据对比(准确率，召回率，F1，新颖度，覆盖度，多样性)
+5. 不足及未来工作
+
+后面就是致谢和参考文献
+
+麻烦老师了，我听说的最新消息好像是最后七月底才需要交论文，所以最近也会慢慢一边修改代码一边改进论文，争取做出满意的结果。
+
 
 ## 注意
 
