@@ -1,5 +1,25 @@
 # 3D打印
 
+## 在哪里能够学习到3d打印技术？
+
+专业学术类：
+
+1. [Understanding Additive Manufacturing: Rapid Prototyping, Rapid Tooling, Rapid Manufacturing, by Andreas Gebhardt](http://www.goodreads.com/book/show/16650939-understanding-additive-manufacturing) (这本是我看的第一本3D打印书籍，讲得很浅，很广，是一本不错的入门书）
+2. [Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by Ian Gibson, David W. Rosen, Brent Stucker](http://www.goodreads.com/book/show/9197092-additive-manufacturing-technologies)
+3. [Rapid Manufacturing: An Industrial Revolution in the Digital Age, by Neil Hopkinson](http://www.goodreads.com/book/show/1051630.Rapid_Manufacturing) (以上两本都没看过，据说是不错的大学教材）
+4. [Solid Freeform Frabrication Symposium Preceedings](http://utwired.engr.utexas.edu/lff/symposium/proceedingsArchive/toc.cfm) (这里可以找到每年一次的Solid Freeform Frabrication Symposium学术会议上发表的文章。从1990年到2012年，今年的会议还未开。看前面几本入门后，再来认真研究这些文章，根据文章引用再挖掘一下。这样应该可以对3D打印学术界的发展有个比较深入的了解）
+
+DIY发烧友类：
+
+畅销书类（讲大方向大趋势的那种）
+
+1. [3D Printing: The Next Technology Gold Rush, by Christopher D. Winnan](http://www.goodreads.com/book/show/17279154-3d-printing)（这是前几个月才出版的新书，我大概浏览了一下。如果想了解专业或者工业3D打印机的话，Understanding Additive Manufacturing应该会更好，讲得也比较系统化，有逻辑。而这本毕竟是畅销书类型的，比较有趣，好看，但是话有点多）
+2. [Makers: The New Industrial Revolution, by Chris Anderson](http://www.goodreads.com/book/show/13414678-makers)（这大概与3D打印有关的书里头是最出名的一本了，《长尾理论》作者Chris Anderson于2012年出版的新书，有中文版：[创客 (豆瓣) ](http://book.douban.com/subject/20365163/)这本书讲的不仅仅是3D打印，而是创客运动。3D打印是创客运动中的一辆重型战车，但不是唯一一辆。我受这本书启发不少，认真读能挖掘出不少其他有趣的技术，比如数控机床、激光蚀刻机、物联网、众包等等。Chris Anderson很会鼓动人心，看这本书的时候我感到热血沸腾。不过后来冷静分析，感觉某些地方还是吹得有点过了。）
+3. [Fabricated: The New World of 3D Printing by Hod Lipson ](http://www.goodreads.com/book/show/17134932-fabricated)
+4. [The Homebrew Industrial Revolution by Kevin A. Carson ](http://www.goodreads.com/book/show/8709638-the-homebrew-industrial-revolution)（以上两本没有看过，不过都是蛮有名的著作）
+
+---
+
 3D打印让传统制造瞬间过时，规模经济的铁律从此被打破制造业和商业模式发生巨大变革，知识产权将彻底失效
 
 3D（Three Dimensions）打印是一种通过材料逐层添加制造三维物体的变革性、数字化增材制造技术，它将信息、材料、生物、控制等技术融合渗透，将对未来制造业生产模式与人类生活方式产生重要影响。
