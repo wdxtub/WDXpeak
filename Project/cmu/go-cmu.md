@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC -->
 
+- 疫苗表翻译对照
 - 驾照
 - 经验分享
 - Course requirements
@@ -44,6 +45,16 @@
 
 <!-- /MarkdownTOC -->
 
+## 疫苗表翻译对照
+
++ Hepatitis B Vaccine 乙型肝炎疫苗
++ Measles, Mumps, and Rubella (MMR) Vaccine 麻疹、腮腺炎和风疹(MMR)疫苗
++ Tetanus, Diphtheria, and Pertussis (Tdap) Vaccine 破伤风,白喉,百日咳疫苗(Tdap)
++ Varicella (chickenpox) vaccine 水痘疫苗
++ Meningococcal - Menveo Vaccine 脑膜炎球菌疫苗
++ Polio 小儿麻痹症
+
+
 ## 驾照
 
 作者 曾一也
@@ -74,14 +85,9 @@ SSN拒信/SSN 要去Social Security Authority开，其中SSN需要你有收入�
 
 祝考试顺利，一路平安。
 
-Permit并不是driver licence？还需要约路考咯…
-那Orientation是8月6号吗？
-学生办不了ssn吗？
-
 ## 经验分享
 
 如果你没有时间，但依然想提高presentation能力，可以找GCC。这是CMU的一个免费的提供语言训练的组织，据点在CMU图书馆。大家入学之后就能找到。是很好的资源。
-
 
 a) 婉约地了解当地人口分布
 http://projects.nytimes.com/census/2010/explorer
