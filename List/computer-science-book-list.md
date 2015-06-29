@@ -47,3 +47,18 @@
 9. 《ARM Linux 内核源码剖析》尹锡训等
 10. 《Linux 系统架构和应用技巧》中井悦司
 11. 《只是为了好玩：Linux 之父林纳斯自传》Linus Torvalds & David Diamond
+
+## iOS 书单
+
+1. iOS 开发指南 Swift 和 Objective-C 双语讲解 关东升
+2. 精通 iOS 开发 Jack Nutting Fredrik Olsson
+3. iOS 编程实战(进阶首选) Rob Napier Mugunth Kumar
+4. 黑客攻防技术宝典 Charlie Miller, Dionysus Blaszakis
+5. UI 设计模式 Theresa Neil
+6. Swift 基础教程 Boisy G. Pitre
+7. Swift 开发指南 关东升，赵志荣
+8. Swift 与 Cocoa 框架开发 Paris Buttfield-Addison
+9. Objective-C 基础教程 Scott Knaster
+10. 精通 Objective-C Keith Lee
+11. Objective-C 编程全解 荻原刚志
+12. Objective-C 高级编程 Kazuki Sakamoto
