@@ -51,6 +51,17 @@
 10. 《Linux 系统架构和应用技巧》中井悦司
 11. 《只是为了好玩：Linux 之父林纳斯自传》Linus Torvalds & David Diamond
 
+## Android 书单
+
+1. 第一行代码 Android
+2. Android 编程权威指南 Brian Hardy, Bill Phillips
+3. Android 系统服务开发 金大佑
+4. Android 编程实战 Erik Hellman
+5. 深入剖析Android开发 张泳
+6. 移动应用UI设计模式
+7. Android安全攻防权威指南 Joshua J.Drake
+8. Android软件安全与逆向分析
+
 ## iOS 书单
 
 1. iOS 开发指南 Swift 和 Objective-C 双语讲解 关东升
@@ -65,3 +76,38 @@
 10. 精通 Objective-C Keith Lee
 11. Objective-C 编程全解 荻原刚志
 12. Objective-C 高级编程 Kazuki Sakamoto
+
+## Web 书单
+
+1. 《HTML5与CSS3基础教程(第8版)》 Elizabeth Castro, Bruce Hyslop
+2. 《HTML5与CSS3实例教程(第2版)》 Brian P.Hogan
+3. 《HTML5秘籍(第2版)》 Matthew MacDonald
+4. 《HTML5权威指南》 Adam Freeman
+5. 《HTML5数据推送应用开发》 Darren Cook
+6. 《学习响应式设计》Clarissa Peterson
+7. 《响应式Web设计HTML5和CSS3实战》Ben Frain
+8. 《JavaScript基础教程(第9版)》Dori Smith, Tom Negrino
+9. 《JavaScript编程全解》井上诚一郎
+10. 《你不知道的JavaScript》 Kyle Simpson
+11. 《JavaScript设计模式与开发实践》曾探
+12. 《JavaScript快速全栈开发》Azat Mardanov
+13. 《JavaScript DOM编程艺术(第2版)》Jeffrey Sambells, Jeremy Keith
+14. 《JavaScript高级程序设计(第3版》Nicholas C.Zakas
+15. 《Bootstrap实战》David Cochran, Ian Whitley
+16. 《深入浅出 Node.js》朴灵
+17. 《精通jQuery(第2版)》Adam Freeman
+18. 《Node与Express开发》Ethan Brown
+19. 《AngularJS权威教程》Ari Lerner
+20. 《Flask Web开发：基于Python的Web应用开发实战》
+21. 《ASP.NET Web API设计》Gleen Block, Pablo Cibraro
+
+## Python 书单
+
+1. Python基础教程 Magnus Lie Hetland
+2. 编程导论 John V.Guttag 《Introduction to Computation and Programming Using Python》
+3. Python编程入门 Toby Donaldson
+4. Python开发实战 BePROUD股份有限公司
+5. Python网络编程攻略 Dr.M.O.Faruque Sarker
+6. Python计算机视觉编程 Jan Erik Solem
+7. Python数据分析基础教程 Ivan Idris
+8. Flask Web开发 Miguel Grinbergs
