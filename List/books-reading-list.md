@@ -320,3 +320,13 @@
 1. 灿烂千阳
 1. 爱与黑暗的故事
 1. X的悲剧
+
+## Malcolm Gladwell 作品集
+
+1. The Tipping Point 引爆点
+2. Blink 眨眼之间
+3. Outliners 异类
+4. What the Dog Saw 大开眼界
+5. David and Goliath 逆转
+
+
