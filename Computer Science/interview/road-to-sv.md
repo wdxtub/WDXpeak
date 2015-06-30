@@ -49,6 +49,40 @@
 
 ---
 
+## 能力提高指南
+
++ 课程入门：计算机科学课程导论 
+    + Udacity - intro to CS course,
+    + Coursera - Computer Science 101
++ 会一种面向对象的语言：C++ Java Python
++ 了解其他语言：JavaScript, CSS & HTML, Ruby, PHP, C, Perl, shell script, Lisp, Scheme
++ 测试代码：学会如何捕捉bug，创建测试，破坏软件
++ 培养逻辑推理和学习数学离散知识
+    + MIT Mathematics for Computer Science
+    + Introduction to Logic
+    + Linear and Dscrete Optimization
+    + Probabilistic Graphical Models
+    + Game Theory
++ 深刻理解算法和数据结构
+    + 基本数据类型（栈、队列和包）
+    + 排序算法（快速排序、归并排序和堆排序）
+    + 数据结构（二叉搜索树、红黑树和哈希表）
+    + 算法的时间复杂度
+    + MIT Introduction to Algorithms
+    + The Algorithm Design Manual
++ 深刻理解操作系统 UC Berkeley Computer Science 162
++ 学习 UX 设计 UX Design for Mobile Developers
++ 学习人工智能 Standord University - Introduction to Robotics, Natural Language Processing, Machine Learning
++ 学习如何构建编译器 Coursera - Compilers
++ 了解密码学
++ 了解并行编程 Coursera - Heterogeneous Parallel Programming
++ 尝试课外项目
++ 阅读和理解来自于一个大型系统的代码，追踪文档并调试
++ 与其他程序员一起开发项目
++ 实践算法知识和编程技能
+
+---
+
 ## 根基
 
 + 编程语言：《程序设计语言-实践之路》《concepts of programming languages》
