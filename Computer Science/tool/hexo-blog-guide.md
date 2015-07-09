@@ -77,6 +77,7 @@ hexo new page "pageName" #新建页面
 
 hexo generate #生成静态页面至public目录
 
+hexo g -d 一部到位generate与部署
 
 ## 部署
 
